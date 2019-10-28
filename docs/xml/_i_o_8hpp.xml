@@ -2,9 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="_i_o_8hpp" kind="file" language="C++">
     <compoundname>IO.hpp</compoundname>
+    <includes local="no">array</includes>
     <includes local="no">iostream</includes>
     <includes local="no">tuple</includes>
-    <includes local="no">array</includes>
     <includedby refid="dev-tools_8hpp" local="yes">src/dev-tools.hpp</includedby>
     <includedby refid="orbits_8hpp" local="yes">src/orbits/orbits.hpp</includedby>
     <includedby refid="finite-size_8hpp" local="yes">src/particles/finite-size.hpp</includedby>
@@ -21,13 +21,13 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
         <label>tuple</label>
       </node>
-      <node id="4">
+      <node id="2">
         <label>array</label>
       </node>
-      <node id="2">
+      <node id="3">
         <label>iostream</label>
       </node>
     </incdepgraph>

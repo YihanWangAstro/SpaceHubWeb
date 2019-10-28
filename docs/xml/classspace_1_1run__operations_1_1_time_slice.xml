@@ -240,10 +240,10 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>[in/out]</parametername>
+<parametername direction="inout">ptc</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>ptc Input parameter. </para>
+<para>Input parameter. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -281,10 +281,10 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>[in/out]</parametername>
+<parametername direction="inout">ptc</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>ptc Input parameter. </para>
+<para>Input parameter. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

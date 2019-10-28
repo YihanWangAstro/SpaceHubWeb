@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_42adf73c3025a429ba1a5312fe5c546e" kind="dir">
+    <compoundname>src/stellar</compoundname>
+    <innerfile refid="stellar_8hpp">stellar.hpp</innerfile>
+    <briefdescription>
+<para>Directory of stellar. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/stellar/"/>
+  </compounddef>
+</doxygen>

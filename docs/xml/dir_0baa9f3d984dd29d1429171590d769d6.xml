@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_0baa9f3d984dd29d1429171590d769d6" kind="dir">
+    <compoundname>src/vector</compoundname>
+    <innerfile refid="vector3_8hpp">vector3.hpp</innerfile>
+    <innerfile refid="vector3d_8hpp">vector3d.hpp</innerfile>
+    <innerfile refid="vector3pd_8hpp">vector3pd.hpp</innerfile>
+    <briefdescription>
+<para>Directory of vector. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/vector/"/>
+  </compounddef>
+</doxygen>

@@ -88,15 +88,15 @@
         <section id="enum-members">
           <h2><a href="#enum-members">Enums</a></h2>
           <dl class="m-doc">
-            <dt id="a5b218ab4c1cd5603e9dfb9e657297ff5">
-              <span class="m-doc-wrap-bumper">enum class <a href="#a5b218ab4c1cd5603e9dfb9e657297ff5" class="m-doc-self">OrbitType</a> { </span><span class="m-doc-wrap"><a href="#a5b218ab4c1cd5603e9dfb9e657297ff5a119518c2134c46108179369f0ce81fa2" class="m-doc">Ellipse</a>,
+            <dt>
+              <span class="m-doc-wrap-bumper">enum class <a href="#a5b218ab4c1cd5603e9dfb9e657297ff5" class="m-doc">OrbitType</a> { </span><span class="m-doc-wrap"><a href="#a5b218ab4c1cd5603e9dfb9e657297ff5a119518c2134c46108179369f0ce81fa2" class="m-doc">Ellipse</a>,
               <a href="#a5b218ab4c1cd5603e9dfb9e657297ff5adf5a05bb403aa376bd71f1341f8acfa6" class="m-doc">Parabola</a>,
               <a href="#a5b218ab4c1cd5603e9dfb9e657297ff5a2af03ca39974cae19a90cdad5a5f3230" class="m-doc">Hyperbola</a>,
               <a href="#a5b218ab4c1cd5603e9dfb9e657297ff5a6adf97f83acf6453d4a6a4b1070f3754" class="m-doc">None</a> }</span>
             </dt>
             <dd>Enum of kepler orbit type. Possible value: Ellipse, Parabola, Hyperbola, None.</dd>
-            <dt id="a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1">
-              <span class="m-doc-wrap-bumper">enum class <a href="#a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1" class="m-doc-self">Hyper</a> { </span><span class="m-doc-wrap"><a href="#a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1a13b5bfe96f3e2fe411c9f66f4a582adf" class="m-doc">in</a>,
+            <dt>
+              <span class="m-doc-wrap-bumper">enum class <a href="#a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1" class="m-doc">Hyper</a> { </span><span class="m-doc-wrap"><a href="#a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1a13b5bfe96f3e2fe411c9f66f4a582adf" class="m-doc">in</a>,
               <a href="#a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1ac68271a63ddbc431c307beb7d2918275" class="m-doc">out</a> }</span>
             </dt>
             <dd>Enum type that indicates the trajectory is hyperbolically incident in or hyperbolically eject out.</dd>
@@ -105,8 +105,8 @@
         <section id="typedef-members">
           <h2><a href="#typedef-members">Typedefs</a></h2>
           <dl class="m-doc">
-            <dt id="aa6519650f1ef6058c7996a2d74762577">
-              using <a href="#aa6519650f1ef6058c7996a2d74762577" class="m-doc-self">Kepler</a> = <a href="structspace_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;
+            <dt>
+              using <a href="#aa6519650f1ef6058c7996a2d74762577" class="m-doc">Kepler</a> = <a href="structspace_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;
             </dt>
             <dd>Alias of OrbitArgs&lt;double&gt;.</dd>
           </dl>
@@ -120,10 +120,10 @@
               Particle const&amp; ptc2,
               Args const&amp;... ptcs) -&gt; auto</span>
             </dt>
-            <dd>Create a std::ranges like(Container) from individual particles.</dd>
-            <dt id="a8f18aff33abc64c71ba151623b94d1e8">
+            <dd>Create a std ranges like(Container) from individual particles.</dd>
+            <dt>
               <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#a8f18aff33abc64c71ba151623b94d1e8" class="m-doc-self">M_tot</a>(</span><span class="m-doc-wrap">Cluster&amp;&amp; ptc) -&gt; auto</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8f18aff33abc64c71ba151623b94d1e8" class="m-doc">M_tot</a>(</span><span class="m-doc-wrap">Cluster&amp;&amp; ptc) -&gt; auto</span>
             </dt>
             <dd>Calculate the total mass of a cluster of particles/single particle.</dd>
             <dt>
@@ -252,9 +252,37 @@
           </dl>
         </section>
         <section>
+          <h2>Enum documentation</h2>
+          <section class="m-doc-details" id="a5b218ab4c1cd5603e9dfb9e657297ff5"><div>
+            <h3>
+              enum class space::<wbr />orbit::<wbr /><a href="#a5b218ab4c1cd5603e9dfb9e657297ff5" class="m-doc-self">OrbitType</a>
+              <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+            </h3>
+            <p>Enum of kepler orbit type. Possible value: Ellipse, Parabola, Hyperbola, None.</p>
+          </div></section>
+          <section class="m-doc-details" id="a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1"><div>
+            <h3>
+              enum class space::<wbr />orbit::<wbr /><a href="#a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1" class="m-doc-self">Hyper</a>
+              <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+            </h3>
+            <p>Enum type that indicates the trajectory is hyperbolically incident in or hyperbolically eject out.</p>
+          </div></section>
+        </section>
+        <section>
+          <h2>Typedef documentation</h2>
+          <section class="m-doc-details" id="aa6519650f1ef6058c7996a2d74762577"><div>
+            <h3>
+              using space::<wbr />orbit::<wbr /><a href="#aa6519650f1ef6058c7996a2d74762577" class="m-doc-self">Kepler</a> = <a href="structspace_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;
+              <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+            </h3>
+            <p>Alias of OrbitArgs&lt;double&gt;.</p>
+          </div></section>
+        </section>
+        <section>
           <h2>Function documentation</h2>
           <section class="m-doc-details" id="a1b5f49246a5fcbe95273097552d9aa5d"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Particle, typename... Args&gt;
               </div>
@@ -262,7 +290,7 @@
               Particle const&amp; ptc2,
               Args const&amp;... ptcs)</span></span>
             </h3>
-            <p>Create a std::ranges like(Container) from individual particles.</p>
+            <p>Create a std ranges like(Container) from individual particles.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -302,8 +330,19 @@
               </tfoot>
             </table>
           </div></section>
+          <section class="m-doc-details" id="a8f18aff33abc64c71ba151623b94d1e8"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8f18aff33abc64c71ba151623b94d1e8" class="m-doc-self">M_tot</a>(</span><span class="m-doc-wrap">Cluster&amp;&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the total mass of a cluster of particles/single particle.</p>
+          </div></section>
           <section class="m-doc-details" id="a1f8e25ad70c9dee4d830939285114ead"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Particle, typename... Args&gt;
               </div>
@@ -348,6 +387,7 @@
           </div></section>
           <section class="m-doc-details" id="a99902b1d7bb3ac1c001bda82a3293ac4"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster&gt;
               </div>
@@ -361,7 +401,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -383,6 +423,7 @@
           </div></section>
           <section class="m-doc-details" id="afa4baadc2df682e51a1f678305cb8432"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Particle, typename... Args&gt;
               </div>
@@ -427,6 +468,7 @@
           </div></section>
           <section class="m-doc-details" id="a0e27a26d9d86be65351198b5e416317d"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster&gt;
               </div>
@@ -440,7 +482,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -462,6 +504,7 @@
           </div></section>
           <section class="m-doc-details" id="a04a43e75b9555ef843f4596dfbae2b1e"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Particle, typename... Args&gt;
               </div>
@@ -506,6 +549,7 @@
           </div></section>
           <section class="m-doc-details" id="aab787895d7b6984014353bde538bef83"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster1, typename Cluster2&gt;
               </div>
@@ -520,11 +564,24 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster1</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
                 <tr>
                   <td>Cluster2</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>m1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>m2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/second single particle.</td>
                 </tr>
               </tbody>
               <tfoot>
@@ -537,6 +594,7 @@
           </div></section>
           <section class="m-doc-details" id="a9ce15ee351be8dcc5b55294381b24d95"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Vector, typename Cluster&gt;
               </div>
@@ -555,7 +613,7 @@
                 </tr>
                 <tr>
                   <td>Cluster</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -575,6 +633,7 @@
           </div></section>
           <section class="m-doc-details" id="a4eebe44f1be852965dbc818295492ead"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Vector, typename Particle, typename... Args&gt;
               </div>
@@ -622,6 +681,7 @@
           </div></section>
           <section class="m-doc-details" id="a02faa6ac98764495a3fadfd8812d6d2d"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Vector, typename Cluster&gt;
               </div>
@@ -640,7 +700,7 @@
                 </tr>
                 <tr>
                   <td>Cluster</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -660,6 +720,7 @@
           </div></section>
           <section class="m-doc-details" id="a7d94139d003e346e281da7e42182babf"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Vector, typename Particle, typename... Args&gt;
               </div>
@@ -707,6 +768,7 @@
           </div></section>
           <section class="m-doc-details" id="a7e2e611df033fb699f00e4d145a5b40e"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Vector, typename Cluster&gt;
               </div>
@@ -726,13 +788,31 @@
                 </tr>
                 <tr>
                   <td>Cluster</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_pos&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>centre_mass_vel&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass velocity.</td>
+                </tr>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The cluster(can be a single particle) needs to be moved.</td>
                 </tr>
               </tbody>
             </table>
           </div></section>
           <section class="m-doc-details" id="ab86985125e07cebae62b4e98b431bec5"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Vector, typename Particle, typename... Args&gt;
               </div>
@@ -760,10 +840,32 @@
                   <td>Type of the particles, should be same as Particle.</td>
                 </tr>
               </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_pos&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>centre_mass_vel&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass velocity.</td>
+                </tr>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The first particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The rest particles need to be moved.</td>
+                </tr>
+              </tbody>
             </table>
           </div></section>
           <section class="m-doc-details" id="a0786bc85eb5074f5b87de8dea2e54400"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Scalar, typename Particle, typename... Args&gt;
               </div>
@@ -783,7 +885,7 @@
                 </tr>
                 <tr>
                   <td>Particle</td>
-                  <td>Type of the first particle/std::ranges(Container) like type.</td>
+                  <td>Type of the first particle/std ranges(Container) like type.</td>
                 </tr>
                 <tr>
                   <td>Args</td>
@@ -811,6 +913,7 @@
           </div></section>
           <section class="m-doc-details" id="a677e14d0c7acb0457417f99abae243be"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Particle, typename... Args&gt;
               </div>
@@ -825,7 +928,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Particle</td>
-                  <td>Type of the first particle/std::ranges(Container) like type.</td>
+                  <td>Type of the first particle/std ranges(Container) like type.</td>
                 </tr>
                 <tr>
                   <td>Args</td>
@@ -849,6 +952,7 @@
           </div></section>
           <section class="m-doc-details" id="a554cddd364d8d653bf8f2d5de717c2d7"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster1, typename Cluster2&gt;
               </div>
@@ -863,11 +967,11 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster1</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
                 <tr>
                   <td>Cluster2</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -893,6 +997,7 @@
           </div></section>
           <section class="m-doc-details" id="a3cefe8d59dbaad7cc8fda0dede0274be"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster1, typename Cluster2&gt;
               </div>
@@ -907,11 +1012,11 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster1</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
                 <tr>
                   <td>Cluster2</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -919,11 +1024,11 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>p1</td>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The first cluster/first single particle.</td>
                 </tr>
                 <tr>
-                  <td>p2</td>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The second cluster/first single particle.</td>
                 </tr>
               </tbody>
@@ -937,6 +1042,7 @@
           </div></section>
           <section class="m-doc-details" id="a9da0f714d9323621a6af19505987188b"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster1, typename Cluster2&gt;
               </div>
@@ -951,11 +1057,11 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster1</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
                 <tr>
                   <td>Cluster2</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -963,11 +1069,11 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>p1</td>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The first cluster/first single particle.</td>
                 </tr>
                 <tr>
-                  <td>p2</td>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The second cluster/first single particle.</td>
                 </tr>
               </tbody>
@@ -981,6 +1087,7 @@
           </div></section>
           <section class="m-doc-details" id="a71f4a3021854a242b8146bd54f6e9447"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster1, typename Cluster2&gt;
               </div>
@@ -995,11 +1102,11 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster1</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
                 <tr>
                   <td>Cluster2</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -1007,11 +1114,11 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>p1</td>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The first cluster/first single particle.</td>
                 </tr>
                 <tr>
-                  <td>p2</td>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The second cluster/first single particle.</td>
                 </tr>
               </tbody>
@@ -1025,6 +1132,7 @@
           </div></section>
           <section class="m-doc-details" id="a8ca73a6c05802dc9e130699e4b39f0a9"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster1, typename Cluster2&gt;
               </div>
@@ -1039,11 +1147,11 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster1</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
                 <tr>
                   <td>Cluster2</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -1051,11 +1159,11 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>cluster1</td>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>first cluster/first single particle.</td>
                 </tr>
                 <tr>
-                  <td>cluster2</td>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The second cluster/first single particle.</td>
                 </tr>
               </tbody>
@@ -1069,6 +1177,7 @@
           </div></section>
           <section class="m-doc-details" id="abab89661f2ac2942f99e8be9e9889120"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Cluster&gt;
               </div>
@@ -1082,7 +1191,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Cluster</td>
-                  <td>std::ranges(Container) like type/Type of single particle.</td>
+                  <td>std ranges(Container) like type/Type of single particle.</td>
                 </tr>
               </tbody>
               <thead>
@@ -1090,7 +1199,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>ptc</td>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>particle container/single particle.</td>
                 </tr>
               </tbody>

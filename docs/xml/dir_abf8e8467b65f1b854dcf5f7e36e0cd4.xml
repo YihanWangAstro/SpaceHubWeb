@@ -8,6 +8,7 @@
     <innerfile refid="post-newtonian_8hpp">post-newtonian.hpp</innerfile>
     <innerfile refid="tidal_8hpp">tidal.hpp</innerfile>
     <briefdescription>
+<para>Directory of interaction. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

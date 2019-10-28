@@ -175,12 +175,10 @@
         <param>
           <type><ref refid="structspace_1_1particle__set_1_1_point_particle_1a3d92e629410f56ab312dcfebccdf8d31" kindref="member">Vector</ref></type>
           <declname>position</declname>
-          <defname>p</defname>
         </param>
         <param>
           <type><ref refid="structspace_1_1particle__set_1_1_point_particle_1a3d92e629410f56ab312dcfebccdf8d31" kindref="member">Vector</ref></type>
           <declname>velocity</declname>
-          <defname>v</defname>
         </param>
         <briefdescription>
 <para>Construct a new Point Particle object. </para>
@@ -188,7 +186,7 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>mass</parametername>
+<parametername direction="in">mass</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The mass of the particle </para>
@@ -196,7 +194,7 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>position</parametername>
+<parametername direction="in">position</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The 3d vector position of the particle </para>
@@ -204,7 +202,7 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>velocity</parametername>
+<parametername direction="in">velocity</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The 3d vector velocity of the particle </para>

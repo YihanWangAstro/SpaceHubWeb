@@ -6,6 +6,7 @@
     <innerfile refid="vector3d_8hpp">vector3d.hpp</innerfile>
     <innerfile refid="vector3pd_8hpp">vector3pd.hpp</innerfile>
     <briefdescription>
+<para>Directory of vector. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

@@ -441,7 +441,7 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>os[out]</parametername>
+<parametername direction="out">os</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>Output stream </para>
@@ -449,7 +449,7 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>obt[in]</parametername>
+<parametername direction="in">obt</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>Orbit parameters. </para>

@@ -26,11 +26,11 @@
       <node id="11">
         <label>IO.hpp</label>
         <link refid="_i_o_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="6">

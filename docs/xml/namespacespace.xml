@@ -524,10 +524,10 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>[in/out]</parametername>
+<parametername direction="inout">os</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>os Output stream. </para>
+<para>Output stream. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -547,7 +547,7 @@
         </inbodydescription>
         <location file="src/IO.hpp" line="39" column="6" bodyfile="src/IO.hpp" bodystart="39" bodyend="42"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1aeecc6819f58b322d851fe63d9edf8992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1ad337bc7e18c7087c25bf6ec8ba5ae1fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Istream</type>
@@ -560,11 +560,11 @@
         </templateparamlist>
         <type>auto &amp;</type>
         <definition>auto&amp; space::input</definition>
-        <argsstring>(Istream &amp;is, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Istream &amp;istream, Args &amp;&amp;... args)</argsstring>
         <name>input</name>
         <param>
           <type>Istream &amp;</type>
-          <declname>is</declname>
+          <declname>istream</declname>
         </param>
         <param>
           <type>Args &amp;&amp;...</type>
@@ -593,10 +593,10 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>[in/out]</parametername>
+<parametername direction="inout">istream</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is Input stream. </para>
+<para>Input stream. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -614,7 +614,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="54" column="8" bodyfile="src/IO.hpp" bodystart="54" bodyend="57"/>
+        <location file="src/IO.hpp" line="54" column="6" bodyfile="src/IO.hpp" bodystart="54" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aa711c0aa2909a0a48b579033b7cb4499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -659,7 +659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="66" column="8" bodyfile="src/IO.hpp" bodystart="66" bodyend="69"/>
+        <location file="src/IO.hpp" line="66" column="6" bodyfile="src/IO.hpp" bodystart="66" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a423503d664e1b35744da843e92d598ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -704,7 +704,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="78" column="8" bodyfile="src/IO.hpp" bodystart="78" bodyend="81"/>
+        <location file="src/IO.hpp" line="78" column="6" bodyfile="src/IO.hpp" bodystart="78" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a17e908fe80f7ae52016ef47a729c1b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -742,7 +742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="84" column="8" bodyfile="src/IO.hpp" bodystart="84" bodyend="88"/>
+        <location file="src/IO.hpp" line="84" column="6" bodyfile="src/IO.hpp" bodystart="84" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aed845d4bfb0c082f803fbf19d3635d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -773,7 +773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="91" column="8" bodyfile="src/IO.hpp" bodystart="91" bodyend="93"/>
+        <location file="src/IO.hpp" line="91" column="6" bodyfile="src/IO.hpp" bodystart="91" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a3989b951687ce9e2244140e8e52dbc52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -781,7 +781,7 @@
             <type>typename Ostream</type>
           </param>
           <param>
-            <type>typename ...</type>
+            <type>typename...</type>
             <declname>Args</declname>
             <defname>Args</defname>
           </param>
@@ -804,7 +804,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="96" column="3" bodyfile="src/IO.hpp" bodystart="96" bodyend="102"/>
+        <location file="src/IO.hpp" line="96" column="1" bodyfile="src/IO.hpp" bodystart="96" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1abf2958174204d96726d8d6a590d613d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -812,7 +812,7 @@
             <type>typename Istream</type>
           </param>
           <param>
-            <type>typename ...</type>
+            <type>typename...</type>
             <declname>Args</declname>
             <defname>Args</defname>
           </param>
@@ -835,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="105" column="16" bodyfile="src/IO.hpp" bodystart="105" bodyend="110"/>
+        <location file="src/IO.hpp" line="107" column="14" bodyfile="src/IO.hpp" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a301e15c92f31fd05dd8b57fa06302355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -869,7 +869,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/IO.hpp" line="113" column="3" bodyfile="src/IO.hpp" bodystart="113" bodyend="118"/>
+        <location file="src/IO.hpp" line="113" column="1" bodyfile="src/IO.hpp" bodystart="113" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a2ba0c134cb2d13ec1c74328f64989fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>

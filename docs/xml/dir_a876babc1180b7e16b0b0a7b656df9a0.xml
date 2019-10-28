@@ -4,6 +4,7 @@
     <compoundname>src/stellar</compoundname>
     <innerfile refid="stellar_8hpp">stellar.hpp</innerfile>
     <briefdescription>
+<para>Directory of stellar. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

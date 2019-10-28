@@ -46,6 +46,7 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
           <div class="m-doc-template">template&lt;typename Real&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1orbit.html">orbit</a>::<wbr/></span>KeplerOrbit <span class="m-thin">struct</span>
         </h1>
@@ -309,9 +310,22 @@
             </h3>
             <p>Write the orbit to an ouput stream.</p>
             <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">os&nbsp;<span class="m-label m-flat m-warning">out</span></td>
+                  <td>Output stream</td>
+                </tr>
+                <tr>
+                  <td>obt&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Orbit parameters.</td>
+                </tr>
+              </tbody>
               <tfoot>
                 <tr>
-                  <th style="width: 1%">Returns</th>
+                  <th>Returns</th>
                   <td>std::ostream&amp; Output stream.</td>
                 </tr>
               </tfoot>
