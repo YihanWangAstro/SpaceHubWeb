@@ -117,7 +117,7 @@
               decltype(f(0)) low,
               decltype(f(0)) high) -&gt; auto</span>
             </dt>
-            <dd></dd>
+            <dd>find root use bisection method</dd>
           </dl>
         </section>
         <section>
@@ -222,6 +222,7 @@
               decltype(f(0)) low,
               decltype(f(0)) high)</span></span>
             </h3>
+            <p>find root use bisection method</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -229,7 +230,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Fun</td>
-                  <td></td>
+                  <td>Type Callable ojbect.</td>
                 </tr>
               </tbody>
               <thead>
@@ -238,17 +239,23 @@
               <tbody>
                 <tr>
                   <td>f</td>
-                  <td></td>
+                  <td>Callable object/</td>
                 </tr>
                 <tr>
                   <td>low</td>
-                  <td></td>
+                  <td>Lower limit of root range</td>
                 </tr>
                 <tr>
                   <td>high</td>
-                  <td></td>
+                  <td>Upper limit of root range</td>
                 </tr>
               </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>decltype(f(0)) The root.</td>
+                </tr>
+              </tfoot>
             </table>
           </div></section>
         </section>

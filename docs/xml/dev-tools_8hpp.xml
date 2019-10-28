@@ -740,12 +740,12 @@ inline TYPE const &amp; NAME () const noexcept {                                
         <param><defname>TYPE</defname></param>
         <param><defname>NAME</defname></param>
         <param><defname>MEMBER</defname></param>
-        <initializer>/** The setter interface of member `MEMBER` in name of `NAME` if `CONDITION` is satisfied.*/                           \
+        <initializer>/** The setter interface of member `MEMBER` in name of `NAME` if CONDITION is satisfied.*/                             \
 inline TYPE &amp; NAME () noexcept {                                                                                       \
     static_assert(CONDITION);                                                                                          \
     return MEMBER;                                                                                                     \
 };                                                                                                                     \
-/** The getter interface of member `MEMBER` in name of `NAME` if `CONDITION` is satisfied.*/                           \
+/** The getter interface of member `MEMBER` in name of `NAME` if CONDITION is satisfied.*/                             \
 inline TYPE const &amp; NAME () const noexcept {                                                                           \
     static_assert(CONDITION);                                                                                          \
     return MEMBER;                                                                                                     \
@@ -764,7 +764,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         <param><defname>TYPE</defname></param>
         <param><defname>NAME</defname></param>
         <param><defname>MEMBER</defname></param>
-        <initializer>/** The getter interface of member `MEMBER` in name of `NAME` if `CONDITION` is satisfied. */                          \
+        <initializer>/** The getter interface of member `MEMBER` in name of `NAME` if CONDITION is satisfied. */                            \
 inline TYPE const &amp; NAME () const noexcept {                                                                           \
     static_assert(CONDITION);                                                                                          \
     return MEMBER;                                                                                                     \

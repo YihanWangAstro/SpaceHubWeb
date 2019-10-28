@@ -368,7 +368,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The setter interface of member <computeroutput>ptcl_.radius()</computeroutput> in name of <computeroutput>radius</computeroutput> if <computeroutput><ref refid="structspace_1_1particle__system_1_1has__method__radius" kindref="compound">has_method_radius</ref> &lt; Particles ,&gt;::value</computeroutput> is satisfied. </para>
+<para>The setter interface of member <computeroutput>ptcl_.radius()</computeroutput> in name of <computeroutput>radius</computeroutput> if <ref refid="structspace_1_1particle__system_1_1has__method__radius" kindref="compound">has_method_radius</ref> &lt; Particles ,&gt;::value is satisfied. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -382,7 +382,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>ptcl_.radius()</computeroutput> in name of <computeroutput>radius</computeroutput> if <computeroutput><ref refid="structspace_1_1particle__system_1_1has__method__radius" kindref="compound">has_method_radius</ref> &lt; Particles ,&gt;::value</computeroutput> is satisfied. </para>
+<para>The getter interface of member <computeroutput>ptcl_.radius()</computeroutput> in name of <computeroutput>radius</computeroutput> if <ref refid="structspace_1_1particle__system_1_1has__method__radius" kindref="compound">has_method_radius</ref> &lt; Particles ,&gt;::value is satisfied. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -790,7 +790,7 @@
           <declname>ptcs</declname>
         </param>
         <briefdescription>
-<para>Create a std ranges like(Container) from individual particles. </para>
+<para>Create a std::ranges like(Container) from individual particles. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -863,11 +863,24 @@
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
+<parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The total mass of the particle cluster/single particle. </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
@@ -966,7 +979,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1079,7 +1092,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1199,7 +1212,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1207,7 +1220,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1274,7 +1287,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1429,7 +1442,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1588,7 +1601,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1772,7 +1785,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the first particle/std ranges(Container) like type. </para>
+<para>Type of the first particle/std::ranges(Container) like type. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1847,7 +1860,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the first particle/std ranges(Container) like type. </para>
+<para>Type of the first particle/std::ranges(Container) like type. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1912,7 +1925,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1920,7 +1933,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1979,7 +1992,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1987,7 +2000,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2046,7 +2059,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2054,7 +2067,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2113,7 +2126,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2121,7 +2134,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2180,7 +2193,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2188,7 +2201,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2240,7 +2253,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) like type/Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
