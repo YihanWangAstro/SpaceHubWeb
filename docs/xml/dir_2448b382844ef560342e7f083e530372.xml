@@ -6,7 +6,6 @@
     <innerfile refid="particles_8hpp">particles.hpp</innerfile>
     <innerfile refid="point-particles_8hpp">point-particles.hpp</innerfile>
     <briefdescription>
-<para>Directory of particles. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

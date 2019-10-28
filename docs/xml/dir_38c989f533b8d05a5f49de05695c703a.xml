@@ -6,7 +6,6 @@
     <innerfile refid="_gauss-_dadau_8hpp">Gauss-Dadau.hpp</innerfile>
     <innerfile refid="integrator_8hpp">integrator.hpp</innerfile>
     <briefdescription>
-<para>Directory of integrator. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

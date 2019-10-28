@@ -5,7 +5,6 @@
     <innerfile refid="_p_i_d-controller_8hpp">PID-controller.hpp</innerfile>
     <innerfile refid="stepsize-controller_8hpp">stepsize-controller.hpp</innerfile>
     <briefdescription>
-<para>Directory of ode-iterator/step-controller. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

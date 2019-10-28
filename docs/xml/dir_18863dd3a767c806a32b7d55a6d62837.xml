@@ -7,7 +7,6 @@
     <innerfile refid="mkl-array_8h">mkl-array.h</innerfile>
     <innerfile refid="slice_8h">slice.h</innerfile>
     <briefdescription>
-<para>Directory of lazy-evaluation. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

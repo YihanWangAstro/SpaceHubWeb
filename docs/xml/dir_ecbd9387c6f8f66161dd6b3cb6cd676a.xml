@@ -4,7 +4,6 @@
     <compoundname>src/integrator/symplectic</compoundname>
     <innerfile refid="symplectic-integrator_8hpp">symplectic-integrator.hpp</innerfile>
     <briefdescription>
-<para>Directory of integrator/symplectic. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

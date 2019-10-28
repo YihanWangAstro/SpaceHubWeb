@@ -5,7 +5,6 @@
     <innerfile refid="orbits_8hpp">orbits.hpp</innerfile>
     <innerfile refid="particle-manip_8hpp">particle-manip.hpp</innerfile>
     <briefdescription>
-<para>Directory of orbits. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
