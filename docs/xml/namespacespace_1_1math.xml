@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1math" kind="namespace" language="C++">
     <compoundname>space::math</compoundname>
     <innerclass refid="structspace_1_1math_1_1big__value" prot="public">space::math::big_value</innerclass>
     <innerclass refid="structspace_1_1math_1_1epsilon" prot="public">space::math::epsilon</innerclass>
     <innerclass refid="structspace_1_1math_1_1max__value" prot="public">space::math::max_value</innerclass>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespacespace_1_1math_1aadb8ce07f6570c17ea728b3eba3a573c" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1math_1aadb8ce07f6570c17ea728b3eba3a573c" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="93" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="93" bodyend="-1"/>
+        <location file="src/math.hpp" line="93" column="13" bodyfile="src/math.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -49,12 +49,13 @@
           <declname>y</declname>
         </param>
         <briefdescription>
-<para>Self <ref refid="namespacespace_1_1math_1ade32ddc299725340edc41bd8a5554b48" kindref="member">min()</ref> </para>        </briefdescription>
+<para>Self <ref refid="namespacespace_1_1math_1ade32ddc299725340edc41bd8a5554b48" kindref="member">min()</ref> </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="38" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="38" bodyend="40"/>
+        <location file="src/math.hpp" line="38" column="11" bodyfile="src/math.hpp" bodystart="38" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a686a9c355dd46e87db74bef0fc4d8533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -78,12 +79,13 @@
           <declname>y</declname>
         </param>
         <briefdescription>
-<para>Self <ref refid="namespacespace_1_1math_1a686a9c355dd46e87db74bef0fc4d8533" kindref="member">max()</ref> </para>        </briefdescription>
+<para>Self <ref refid="namespacespace_1_1math_1a686a9c355dd46e87db74bef0fc4d8533" kindref="member">max()</ref> </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="44" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="44" bodyend="46"/>
+        <location file="src/math.hpp" line="44" column="11" bodyfile="src/math.hpp" bodystart="44" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1afe694aee30694bec4b28ddab7a8bb8a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -100,12 +102,13 @@
           <declname>x</declname>
         </param>
         <briefdescription>
-<para>Self <ref refid="namespacespace_1_1math_1afe694aee30694bec4b28ddab7a8bb8a3" kindref="member">abs()</ref> </para>        </briefdescription>
+<para>Self <ref refid="namespacespace_1_1math_1afe694aee30694bec4b28ddab7a8bb8a3" kindref="member">abs()</ref> </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="50" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="50" bodyend="52"/>
+        <location file="src/math.hpp" line="50" column="10" bodyfile="src/math.hpp" bodystart="50" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a3f8b417d5de6b36412ddb5d48e673060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -135,9 +138,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="55" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="55" bodyend="58"/>
+        <location file="src/math.hpp" line="55" column="10" bodyfile="src/math.hpp" bodystart="55" bodyend="58"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1math_1a4fa19c3b7ed5589fc8999e67bb48f3f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1math_1a4fa19c3b7ed5589fc8999e67bb48f3f1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -159,7 +162,8 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -167,16 +171,19 @@
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="67" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="67" bodyend="69"/>
+        <location file="src/math.hpp" line="67" column="20" bodyfile="src/math.hpp" bodystart="67" bodyend="69"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1math_1a154d03c4d37ea8ed198a6c0b9d0309a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1math_1a154d03c4d37ea8ed198a6c0b9d0309a5" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -198,7 +205,8 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -206,14 +214,17 @@
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="78" bodyend="80"/>
+        <location file="src/math.hpp" line="78" column="20" bodyfile="src/math.hpp" bodystart="78" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a53f8a8c104780e093980418c7f306c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -239,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="96" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="96" bodyend="98"/>
+        <location file="src/math.hpp" line="96" column="13" bodyfile="src/math.hpp" bodystart="96" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a3042c5950168be2400810fabdc5a7221" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -261,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="121" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="121" bodyend="123"/>
+        <location file="src/math.hpp" line="121" column="10" bodyfile="src/math.hpp" bodystart="121" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1ad9a87717de1b1d085aa1fa84303b14fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -280,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="126" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="126" bodyend="135"/>
+        <location file="src/math.hpp" line="126" column="8" bodyfile="src/math.hpp" bodystart="126" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a2c1c94cff2908e6c71bd08e7d48f5edf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -299,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="138" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="138" bodyend="146"/>
+        <location file="src/math.hpp" line="138" column="8" bodyfile="src/math.hpp" bodystart="138" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a03a25b4b64e102b98c156fbf1cf547f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -331,7 +342,8 @@
 <parametername>Fun</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -339,14 +351,17 @@
 <parametername>f</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="155" bodyend="166"/>
+        <location file="src/math.hpp" line="155" column="6" bodyfile="src/math.hpp" bodystart="155" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1math_1a68a1a4504386aaf26253722a5af2627e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -368,13 +383,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="169" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/math.hpp" bodystart="169" bodyend="183"/>
+        <location file="src/math.hpp" line="169" column="10" bodyfile="src/math.hpp" bodystart="169" bodyend="183"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>namespace for math </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp" line="32" column="1"/>
+<para>namespace for math </para>
+    </detaileddescription>
+    <location file="src/math.hpp" line="31" column="1"/>
   </compounddef>
 </doxygen>

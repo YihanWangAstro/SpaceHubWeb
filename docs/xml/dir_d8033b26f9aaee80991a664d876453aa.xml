@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_d8033b26f9aaee80991a664d876453aa" kind="dir">
-    <compoundname>/home/yihan/Repositories/SpaceHub/src/orbits</compoundname>
+    <compoundname>src/orbits</compoundname>
     <innerfile refid="orbits_8hpp">orbits.hpp</innerfile>
     <innerfile refid="particle-manip_8hpp">particle-manip.hpp</innerfile>
     <briefdescription>
-<para>Directory of orbits. </para>    </briefdescription>
+<para>Directory of orbits. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/"/>
+    <location file="src/orbits/"/>
   </compounddef>
 </doxygen>

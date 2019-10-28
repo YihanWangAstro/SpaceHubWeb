@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1ode__iterator_1_1_i_a_s15_error" kind="class" language="C++" prot="public">
     <compoundname>space::ode_iterator::IAS15Error</compoundname>
     <basecompoundref refid="classspace_1_1ode__iterator_1_1_error_checker" prot="public" virt="non-virtual">space::ode_iterator::ErrorChecker&lt; IAS15Error&lt; T &gt; &gt;</basecompoundref>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="41" column="3" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a5b93bb79d4e8333dd4be90a0e584ffa9" prot="public" static="no">
         <type>T</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="43" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="43" column="3" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ad75181b8ecc08e58b06ffcbb67395687" prot="public" static="no">
         <type>T</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="45" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="45" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="45" column="3" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="52" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="52" column="11" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="70" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="70" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="70" column="10" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ae2a888b9d9b7197dcc442a6d71f4edf4" prot="private" static="no" mutable="no">
         <type><ref refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a5b93bb79d4e8333dd4be90a0e584ffa9" kindref="member">Scalar</ref></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="72" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="72" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="72" column="10" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="72" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -110,10 +110,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a89d6c4da8ac3959bd952a7f08c74b6f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -126,10 +127,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a84ffd1d08aad8b3e41f1cc5aebc56ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -142,10 +144,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="68"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ac142bae208a93453fb7d1cc31c6e29cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1ode__iterator_1_1_i_a_s15_error" kindref="compound">IAS15Error</ref> &amp;</type>
@@ -158,10 +161,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="112"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1aac54b300621c05c90a7f4eb3658c797b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1ode__iterator_1_1_i_a_s15_error" kindref="compound">IAS15Error</ref> &amp;</type>
@@ -174,10 +178,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="1"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="48" column="155"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a734be0f77eb403cf9e3983f46fc03ada" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -198,35 +203,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="50" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="50" bodyend="50"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="50" column="3" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="50" bodyend="50"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a81cdfe84bfa64a21bbeff67249800d02" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::IAS15Error&lt; T &gt;::impl_atol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a4384da20e8f7dc5f500900b6be7204d5" prot="protected" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::IAS15Error&lt; T &gt;::impl_atol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>impl_atol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>atol_</computeroutput> in name of <computeroutput>impl_atol</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>atol_</computeroutput> in name of <computeroutput>impl_atol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="55" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="55" bodyend="55"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="55" column="31" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="55" bodyend="55"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a7793aa99b5dd19df5328bd93c9462764" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::IAS15Error&lt; T &gt;::impl_rtol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a919821ad108598fa13280e1bb6b8660f" prot="protected" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::IAS15Error&lt; T &gt;::impl_rtol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>impl_rtol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>rtol_</computeroutput> in name of <computeroutput>impl_rtol</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>rtol_</computeroutput> in name of <computeroutput>impl_rtol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="57" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="57" bodyend="57"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="57" column="27" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a1b6e6d6ed0eaab3090e293185393fa31" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -243,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="59" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="88" bodyend="90"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="59" column="8" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="88" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a0a5c39b323fc24d024d114fe12e6592b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -260,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="61" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="93" bodyend="95"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="61" column="8" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="93" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1acc7222a6ba897a81ab9a19203dade65d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -286,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="64" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="99" bodyend="110"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="64" column="8" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="99" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ad79715f67d253a852cb8c548f180433f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -316,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="67" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="114" bodyend="125"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="67" column="8" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="114" bodyend="125"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -344,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="79" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="129" bodyend="138"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="79" column="8" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="129" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a3f45a98ad450a6579222fcde07dcc182" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -374,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="82" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="142" bodyend="151"/>
+        <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="82" column="8" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="142" bodyend="151"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -385,51 +392,53 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="265">
+      <node id="1">
         <label>space::ode_iterator::IAS15Error&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_i_a_s15_error"/>
-        <childnode refid="266" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="267">
+      <node id="3">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="266">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; IAS15Error&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="267" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; IAS15Error&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="268">
+      <node id="1">
         <label>space::ode_iterator::IAS15Error&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_i_a_s15_error"/>
-        <childnode refid="269" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="270">
+      <node id="3">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="269">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; IAS15Error&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="270" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; IAS15Error&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="38" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="38" bodyend="83"/>
+    <location file="src/ode-iterator/error-checker/IAS15-error.hpp" line="38" column="39" bodyfile="src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="38" bodyend="83"/>
     <listofallmembers>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a563a4c2559d79f569369cde381541b86" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab595d8b44e36594e174e71af36bc0217" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ad17778607a62c46baf460582c52d3b42" prot="private" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>atol_</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1aedb4a2a8eab3f55de2899b6690b2345d" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>Base</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a14294c027355cb6c6a24d00b2cf8952a" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>Base</name></member>
@@ -440,17 +449,17 @@
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a89d6c4da8ac3959bd952a7f08c74b6f1" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>IAS15Error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a84ffd1d08aad8b3e41f1cc5aebc56ca9" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>IAS15Error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a734be0f77eb403cf9e3983f46fc03ada" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>IAS15Error</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a81cdfe84bfa64a21bbeff67249800d02" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a4384da20e8f7dc5f500900b6be7204d5" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1acc7222a6ba897a81ab9a19203dade65d" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ad79715f67d253a852cb8c548f180433f" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_error</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a7793aa99b5dd19df5328bd93c9462764" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a919821ad108598fa13280e1bb6b8660f" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a1b6e6d6ed0eaab3090e293185393fa31" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_set_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a0a5c39b323fc24d024d114fe12e6592b" prot="protected" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>impl_set_rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a1ee02352bbbaf2623c9a0238874eb4f0" prot="private" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>one_dimension_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a3f45a98ad450a6579222fcde07dcc182" prot="private" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>one_dimension_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ac142bae208a93453fb7d1cc31c6e29cb" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>operator=</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1aac54b300621c05c90a7f4eb3658c797b" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>operator=</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1aefaf011e4879aa0acfe87926243b058f" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a9aa73c7df45017e93423bfcabe1db3a9" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1ae2a888b9d9b7197dcc442a6d71f4edf4" prot="private" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>rtol_</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_i_a_s15_error_1a5b93bb79d4e8333dd4be90a0e584ffa9" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>Scalar</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a1f767e96bfc475742126d0894a6ad389" prot="public" virt="non-virtual"><scope>space::ode_iterator::IAS15Error</scope><name>set_atol</name></member>

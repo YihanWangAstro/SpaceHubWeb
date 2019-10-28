@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1run__operations_1_1_step_slice" kind="class" language="C++" prot="public">
     <compoundname>space::run_operations::StepSlice</compoundname>
     <includes refid="callbacks_8hpp" local="no">callbacks.hpp</includes>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="153" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="153" bodyend="-1"/>
+        <location file="src/args-callback/callbacks.hpp" line="153" column="13" bodyfile="src/args-callback/callbacks.hpp" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1run__operations_1_1_step_slice_1ae0c92e17487eab9fffb766fd925f4d42" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="154" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="154" bodyend="-1"/>
+        <location file="src/args-callback/callbacks.hpp" line="154" column="10" bodyfile="src/args-callback/callbacks.hpp" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1run__operations_1_1_step_slice_1aed99a8a6d485e67e551343b8fd4f411d" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="155" bodyend="-1"/>
+        <location file="src/args-callback/callbacks.hpp" line="155" column="10" bodyfile="src/args-callback/callbacks.hpp" bodystart="155" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -60,10 +60,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+        <location file="src/args-callback/callbacks.hpp" line="118" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a5e898a62d1e8e4cfe6fe5084d7d64fec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -76,10 +77,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+        <location file="src/args-callback/callbacks.hpp" line="118" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a19eabdb207206805375acd8cbf683f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -92,10 +94,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+        <location file="src/args-callback/callbacks.hpp" line="118" column="66"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1ab32bdfa83b053551ad4858adba05bf8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> &amp;</type>
@@ -108,10 +111,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+        <location file="src/args-callback/callbacks.hpp" line="118" column="108"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1acc0d35a9597f90177a3e68811837f126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> &amp;</type>
@@ -124,10 +128,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+        <location file="src/args-callback/callbacks.hpp" line="118" column="150"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a38da8fce31fbb7c82ba70a9a0f7e0ee0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -151,20 +156,23 @@
 <parametername direction="in">opt</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Callable object. </para></parameterdescription>
+<para>Callable object. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">step_interval</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Step interval. </para></parameterdescription>
+<para>Step interval. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="125" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="231" bodyend="232"/>
+        <location file="src/args-callback/callbacks.hpp" line="125" column="12" bodyfile="src/args-callback/callbacks.hpp" bodystart="231" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a1443376025b4c21c09e2dcfc42a36bd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -188,20 +196,24 @@
 <parametername>ParticleSys</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Any type used as call back parameter. </para></parameterdescription>
+<para>Any type used as call back parameter. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
+<parametername>[in/out]</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>ptc Input parameter. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="133" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="236" bodyend="242"/>
+        <location file="src/args-callback/callbacks.hpp" line="133" column="15" bodyfile="src/args-callback/callbacks.hpp" bodystart="236" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a1ca319130730fb1d5db31e098cd1e16d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -225,20 +237,26 @@
 <parametername>ParticleSys</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Any type used as call back parameter. </para></parameterdescription>
+<para>Any type used as call back parameter. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
+<parametername>[in/out]</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>ptc Input parameter. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>auto bool. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="143" column="1"/>
+        <location file="src/args-callback/callbacks.hpp" line="143" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a9e404eac8f9a5fe2ac8ad82478f908b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -257,35 +275,39 @@
 <parametername direction="in">step_interval</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Step interval. </para></parameterdescription>
+<para>Step interval. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="150" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="258" bodyend="261"/>
+        <location file="src/args-callback/callbacks.hpp" line="150" column="8" bodyfile="src/args-callback/callbacks.hpp" bodystart="258" bodyend="261"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Create a wrapper on callable object(function pointer, functor, lambda) of which accepts one parameter. The wrapped callable object will be invoked for equal spacing steps. This class is basically used to implement equal step operation in simulations. For example, one can provide a printer <computeroutput>[](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; std::endl;}</computeroutput> as the pre_step_operation in <ref refid="classspace_1_1_run_args" kindref="compound">RunArgs</ref> to output the state of the integrated system. This printer then will be invoked before every step integration. The output might be very dense sometimes, thus outputting the result of every step is somewhat heavy. If one wraps the printer with <ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref>, `StepSlice([](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; &apos;<linebreak/>
+<para>Create a wrapper on callable object(function pointer, functor, lambda) of which accepts one parameter. The wrapped callable object will be invoked for equal spacing steps. This class is basically used to implement equal step operation in simulations. For example, one can provide a printer <computeroutput>[](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; std::endl;}</computeroutput> as the pre_step_operation in <ref refid="classspace_1_1_run_args" kindref="compound">RunArgs</ref> to output the state of the integrated system. This printer then will be invoked before every step integration. The output might be very dense sometimes, thus outputting the result of every step is somewhat heavy. If one wraps the printer with <ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref>, <lsquo/><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref>([](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; <rsquo/><linebreak/>
 &apos;}, 10)`, then the output will be performed every 10 steps. <parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Operation</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Callable object. </para></parameterdescription>
+<para>Callable object. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <collaborationgraph>
-      <node id="456">
+      <node id="1">
         <label>space::run_operations::StepSlice&lt; Operation &gt;</label>
         <link refid="classspace_1_1run__operations_1_1_step_slice"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="116" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="116" bodyend="156"/>
+    <location file="src/args-callback/callbacks.hpp" line="116" column="16" bodyfile="src/args-callback/callbacks.hpp" bodystart="116" bodyend="156"/>
     <listofallmembers>
       <member refid="classspace_1_1run__operations_1_1_step_slice_1a1443376025b4c21c09e2dcfc42a36bd9" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>operator()</name></member>
       <member refid="classspace_1_1run__operations_1_1_step_slice_1a1ca319130730fb1d5db31e098cd1e16d" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>operator()</name></member>

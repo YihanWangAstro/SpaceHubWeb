@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1_chain" kind="class" language="C++" prot="public">
     <compoundname>space::Chain</compoundname>
     <includes refid="chain_8hpp" local="no">chain.hpp</includes>
     <innerclass refid="structspace_1_1_chain_1_1_node" prot="public">space::Chain::Node</innerclass>
       <sectiondef kind="private-static-attrib">
-      <memberdef kind="variable" id="classspace_1_1_chain_1aba4c65e72d4505d19850f0a94b7ca875" prot="private" static="yes" mutable="no">
+      <memberdef kind="variable" id="classspace_1_1_chain_1aba4c65e72d4505d19850f0a94b7ca875" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>constexpr bool</type>
         <definition>constexpr bool space::Chain::auto_centre_of_mass_move_</definition>
         <argsstring></argsstring>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="66" bodyend="-1"/>
+        <location file="src/particle-system/chain.hpp" line="66" column="25" bodyfile="src/particle-system/chain.hpp" bodystart="66" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -29,10 +29,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="51" column="1"/>
+        <location file="src/particle-system/chain.hpp" line="51" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1aae885fbe1f31d0d903995ee96c2294c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -45,10 +46,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="51" column="1"/>
+        <location file="src/particle-system/chain.hpp" line="51" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1ade5f7ba028ee32b540cd62e32800de61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -61,10 +63,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="51" column="1"/>
+        <location file="src/particle-system/chain.hpp" line="51" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1aba865aabd5f1b0dbddcad4aa26c80e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1_chain" kindref="compound">Chain</ref> &amp;</type>
@@ -77,10 +80,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="51" column="1"/>
+        <location file="src/particle-system/chain.hpp" line="51" column="92"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a3397dd1dc4dab782cada71b2272d70a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1_chain" kindref="compound">Chain</ref> &amp;</type>
@@ -93,10 +97,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="51" column="1"/>
+        <location file="src/particle-system/chain.hpp" line="51" column="130"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -127,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="95" bodyend="100"/>
+        <location file="src/particle-system/chain.hpp" line="54" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="95" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a2ed2334e9b84ccbf0c239ddabc5136ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -160,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="57" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="103" bodyend="126"/>
+        <location file="src/particle-system/chain.hpp" line="57" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="103" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a71ba98504638c754624f84656be9e96b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -200,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="60" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="129" bodyend="136"/>
+        <location file="src/particle-system/chain.hpp" line="60" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="129" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a692d44bf729b4751b579a82b3580daf6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -233,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="63" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="139" bodyend="143"/>
+        <location file="src/particle-system/chain.hpp" line="63" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="139" bodyend="143"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -261,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="69" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="146" bodyend="148"/>
+        <location file="src/particle-system/chain.hpp" line="69" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="146" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a630246b6acaf8bf117d1d7164f79efb4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -299,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="72" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="151" bodyend="160"/>
+        <location file="src/particle-system/chain.hpp" line="72" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="151" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a1b6fe60fc2c34aa15c873d77acca71d8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -328,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="74" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="162" bodyend="173"/>
+        <location file="src/particle-system/chain.hpp" line="74" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="162" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a4c7057181be4f9087da7691f872ef661" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -357,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="77" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="176" bodyend="187"/>
+        <location file="src/particle-system/chain.hpp" line="77" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="176" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a96e0e72eca341a98e78b7c01de1a4a67" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -387,7 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="80" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="190" bodyend="217"/>
+        <location file="src/particle-system/chain.hpp" line="80" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="190" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1ac46104804f95594dda598c89d300a43f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -417,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="83" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="220" bodyend="242"/>
+        <location file="src/particle-system/chain.hpp" line="83" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="220" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a5d8d062bf058ffea1a788d33e5fef5cf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -450,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="86" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="245" bodyend="253"/>
+        <location file="src/particle-system/chain.hpp" line="86" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="245" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1_chain_1a1cd47d4e46241280926a246fe587f0e8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -483,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="89" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="256" bodyend="264"/>
+        <location file="src/particle-system/chain.hpp" line="89" column="15" bodyfile="src/particle-system/chain.hpp" bodystart="256" bodyend="264"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -491,12 +496,12 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="47">
+      <node id="1">
         <label>space::Chain</label>
         <link refid="classspace_1_1_chain"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp" bodystart="41" bodyend="90"/>
+    <location file="src/particle-system/chain.hpp" line="41" column="12" bodyfile="src/particle-system/chain.hpp" bodystart="41" bodyend="90"/>
     <listofallmembers>
       <member refid="classspace_1_1_chain_1aba4c65e72d4505d19850f0a94b7ca875" prot="private" virt="non-virtual"><scope>space::Chain</scope><name>auto_centre_of_mass_move_</name></member>
       <member refid="classspace_1_1_chain_1a71ba98504638c754624f84656be9e96b" prot="public" virt="non-virtual"><scope>space::Chain</scope><name>calc_cartesian</name></member>

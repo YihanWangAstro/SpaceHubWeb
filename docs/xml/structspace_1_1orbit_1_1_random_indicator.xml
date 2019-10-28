@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1orbit_1_1_random_indicator" kind="struct" language="C++" prot="public">
     <compoundname>space::orbit::RandomIndicator</compoundname>
     <includes refid="orbits_8hpp" local="no">orbits.hpp</includes>
     <briefdescription>
-<para>A place holder that indicates one of the three angles in orbital parameters will be randomly generaged. </para>    </briefdescription>
+<para>A place holder that indicates one of the three angles in orbital parameters will be randomly generaged. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="409">
+      <node id="1">
         <label>space::orbit::RandomIndicator</label>
         <link refid="structspace_1_1orbit_1_1_random_indicator"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="52" bodyend="53"/>
+    <location file="src/orbits/orbits.hpp" line="52" column="22" bodyfile="src/orbits/orbits.hpp" bodystart="52" bodyend="53"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

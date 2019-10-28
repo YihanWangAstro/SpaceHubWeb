@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4" kind="struct" language="C++" prot="public">
     <compoundname>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</compoundname>
     <basecompoundref refid="struct_space_h_1_1_lazy_1_1_expr" prot="public" virt="non-virtual">SpaceH::Lazy::Expr&lt; Larray&lt; T, Len, true &gt; &gt;</basecompoundref>
@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="110" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="110" bodyend="-1"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="110" column="3" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="170" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="168" bodyend="-1"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="170" column="5" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="112" column="1"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="112" column="3"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ae4553b20e07d41b977a21e7cbe541551" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="115" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="115" bodyend="118"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="115" column="3" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="115" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1afeec37c14e428f2298b3b3284815eb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -109,11 +109,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="121" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="121" bodyend="121"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="121" column="3" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="121" bodyend="121"/>
       </memberdef>
-      <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a6f02b366ceaa90a97a77a30997b3c8e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>T const  &amp;</type>
-        <definition>T const&amp; SpaceH::Lazy::Larray&lt; T, Len, true &gt;::eval</definition>
+      <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a2d2347b60a94bb443b4f0adc267a0b5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T&amp; SpaceH::Lazy::Larray&lt; T, Len, true &gt;::eval</definition>
         <argsstring>(size_t i) const</argsstring>
         <name>eval</name>
         <param>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="123" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="123" bodyend="123"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="123" column="11" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="123" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1af1641e402ae5b8af958281366bac2e58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const T &amp;</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="127" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="127" bodyend="127"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="127" column="18" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="127" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a4f7d37dcd829896ae75388029955879b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T &amp;</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="129" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="129" bodyend="129"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="129" column="12" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="129" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1af54a7b1a9433f47dd09862ccffd066f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="struct_space_h_1_1_lazy_1_1_larray" kindref="compound">Larray</ref> &amp;</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="131" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="131" bodyend="131"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="131" column="10" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="131" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a46025d3135c3dacb53e6c44073ab9824" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="134" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="134" bodyend="139"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="134" column="12" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="134" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a2acdfadb34569632b83ef46b64e7ef1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="142" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="142" bodyend="148"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="142" column="10" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="142" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1af7dedfb0b0ab07607cbbb6997aff9eb3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="150" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="150" bodyend="156"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="150" column="5" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="150" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ad54640c35e3caf9b982e8cf562d333df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="158" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="158" bodyend="164"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="158" column="5" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="158" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a479369b9e3f4a47ae81ea7fc6d59ebea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -260,9 +260,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="166" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="166" bodyend="166"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="166" column="8" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="166" bodyend="166"/>
       </memberdef>
-      <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ae1dcf1ad4231ce1b8a2a507a80ca5668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ae1dcf1ad4231ce1b8a2a507a80ca5668" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>int</type>
@@ -295,11 +295,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="168" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="168" bodyend="168"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="168" column="52" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="168" bodyend="168"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ab24463e509ac53af5aa5496b1a1115cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ab24463e509ac53af5aa5496b1a1115cd" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr size_t</type>
         <definition>static constexpr size_t SpaceH::Lazy::Larray&lt; T, Len, true &gt;::size</definition>
         <argsstring>()</argsstring>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="125" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="125" bodyend="125"/>
+        <location file="src/lazy-evaluation/lazy_array.h" line="125" column="34" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="125" bodyend="125"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -318,48 +318,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="322">
+      <node id="1">
         <label>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</label>
         <link refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4"/>
-        <childnode refid="323" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="324">
+      <node id="3">
         <label>SpaceH::Lazy::Expr&lt; Derived &gt;</label>
         <link refid="struct_space_h_1_1_lazy_1_1_expr"/>
       </node>
-      <node id="323">
+      <node id="2">
         <label>SpaceH::Lazy::Expr&lt; Larray&lt; T, Len, true &gt; &gt;</label>
         <link refid="struct_space_h_1_1_lazy_1_1_expr"/>
-        <childnode refid="324" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; Larray&lt; T, Len, true &gt; &gt;</edgelabel>
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="325">
+      <node id="1">
         <label>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</label>
         <link refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4"/>
-        <childnode refid="326" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="327">
+      <node id="3">
         <label>SpaceH::Lazy::Expr&lt; Derived &gt;</label>
         <link refid="struct_space_h_1_1_lazy_1_1_expr"/>
       </node>
-      <node id="326">
+      <node id="2">
         <label>SpaceH::Lazy::Expr&lt; Larray&lt; T, Len, true &gt; &gt;</label>
         <link refid="struct_space_h_1_1_lazy_1_1_expr"/>
-        <childnode refid="327" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; Larray&lt; T, Len, true &gt; &gt;</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" line="108" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h" bodystart="108" bodyend="171"/>
+    <location file="src/lazy-evaluation/lazy_array.h" line="108" column="30" bodyfile="src/lazy-evaluation/lazy_array.h" bodystart="108" bodyend="171"/>
     <listofallmembers>
       <member refid="struct_space_h_1_1_lazy_1_1_expr_1ada9ca100b1aa730e95c0ee6bf802d340" prot="public" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>cast</name></member>
       <member refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1af865361db876e3a297cdf1442555da88" prot="private" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>data_</name></member>
-      <member refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a6f02b366ceaa90a97a77a30997b3c8e6" prot="public" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>eval</name></member>
+      <member refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a2d2347b60a94bb443b4f0adc267a0b5d" prot="public" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>eval</name></member>
       <member refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1a16aaef56f92a1c8119ebff58464e3a01" prot="public" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>Larray</name></member>
       <member refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1ae4553b20e07d41b977a21e7cbe541551" prot="public" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>Larray</name></member>
       <member refid="struct_space_h_1_1_lazy_1_1_larray_3_01_t_00_01_len_00_01true_01_4_1afeec37c14e428f2298b3b3284815eb01" prot="public" virt="non-virtual"><scope>SpaceH::Lazy::Larray&lt; T, Len, true &gt;</scope><name>Larray</name></member>

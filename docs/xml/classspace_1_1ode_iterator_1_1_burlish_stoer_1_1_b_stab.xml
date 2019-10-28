@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab" kind="class" language="C++" prot="public">
     <compoundname>space::odeIterator::BurlishStoer::BStab</compoundname>
     <includes refid="_b_s-iterator__bk_8hpp" local="no">BS-iterator_bk.hpp</includes>
@@ -17,12 +17,13 @@
         <argsstring></argsstring>
         <name>coef</name>
         <briefdescription>
-<para>Extrapolation coefficient. </para>        </briefdescription>
+<para>Extrapolation coefficient. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="34" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="34" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="34" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a6a9cf588b629d3b002cbd9c39221d94f" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref>, MaxIter &gt;</type>
@@ -30,12 +31,13 @@
         <argsstring></argsstring>
         <name>expon</name>
         <briefdescription>
-<para>The exponent of error estimate at column k. </para>        </briefdescription>
+<para>The exponent of error estimate at column k. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="37" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="37" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="37" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1aa31913edddc73fddab9abcb0584cfedc" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref>, MaxIter &gt;</type>
@@ -43,12 +45,13 @@
         <argsstring></argsstring>
         <name>min_step_coef</name>
         <briefdescription>
-<para>The minimal coeffient of integration step estimation. </para>        </briefdescription>
+<para>The minimal coeffient of integration step estimation. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="40" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="40" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="40" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a5a4ab2c9ff78655308e0f1c986d03bdb" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref>, MaxIter &gt;</type>
@@ -56,12 +59,13 @@
         <argsstring></argsstring>
         <name>max_step_coef</name>
         <briefdescription>
-<para>The maximal coeffient of integration step estimation. </para>        </briefdescription>
+<para>The maximal coeffient of integration step estimation. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="43" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="43" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a84ffa00eb18f0d8deb5bbc62bcdc92b1" prot="public" static="no" mutable="no">
         <type>std::array&lt; size_t, MaxIter &gt;</type>
@@ -69,12 +73,13 @@
         <argsstring></argsstring>
         <name>work</name>
         <briefdescription>
-<para>The work(computation resource) per step size of each iteration depth. </para>        </briefdescription>
+<para>The work(computation resource) per step size of each iteration depth. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="46" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="46" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a96ace86cc21ba070a2aec5b03e829177" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref>, MaxIter &gt;</type>
@@ -87,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="48" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="48" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="48" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a0390da3d8f14bf6fb3d24d1b403c8f8b" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref>, MaxIter &gt;</type>
@@ -100,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="50" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="50" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="50" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1ad0d8922b85c1ea9862bf6a87045f1750" prot="public" static="no" mutable="no">
         <type>std::array&lt; size_t, MaxIter &gt;</type>
@@ -108,16 +113,17 @@
         <argsstring></argsstring>
         <name>step</name>
         <briefdescription>
-<para>Steps of integration of each iteration depth. </para>        </briefdescription>
+<para>Steps of integration of each iteration depth. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="53" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="53" column="18" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
-      <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a69cea830e9c1693ed3a31a4b1e593ca0" prot="private" static="yes" mutable="no">
+      <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a69cea830e9c1693ed3a31a4b1e593ca0" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>constexpr <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref></type>
         <definition>constexpr Scalar space::odeIterator::BurlishStoer&lt; Real &gt;::BStab&lt; MaxIter &gt;::S3</definition>
         <argsstring></argsstring>
@@ -129,9 +135,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="57" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="57" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="57" column="31" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a408c79b6d2153e8b0f492616eac5d4e0" prot="private" static="yes" mutable="no">
+      <memberdef kind="variable" id="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a408c79b6d2153e8b0f492616eac5d4e0" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>constexpr <ref refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1ab0f705ce74953834c7e38353f673c8d7" kindref="member">Scalar</ref></type>
         <definition>constexpr Scalar space::odeIterator::BurlishStoer&lt; Real &gt;::BStab&lt; MaxIter &gt;::S4</definition>
         <argsstring></argsstring>
@@ -143,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="59" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="59" bodyend="-1"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="59" column="31" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -158,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="30" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="346" bodyend="369"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="30" column="7" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="346" bodyend="369"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -181,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="373" bodyend="375"/>
+        <location file="src/ode-iterator/BS-iterator_bk.hpp" line="62" column="14" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="373" bodyend="375"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -189,66 +195,66 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="22">
+      <node id="1">
         <label>space::odeIterator::BurlishStoer&lt; Real &gt;::BStab&lt; MaxIter &gt;</label>
         <link refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab"/>
       </node>
-      <node id="23">
+      <node id="2">
         <label>space::odeIterator::BurlishStoer&lt; Real &gt;::BStab&lt; max_depth+1 &gt;</label>
         <link refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab"/>
-        <childnode refid="22" relation="template-instance">
+        <childnode refid="1" relation="template-instance">
           <edgelabel>&lt; max_depth+1 &gt;</edgelabel>
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="24">
+      <node id="1">
         <label>space::odeIterator::BurlishStoer&lt; Real &gt;::BStab&lt; MaxIter &gt;</label>
         <link refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab"/>
-        <childnode refid="25" relation="usage">
+        <childnode refid="2" relation="usage">
           <edgelabel>+min_step_coef</edgelabel>
           <edgelabel>+step_ratio</edgelabel>
           <edgelabel>+work_ratio</edgelabel>
           <edgelabel>+max_step_coef</edgelabel>
           <edgelabel>+expon</edgelabel>
         </childnode>
-        <childnode refid="28" relation="usage">
+        <childnode refid="5" relation="usage">
           <edgelabel>+step</edgelabel>
           <edgelabel>+work</edgelabel>
         </childnode>
-        <childnode refid="29" relation="usage">
+        <childnode refid="6" relation="usage">
           <edgelabel>+coef</edgelabel>
         </childnode>
       </node>
-      <node id="27">
+      <node id="4">
         <label>T</label>
       </node>
-      <node id="25">
+      <node id="2">
         <label>std::array&lt; Scalar, MaxIter &gt;</label>
-        <childnode refid="26" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; Scalar, MaxIter &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="26">
+      <node id="3">
         <label>std::array&lt; T &gt;</label>
-        <childnode refid="27" relation="usage">
+        <childnode refid="4" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="29">
+      <node id="6">
         <label>std::array&lt; Scalar, MaxIter *(MaxIter+1)/2 &gt;</label>
-        <childnode refid="26" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; Scalar, MaxIter *(MaxIter+1)/2 &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="28">
+      <node id="5">
         <label>std::array&lt; size_t, MaxIter &gt;</label>
-        <childnode refid="26" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; size_t, MaxIter &gt;</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" line="27" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp" bodystart="27" bodyend="63"/>
+    <location file="src/ode-iterator/BS-iterator_bk.hpp" line="27" column="16" bodyfile="src/ode-iterator/BS-iterator_bk.hpp" bodystart="27" bodyend="63"/>
     <listofallmembers>
       <member refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a8a1030a4c88bb35a64ba2958b4124250" prot="private" virt="non-virtual"><scope>space::odeIterator::BurlishStoer::BStab</scope><name>at</name></member>
       <member refid="classspace_1_1ode_iterator_1_1_burlish_stoer_1_1_b_stab_1a358a25a80269255d21ed2ed8d29d9188" prot="public" virt="non-virtual"><scope>space::odeIterator::BurlishStoer::BStab</scope><name>BStab</name></member>

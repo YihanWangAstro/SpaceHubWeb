@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_38c989f533b8d05a5f49de05695c703a" kind="dir">
-    <compoundname>/home/yihan/Repositories/SpaceHub/src/integrator</compoundname>
-    <innerdir refid="dir_ecbd9387c6f8f66161dd6b3cb6cd676a">/home/yihan/Repositories/SpaceHub/src/integrator/symplectic</innerdir>
+    <compoundname>src/integrator</compoundname>
+    <innerdir refid="dir_ecbd9387c6f8f66161dd6b3cb6cd676a">src/integrator/symplectic</innerdir>
     <innerfile refid="_gauss-_dadau_8hpp">Gauss-Dadau.hpp</innerfile>
     <innerfile refid="integrator_8hpp">integrator.hpp</innerfile>
     <briefdescription>
-<para>Directory of integrator. </para>    </briefdescription>
+<para>Directory of integrator. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/integrator/"/>
+    <location file="src/integrator/"/>
   </compounddef>
 </doxygen>

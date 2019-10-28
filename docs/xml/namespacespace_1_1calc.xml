@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1calc" kind="namespace" language="C++">
     <compoundname>space::calc</compoundname>
     <innerclass refid="structspace_1_1calc_1_1has__method__bind_e" prot="public">space::calc::has_method_bindE</innerclass>
@@ -10,7 +10,7 @@
     <innerclass refid="structspace_1_1calc_1_1has__method__pos" prot="public">space::calc::has_method_pos</innerclass>
     <innerclass refid="structspace_1_1calc_1_1has__method__vel" prot="public">space::calc::has_method_vel</innerclass>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespacespace_1_1calc_1ab1eb54b1b30947e6b678b543a9c2322e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1calc_1ab1eb54b1b30947e6b678b543a9c2322e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -32,9 +32,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="37" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="37" bodyend="39"/>
+        <location file="src/core-computation.hpp" line="37" column="16" bodyfile="src/core-computation.hpp" bodystart="37" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1calc_1af042dd5822d4fdeea0b2888a3b688533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1calc_1af042dd5822d4fdeea0b2888a3b688533" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -56,9 +56,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="42" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="42" bodyend="44"/>
+        <location file="src/core-computation.hpp" line="42" column="16" bodyfile="src/core-computation.hpp" bodystart="42" bodyend="44"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1calc_1a7742b69c5da4cd5bc6053beec5f3c4f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1calc_1a7742b69c5da4cd5bc6053beec5f3c4f6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -80,9 +80,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="47" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="47" bodyend="49"/>
+        <location file="src/core-computation.hpp" line="47" column="16" bodyfile="src/core-computation.hpp" bodystart="47" bodyend="49"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1calc_1a60f195a3f599f8bfad623c64a096656e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1calc_1a60f195a3f599f8bfad623c64a096656e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="52" bodyend="54"/>
+        <location file="src/core-computation.hpp" line="52" column="16" bodyfile="src/core-computation.hpp" bodystart="52" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a0e1d122eca5e4cb2251f40e06e53ac6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="57" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="57" bodyend="61"/>
+        <location file="src/core-computation.hpp" line="57" column="6" bodyfile="src/core-computation.hpp" bodystart="57" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a876d13557c3ddba32cd4440f480ee07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="64" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="64" bodyend="66"/>
+        <location file="src/core-computation.hpp" line="64" column="6" bodyfile="src/core-computation.hpp" bodystart="64" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a54cff9b21c1dc99cfa0a27d03a361e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="69" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="69" bodyend="77"/>
+        <location file="src/core-computation.hpp" line="69" column="6" bodyfile="src/core-computation.hpp" bodystart="69" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a2e39ed28a0614fe6f921b682d2e1ed31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="80" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="80" bodyend="86"/>
+        <location file="src/core-computation.hpp" line="80" column="6" bodyfile="src/core-computation.hpp" bodystart="80" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a7dcd1d2210a14c905013a8494fbf1262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="89" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="89" bodyend="96"/>
+        <location file="src/core-computation.hpp" line="89" column="6" bodyfile="src/core-computation.hpp" bodystart="89" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1aeb8318a2bff3ae82781e3a8d0611a92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="99" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="99" bodyend="105"/>
+        <location file="src/core-computation.hpp" line="99" column="6" bodyfile="src/core-computation.hpp" bodystart="99" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a7831753c2e80720a319e3d4cc326c11c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="108" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="108" bodyend="115"/>
+        <location file="src/core-computation.hpp" line="108" column="6" bodyfile="src/core-computation.hpp" bodystart="108" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a290e37919d94780a2c578e5a52ff0165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="118" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="118" bodyend="124"/>
+        <location file="src/core-computation.hpp" line="118" column="6" bodyfile="src/core-computation.hpp" bodystart="118" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1ae0294ebd7b3e5b7ce717c3f84934ac4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="127" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="127" bodyend="133"/>
+        <location file="src/core-computation.hpp" line="127" column="6" bodyfile="src/core-computation.hpp" bodystart="127" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a82c5f94387edd834bbe2fc513322490e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="136" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="136" bodyend="141"/>
+        <location file="src/core-computation.hpp" line="136" column="6" bodyfile="src/core-computation.hpp" bodystart="136" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a8b669c19a44813e6337745defca230f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -443,7 +443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="144" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="144" bodyend="152"/>
+        <location file="src/core-computation.hpp" line="144" column="6" bodyfile="src/core-computation.hpp" bodystart="144" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a1af20f175b415a4f9fe360d089cdc72e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -469,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="166" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="166" bodyend="174"/>
+        <location file="src/core-computation.hpp" line="166" column="6" bodyfile="src/core-computation.hpp" bodystart="166" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a5e778967bb47fbd2366e9a2085cb197f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -508,7 +508,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="177" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="177" bodyend="181"/>
+        <location file="src/core-computation.hpp" line="177" column="13" bodyfile="src/core-computation.hpp" bodystart="177" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a9844ea277f5f061448ece2bd714d5cee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -538,7 +538,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="184" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="184" bodyend="188"/>
+        <location file="src/core-computation.hpp" line="184" column="13" bodyfile="src/core-computation.hpp" bodystart="184" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1ab60d05772245320d64318db568af45ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -571,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="191" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="191" bodyend="195"/>
+        <location file="src/core-computation.hpp" line="191" column="13" bodyfile="src/core-computation.hpp" bodystart="191" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a520b8098b25a63a467c0ab7d852bc900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -604,7 +604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="198" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="198" bodyend="202"/>
+        <location file="src/core-computation.hpp" line="198" column="13" bodyfile="src/core-computation.hpp" bodystart="198" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1ad226d2c8703569776126e317a61834f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -630,7 +630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="205" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="205" bodyend="207"/>
+        <location file="src/core-computation.hpp" line="205" column="13" bodyfile="src/core-computation.hpp" bodystart="205" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1aebb322a76702b6dfd4ee4917580b6f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -660,7 +660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="210" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="210" bodyend="212"/>
+        <location file="src/core-computation.hpp" line="210" column="13" bodyfile="src/core-computation.hpp" bodystart="210" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a83deb44ff9c8856f98270e385b48be5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -686,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="215" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="215" bodyend="217"/>
+        <location file="src/core-computation.hpp" line="215" column="6" bodyfile="src/core-computation.hpp" bodystart="215" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a324136b8087717d03bd33285695130d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -715,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="220" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="220" bodyend="223"/>
+        <location file="src/core-computation.hpp" line="220" column="13" bodyfile="src/core-computation.hpp" bodystart="220" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a6690fcdfccc1d3c01caa6461a8535359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -744,7 +744,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="226" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="226" bodyend="231"/>
+        <location file="src/core-computation.hpp" line="226" column="13" bodyfile="src/core-computation.hpp" bodystart="226" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a1023e026d3105bcc7c84b638fc52c16e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -766,7 +766,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="234" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="234" bodyend="236"/>
+        <location file="src/core-computation.hpp" line="234" column="13" bodyfile="src/core-computation.hpp" bodystart="234" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1ad7c9d1c35328f6217a79ac3933ce13b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -792,7 +792,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="253" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="253" bodyend="271"/>
+        <location file="src/core-computation.hpp" line="253" column="6" bodyfile="src/core-computation.hpp" bodystart="253" bodyend="271"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1ad8d5868f9417c166b0418ec1f8ebaf5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -814,7 +814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="274" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="274" bodyend="317"/>
+        <location file="src/core-computation.hpp" line="274" column="6" bodyfile="src/core-computation.hpp" bodystart="274" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a44497f7a8ce6ed8b43bda1045eb13359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -836,7 +836,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="320" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="320" bodyend="322"/>
+        <location file="src/core-computation.hpp" line="320" column="13" bodyfile="src/core-computation.hpp" bodystart="320" bodyend="322"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a803024b9c9a7c28844d9932f4ebecf92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -860,28 +860,33 @@
           <declname>position</declname>
         </param>
         <briefdescription>
-<para>Calculate the minimal fall free time of two particles. </para>        </briefdescription>
+<para>Calculate the minimal fall free time of two particles. </para>
+        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>mass</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>mass array of particle. </para></parameterdescription>
+<para>mass array of particle. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>position</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>position array of particle. </para></parameterdescription>
+<para>position array of particle. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>The minimal fall free time of the two particles </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>The minimal fall free time of the two particles </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="331" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="331" bodyend="348"/>
+        <location file="src/core-computation.hpp" line="331" column="13" bodyfile="src/core-computation.hpp" bodystart="331" bodyend="348"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a3f014dcdcc83e6975bdc75598a85bb51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -905,7 +910,8 @@
 <parametername>Particles</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -913,14 +919,17 @@
 <parametername>particles</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="357" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="357" bodyend="363"/>
+        <location file="src/core-computation.hpp" line="357" column="6" bodyfile="src/core-computation.hpp" bodystart="357" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1calc_1a73501521c29dae1b3e19467c56d4d814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -946,13 +955,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="366" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" bodystart="366" bodyend="375"/>
+        <location file="src/core-computation.hpp" line="366" column="6" bodyfile="src/core-computation.hpp" bodystart="366" bodyend="375"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Documentation for space </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp" line="32" column="1"/>
+<para>Documentation for space </para>
+    </detaileddescription>
+    <location file="src/core-computation.hpp" line="31" column="1"/>
   </compounddef>
 </doxygen>

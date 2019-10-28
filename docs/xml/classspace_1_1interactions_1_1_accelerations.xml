@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1interactions_1_1_accelerations" kind="class" language="C++" prot="public">
     <compoundname>space::interactions::Accelerations</compoundname>
     <includes refid="accelerations_8hpp" local="no">accelerations.hpp</includes>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="57" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="54" bodyend="-1"/>
+        <location file="src/interaction/accelerations.hpp" line="57" column="9" bodyfile="src/interaction/accelerations.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1interactions_1_1_accelerations_1a59d993a48a93a062291b56a59b75f313" prot="private" static="no" mutable="no">
         <type>Coord</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="59" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="59" bodyend="-1"/>
+        <location file="src/interaction/accelerations.hpp" line="59" column="9" bodyfile="src/interaction/accelerations.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1interactions_1_1_accelerations_1a9c74c7dacd9d6f143dd007062b722f48" prot="private" static="no" mutable="no">
         <type>Coord</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="61" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="61" bodyend="-1"/>
+        <location file="src/interaction/accelerations.hpp" line="61" column="9" bodyfile="src/interaction/accelerations.hpp" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1interactions_1_1_accelerations_1a1a8ed12a854f2dac8cb93d15c492271b" prot="private" static="no" mutable="no">
         <type>std::conditional_t&lt; <ref refid="classspace_1_1interactions_1_1_interactions_1acd2d1b058e66a83074b876957cd8f40b" kindref="member">Interactions::ext_vel_indep</ref>, Coord, <ref refid="classspace_1_1_empty" kindref="compound">Empty</ref> &gt;</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="63" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="63" bodyend="-1"/>
+        <location file="src/interaction/accelerations.hpp" line="63" column="22" bodyfile="src/interaction/accelerations.hpp" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1interactions_1_1_accelerations_1a033b3413aa00001fc910b6b4fad6a0d1" prot="private" static="no" mutable="no">
         <type>std::conditional_t&lt; <ref refid="classspace_1_1interactions_1_1_interactions_1a2926f9cbc06d40f916cc67e32e3df880" kindref="member">Interactions::ext_vel_dep</ref>, Coord, <ref refid="classspace_1_1_empty" kindref="compound">Empty</ref> &gt;</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="65" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="65" bodyend="-1"/>
+        <location file="src/interaction/accelerations.hpp" line="65" column="22" bodyfile="src/interaction/accelerations.hpp" bodystart="65" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -91,10 +91,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="41" column="1"/>
+        <location file="src/interaction/accelerations.hpp" line="41" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a5469a65edb850ad9792b76318c0afcb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -107,10 +108,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="41" column="1"/>
+        <location file="src/interaction/accelerations.hpp" line="41" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a7ea590cb463a00549f2cd44aec051a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -123,10 +125,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="41" column="1"/>
+        <location file="src/interaction/accelerations.hpp" line="41" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a7bff3c7effe122092e4966b014f814b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1interactions_1_1_accelerations" kindref="compound">Accelerations</ref> &amp;</type>
@@ -139,10 +142,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="41" column="1"/>
+        <location file="src/interaction/accelerations.hpp" line="41" column="124"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a8687d8c9e5ae0d4280ce408aea7af8b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1interactions_1_1_accelerations" kindref="compound">Accelerations</ref> &amp;</type>
@@ -155,10 +159,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="41" column="1"/>
+        <location file="src/interaction/accelerations.hpp" line="41" column="170"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1acfded7207ce6137b1dddda10d2981315" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -175,9 +180,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="43" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="69" bodyend="77"/>
+        <location file="src/interaction/accelerations.hpp" line="43" column="12" bodyfile="src/interaction/accelerations.hpp" bodystart="69" bodyend="77"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a2a52a12aa0487db0eab2795d1bebfd5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a2a52a12aa0487db0eab2795d1bebfd5d" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto &amp;</type>
         <definition>auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::acc</definition>
         <argsstring>() noexcept</argsstring>
@@ -185,25 +190,27 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The setter interface of member <computeroutput>acc_</computeroutput> in name of <computeroutput>acc</computeroutput>. </para>        </detaileddescription>
+<para>The setter interface of member <computeroutput>acc_</computeroutput> in name of <computeroutput>acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="46" bodyend="46"/>
+        <location file="src/interaction/accelerations.hpp" line="46" column="21" bodyfile="src/interaction/accelerations.hpp" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a42f00143454ebc375b8b698c9ee95a5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::acc</definition>
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a2168b111639219cb3219c897a7de4d3c" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::acc</definition>
         <argsstring>() const noexcept</argsstring>
         <name>acc</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>acc_</computeroutput> in name of <computeroutput>acc</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>acc_</computeroutput> in name of <computeroutput>acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="46" bodyend="46"/>
+        <location file="src/interaction/accelerations.hpp" line="46" column="81" bodyfile="src/interaction/accelerations.hpp" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a51c863ddbb14b26504bc2987c27d73e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a51c863ddbb14b26504bc2987c27d73e9" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto &amp;</type>
         <definition>auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::newtonian_acc</definition>
         <argsstring>() noexcept</argsstring>
@@ -211,25 +218,27 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The setter interface of member <computeroutput>newtonian_acc_</computeroutput> in name of <computeroutput>newtonian_acc</computeroutput>. </para>        </detaileddescription>
+<para>The setter interface of member <computeroutput>newtonian_acc_</computeroutput> in name of <computeroutput>newtonian_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="48" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="48" bodyend="48"/>
+        <location file="src/interaction/accelerations.hpp" line="48" column="21" bodyfile="src/interaction/accelerations.hpp" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a23dda93f475d79655bdab96494da030e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::newtonian_acc</definition>
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a8503f2a380b49ba3911cd5dc1a0ccdb0" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::newtonian_acc</definition>
         <argsstring>() const noexcept</argsstring>
         <name>newtonian_acc</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>newtonian_acc_</computeroutput> in name of <computeroutput>newtonian_acc</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>newtonian_acc_</computeroutput> in name of <computeroutput>newtonian_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="48" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="48" bodyend="48"/>
+        <location file="src/interaction/accelerations.hpp" line="48" column="101" bodyfile="src/interaction/accelerations.hpp" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a18a9ea4f0fc2e0bc26d29d45d788f549" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a18a9ea4f0fc2e0bc26d29d45d788f549" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto &amp;</type>
         <definition>auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::tot_vel_indep_acc</definition>
         <argsstring>() noexcept</argsstring>
@@ -237,25 +246,27 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The setter interface of member <computeroutput>tot_vel_indep_acc_</computeroutput> in name of <computeroutput>tot_vel_indep_acc</computeroutput>. </para>        </detaileddescription>
+<para>The setter interface of member <computeroutput>tot_vel_indep_acc_</computeroutput> in name of <computeroutput>tot_vel_indep_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="50" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="50" bodyend="50"/>
+        <location file="src/interaction/accelerations.hpp" line="50" column="21" bodyfile="src/interaction/accelerations.hpp" bodystart="50" bodyend="50"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a4649ca490644d97c5f60df75502d34d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::tot_vel_indep_acc</definition>
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a712d66a2e2963972f4ed8d2fd5d5c55e" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::tot_vel_indep_acc</definition>
         <argsstring>() const noexcept</argsstring>
         <name>tot_vel_indep_acc</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>tot_vel_indep_acc_</computeroutput> in name of <computeroutput>tot_vel_indep_acc</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>tot_vel_indep_acc_</computeroutput> in name of <computeroutput>tot_vel_indep_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="50" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="50" bodyend="50"/>
+        <location file="src/interaction/accelerations.hpp" line="50" column="109" bodyfile="src/interaction/accelerations.hpp" bodystart="50" bodyend="50"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a52187c67dc06436663f389c8f31f8884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a52187c67dc06436663f389c8f31f8884" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto &amp;</type>
         <definition>auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::ext_vel_indep_acc</definition>
         <argsstring>() noexcept</argsstring>
@@ -263,25 +274,27 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The setter interface of member <computeroutput>ext_vel_indep_acc_</computeroutput> in name of <computeroutput>ext_vel_indep_acc</computeroutput>. </para>        </detaileddescription>
+<para>The setter interface of member <computeroutput>ext_vel_indep_acc_</computeroutput> in name of <computeroutput>ext_vel_indep_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="52" bodyend="52"/>
+        <location file="src/interaction/accelerations.hpp" line="52" column="21" bodyfile="src/interaction/accelerations.hpp" bodystart="52" bodyend="52"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a79ccd935e0ed0fd416b7e1d9e04e0a43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::ext_vel_indep_acc</definition>
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1aff7cfcb540ee14b0865d5d7a6fd9b4a5" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::ext_vel_indep_acc</definition>
         <argsstring>() const noexcept</argsstring>
         <name>ext_vel_indep_acc</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>ext_vel_indep_acc_</computeroutput> in name of <computeroutput>ext_vel_indep_acc</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>ext_vel_indep_acc_</computeroutput> in name of <computeroutput>ext_vel_indep_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="52" bodyend="52"/>
+        <location file="src/interaction/accelerations.hpp" line="52" column="109" bodyfile="src/interaction/accelerations.hpp" bodystart="52" bodyend="52"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a6810f22799fa3f2019f299bdd6190254" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a6810f22799fa3f2019f299bdd6190254" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto &amp;</type>
         <definition>auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::ext_vel_dep_acc</definition>
         <argsstring>() noexcept</argsstring>
@@ -289,23 +302,25 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The setter interface of member <computeroutput>ext_vel_dep_acc_</computeroutput> in name of <computeroutput>ext_vel_dep_acc</computeroutput>. </para>        </detaileddescription>
+<para>The setter interface of member <computeroutput>ext_vel_dep_acc_</computeroutput> in name of <computeroutput>ext_vel_dep_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="54" bodyend="54"/>
+        <location file="src/interaction/accelerations.hpp" line="54" column="21" bodyfile="src/interaction/accelerations.hpp" bodystart="54" bodyend="54"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1afc7db19a387110d94ed73a3974a894db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::ext_vel_dep_acc</definition>
+      <memberdef kind="function" id="classspace_1_1interactions_1_1_accelerations_1a47621ddcf17dd96e5b0d75a5186378ce" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::interactions::Accelerations&lt; Interactions, Coord &gt;::ext_vel_dep_acc</definition>
         <argsstring>() const noexcept</argsstring>
         <name>ext_vel_dep_acc</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>ext_vel_dep_acc_</computeroutput> in name of <computeroutput>ext_vel_dep_acc</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>ext_vel_dep_acc_</computeroutput> in name of <computeroutput>ext_vel_dep_acc</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="54" bodyend="54"/>
+        <location file="src/interaction/accelerations.hpp" line="54" column="105" bodyfile="src/interaction/accelerations.hpp" bodystart="54" bodyend="54"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -316,45 +331,48 @@
 <parametername><ref refid="classspace_1_1interactions_1_1_interactions" kindref="compound">Interactions</ref></parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>Coord</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <collaborationgraph>
       <node id="1">
         <label>space::interactions::Accelerations&lt; Interactions, Coord &gt;</label>
         <link refid="classspace_1_1interactions_1_1_accelerations"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" line="38" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp" bodystart="38" bodyend="66"/>
+    <location file="src/interaction/accelerations.hpp" line="38" column="20" bodyfile="src/interaction/accelerations.hpp" bodystart="38" bodyend="66"/>
     <listofallmembers>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a2a52a12aa0487db0eab2795d1bebfd5d" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>acc</name></member>
-      <member refid="classspace_1_1interactions_1_1_accelerations_1a42f00143454ebc375b8b698c9ee95a5d" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>acc</name></member>
+      <member refid="classspace_1_1interactions_1_1_accelerations_1a2168b111639219cb3219c897a7de4d3c" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>acc</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1aaa25744a2dc320e8bcf1a80e5bddf505" prot="private" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>acc_</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a5495161f0c32785a7359031658dca87c" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>Accelerations</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a5469a65edb850ad9792b76318c0afcb3" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>Accelerations</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a7ea590cb463a00549f2cd44aec051a5b" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>Accelerations</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1acfded7207ce6137b1dddda10d2981315" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>Accelerations</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a6810f22799fa3f2019f299bdd6190254" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_dep_acc</name></member>
-      <member refid="classspace_1_1interactions_1_1_accelerations_1afc7db19a387110d94ed73a3974a894db" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_dep_acc</name></member>
+      <member refid="classspace_1_1interactions_1_1_accelerations_1a47621ddcf17dd96e5b0d75a5186378ce" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_dep_acc</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a033b3413aa00001fc910b6b4fad6a0d1" prot="private" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_dep_acc_</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a52187c67dc06436663f389c8f31f8884" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_indep_acc</name></member>
-      <member refid="classspace_1_1interactions_1_1_accelerations_1a79ccd935e0ed0fd416b7e1d9e04e0a43" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_indep_acc</name></member>
+      <member refid="classspace_1_1interactions_1_1_accelerations_1aff7cfcb540ee14b0865d5d7a6fd9b4a5" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_indep_acc</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a1a8ed12a854f2dac8cb93d15c492271b" prot="private" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>ext_vel_indep_acc_</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a51c863ddbb14b26504bc2987c27d73e9" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>newtonian_acc</name></member>
-      <member refid="classspace_1_1interactions_1_1_accelerations_1a23dda93f475d79655bdab96494da030e" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>newtonian_acc</name></member>
+      <member refid="classspace_1_1interactions_1_1_accelerations_1a8503f2a380b49ba3911cd5dc1a0ccdb0" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>newtonian_acc</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a59d993a48a93a062291b56a59b75f313" prot="private" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>newtonian_acc_</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a7bff3c7effe122092e4966b014f814b6" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>operator=</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a8687d8c9e5ae0d4280ce408aea7af8b2" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>operator=</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a18a9ea4f0fc2e0bc26d29d45d788f549" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>tot_vel_indep_acc</name></member>
-      <member refid="classspace_1_1interactions_1_1_accelerations_1a4649ca490644d97c5f60df75502d34d2" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>tot_vel_indep_acc</name></member>
+      <member refid="classspace_1_1interactions_1_1_accelerations_1a712d66a2e2963972f4ed8d2fd5d5c55e" prot="public" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>tot_vel_indep_acc</name></member>
       <member refid="classspace_1_1interactions_1_1_accelerations_1a9c74c7dacd9d6f143dd007062b722f48" prot="private" virt="non-virtual"><scope>space::interactions::Accelerations</scope><name>tot_vel_indep_acc_</name></member>
     </listofallmembers>
   </compounddef>

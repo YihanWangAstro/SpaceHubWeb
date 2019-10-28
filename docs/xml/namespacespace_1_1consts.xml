@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1consts" kind="namespace" language="C++">
     <compoundname>space::consts</compoundname>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::pi</definition>
         <argsstring></argsstring>
@@ -15,9 +15,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="33" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="33" bodyend="-1"/>
+        <location file="src/macros.hpp" line="33" column="20" bodyfile="src/macros.hpp" bodystart="33" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a2632f8a86454541449adcae5ad3a6df6" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a2632f8a86454541449adcae5ad3a6df6" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::a_jupiter</definition>
         <argsstring></argsstring>
@@ -29,9 +29,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="76" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="76" bodyend="-1"/>
+        <location file="src/macros.hpp" line="76" column="20" bodyfile="src/macros.hpp" bodystart="76" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a82393db45e3d805c80f4d5caeb427da4" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a82393db45e3d805c80f4d5caeb427da4" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::e_jupiter</definition>
         <argsstring></argsstring>
@@ -43,9 +43,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="77" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="77" bodyend="-1"/>
+        <location file="src/macros.hpp" line="77" column="20" bodyfile="src/macros.hpp" bodystart="77" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1ad3dd5a32c5fb6c664ac9e54d14e3b52d" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1ad3dd5a32c5fb6c664ac9e54d14e3b52d" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::LoAN_jupiter</definition>
         <argsstring></argsstring>
@@ -57,9 +57,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="78" bodyend="-1"/>
+        <location file="src/macros.hpp" line="78" column="20" bodyfile="src/macros.hpp" bodystart="78" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a2602b8da4dce0460319471f013817a3f" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a2602b8da4dce0460319471f013817a3f" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::AoP_jupiter</definition>
         <argsstring></argsstring>
@@ -71,9 +71,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="79" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="79" bodyend="-1"/>
+        <location file="src/macros.hpp" line="79" column="20" bodyfile="src/macros.hpp" bodystart="79" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a65f1b41d2aee054b36caa28b6e825970" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a65f1b41d2aee054b36caa28b6e825970" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::i_jupiter</definition>
         <argsstring></argsstring>
@@ -85,9 +85,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="80" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="80" bodyend="-1"/>
+        <location file="src/macros.hpp" line="80" column="20" bodyfile="src/macros.hpp" bodystart="80" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1ac260e30279f8bb9add62b9e8b3365887" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1ac260e30279f8bb9add62b9e8b3365887" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::a_neptune</definition>
         <argsstring></argsstring>
@@ -99,9 +99,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="82" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="82" bodyend="-1"/>
+        <location file="src/macros.hpp" line="82" column="20" bodyfile="src/macros.hpp" bodystart="82" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a831041c1d894b325bbd5c0fdf58e131a" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a831041c1d894b325bbd5c0fdf58e131a" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::e_neptune</definition>
         <argsstring></argsstring>
@@ -113,9 +113,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="83" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="83" bodyend="-1"/>
+        <location file="src/macros.hpp" line="83" column="20" bodyfile="src/macros.hpp" bodystart="83" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a197894af24cc84537b040627b33bc8ce" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a197894af24cc84537b040627b33bc8ce" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::LoAN_neptune</definition>
         <argsstring></argsstring>
@@ -127,9 +127,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="84" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="84" bodyend="-1"/>
+        <location file="src/macros.hpp" line="84" column="20" bodyfile="src/macros.hpp" bodystart="84" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a127e25afaa606e680e00394c46871ae8" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a127e25afaa606e680e00394c46871ae8" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::AoP_neptune</definition>
         <argsstring></argsstring>
@@ -141,9 +141,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="85" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="85" bodyend="-1"/>
+        <location file="src/macros.hpp" line="85" column="20" bodyfile="src/macros.hpp" bodystart="85" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1addc54451985d8faf59d251a21ee707f6" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1addc54451985d8faf59d251a21ee707f6" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::i_neptune</definition>
         <argsstring></argsstring>
@@ -155,9 +155,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="86" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="86" bodyend="-1"/>
+        <location file="src/macros.hpp" line="86" column="20" bodyfile="src/macros.hpp" bodystart="86" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1a21ce3127d6c3d51bfd2a6933d214980c" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1a21ce3127d6c3d51bfd2a6933d214980c" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::G</definition>
         <argsstring></argsstring>
@@ -169,9 +169,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="90" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="90" bodyend="-1"/>
+        <location file="src/macros.hpp" line="90" column="20" bodyfile="src/macros.hpp" bodystart="90" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1consts_1ad7c4810649ed35d64b8887061f3d9602" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1consts_1ad7c4810649ed35d64b8887061f3d9602" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::consts::C</definition>
         <argsstring></argsstring>
@@ -183,13 +183,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="91" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/macros.hpp" bodystart="91" bodyend="-1"/>
+        <location file="src/macros.hpp" line="91" column="20" bodyfile="src/macros.hpp" bodystart="91" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Documentation for space </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/macros.hpp" line="29" column="1"/>
+<para>Documentation for space </para>
+    </detaileddescription>
+    <location file="src/macros.hpp" line="28" column="1"/>
   </compounddef>
 </doxygen>

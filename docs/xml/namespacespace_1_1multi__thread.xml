@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1multi__thread" kind="namespace" language="C++">
     <compoundname>space::multi_thread</compoundname>
     <innerclass refid="classspace_1_1multi__thread_1_1_cistream" prot="public">space::multi_thread::Cistream</innerclass>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="51" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="51" bodyend="-1"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="51" column="21" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1multi__thread_1a2351ce9cd3a76b80202faf14e09bc8d9" prot="public" static="no" mutable="no">
         <type>const size_t</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="53" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="53" column="21" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="57" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="57" bodyend="71"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="57" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="57" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1abe57c2f536979d62dc8f0fbf1f660df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="74" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="74" bodyend="84"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="74" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="74" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1a28108191f5b6832d42d96800778992c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="87" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="87" bodyend="89"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="87" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="87" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1ab21b694891b6881b04a527d23df913fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="141" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="141" bodyend="145"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="141" column="1" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="141" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1a62023f629d437ed86e7c6eca66cd0fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="148" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="148" bodyend="153"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="148" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="148" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1add48464677ab9c4134943907d3fa625d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classspace_1_1multi__thread_1_1_concurrent_file" kindref="compound">ConcurrentFile</ref></type>
@@ -201,13 +201,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp" bodystart="155" bodyend="157"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="155" column="23" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="155" bodyend="157"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Documentation for Foo here. More docs for Foo here, and down here. </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="11" column="1"/>
+<para>Documentation for Foo here. More docs for Foo here, and down here. </para>
+    </detaileddescription>
+    <location file="src/multi-thread/ciostream.hpp" line="11" column="29"/>
   </compounddef>
 </doxygen>

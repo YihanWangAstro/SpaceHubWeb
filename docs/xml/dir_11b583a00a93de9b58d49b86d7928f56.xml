@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_11b583a00a93de9b58d49b86d7928f56" kind="dir">
-    <compoundname>/home/yihan/Repositories/SpaceHub/src/scattering</compoundname>
+    <compoundname>src/scattering</compoundname>
     <innerfile refid="cross-section_8hpp">cross-section.hpp</innerfile>
     <briefdescription>
-<para>Directory of scattering. </para>    </briefdescription>
+<para>Directory of scattering. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/scattering/"/>
+    <location file="src/scattering/"/>
   </compounddef>
 </doxygen>

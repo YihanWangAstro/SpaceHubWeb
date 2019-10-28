@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol" kind="struct" language="C++" prot="private">
     <compoundname>space::Simulator::has_protected_method_impl_set_rtol</compoundname>
     <basecompoundref prot="public" virt="non-virtual">__T</basecompoundref>
@@ -14,7 +14,7 @@
       </param>
     </templateparamlist>
       <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a4971cd81cf71aeb3177e802a58691bad" prot="public" static="yes" mutable="no">
+      <memberdef kind="variable" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a4971cd81cf71aeb3177e802a58691bad" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>constexpr bool</type>
         <definition>constexpr bool space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;::value</definition>
         <argsstring></argsstring>
@@ -26,18 +26,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="277" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" bodystart="277" bodyend="-1"/>
+        <location file="src/simulator.hpp" line="277" column="197" bodyfile="src/simulator.hpp" bodystart="277" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a3301de575e0462c7b107cc1c123a420b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1acbf4dbe3cb5232086e23f843d3b32fe0" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename U</type>
           </param>
         </templateparamlist>
-        <type>constexpr auto</type>
-        <definition>static constexpr auto space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;::check</definition>
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;::check</definition>
         <argsstring>(const void *) -&gt; decltype(std::declval&lt; has_protected_method_impl_set_rtol&lt; U, __Args... &gt; &gt;(). impl_set_rtol(std::declval&lt; __Args &gt;()...), std::true_type())</argsstring>
         <name>check</name>
         <param>
@@ -49,16 +49,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="277" column="1"/>
+        <location file="src/simulator.hpp" line="277" column="104"/>
       </memberdef>
-      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a1f9d52626a11730486c5a4c95769ea96" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a82eece88e084ed6bca185ddbc0954ab6" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename U</type>
           </param>
         </templateparamlist>
-        <type>constexpr std::false_type</type>
-        <definition>static constexpr std::false_type space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;::check</definition>
+        <type>constexpr static std::false_type</type>
+        <definition>constexpr static std::false_type space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;::check</definition>
         <argsstring>(...)</argsstring>
         <name>check</name>
         <param>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="277" column="1"/>
+        <location file="src/simulator.hpp" line="277" column="165"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -78,29 +78,29 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="168">
+      <node id="1">
         <label>space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;</label>
-        <childnode refid="169" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="169">
+      <node id="2">
         <label>__T</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="170">
+      <node id="1">
         <label>space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_rtol&lt; __T, __Args &gt;</label>
-        <childnode refid="171" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="171">
+      <node id="2">
         <label>__T</label>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="277" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" bodystart="277" bodyend="277"/>
+    <location file="src/simulator.hpp" line="277" column="69" bodyfile="src/simulator.hpp" bodystart="277" bodyend="277"/>
     <listofallmembers>
-      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a3301de575e0462c7b107cc1c123a420b" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_rtol</scope><name>check</name></member>
-      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a1f9d52626a11730486c5a4c95769ea96" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_rtol</scope><name>check</name></member>
+      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1acbf4dbe3cb5232086e23f843d3b32fe0" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_rtol</scope><name>check</name></member>
+      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a82eece88e084ed6bca185ddbc0954ab6" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_rtol</scope><name>check</name></member>
       <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol_1a4971cd81cf71aeb3177e802a58691bad" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_rtol</scope><name>value</name></member>
     </listofallmembers>
   </compounddef>

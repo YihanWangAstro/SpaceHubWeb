@@ -1,47 +1,80 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="versions" kind="page">
     <compoundname>versions</compoundname>
     <title>Versions</title>
+    <briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para> <mcss:search xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:keyword="version log" mcss:title="" mcss:suffix-length="" /></para><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-block m-info" /></para><para><simplesect kind="par"><title>Version 0.0.1</title><para><parblock><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-success" /> <bold>New features</bold> <itemizedlist>
+<para> <mcss:search xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:keyword="version log" mcss:title="" mcss:suffix-length="" /></para>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-block m-info" /></para>
+<para><simplesect kind="par"><title>Version 0.0.1</title><para><parblock><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-success" /> <bold>New features</bold> <itemizedlist>
 <listitem>
-<para>aa </para></listitem>
+<para>aa </para>
+</listitem>
 <listitem>
-<para>bb </para></listitem>
+<para>bb <linebreak/>
+ </para>
+</listitem>
 </itemizedlist>
  <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-info" /> <bold>Enhancements</bold> <itemizedlist>
 <listitem>
-<para>aa </para></listitem>
+<para>aa </para>
+</listitem>
 <listitem>
-<para>bb </para></listitem>
+<para>bb <linebreak/>
+ </para>
+</listitem>
 </itemizedlist>
- <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-danger" /> <bold>Bug fixes</bold> <itemizedlist>
+<linebreak/>
+  <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-danger" /> <bold>Bug fixes</bold> <itemizedlist>
 <listitem>
-<para>aa </para></listitem>
+<para>aa </para>
+</listitem>
 <listitem>
-<para>bb </para></listitem>
+<para>bb <linebreak/>
+ </para>
+</listitem>
 </itemizedlist>
-</para></parblock></para></simplesect>
-</para><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-block m-info" /></para><para><simplesect kind="par"><title>Version 0.0.0</title><para><parblock><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-success" /> <bold>New features</bold> <itemizedlist>
+<linebreak/>
+ </para>
+</parblock></para>
+</simplesect>
+</para>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-block m-info" /></para>
+<para><simplesect kind="par"><title>Version 0.0.0</title><para><parblock><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-success" /> <bold>New features</bold> <itemizedlist>
 <listitem>
-<para>aa </para></listitem>
+<para>aa </para>
+</listitem>
 <listitem>
-<para>bb </para></listitem>
+<para>bb <linebreak/>
+ </para>
+</listitem>
 </itemizedlist>
  <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-info" /> <bold>Enhancements</bold> <itemizedlist>
 <listitem>
-<para>aa </para></listitem>
+<para>aa </para>
+</listitem>
 <listitem>
-<para>bb </para></listitem>
+<para>bb <linebreak/>
+ </para>
+</listitem>
 </itemizedlist>
- <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-danger" /> <bold>Bug fixes</bold> <itemizedlist>
+<linebreak/>
+  <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-danger" /> <bold>Bug fixes</bold> <itemizedlist>
 <listitem>
-<para>aa </para></listitem>
+<para>aa </para>
+</listitem>
 <listitem>
-<para>bb </para></listitem>
+<para>bb <linebreak/>
+ </para>
+</listitem>
 </itemizedlist>
-</para></parblock></para></simplesect>
-</para>    </detaileddescription>
+<linebreak/>
+ </para>
+</parblock></para>
+</simplesect>
+</para>
+    </detaileddescription>
   </compounddef>
 </doxygen>

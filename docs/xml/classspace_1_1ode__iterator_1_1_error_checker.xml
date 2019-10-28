@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1ode__iterator_1_1_error_checker" kind="class" language="C++" prot="public">
     <compoundname>space::ode_iterator::ErrorChecker</compoundname>
     <includes refid="error-checker_8hpp" local="no">error-checker.hpp</includes>
@@ -22,35 +22,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="119" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="119" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="119" column="10" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="119" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1a563a4c2559d79f569369cde381541b86" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::ErrorChecker&lt; Derived &gt;::atol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1ab595d8b44e36594e174e71af36bc0217" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::ErrorChecker&lt; Derived &gt;::atol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>atol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold> The getter interface of member <computeroutput>atol</computeroutput>. </para>        </detaileddescription>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold> The getter interface of member <computeroutput>atol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="46" bodyend="46"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="46" column="27" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1aefaf011e4879aa0acfe87926243b058f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::ErrorChecker&lt; Derived &gt;::rtol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1a9aa73c7df45017e93423bfcabe1db3a9" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::ErrorChecker&lt; Derived &gt;::rtol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>rtol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold> The getter interface of member <computeroutput>rtol</computeroutput>. </para>        </detaileddescription>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold> The getter interface of member <computeroutput>rtol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="48" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="48" bodyend="48"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="48" column="27" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1a792b9fc0a077429cb686224089b9ae8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Derived &amp;</type>
@@ -60,11 +62,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>auto impl</bold></para><para>The downcast interface of Base class to Derived class. <simplesect kind="return"><para>Derived </para></simplesect>
-</para>        </detaileddescription>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>auto impl</bold></para>
+<para>The downcast interface of Base class to Derived class. <simplesect kind="return"><para>Derived </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="126" bodyend="128"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="56" column="11" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="126" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1a1f767e96bfc475742126d0894a6ad389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -83,12 +88,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>optional impl</bold> <computeroutput>&gt; Absolute error is required.</computeroutput></para><para>Set the absolute error of the error estimator.</para><para><parameterlist kind="templateparam"><parameteritem>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>optional impl</bold> <computeroutput>&gt; Absolute error is required.</computeroutput></para>
+<para>Set the absolute error of the error estimator.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Scalar</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Floating point like type type. </para></parameterdescription>
+<para>Floating point like type type. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -96,13 +104,15 @@
 <parametername direction="in">abs_error</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Absolute error. </para></parameterdescription>
+<para>Absolute error. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="67" column="1"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="67" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1ac302adc424db45e707b444935dbf619d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -121,12 +131,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>optional impl</bold> <computeroutput>&gt; Relative error is required.</computeroutput></para><para>Set the relative error of the error estimator.</para><para><parameterlist kind="templateparam"><parameteritem>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>optional impl</bold> <computeroutput>&gt; Relative error is required.</computeroutput></para>
+<para>Set the relative error of the error estimator.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Scalar</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Floating point like type type. </para></parameterdescription>
+<para>Floating point like type type. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -134,13 +147,15 @@
 <parametername>rel_error</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Relative error. </para></parameterdescription>
+<para>Relative error. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="78" column="1"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="78" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1ab1820edaab1060f661ef11dae93ceb56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -163,12 +178,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold></para><para>Estimate the error between two results. For example, <formula id="0">\[\mathrm error = {|diff|/|scale|} \]</formula></para><para><parameterlist kind="templateparam"><parameteritem>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold></para>
+<para>Estimate the error between two results. For example, <formula id="0">\[\mathrm error = {|diff|/|scale|} \]</formula></para>
+<para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Array</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Iterable array like type. </para></parameterdescription>
+<para>Iterable array like type. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -176,21 +194,25 @@
 <parametername direction="in">scale</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The provided scale for the results. </para></parameterdescription>
+<para>The provided scale for the results. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">diff</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The difference between two results. </para></parameterdescription>
+<para>The difference between two results. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>The estimated error. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>The estimated error. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="94" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="144" bodyend="146"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="94" column="8" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="144" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1af219d44501ea532d0349dfe991fd45cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -217,12 +239,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold></para><para>Estimate the error between two results with given scale. For example <formula id="1">\[\mathrm error = {|y_0 -y_1|/scale} \]</formula></para><para><parameterlist kind="templateparam"><parameteritem>
+<para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-danger" /> <bold>must impl</bold></para>
+<para>Estimate the error between two results with given scale. For example <formula id="1">\[\mathrm error = {|y_0 -y_1|/scale} \]</formula></para>
+<para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Array</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Iterable array like type. </para></parameterdescription>
+<para>Iterable array like type. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -230,28 +255,33 @@
 <parametername direction="in">scale</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The provided scale for the results. </para></parameterdescription>
+<para>The provided scale for the results. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">y0</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The first result. </para></parameterdescription>
+<para>The first result. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">y1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The second result. </para></parameterdescription>
+<para>The second result. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="111" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="150" bodyend="152"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="111" column="8" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="150" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1ac5470c482bd12173fb5435f09406a6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -273,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="132" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="132" bodyend="134"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="132" column="19" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="132" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_error_checker_1aac437757c6f57869541d11afee0fac76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -295,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="138" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="138" bodyend="140"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="138" column="19" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="138" bodyend="140"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -307,84 +337,88 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Construct a new <ref refid="classspace_1_1ode__iterator_1_1_error_checker" kindref="compound">ErrorChecker</ref> object </para>        </detaileddescription>
+<para>Construct a new <ref refid="classspace_1_1ode__iterator_1_1_error_checker" kindref="compound">ErrorChecker</ref> object </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="117" column="1"/>
+        <location file="src/ode-iterator/error-checker/error-checker.hpp" line="117" column="3"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Abstract class of step error estimator. A class implements(partly/fully) the interfaces of this class via CRTP idiom can be used cross the system as an implementation of the concept <computeroutput><ref refid="classspace_1_1ode__iterator_1_1_error_checker" kindref="compound">ErrorChecker</ref></computeroutput>. The error estimator provides the interface to estimate the error of an integration system.</para><para><parameterlist kind="templateparam"><parameteritem>
+<para>Abstract class of step error estimator. A class implements(partly/fully) the interfaces of this class via CRTP idiom can be used cross the system as an implementation of the concept <computeroutput><ref refid="classspace_1_1ode__iterator_1_1_error_checker" kindref="compound">ErrorChecker</ref></computeroutput>. The error estimator provides the interface to estimate the error of an integration system.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Derived</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The implement class in CRTP idiom. </para></parameterdescription>
+<para>The implement class in CRTP idiom. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="90">
+      <node id="5">
         <label>space::ode_iterator::IAS15Error&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_i_a_s15_error"/>
-        <childnode refid="89" relation="public-inheritance">
+        <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="86">
+      <node id="1">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="87">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; RMS&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="86" relation="template-instance">
+        <childnode refid="1" relation="template-instance">
           <edgelabel>&lt; RMS&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="91">
+      <node id="6">
         <label>space::ode_iterator::ErrorChecker&lt; WorstOffender&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="86" relation="template-instance">
+        <childnode refid="1" relation="template-instance">
           <edgelabel>&lt; WorstOffender&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="88">
+      <node id="3">
         <label>space::ode_iterator::RMS&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_r_m_s"/>
-        <childnode refid="87" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="92">
+      <node id="7">
         <label>space::ode_iterator::WorstOffender&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_worst_offender"/>
-        <childnode refid="91" relation="public-inheritance">
+        <childnode refid="6" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="89">
+      <node id="4">
         <label>space::ode_iterator::ErrorChecker&lt; IAS15Error&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="86" relation="template-instance">
+        <childnode refid="1" relation="template-instance">
           <edgelabel>&lt; IAS15Error&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="93">
+      <node id="1">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" line="43" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp" bodystart="43" bodyend="120"/>
+    <location file="src/ode-iterator/error-checker/error-checker.hpp" line="43" column="19" bodyfile="src/ode-iterator/error-checker/error-checker.hpp" bodystart="43" bodyend="120"/>
     <listofallmembers>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a563a4c2559d79f569369cde381541b86" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab595d8b44e36594e174e71af36bc0217" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a8c5d6a7344a83aac04288f33f61f65da" prot="private" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>Derived</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a792b9fc0a077429cb686224089b9ae8b" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>derived</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab1820edaab1060f661ef11dae93ceb56" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1af219d44501ea532d0349dfe991fd45cf" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1aafbf75fb614010131238c48dc4c7a2fe" prot="private" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>ErrorChecker</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1aefaf011e4879aa0acfe87926243b058f" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a9aa73c7df45017e93423bfcabe1db3a9" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a1f767e96bfc475742126d0894a6ad389" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>set_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ac5470c482bd12173fb5435f09406a6dd" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>set_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ac302adc424db45e707b444935dbf619d" prot="public" virt="non-virtual"><scope>space::ode_iterator::ErrorChecker</scope><name>set_rtol</name></member>

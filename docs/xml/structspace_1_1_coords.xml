@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1_coords" kind="struct" language="C++" prot="public">
     <compoundname>space::Coords</compoundname>
     <includes refid="coords_8hpp" local="no">coords.hpp</includes>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="43" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/coords.hpp" line="43" column="3" bodyfile="src/coords.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structspace_1_1_coords_1ab6176efda9355ede397cc2ab5abcf413" prot="public" static="no">
         <type>typename T::value_type</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="45" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="45" bodyend="-1"/>
+        <location file="src/coords.hpp" line="45" column="3" bodyfile="src/coords.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structspace_1_1_coords_1a04ff710f593ff09266c15309e5a5e2e9" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; <ref refid="structspace_1_1_coords_1aad183bdb28bbffba831152075debe228" kindref="member">Scalar</ref> &gt;</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="47" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="47" bodyend="-1"/>
+        <location file="src/coords.hpp" line="47" column="3" bodyfile="src/coords.hpp" bodystart="47" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="115" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="115" bodyend="-1"/>
+        <location file="src/coords.hpp" line="115" column="5" bodyfile="src/coords.hpp" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1_coords_1a98efdb82ca046020c53c01e53585f53b" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="116" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="116" bodyend="-1"/>
+        <location file="src/coords.hpp" line="116" column="5" bodyfile="src/coords.hpp" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1_coords_1ad0b8256873f0aa88ebb98fbeccf10b87" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="117" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="117" bodyend="-1"/>
+        <location file="src/coords.hpp" line="117" column="5" bodyfile="src/coords.hpp" bodystart="117" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -101,10 +101,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="50" column="1"/>
+        <location file="src/coords.hpp" line="50" column="7"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a5dafec0c1ed194a936c22ff7d5c94476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -117,10 +118,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="50" column="1"/>
+        <location file="src/coords.hpp" line="50" column="32"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1af444e4627e1318b467a0fb6d561240e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -133,10 +135,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="50" column="1"/>
+        <location file="src/coords.hpp" line="50" column="60"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1aa68fbe1d78e5234d0268be9aa8f41e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structspace_1_1_coords" kindref="compound">Coords</ref> &amp;</type>
@@ -149,10 +152,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="50" column="1"/>
+        <location file="src/coords.hpp" line="50" column="96"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a0c3a9273be7e68544b85b199e3bf99f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structspace_1_1_coords" kindref="compound">Coords</ref> &amp;</type>
@@ -165,10 +169,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="50" column="1"/>
+        <location file="src/coords.hpp" line="50" column="135"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a8847cd19bce595b3c1884af35575cdf8" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -187,13 +192,15 @@
 <parametername>count</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="125" bodyend="125"/>
+        <location file="src/coords.hpp" line="56" column="12" bodyfile="src/coords.hpp" bodystart="125" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a2ac7befea51cf997e44bc3aebbb4b159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -206,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="168" bodyend="170"/>
+        <location file="src/coords.hpp" line="62" column="8" bodyfile="src/coords.hpp" bodystart="168" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a16e0215407e594a6577553cbcf923d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -230,7 +237,8 @@
 <parametername>GenVector</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -238,13 +246,15 @@
 <parametername>vector</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="70" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="149" bodyend="153"/>
+        <location file="src/coords.hpp" line="70" column="8" bodyfile="src/coords.hpp" bodystart="149" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a535fc8740e8e19bea38495f93d220188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -271,27 +281,31 @@
 <parametername>xx</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>yy</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>zz</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="156" bodyend="160"/>
+        <location file="src/coords.hpp" line="78" column="8" bodyfile="src/coords.hpp" bodystart="156" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a31d602268120b0ed77623f7e6df3d6e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -310,13 +324,15 @@
 <parametername>new_cap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="84" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="133" bodyend="135"/>
+        <location file="src/coords.hpp" line="84" column="8" bodyfile="src/coords.hpp" bodystart="133" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1ac69c82658f3f4228ccbe7f283d4a686b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -335,13 +351,15 @@
 <parametername>new_sz</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="90" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="138" bodyend="140"/>
+        <location file="src/coords.hpp" line="90" column="8" bodyfile="src/coords.hpp" bodystart="138" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a0533eb5cd049b08a42b94e8ac9819102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -354,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="95" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="163" bodyend="165"/>
+        <location file="src/coords.hpp" line="95" column="8" bodyfile="src/coords.hpp" bodystart="163" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1aa18256878a175390092a922c2f24459e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -367,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="100" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="143" bodyend="145"/>
+        <location file="src/coords.hpp" line="100" column="8" bodyfile="src/coords.hpp" bodystart="143" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_coords_1a4edddb1c9ce9206f057f0fc45866eb1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -377,11 +395,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="106" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="128" bodyend="130"/>
+        <location file="src/coords.hpp" line="106" column="11" bodyfile="src/coords.hpp" bodystart="128" bodyend="130"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -404,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="108" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="108" bodyend="112"/>
+        <location file="src/coords.hpp" line="108" column="15" bodyfile="src/coords.hpp" bodystart="108" bodyend="112"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -415,25 +435,27 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <collaborationgraph>
-      <node id="70">
+      <node id="2">
         <label>T</label>
       </node>
-      <node id="69">
+      <node id="1">
         <label>space::Coords&lt; T &gt;</label>
         <link refid="structspace_1_1_coords"/>
-        <childnode refid="70" relation="usage">
+        <childnode refid="2" relation="usage">
           <edgelabel>+x</edgelabel>
           <edgelabel>+y</edgelabel>
           <edgelabel>+z</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="41" bodyend="118"/>
+    <location file="src/coords.hpp" line="41" column="13" bodyfile="src/coords.hpp" bodystart="41" bodyend="118"/>
     <listofallmembers>
       <member refid="structspace_1_1_coords_1a2ac7befea51cf997e44bc3aebbb4b159" prot="public" virt="non-virtual"><scope>space::Coords</scope><name>clear</name></member>
       <member refid="structspace_1_1_coords_1a875bb417c1d9514e6e65f3d1a59b05d6" prot="public" virt="non-virtual"><scope>space::Coords</scope><name>Coords</name></member>

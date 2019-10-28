@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kind="struct" language="C++" prot="public">
     <compoundname>space::particle_set::SizeParticles::Particle</compoundname>
     <basecompoundref refid="structspace_1_1particle__set_1_1_point_particle" prot="public" virt="non-virtual">space::particle_set::PointParticle&lt; Scalar &gt;</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" bodystart="54" bodyend="-1"/>
+        <location file="src/particles/finite-size.hpp" line="54" column="5" bodyfile="src/particles/finite-size.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a2e7f141e80e6a5445321166e923f75eb" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> &gt;</type>
@@ -29,27 +29,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" bodystart="56" bodyend="-1"/>
+        <location file="src/particles/finite-size.hpp" line="56" column="5" bodyfile="src/particles/finite-size.hpp" bodystart="56" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a752cf1622e47b337a1bda0a3494d20e4" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>space::particle_set::SizeParticles&lt; TypeSystem &gt;::Particle::radius</definition>
+      <memberdef kind="variable" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a8a2872261b018f4def459124950af500" prot="public" static="no" mutable="no">
+        <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+        <definition>Scalar space::particle_set::SizeParticles&lt; TypeSystem &gt;::Particle::radius</definition>
         <argsstring></argsstring>
         <name>radius</name>
-        <initializer>{r} {}
-
-    <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kindref="compound">Particle</ref>(<ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> m, <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> r, <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> px = 0, <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> py = 0, <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> pz = 0, <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> vx = 0, <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> vy = 0,
-             <ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref> vz = 0)
-        : <ref refid="structspace_1_1particle__set_1_1_point_particle" kindref="compound">PointParticle</ref>&lt;<ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref>&gt;{m, px, py, pz, vx, vy, vz}</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="61" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" bodystart="61" bodyend="-1"/>
+        <location file="src/particles/finite-size.hpp" line="78" column="12" bodyfile="src/particles/finite-size.hpp" bodystart="78" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -61,10 +56,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="59" column="1"/>
+        <location file="src/particles/finite-size.hpp" line="59" column="9"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1abc33fdee30a16e2bffd6a4b97cfddb76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -77,10 +73,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="59" column="1"/>
+        <location file="src/particles/finite-size.hpp" line="59" column="36"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a0fed9778a2fb01460abdca96cad987a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -93,10 +90,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="59" column="1"/>
+        <location file="src/particles/finite-size.hpp" line="59" column="66"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a44c5621a99d29e81e6187519b83b98f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kindref="compound">Particle</ref> &amp;</type>
@@ -109,10 +107,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="59" column="1"/>
+        <location file="src/particles/finite-size.hpp" line="59" column="106"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a091d61c55fdd694864e3ca9fd87021cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kindref="compound">Particle</ref> &amp;</type>
@@ -125,10 +124,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="59" column="1"/>
+        <location file="src/particles/finite-size.hpp" line="59" column="147"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1acb6e7310001b955fdef9e341ed1d5dad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -157,7 +157,102 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="61" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" bodystart="61" bodyend="61"/>
+        <location file="src/particles/finite-size.hpp" line="61" column="5" bodyfile="src/particles/finite-size.hpp" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a47bf88763275621a121ff0ca16fadd81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>space::particle_set::SizeParticles&lt; TypeSystem &gt;::Particle::Particle</definition>
+        <argsstring>(Scalar m, Scalar r, Scalar px=0, Scalar py=0, Scalar pz=0, Scalar vx=0, Scalar vy=0, Scalar vz=0)</argsstring>
+        <name>Particle</name>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>px</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>py</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>pz</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>vx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>vy</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kindref="member">Scalar</ref></type>
+          <declname>vz</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/particles/finite-size.hpp" line="63" column="5" bodyfile="src/particles/finite-size.hpp" bodystart="63" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a2809bf39e022e551b2b9e1458013f151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Particle const &amp;particle)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kindref="compound">Particle</ref> const &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/particles/finite-size.hpp" line="67" column="12" bodyfile="src/particles/finite-size.hpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="friend" id="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a866517e81867565df43c6a098e7c4d67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, Particle &amp;particle)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kindref="compound">Particle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/particles/finite-size.hpp" line="72" column="25" bodyfile="src/particles/finite-size.hpp" bodystart="72" bodyend="75"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -165,94 +260,97 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="355">
+      <node id="2">
         <label>space::particle_set::PointParticle&lt; Scalar &gt;</label>
         <link refid="structspace_1_1particle__set_1_1_point_particle"/>
-        <childnode refid="356" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; Scalar &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="354">
+      <node id="1">
         <label>space::particle_set::SizeParticles&lt; TypeSystem &gt;::Particle</label>
         <link refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle"/>
-        <childnode refid="355" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="356">
+      <node id="3">
         <label>space::particle_set::PointParticle&lt; Real &gt;</label>
         <link refid="structspace_1_1particle__set_1_1_point_particle"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="359">
+      <node id="3">
         <label>space::Vec3&lt; Scalar &gt;</label>
         <link refid="structspace_1_1_vec3"/>
-        <childnode refid="360" relation="template-instance">
+        <childnode refid="4" relation="template-instance">
           <edgelabel>&lt; Scalar &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="361">
+      <node id="5">
         <label>T</label>
       </node>
-      <node id="363">
+      <node id="7">
         <label>Real</label>
       </node>
-      <node id="358">
+      <node id="2">
         <label>space::particle_set::PointParticle&lt; Scalar &gt;</label>
         <link refid="structspace_1_1particle__set_1_1_point_particle"/>
-        <childnode refid="359" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>+pos</edgelabel>
           <edgelabel>+vel</edgelabel>
         </childnode>
-        <childnode refid="362" relation="template-instance">
+        <childnode refid="6" relation="template-instance">
           <edgelabel>&lt; Scalar &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="357">
+      <node id="1">
         <label>space::particle_set::SizeParticles&lt; TypeSystem &gt;::Particle</label>
         <link refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle"/>
-        <childnode refid="358" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="362">
+      <node id="6">
         <label>space::particle_set::PointParticle&lt; Real &gt;</label>
         <link refid="structspace_1_1particle__set_1_1_point_particle"/>
-        <childnode refid="359" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>+pos</edgelabel>
           <edgelabel>+vel</edgelabel>
         </childnode>
-        <childnode refid="363" relation="usage">
+        <childnode refid="7" relation="usage">
           <edgelabel>+mass</edgelabel>
         </childnode>
       </node>
-      <node id="360">
+      <node id="4">
         <label>space::Vec3&lt; T &gt;</label>
         <link refid="structspace_1_1_vec3"/>
-        <childnode refid="361" relation="usage">
+        <childnode refid="5" relation="usage">
           <edgelabel>+x</edgelabel>
           <edgelabel>+y</edgelabel>
           <edgelabel>+z</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="51" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" bodystart="51" bodyend="79"/>
+    <location file="src/particles/finite-size.hpp" line="51" column="39" bodyfile="src/particles/finite-size.hpp" bodystart="51" bodyend="79"/>
     <listofallmembers>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a1305c6f9cf975e2b93f894e093e5419c" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>mass</name></member>
+      <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a2809bf39e022e551b2b9e1458013f151" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>operator&lt;&lt;</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a44c5621a99d29e81e6187519b83b98f8" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>operator=</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a091d61c55fdd694864e3ca9fd87021cd" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>operator=</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a4dfb71f6237c0f07ef5020f892673aa7" prot="public" virt="non-virtual" ambiguityscope="PointParticle&lt; Scalar &gt;::"><scope>space::particle_set::SizeParticles::Particle</scope><name>operator=</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a63d69f009e93cf9f02f5554a370b65a6" prot="public" virt="non-virtual" ambiguityscope="PointParticle&lt; Scalar &gt;::"><scope>space::particle_set::SizeParticles::Particle</scope><name>operator=</name></member>
+      <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a866517e81867565df43c6a098e7c4d67" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>operator&gt;&gt;</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a98cca7511b55465431c3034be9d20277" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Particle</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1abc33fdee30a16e2bffd6a4b97cfddb76" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Particle</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a0fed9778a2fb01460abdca96cad987a3" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Particle</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1acb6e7310001b955fdef9e341ed1d5dad" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Particle</name></member>
+      <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a47bf88763275621a121ff0ca16fadd81" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Particle</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1ac4a06825009e1b11f029b9d137945962" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>PointParticle</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a6d96341c619329b2f0132625c3e2bf1c" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>PointParticle</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1af0f10782fb80bfad270a954c92560d90" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>PointParticle</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a9dd14942d7f6fed0dfa4ff224de1c396" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>PointParticle</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a196cccc5db5505dbe9fe50031bbb9233" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>PointParticle</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1ac6c86eba6daa1c320da71f6cd9e63b2f" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>pos</name></member>
-      <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a752cf1622e47b337a1bda0a3494d20e4" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>radius</name></member>
+      <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a8a2872261b018f4def459124950af500" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>radius</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Scalar</name></member>
       <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a2e7f141e80e6a5445321166e923f75eb" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>Vector</name></member>
       <member refid="structspace_1_1particle__set_1_1_point_particle_1a2c54d82cbaa1539a0d13e0a7a3ae73dd" prot="public" virt="non-virtual"><scope>space::particle_set::SizeParticles::Particle</scope><name>vel</name></member>

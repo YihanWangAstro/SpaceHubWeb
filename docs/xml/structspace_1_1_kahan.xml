@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1_kahan" kind="struct" language="C++" prot="public">
     <compoundname>space::Kahan</compoundname>
     <includes refid="kahan-number_8hpp" local="no">kahan-number.hpp</includes>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="39" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="39" bodyend="-1"/>
+        <location file="src/kahan-number.hpp" line="39" column="3" bodyfile="src/kahan-number.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/kahan-number.hpp" line="41" column="5" bodyfile="src/kahan-number.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1_kahan_1aee92462f32c8f2e5809ba16348d13fc9" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/kahan-number.hpp" line="41" column="10" bodyfile="src/kahan-number.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -60,10 +60,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor </para>        </detaileddescription>
+<para>Default constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="46" column="1"/>
+        <location file="src/kahan-number.hpp" line="46" column="3"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_kahan_1a328f3dc3ff71f5be0443949207b77a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -82,13 +83,15 @@
 <parametername>r</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Scalar </para></parameterdescription>
+<para>Scalar </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="52" bodyend="52"/>
+        <location file="src/kahan-number.hpp" line="52" column="3" bodyfile="src/kahan-number.hpp" bodystart="52" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_kahan_1a459fc7e196eba6aff66b2c8c1d00fd77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -107,13 +110,15 @@
 <parametername>k</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="58" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="58" bodyend="58"/>
+        <location file="src/kahan-number.hpp" line="58" column="3" bodyfile="src/kahan-number.hpp" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_kahan_1ae64ef997d272e3fd7fc0054c2e9019f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> &amp;</type>
@@ -127,10 +132,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Assignment operator. </para>        </detaileddescription>
+<para>Assignment operator. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="63" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="63" bodyend="66"/>
+        <location file="src/kahan-number.hpp" line="63" column="16" bodyfile="src/kahan-number.hpp" bodystart="63" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_kahan_1add0630c162e7c1d5976d989c4b6b6090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -140,10 +146,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Conversion operator. Convert Khan number to Scalar i.e <computeroutput>double</computeroutput>, <computeroutput>float</computeroutput>,... </para>        </detaileddescription>
+<para>Conversion operator. Convert Khan number to Scalar i.e <computeroutput>double</computeroutput>, <computeroutput>float</computeroutput>,... </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="71" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="71" bodyend="71"/>
+        <location file="src/kahan-number.hpp" line="71" column="10" bodyfile="src/kahan-number.hpp" bodystart="71" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_kahan_1a6abfdf394b576a4d03fa0d6e31f746b8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,10 +160,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Conversion operator. Convert Khan number to Scalar i.e <computeroutput>double</computeroutput>, <computeroutput>float</computeroutput>,... </para>        </detaileddescription>
+<para>Conversion operator. Convert Khan number to Scalar i.e <computeroutput>double</computeroutput>, <computeroutput>float</computeroutput>,... </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="76" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="76" bodyend="76"/>
+        <location file="src/kahan-number.hpp" line="76" column="10" bodyfile="src/kahan-number.hpp" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1_kahan_1afe17ba875e782d46327b8a3cc2bf6ee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -166,10 +174,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Set error to 0. </para>        </detaileddescription>
+<para>Set error to 0. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="81" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="81" bodyend="81"/>
+        <location file="src/kahan-number.hpp" line="81" column="15" bodyfile="src/kahan-number.hpp" bodystart="81" bodyend="81"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -185,10 +194,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Opposite operator. </para>        </detaileddescription>
+<para>Opposite operator. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="86" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="86" bodyend="86"/>
+        <location file="src/kahan-number.hpp" line="86" column="23" bodyfile="src/kahan-number.hpp" bodystart="86" bodyend="86"/>
       </memberdef>
       <memberdef kind="friend" id="structspace_1_1_kahan_1a9d45869504dd4bd5f5523157f8f9c67e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend <ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> &amp;</type>
@@ -206,10 +216,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Addition assignment operator. </para>        </detaileddescription>
+<para>Addition assignment operator. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="91" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="91" bodyend="102"/>
+        <location file="src/kahan-number.hpp" line="91" column="23" bodyfile="src/kahan-number.hpp" bodystart="91" bodyend="102"/>
       </memberdef>
       <memberdef kind="friend" id="structspace_1_1_kahan_1ab4c370bcb1c296cbb649a4095b09d913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend <ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> &amp;</type>
@@ -227,10 +238,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Subtraction assignment operator. </para>        </detaileddescription>
+<para>Subtraction assignment operator. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="107" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="107" bodyend="118"/>
+        <location file="src/kahan-number.hpp" line="107" column="23" bodyfile="src/kahan-number.hpp" bodystart="107" bodyend="118"/>
       </memberdef>
       <memberdef kind="friend" id="structspace_1_1_kahan_1a5759f7653b5003e23ee886ab7d902990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend <ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> &amp;</type>
@@ -248,10 +260,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Division assignment operator. </para>        </detaileddescription>
+<para>Division assignment operator. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="123" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="123" bodyend="126"/>
+        <location file="src/kahan-number.hpp" line="123" column="23" bodyfile="src/kahan-number.hpp" bodystart="123" bodyend="126"/>
       </memberdef>
       <memberdef kind="friend" id="structspace_1_1_kahan_1a42e4f8216229b2e3f6ab1b9be7adbfff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend <ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> &amp;</type>
@@ -269,10 +282,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Multiple assignment operator. </para>        </detaileddescription>
+<para>Multiple assignment operator. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="131" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="131" bodyend="134"/>
+        <location file="src/kahan-number.hpp" line="131" column="23" bodyfile="src/kahan-number.hpp" bodystart="131" bodyend="134"/>
       </memberdef>
       <memberdef kind="friend" id="structspace_1_1_kahan_1ab7a20a2939e89b95217bfd9c6a2845a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend std::ostream &amp;</type>
@@ -290,10 +304,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Output stream </para>        </detaileddescription>
+<para>Output stream </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="139" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="139" bodyend="142"/>
+        <location file="src/kahan-number.hpp" line="139" column="10" bodyfile="src/kahan-number.hpp" bodystart="139" bodyend="142"/>
       </memberdef>
       <memberdef kind="friend" id="structspace_1_1_kahan_1a23c0f55b05b750986ccf7e1b6d436590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend std::istream &amp;</type>
@@ -311,30 +326,33 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input stream </para>        </detaileddescription>
+<para>Input stream </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="147" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="147" bodyend="151"/>
+        <location file="src/kahan-number.hpp" line="147" column="23" bodyfile="src/kahan-number.hpp" bodystart="147" bodyend="151"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> number</para><para>A way to reduce the round off error when adding a small number to a big one. See details in <ulink url="https://en.wikipedia.org/wiki/Kahan_summation_algorithm">Kahan summation</ulink> </para>    </detaileddescription>
+<para><ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref> number</para>
+<para>A way to reduce the round off error when adding a small number to a big one. See details in <ulink url="https://en.wikipedia.org/wiki/Kahan_summation_algorithm">Kahan summation</ulink> </para>
+    </detaileddescription>
     <collaborationgraph>
-      <node id="309">
+      <node id="2">
         <label>T</label>
       </node>
-      <node id="308">
+      <node id="1">
         <label>space::Kahan&lt; T &gt;</label>
         <link refid="structspace_1_1_kahan"/>
-        <childnode refid="309" relation="usage">
+        <childnode refid="2" relation="usage">
           <edgelabel>+err</edgelabel>
           <edgelabel>+real</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="37" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="37" bodyend="152"/>
+    <location file="src/kahan-number.hpp" line="37" column="12" bodyfile="src/kahan-number.hpp" bodystart="37" bodyend="152"/>
     <listofallmembers>
       <member refid="structspace_1_1_kahan_1aee92462f32c8f2e5809ba16348d13fc9" prot="public" virt="non-virtual"><scope>space::Kahan</scope><name>err</name></member>
       <member refid="structspace_1_1_kahan_1ab3ba063dc78de38e5d8d8e04624548f7" prot="public" virt="non-virtual"><scope>space::Kahan</scope><name>Kahan</name></member>

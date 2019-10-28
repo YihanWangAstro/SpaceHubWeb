@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace" kind="namespace" language="C++">
     <compoundname>space</compoundname>
     <innerclass refid="classspace_1_1_chain" prot="public">space::Chain</innerclass>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="154" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="154" bodyend="-1"/>
+        <location file="src/kahan-number.hpp" line="154" column="1" bodyfile="src/kahan-number.hpp" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a54aebfe3aa3980061d97b59d9bc812e7" prot="public" static="no">
         <type><ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref>&lt; float &gt;</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="155" bodyend="-1"/>
+        <location file="src/kahan-number.hpp" line="155" column="1" bodyfile="src/kahan-number.hpp" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a49d7d5fcc8177f9c1e92b48b75c0835c" prot="public" static="no">
         <type><ref refid="structspace_1_1_types" kindref="compound">Types</ref>&lt; double, std::vector &gt;</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" line="86" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" bodystart="86" bodyend="-1"/>
+        <location file="src/spaceHub.hpp" line="86" column="1" bodyfile="src/spaceHub.hpp" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a1ea15efe066793369cbef21b0c4ce6e6" prot="public" static="no">
         <type><ref refid="classspace_1_1_simulator" kindref="compound">Simulator</ref>&lt; <ref refid="classspace_1_1particle__system_1_1_a_rchain_system" kindref="compound">particle_system::ARchainSystem</ref>&lt; <ref refid="classspace_1_1particle__set_1_1_point_particles" kindref="compound">particle_set::PointParticles</ref>&lt; <ref refid="namespacespace_1a49d7d5fcc8177f9c1e92b48b75c0835c" kindref="member">DefaultTypes</ref> &gt;, <ref refid="classspace_1_1interactions_1_1_newtonian_grav" kindref="compound">interactions::NewtonianGrav</ref>, <ref refid="namespacespace_1_1particle__system_1ad1d6bb96466a13872b2362628224c740a360c009cc18cabba43fcbfe53c5f61ef" kindref="member">particle_system::ReguType::LogH</ref> &gt;, <ref refid="classspace_1_1ode__iterator_1_1_burlish_stoer" kindref="compound">ode_iterator::BurlishStoer</ref>&lt; double, <ref refid="classspace_1_1ode__iterator_1_1_worst_offender" kindref="compound">ode_iterator::WorstOffender</ref>, <ref refid="classspace_1_1ode__iterator_1_1_p_i_d_controller" kindref="compound">ode_iterator::PIDController</ref> &gt; &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" line="88" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" bodystart="91" bodyend="-1"/>
+        <location file="src/spaceHub.hpp" line="88" column="1" bodyfile="src/spaceHub.hpp" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a048d540ea29aff679591a1b5b9303497" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; long double &gt;</type>
@@ -97,10 +97,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alias for long double 3-d vector </para>        </detaileddescription>
+<para>Alias for long double 3-d vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="253" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="253" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="253" column="1" bodyfile="src/vector/vector3.hpp" bodystart="253" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a19a48ecf1339c52009ccb6934cf799bd" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; double &gt;</type>
@@ -110,10 +111,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alias for double 3-d vector </para>        </detaileddescription>
+<para>Alias for double 3-d vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="257" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="257" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="257" column="1" bodyfile="src/vector/vector3.hpp" bodystart="257" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a67fb2a2bc7af0f2c219853cda7be35d3" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; float &gt;</type>
@@ -123,10 +125,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alias for float 3-d vector </para>        </detaileddescription>
+<para>Alias for float 3-d vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="261" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="261" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="261" column="1" bodyfile="src/vector/vector3.hpp" bodystart="261" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1aa23d52e014eb76d5d9929854718d9c1e" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; int &gt;</type>
@@ -136,10 +139,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alias for int 3-d vector </para>        </detaileddescription>
+<para>Alias for int 3-d vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="265" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="265" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="265" column="1" bodyfile="src/vector/vector3.hpp" bodystart="265" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a026d91839a4aecf0564d111622a38351" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; char &gt;</type>
@@ -149,10 +153,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alias for char 3-d vector </para>        </detaileddescription>
+<para>Alias for char 3-d vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="269" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="269" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="269" column="1" bodyfile="src/vector/vector3.hpp" bodystart="269" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a00335c4bf483b31127c2757316593d6b" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; bool &gt;</type>
@@ -162,14 +167,15 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alias for bool 3-d vector </para>        </detaileddescription>
+<para>Alias for bool 3-d vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="273" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="273" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="273" column="1" bodyfile="src/vector/vector3.hpp" bodystart="273" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespacespace_1ae9f9654e8e42fa98a2a3a50d0d4955d1" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1ae9f9654e8e42fa98a2a3a50d0d4955d1" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -186,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="353" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="353" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="353" column="18" bodyfile="src/dev-tools.hpp" bodystart="353" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -217,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="176" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="176" bodyend="181"/>
+        <location file="src/coords.hpp" line="176" column="6" bodyfile="src/coords.hpp" bodystart="176" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a4606cc6c62a632506125d8ba2bc3ae86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -250,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="184" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="184" bodyend="197"/>
+        <location file="src/coords.hpp" line="184" column="6" bodyfile="src/coords.hpp" bodystart="184" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a56a7205312bc74520aad69dbc1e1b93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -280,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="200" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="200" bodyend="205"/>
+        <location file="src/coords.hpp" line="200" column="6" bodyfile="src/coords.hpp" bodystart="200" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aed12b8f4a16d159f377a64a2fe8b4ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -311,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="36" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="36" bodyend="38"/>
+        <location file="src/dev-tools.hpp" line="36" column="8" bodyfile="src/dev-tools.hpp" bodystart="36" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1ab18ef7ad843fd44458401037a3b717cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -342,7 +348,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="41" bodyend="43"/>
+        <location file="src/dev-tools.hpp" line="41" column="8" bodyfile="src/dev-tools.hpp" bodystart="41" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a398177de9db360b7fd651350a38d45c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -370,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="46" bodyend="48"/>
+        <location file="src/dev-tools.hpp" line="46" column="8" bodyfile="src/dev-tools.hpp" bodystart="46" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a0426cf18d918efe6a70d54dd3f21f17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -398,7 +404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="51" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="51" bodyend="53"/>
+        <location file="src/dev-tools.hpp" line="51" column="8" bodyfile="src/dev-tools.hpp" bodystart="51" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a31e63f1ffbf6d7b9e51838b57de6c74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -422,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="56" bodyend="58"/>
+        <location file="src/dev-tools.hpp" line="56" column="8" bodyfile="src/dev-tools.hpp" bodystart="56" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a3e07eb66af61266dbc425dc2b7686ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -446,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="61" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="61" bodyend="63"/>
+        <location file="src/dev-tools.hpp" line="61" column="8" bodyfile="src/dev-tools.hpp" bodystart="61" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a34ee00c2009d3625b40b22952b312575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -470,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="66" bodyend="70"/>
+        <location file="src/dev-tools.hpp" line="66" column="9" bodyfile="src/dev-tools.hpp" bodystart="66" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a2be4d877e57c66060db8fb55e9769d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -496,34 +502,50 @@
           <declname>args</declname>
         </param>
         <briefdescription>
-<para>Print variables to an output stream. </para>        </briefdescription>
+<para>Print variables to an output stream. </para>
+        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Ostream</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Output stream. </para></parameterdescription>
+<para>Output stream. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>Args</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variadic type(any). </para></parameterdescription>
+<para>Variadic type(any). </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
+<parametername>[in/out]</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>os Output stream. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variables. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>Output stream. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="39" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="39" bodyend="42"/>
+        <location file="src/IO.hpp" line="39" column="6" bodyfile="src/IO.hpp" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aeecc6819f58b322d851fe63d9edf8992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -549,34 +571,50 @@
           <declname>args</declname>
         </param>
         <briefdescription>
-<para>Input variables from an input stream. </para>        </briefdescription>
+<para>Input variables from an input stream. </para>
+        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Istream</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Input stream. </para></parameterdescription>
+<para>Input stream. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>Args</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variadic type(any). </para></parameterdescription>
+<para>Variadic type(any). </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
+<parametername>[in/out]</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>is Input stream. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variables. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>Input stream. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="54" bodyend="57"/>
+        <location file="src/IO.hpp" line="54" column="8" bodyfile="src/IO.hpp" bodystart="54" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aa711c0aa2909a0a48b579033b7cb4499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -602,7 +640,8 @@
 <parametername>Args</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variadic type(any). </para></parameterdescription>
+<para>Variadic type(any). </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -610,14 +649,17 @@
 <parametername direction="in">args</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variables. </para></parameterdescription>
+<para>Variables. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>std::cout. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>std::cout. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="66" bodyend="69"/>
+        <location file="src/IO.hpp" line="66" column="8" bodyfile="src/IO.hpp" bodystart="66" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a423503d664e1b35744da843e92d598ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -643,7 +685,8 @@
 <parametername>Args</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variadic type(any). </para></parameterdescription>
+<para>Variadic type(any). </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
@@ -651,14 +694,17 @@
 <parametername direction="out">args</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Variables. </para></parameterdescription>
+<para>Variables. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>std::cin. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>std::cin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="78" bodyend="81"/>
+        <location file="src/IO.hpp" line="78" column="8" bodyfile="src/IO.hpp" bodystart="78" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a17e908fe80f7ae52016ef47a729c1b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -696,7 +742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="84" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="84" bodyend="88"/>
+        <location file="src/IO.hpp" line="84" column="8" bodyfile="src/IO.hpp" bodystart="84" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aed845d4bfb0c082f803fbf19d3635d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -727,7 +773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="91" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="91" bodyend="93"/>
+        <location file="src/IO.hpp" line="91" column="8" bodyfile="src/IO.hpp" bodystart="91" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a3989b951687ce9e2244140e8e52dbc52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -758,7 +804,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="96" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="96" bodyend="102"/>
+        <location file="src/IO.hpp" line="96" column="3" bodyfile="src/IO.hpp" bodystart="96" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1abf2958174204d96726d8d6a590d613d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -789,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="105" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="105" bodyend="110"/>
+        <location file="src/IO.hpp" line="105" column="16" bodyfile="src/IO.hpp" bodystart="105" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a301e15c92f31fd05dd8b57fa06302355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -823,7 +869,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="113" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="113" bodyend="118"/>
+        <location file="src/IO.hpp" line="113" column="3" bodyfile="src/IO.hpp" bodystart="113" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a2ba0c134cb2d13ec1c74328f64989fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -851,7 +897,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="56" bodyend="56"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="56" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a53a0bed399538e40bfad48f78aac2711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -879,7 +925,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="58" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="58" bodyend="58"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="58" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a8f312d23a8a0435798f63003c530e853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -907,7 +953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="60" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="60" bodyend="60"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="60" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="60" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1aa0d46a0ce862fdb24cf755f2642237b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -935,7 +981,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="62" bodyend="62"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="62" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="62" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1ae4e316979b29b673c7d7fcb608b9c3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -963,7 +1009,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="64" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="64" bodyend="64"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="64" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="64" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a507bb6ef2573fa8160a7e0b94e18d8b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -991,7 +1037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="66" bodyend="66"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="66" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="66" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a8a81bf40243c80bf07c8ba62e46f5101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1019,7 +1065,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="68" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="68" bodyend="68"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="68" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a993cecd37400a1385c7937aa21c9cfd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1047,7 +1093,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="70" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="70" bodyend="70"/>
+        <location file="src/lazy-evaluation/mkl-array.h" line="70" column="32" bodyfile="src/lazy-evaluation/mkl-array.h" bodystart="70" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a4f55f5f0c3a2005e4f942b28b3737cc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1073,10 +1119,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculate the Euclid distance of two vectors </para>        </detaileddescription>
+<para>Calculate the Euclid distance of two vectors </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="216" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="216" bodyend="218"/>
+        <location file="src/vector/vector3.hpp" line="216" column="11" bodyfile="src/vector/vector3.hpp" bodystart="216" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1adf38096a3a9b96060bc460782e20593f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1102,10 +1149,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculate the inner product of two vectors </para>        </detaileddescription>
+<para>Calculate the inner product of two vectors </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="222" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="222" bodyend="224"/>
+        <location file="src/vector/vector3.hpp" line="222" column="11" bodyfile="src/vector/vector3.hpp" bodystart="222" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1af528f519f6072ce27becb1d2acc270ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1124,10 +1172,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculate the length of a vector </para>        </detaileddescription>
+<para>Calculate the length of a vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="228" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="228" bodyend="230"/>
+        <location file="src/vector/vector3.hpp" line="228" column="10" bodyfile="src/vector/vector3.hpp" bodystart="228" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a336c4b7ef644a2d2e28cb69c1e3d8dc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1146,10 +1195,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculate the inverse lenght of a vector </para>        </detaileddescription>
+<para>Calculate the inverse lenght of a vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="234" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="234" bodyend="236"/>
+        <location file="src/vector/vector3.hpp" line="234" column="10" bodyfile="src/vector/vector3.hpp" bodystart="234" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1afbb0245be78abc3f96541898d1aeced4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1168,10 +1218,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculate the length square of a vector </para>        </detaileddescription>
+<para>Calculate the length square of a vector </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="240" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="240" bodyend="242"/>
+        <location file="src/vector/vector3.hpp" line="240" column="10" bodyfile="src/vector/vector3.hpp" bodystart="240" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a4f60b73a85573cf74386e5d5b06c3e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1197,16 +1248,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculate the cross product of two vectors </para>        </detaileddescription>
+<para>Calculate the cross product of two vectors </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="246" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="246" bodyend="248"/>
+        <location file="src/vector/vector3.hpp" line="246" column="13" bodyfile="src/vector/vector3.hpp" bodystart="246" bodyend="248"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Documentation for space </para>    </detaileddescription>
+<para>Documentation for space </para>
+    </detaileddescription>
     <location file="[generated]" line="1" column="1"/>
   </compounddef>
 </doxygen>

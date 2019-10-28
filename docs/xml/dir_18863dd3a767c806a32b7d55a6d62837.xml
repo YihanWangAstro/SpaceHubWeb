@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_18863dd3a767c806a32b7d55a6d62837" kind="dir">
-    <compoundname>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation</compoundname>
+    <compoundname>src/lazy-evaluation</compoundname>
     <innerfile refid="lazy__array_8h">lazy_array.h</innerfile>
     <innerfile refid="lazy__expr_8h">lazy_expr.h</innerfile>
     <innerfile refid="mkl-array_8h">mkl-array.h</innerfile>
     <innerfile refid="slice_8h">slice.h</innerfile>
     <briefdescription>
-<para>Directory of lazy-evaluation. </para>    </briefdescription>
+<para>Directory of lazy-evaluation. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/"/>
+    <location file="src/lazy-evaluation/"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1particle__set" kind="namespace" language="C++">
     <compoundname>space::particle_set</compoundname>
     <innerclass refid="classspace_1_1particle__set_1_1_particles" prot="public">space::particle_set::Particles</innerclass>
@@ -7,7 +7,7 @@
     <innerclass refid="classspace_1_1particle__set_1_1_point_particles" prot="public">space::particle_set::PointParticles</innerclass>
     <innerclass refid="classspace_1_1particle__set_1_1_size_particles" prot="public">space::particle_set::SizeParticles</innerclass>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespacespace_1_1particle__set_1a909fba3130536b3eee034885b926ae81" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1particle__set_1a909fba3130536b3eee034885b926ae81" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp" line="173" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp" bodystart="173" bodyend="-1"/>
+        <location file="src/particles/particles.hpp" line="173" column="16" bodyfile="src/particles/particles.hpp" bodystart="173" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="193" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" bodystart="193" bodyend="201"/>
+        <location file="src/particles/finite-size.hpp" line="193" column="1" bodyfile="src/particles/finite-size.hpp" bodystart="193" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__set_1a8d14688a850ce9915581fd6c3fccaf87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp" line="157" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp" bodystart="157" bodyend="160"/>
+        <location file="src/particles/point-particles.hpp" line="157" column="1" bodyfile="src/particles/point-particles.hpp" bodystart="157" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__set_1a4e877518e83ce167ca6bb0e2ac9f72db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp" line="163" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp" bodystart="163" bodyend="166"/>
+        <location file="src/particles/point-particles.hpp" line="163" column="14" bodyfile="src/particles/point-particles.hpp" bodystart="163" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__set_1aa06aff5cff6ad736eb5de019f5ac1ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -130,13 +130,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp" line="227" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp" bodystart="227" bodyend="236"/>
+        <location file="src/particles/point-particles.hpp" line="227" column="1" bodyfile="src/particles/point-particles.hpp" bodystart="227" bodyend="236"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>name space for particle set </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp" line="31" column="1"/>
+<para>name space for particle set </para>
+    </detaileddescription>
+    <location file="src/particles/finite-size.hpp" line="31" column="29"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1ode__iterator_1_1_worst_offender" kind="class" language="C++" prot="public">
     <compoundname>space::ode_iterator::WorstOffender</compoundname>
     <basecompoundref refid="classspace_1_1ode__iterator_1_1_error_checker" prot="public" virt="non-virtual">space::ode_iterator::ErrorChecker&lt; WorstOffender&lt; T &gt; &gt;</basecompoundref>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="42" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="42" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="42" column="3" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classspace_1_1ode__iterator_1_1_worst_offender_1a6c2cd875e41be55e19b351695e59b58f" prot="public" static="no">
         <type>T</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="44" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="44" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="44" column="3" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classspace_1_1ode__iterator_1_1_worst_offender_1a72a5bfa1f49efbaf5a5c926d58335ab7" prot="public" static="no">
         <type>T</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="46" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="46" column="3" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="53" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="53" column="11" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="71" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="71" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="71" column="10" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode__iterator_1_1_worst_offender_1a19ea972efb669d8ce3fcc1c96020a56f" prot="private" static="no" mutable="no">
         <type><ref refid="classspace_1_1ode__iterator_1_1_worst_offender_1a6c2cd875e41be55e19b351695e59b58f" kindref="member">Scalar</ref></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="73" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="73" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="73" column="10" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="73" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -110,10 +110,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1addb3aa4728c6bf56c3fb324bdafe7efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -126,10 +127,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1aac0d2b355ff49b23d5fadf7af4b4bcf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -142,10 +144,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1ad0478f8674bea0a7644d185618984966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1ode__iterator_1_1_worst_offender" kindref="compound">WorstOffender</ref> &amp;</type>
@@ -158,10 +161,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="124"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1af781f5b9afc6c4f69f8e87036a0b4afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1ode__iterator_1_1_worst_offender" kindref="compound">WorstOffender</ref> &amp;</type>
@@ -174,10 +178,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="49" column="170"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1aa10d5bdf77a6e7c9279488d2581f4aa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -198,35 +203,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="51" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="145" bodyend="145"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="51" column="3" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="145" bodyend="145"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1ac7edd2116d4052034ed00efa869c8403" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::WorstOffender&lt; T &gt;::impl_atol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a5f04366c5be56616f0fa4ee3b4bbe229" prot="protected" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::WorstOffender&lt; T &gt;::impl_atol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>impl_atol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>atol_</computeroutput> in name of <computeroutput>impl_atol</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>atol_</computeroutput> in name of <computeroutput>impl_atol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="56" bodyend="56"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="56" column="31" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="56" bodyend="56"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a2464bd4613f835b553bc26bb6d808433" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::WorstOffender&lt; T &gt;::impl_rtol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1add26fd2e961d62d111a1674efc51c1a7" prot="protected" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::WorstOffender&lt; T &gt;::impl_rtol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>impl_rtol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>rtol_</computeroutput> in name of <computeroutput>impl_rtol</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>rtol_</computeroutput> in name of <computeroutput>impl_rtol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="58" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="58" bodyend="58"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="58" column="27" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a8444b26b259548191190d1e5a0b2b60c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -243,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="60" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="91" bodyend="93"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="60" column="8" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="91" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a7f41f14072ffe0376055a54b210cee41" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -260,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="96" bodyend="98"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="62" column="8" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="96" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a51cdf43f2790679cf0668bb919f9ed35" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -286,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="65" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="102" bodyend="109"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="65" column="8" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="102" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a7f1c0590cfb945b8b3eea54e437eb40f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -316,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="68" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="113" bodyend="120"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="68" column="8" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="113" bodyend="120"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -344,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="80" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="124" bodyend="131"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="80" column="8" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="124" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_worst_offender_1a4abd010d76130ce08f65d8596f676f1c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -374,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="83" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="135" bodyend="142"/>
+        <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="83" column="8" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="135" bodyend="142"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -385,68 +392,70 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="513">
+      <node id="3">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="512">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; WorstOffender&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="513" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; WorstOffender&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="511">
+      <node id="1">
         <label>space::ode_iterator::WorstOffender&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_worst_offender"/>
-        <childnode refid="512" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="516">
+      <node id="3">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="515">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; WorstOffender&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="516" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; WorstOffender&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="514">
+      <node id="1">
         <label>space::ode_iterator::WorstOffender&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_worst_offender"/>
-        <childnode refid="515" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" line="39" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp" bodystart="39" bodyend="84"/>
+    <location file="src/ode-iterator/error-checker/worst-offender.hpp" line="39" column="42" bodyfile="src/ode-iterator/error-checker/worst-offender.hpp" bodystart="39" bodyend="84"/>
     <listofallmembers>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a563a4c2559d79f569369cde381541b86" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab595d8b44e36594e174e71af36bc0217" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a085ae999606cb13c014824ba88256ecc" prot="private" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>atol_</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1ab2a95e67d8d8ac45f828e2720d88c8e7" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>Base</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1ad7bb8919b250e029861eb9c307d3e7f5" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>Base</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a792b9fc0a077429cb686224089b9ae8b" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>derived</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab1820edaab1060f661ef11dae93ceb56" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1af219d44501ea532d0349dfe991fd45cf" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>error</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1ac7edd2116d4052034ed00efa869c8403" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a5f04366c5be56616f0fa4ee3b4bbe229" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a51cdf43f2790679cf0668bb919f9ed35" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a7f1c0590cfb945b8b3eea54e437eb40f" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_error</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a2464bd4613f835b553bc26bb6d808433" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1add26fd2e961d62d111a1674efc51c1a7" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a8444b26b259548191190d1e5a0b2b60c" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_set_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a7f41f14072ffe0376055a54b210cee41" prot="protected" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>impl_set_rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a320d0336f98f4b77765a6f2511910f59" prot="private" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>one_dimension_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a4abd010d76130ce08f65d8596f676f1c" prot="private" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>one_dimension_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1ad0478f8674bea0a7644d185618984966" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>operator=</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1af781f5b9afc6c4f69f8e87036a0b4afd" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>operator=</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1aefaf011e4879aa0acfe87926243b058f" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a9aa73c7df45017e93423bfcabe1db3a9" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a19ea972efb669d8ce3fcc1c96020a56f" prot="private" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>rtol_</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_worst_offender_1a6c2cd875e41be55e19b351695e59b58f" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>Scalar</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a1f767e96bfc475742126d0894a6ad389" prot="public" virt="non-virtual"><scope>space::ode_iterator::WorstOffender</scope><name>set_atol</name></member>

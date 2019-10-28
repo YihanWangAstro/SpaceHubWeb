@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1particle__system" kind="namespace" language="C++">
     <compoundname>space::particle_system</compoundname>
     <innerclass refid="classspace_1_1particle__system_1_1_a_rchain_system" prot="public">space::particle_system::ARchainSystem</innerclass>
@@ -10,7 +10,8 @@
     <innerclass refid="classspace_1_1particle__system_1_1_regularized_system" prot="public">space::particle_system::RegularizedSystem</innerclass>
     <innerclass refid="classspace_1_1particle__system_1_1_simple_system" prot="public">space::particle_system::SimpleSystem</innerclass>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="namespacespace_1_1particle__system_1ad1d6bb96466a13872b2362628224c740" prot="public" static="no">
+      <memberdef kind="enum" id="namespacespace_1_1particle__system_1ad1d6bb96466a13872b2362628224c740" prot="public" static="no" strong="yes">
+        <type></type>
         <name>ReguType</name>
         <enumvalue id="namespacespace_1_1particle__system_1ad1d6bb96466a13872b2362628224c740a360c009cc18cabba43fcbfe53c5f61ef" prot="public">
           <name>LogH</name>
@@ -39,11 +40,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp" line="37" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp" bodystart="37" bodyend="37"/>
+        <location file="src/particle-system/regu-system.hpp" line="37" column="20" bodyfile="src/particle-system/regu-system.hpp" bodystart="37" bodyend="37"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespacespace_1_1particle__system_1afc1dea125f038874fd7cf69255ae6acd" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1particle__system_1afc1dea125f038874fd7cf69255ae6acd" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
           <param>
             <type>typename T</type>
@@ -60,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp" line="286" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp" bodystart="286" bodyend="-1"/>
+        <location file="src/particle-system/particle-system.hpp" line="286" column="16" bodyfile="src/particle-system/particle-system.hpp" bodystart="286" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -96,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp" line="304" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp" bodystart="304" bodyend="307"/>
+        <location file="src/particle-system/archain.hpp" line="304" column="1" bodyfile="src/particle-system/archain.hpp" bodystart="304" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a8f2adae5f7eeba0777c7e74a3cb0dbd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -130,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp" line="310" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp" bodystart="310" bodyend="313"/>
+        <location file="src/particle-system/archain.hpp" line="310" column="14" bodyfile="src/particle-system/archain.hpp" bodystart="310" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1ad42963f3fbd8f692ceeaead83f42254d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -159,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp" line="295" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp" bodystart="295" bodyend="298"/>
+        <location file="src/particle-system/base-system.hpp" line="295" column="1" bodyfile="src/particle-system/base-system.hpp" bodystart="295" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a153c902952b7375522fd64216b07eb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -188,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp" line="301" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp" bodystart="301" bodyend="304"/>
+        <location file="src/particle-system/base-system.hpp" line="301" column="14" bodyfile="src/particle-system/base-system.hpp" bodystart="301" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a740760ae2cd8c4348377ccf438d95aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -217,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp" line="256" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp" bodystart="256" bodyend="259"/>
+        <location file="src/particle-system/chain-system.hpp" line="256" column="14" bodyfile="src/particle-system/chain-system.hpp" bodystart="256" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a564bceda97e7591778849d2038c542fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -246,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp" line="262" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp" bodystart="262" bodyend="265"/>
+        <location file="src/particle-system/chain-system.hpp" line="262" column="1" bodyfile="src/particle-system/chain-system.hpp" bodystart="262" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a482c590fed1c31fdfcd05165bfad6b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -272,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp" line="271" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp" bodystart="271" bodyend="274"/>
+        <location file="src/particle-system/particle-system.hpp" line="271" column="1" bodyfile="src/particle-system/particle-system.hpp" bodystart="271" bodyend="274"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1acba86c9d9ab42f3157555c31715a833b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -298,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp" line="277" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp" bodystart="277" bodyend="280"/>
+        <location file="src/particle-system/particle-system.hpp" line="277" column="14" bodyfile="src/particle-system/particle-system.hpp" bodystart="277" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a5690419f29383d3527b99135a3807737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -332,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp" line="192" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp" bodystart="192" bodyend="195"/>
+        <location file="src/particle-system/regu-system.hpp" line="192" column="14" bodyfile="src/particle-system/regu-system.hpp" bodystart="192" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1particle__system_1a87366d656151e2403f98f594db3a765f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -366,13 +367,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp" line="198" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp" bodystart="198" bodyend="201"/>
+        <location file="src/particle-system/regu-system.hpp" line="198" column="1" bodyfile="src/particle-system/regu-system.hpp" bodystart="198" bodyend="201"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>space name for particle system. </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp" line="31" column="1"/>
+<para>space name for particle system. </para>
+    </detaileddescription>
+    <location file="src/particle-system/archain.hpp" line="31" column="32"/>
   </compounddef>
 </doxygen>

@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1octree" kind="namespace" language="C++">
     <compoundname>space::octree</compoundname>
     <innerclass refid="classspace_1_1octree_1_1_node" prot="public">space::octree::Node</innerclass>
     <innerclass refid="classspace_1_1octree_1_1_octree" prot="public">space::octree::Octree</innerclass>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="namespacespace_1_1octree_1ab2b2971972f1b34511452015ddebca35" prot="public" static="no">
+      <memberdef kind="enum" id="namespacespace_1_1octree_1ab2b2971972f1b34511452015ddebca35" prot="public" static="no" strong="yes">
+        <type></type>
         <name>region</name>
         <enumvalue id="namespacespace_1_1octree_1ab2b2971972f1b34511452015ddebca35a9fe934c7a727864763bff7eddba8bd49" prot="public">
           <name>flu</name>
@@ -69,13 +70,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/octree.hpp" line="24" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/particle-system/octree.hpp" bodystart="24" bodyend="24"/>
+        <location file="src/particle-system/octree.hpp" line="24" column="18" bodyfile="src/particle-system/octree.hpp" bodystart="24" bodyend="24"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/octree.hpp" line="9" column="1"/>
+    <location file="src/particle-system/octree.hpp" line="9" column="23"/>
   </compounddef>
 </doxygen>

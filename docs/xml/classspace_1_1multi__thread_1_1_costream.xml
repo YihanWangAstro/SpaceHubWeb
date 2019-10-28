@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1multi__thread_1_1_costream" kind="class" language="C++" prot="public">
     <compoundname>space::multi_thread::Costream</compoundname>
     <includes refid="ciostream_8hpp" local="no">ciostream.hpp</includes>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="150" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="150" bodyend="-1"/>
+        <location file="src/multi-thread/ciostream.hpp" line="150" column="19" bodyfile="src/multi-thread/ciostream.hpp" bodystart="150" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="132" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="132" bodyend="132"/>
+        <location file="src/multi-thread/ciostream.hpp" line="132" column="12" bodyfile="src/multi-thread/ciostream.hpp" bodystart="132" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1a0ad78dd369be37ef6f563bec33a404ef" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="134" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="134" bodyend="134"/>
+        <location file="src/multi-thread/ciostream.hpp" line="134" column="12" bodyfile="src/multi-thread/ciostream.hpp" bodystart="134" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1a28859a1b4965caca056d5f67404a17b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="136" column="1"/>
+        <location file="src/multi-thread/ciostream.hpp" line="136" column="3"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1ac5eaf864e735ffcee5fcd0091c5042a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1multi__thread_1_1_costream" kindref="compound">Costream</ref> &amp;</type>
@@ -88,9 +88,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="138" column="1"/>
+        <location file="src/multi-thread/ciostream.hpp" line="138" column="12"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1ad179b3dfbdd047c99ce41b16be3723b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1ad179b3dfbdd047c99ce41b16be3723b0" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type></type>
         <definition>space::multi_thread::Costream&lt; T &gt;::Costream</definition>
         <argsstring>(Costream &amp;&amp;other) noexcept</argsstring>
@@ -105,9 +105,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="140" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="140" bodyend="140"/>
+        <location file="src/multi-thread/ciostream.hpp" line="140" column="3" bodyfile="src/multi-thread/ciostream.hpp" bodystart="140" bodyend="140"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1a59f54ba9fae5130914b04aabc0a888f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classspace_1_1multi__thread_1_1_costream_1a59f54ba9fae5130914b04aabc0a888f1" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classspace_1_1multi__thread_1_1_costream" kindref="compound">Costream</ref> &amp;</type>
         <definition>Costream&amp; space::multi_thread::Costream&lt; T &gt;::operator=</definition>
         <argsstring>(Costream &amp;&amp;other) noexcept</argsstring>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="142" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="142" bodyend="145"/>
+        <location file="src/multi-thread/ciostream.hpp" line="142" column="12" bodyfile="src/multi-thread/ciostream.hpp" bodystart="142" bodyend="145"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="147" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="147" bodyend="147"/>
+        <location file="src/multi-thread/ciostream.hpp" line="147" column="10" bodyfile="src/multi-thread/ciostream.hpp" bodystart="147" bodyend="147"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -153,12 +153,12 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="72">
+      <node id="1">
         <label>space::multi_thread::Costream&lt; T &gt;</label>
         <link refid="classspace_1_1multi__thread_1_1_costream"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" line="130" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp" bodystart="130" bodyend="151"/>
+    <location file="src/multi-thread/ciostream.hpp" line="130" column="15" bodyfile="src/multi-thread/ciostream.hpp" bodystart="130" bodyend="151"/>
     <listofallmembers>
       <member refid="classspace_1_1multi__thread_1_1_costream_1a0029594324ec1b08227c7a8e6c1a4d60" prot="public" virt="non-virtual"><scope>space::multi_thread::Costream</scope><name>Costream</name></member>
       <member refid="classspace_1_1multi__thread_1_1_costream_1a0ad78dd369be37ef6f563bec33a404ef" prot="public" virt="non-virtual"><scope>space::multi_thread::Costream</scope><name>Costream</name></member>

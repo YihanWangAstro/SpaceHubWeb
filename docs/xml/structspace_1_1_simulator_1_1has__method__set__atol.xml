@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1_simulator_1_1has__method__set__atol" kind="struct" language="C++" prot="private">
     <compoundname>space::Simulator::has_method_set_atol</compoundname>
     <templateparamlist>
@@ -13,7 +13,7 @@
       </param>
     </templateparamlist>
       <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structspace_1_1_simulator_1_1has__method__set__atol_1a5e8b5a253184636a5cba7045c2d690ad" prot="public" static="yes" mutable="no">
+      <memberdef kind="variable" id="structspace_1_1_simulator_1_1has__method__set__atol_1a5e8b5a253184636a5cba7045c2d690ad" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>constexpr bool</type>
         <definition>constexpr bool space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_method_set_atol&lt; T, Args &gt;::value</definition>
         <argsstring></argsstring>
@@ -25,18 +25,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" bodystart="275" bodyend="-1"/>
+        <location file="src/simulator.hpp" line="275" column="239" bodyfile="src/simulator.hpp" bodystart="275" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__method__set__atol_1ac180554695636e420ec032e7d679060c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__method__set__atol_1a6a8dbd4db62f7478b294de037fd4ab60" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename U</type>
           </param>
         </templateparamlist>
-        <type>constexpr auto</type>
-        <definition>static constexpr auto space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_method_set_atol&lt; T, Args &gt;::check</definition>
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_method_set_atol&lt; T, Args &gt;::check</definition>
         <argsstring>(const void *) -&gt; decltype(std::declval&lt; U &gt;(). set_atol(std::declval&lt; Args &gt;()...), std::true_type())</argsstring>
         <name>check</name>
         <param>
@@ -48,16 +48,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1"/>
+        <location file="src/simulator.hpp" line="275" column="145"/>
       </memberdef>
-      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__method__set__atol_1a930c6c9560a59982fbddc1597f908bec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__method__set__atol_1af1b3d89f41addedee262f1d1938b9686" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename U</type>
           </param>
         </templateparamlist>
-        <type>constexpr std::false_type</type>
-        <definition>static constexpr std::false_type space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_method_set_atol&lt; T, Args &gt;::check</definition>
+        <type>constexpr static std::false_type</type>
+        <definition>constexpr static std::false_type space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_method_set_atol&lt; T, Args &gt;::check</definition>
         <argsstring>(...)</argsstring>
         <name>check</name>
         <param>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1"/>
+        <location file="src/simulator.hpp" line="275" column="207"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,14 +77,14 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="159">
+      <node id="1">
         <label>space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_method_set_atol&lt; T, Args &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" bodystart="275" bodyend="275"/>
+    <location file="src/simulator.hpp" line="275" column="110" bodyfile="src/simulator.hpp" bodystart="275" bodyend="275"/>
     <listofallmembers>
-      <member refid="structspace_1_1_simulator_1_1has__method__set__atol_1ac180554695636e420ec032e7d679060c" prot="public" virt="non-virtual"><scope>space::Simulator::has_method_set_atol</scope><name>check</name></member>
-      <member refid="structspace_1_1_simulator_1_1has__method__set__atol_1a930c6c9560a59982fbddc1597f908bec" prot="public" virt="non-virtual"><scope>space::Simulator::has_method_set_atol</scope><name>check</name></member>
+      <member refid="structspace_1_1_simulator_1_1has__method__set__atol_1a6a8dbd4db62f7478b294de037fd4ab60" prot="public" virt="non-virtual"><scope>space::Simulator::has_method_set_atol</scope><name>check</name></member>
+      <member refid="structspace_1_1_simulator_1_1has__method__set__atol_1af1b3d89f41addedee262f1d1938b9686" prot="public" virt="non-virtual"><scope>space::Simulator::has_method_set_atol</scope><name>check</name></member>
       <member refid="structspace_1_1_simulator_1_1has__method__set__atol_1a5e8b5a253184636a5cba7045c2d690ad" prot="public" virt="non-virtual"><scope>space::Simulator::has_method_set_atol</scope><name>value</name></member>
     </listofallmembers>
   </compounddef>

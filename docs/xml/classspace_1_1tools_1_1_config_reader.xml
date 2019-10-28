@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1tools_1_1_config_reader" kind="class" language="C++" prot="public">
     <compoundname>space::tools::ConfigReader</compoundname>
     <includes refid="config-reader_8hpp" local="no">config-reader.hpp</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" bodystart="62" bodyend="-1"/>
+        <location file="src/tools/config-reader.hpp" line="62" column="24" bodyfile="src/tools/config-reader.hpp" bodystart="62" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" bodystart="69" bodyend="86"/>
+        <location file="src/tools/config-reader.hpp" line="54" column="14" bodyfile="src/tools/config-reader.hpp" bodystart="69" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1tools_1_1_config_reader_1ac828703f9b32cc521b573af96a609c2f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" bodystart="88" bodyend="89"/>
+        <location file="src/tools/config-reader.hpp" line="56" column="14" bodyfile="src/tools/config-reader.hpp" bodystart="88" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1tools_1_1_config_reader_1a317db5b99a0c82b950507fe87af754c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" line="59" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" bodystart="92" bodyend="102"/>
+        <location file="src/tools/config-reader.hpp" line="59" column="7" bodyfile="src/tools/config-reader.hpp" bodystart="92" bodyend="102"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" line="64" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" bodystart="104" bodyend="125"/>
+        <location file="src/tools/config-reader.hpp" line="64" column="17" bodyfile="src/tools/config-reader.hpp" bodystart="104" bodyend="125"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -120,12 +120,12 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="61">
+      <node id="1">
         <label>space::tools::ConfigReader</label>
         <link refid="classspace_1_1tools_1_1_config_reader"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" line="52" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp" bodystart="52" bodyend="65"/>
+    <location file="src/tools/config-reader.hpp" line="52" column="21" bodyfile="src/tools/config-reader.hpp" bodystart="52" bodyend="65"/>
     <listofallmembers>
       <member refid="classspace_1_1tools_1_1_config_reader_1ac58a9434af1ed4da7caf13e1ed9b06fa" prot="private" virt="non-virtual"><scope>space::tools::ConfigReader</scope><name>classify_string</name></member>
       <member refid="classspace_1_1tools_1_1_config_reader_1a1148267071952f04ab61a994eedd056a" prot="public" virt="non-virtual"><scope>space::tools::ConfigReader</scope><name>ConfigReader</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1orbit_1_1_kepler_orbit" kind="struct" language="C++" prot="public">
     <compoundname>space::orbit::KeplerOrbit</compoundname>
     <includes refid="orbits_8hpp" local="no">orbits.hpp</includes>
@@ -17,12 +17,13 @@
         <argsstring></argsstring>
         <name>Scalar</name>
         <briefdescription>
-<para>Floating point like type. </para>        </briefdescription>
+<para>Floating point like type. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="65" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="65" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="65" column="3" bodyfile="src/orbits/orbits.hpp" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structspace_1_1orbit_1_1_kepler_orbit_1a87fe252c858a2655420c61ba2994dc3f" prot="public" static="no">
         <type>std::variant&lt; Real, <ref refid="structspace_1_1orbit_1_1_random_indicator" kindref="compound">RandomIndicator</ref> &gt;</type>
@@ -30,12 +31,13 @@
         <argsstring></argsstring>
         <name>Variant</name>
         <briefdescription>
-<para>Variant that can hold both a Scalar OR a random indictor. </para>        </briefdescription>
+<para>Variant that can hold both a Scalar OR a random indictor. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="70" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="70" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="70" column="3" bodyfile="src/orbits/orbits.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -45,12 +47,13 @@
         <argsstring></argsstring>
         <name>m1</name>
         <briefdescription>
-<para>Mass of the primary object. </para>        </briefdescription>
+<para>Mass of the primary object. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="74" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="74" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="74" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1acc8297d015fd61029bec16c31b677a6a" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -58,12 +61,13 @@
         <argsstring></argsstring>
         <name>m2</name>
         <briefdescription>
-<para>Mass of the secondary object. </para>        </briefdescription>
+<para>Mass of the secondary object. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="78" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="78" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a26c061bf75786254584795af5bcd7315" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -71,12 +75,13 @@
         <argsstring></argsstring>
         <name>e</name>
         <briefdescription>
-<para>Eccentricity of the orbit. </para>        </briefdescription>
+<para>Eccentricity of the orbit. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="82" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="82" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="82" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1ada8aad58f3afe02ccef9aac32904659e" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -84,12 +89,14 @@
         <argsstring></argsstring>
         <name>p</name>
         <briefdescription>
-<para>Semi-latus rectum of the orbit a(1-e^2) . </para>        </briefdescription>
+<para>Semi-latus rectum of the orbit a(1-e^2) . </para>
+        </briefdescription>
         <detaileddescription>
-<para>We don&apos;t use semi-major axis for this general orbital type because the semi-major axis for parabolic orbit is undefined. </para>        </detaileddescription>
+<para>We don&apos;t use semi-major axis for this general orbital type because the semi-major axis for parabolic orbit is undefined. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="89" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="89" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="89" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a1b7f88495c4c38f56d4d8c8c054a2be9" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -97,12 +104,13 @@
         <argsstring></argsstring>
         <name>i</name>
         <briefdescription>
-<para>Orbit inclination. </para>        </briefdescription>
+<para>Orbit inclination. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="93" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="93" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="93" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1af07efe10f12bb60fc34030b407d7da2d" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -110,12 +118,13 @@
         <argsstring></argsstring>
         <name>Omega</name>
         <briefdescription>
-<para>Longitude of the ascending node. </para>        </briefdescription>
+<para>Longitude of the ascending node. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="97" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="97" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="97" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a003a56ed520317c25f6ee50670aa1c2b" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -123,12 +132,13 @@
         <argsstring></argsstring>
         <name>omega</name>
         <briefdescription>
-<para>Argument of periapsis. </para>        </briefdescription>
+<para>Argument of periapsis. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="101" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="101" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="101" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a9148410a05d72c34f6b7f561dfbdb4a9" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
@@ -136,12 +146,13 @@
         <argsstring></argsstring>
         <name>nu</name>
         <briefdescription>
-<para>True anomaly. </para>        </briefdescription>
+<para>True anomaly. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="105" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="105" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="105" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a0daca584f9a2643e05810accc8ea5446" prot="public" static="no" mutable="no">
         <type><ref refid="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5" kindref="member">OrbitType</ref></type>
@@ -149,12 +160,13 @@
         <argsstring></argsstring>
         <name>orbit_type</name>
         <briefdescription>
-<para>Orbit type. </para>        </briefdescription>
+<para>Orbit type. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="109" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="109" bodyend="-1"/>
+        <location file="src/orbits/orbits.hpp" line="109" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="109" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -166,10 +178,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="111" column="1"/>
+        <location file="src/orbits/orbits.hpp" line="111" column="7"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a0fa156f874494fccd91bc28d13cd890f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -182,10 +195,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="111" column="1"/>
+        <location file="src/orbits/orbits.hpp" line="111" column="37"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a8a707a9cee707d407b5c0c07efdd937a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -198,10 +212,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="111" column="1"/>
+        <location file="src/orbits/orbits.hpp" line="111" column="70"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a14a61d5c3113609af66b022f98d491c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref> &amp;</type>
@@ -214,10 +229,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="111" column="1"/>
+        <location file="src/orbits/orbits.hpp" line="111" column="116"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a26467916151fe158d1e027943b5cb08d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref> &amp;</type>
@@ -230,10 +246,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="111" column="1"/>
+        <location file="src/orbits/orbits.hpp" line="111" column="160"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1acc84219e953e1d849d5a1fdb95bd95f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -273,69 +290,79 @@
           <declname>true_anomaly</declname>
         </param>
         <briefdescription>
-<para>Construct a new Orbit Args object from orbital parameters. </para>        </briefdescription>
+<para>Construct a new Orbit Args object from orbital parameters. </para>
+        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">m_1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Mass of the primary object. </para></parameterdescription>
+<para>Mass of the primary object. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">m_2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Mass of the secondary object. </para></parameterdescription>
+<para>Mass of the secondary object. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">semi_latus_rectum</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Semi-latus rectum. </para></parameterdescription>
+<para>Semi-latus rectum. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">eccentricity</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Eccentricity. </para></parameterdescription>
+<para>Eccentricity. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">inclination</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Inclination. </para></parameterdescription>
+<para>Inclination. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">longitude_of_ascending_node</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Longitude of the ascending node. </para></parameterdescription>
+<para>Longitude of the ascending node. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">argument_of_periapsis</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Argument of the periapsis. </para></parameterdescription>
+<para>Argument of the periapsis. </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername direction="in">true_anomaly</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>True anomaly. </para></parameterdescription>
+<para>True anomaly. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>        </detaileddescription>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="125" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="356" bodyend="395"/>
+        <location file="src/orbits/orbits.hpp" line="125" column="3" bodyfile="src/orbits/orbits.hpp" bodystart="356" bodyend="395"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a6b451e32b6f31ffd87b7ff6ce8034c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -343,12 +370,13 @@
         <argsstring>()</argsstring>
         <name>shuffle_i</name>
         <briefdescription>
-<para>Suffle the inclination. </para>        </briefdescription>
+<para>Suffle the inclination. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="131" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="398" bodyend="400"/>
+        <location file="src/orbits/orbits.hpp" line="131" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="398" bodyend="400"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a0d4c3c371062bbe3c34def9fd738467a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -356,12 +384,13 @@
         <argsstring>()</argsstring>
         <name>shuffle_Omega</name>
         <briefdescription>
-<para>Suffle the Longitude of the ascending node. </para>        </briefdescription>
+<para>Suffle the Longitude of the ascending node. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="136" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="403" bodyend="405"/>
+        <location file="src/orbits/orbits.hpp" line="136" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="403" bodyend="405"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a89382d0eaf078c0f687cdfdae211dfb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -369,12 +398,13 @@
         <argsstring>()</argsstring>
         <name>shuffle_omega</name>
         <briefdescription>
-<para>Suffle the Argument of periapsis. </para>        </briefdescription>
+<para>Suffle the Argument of periapsis. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="141" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="408" bodyend="410"/>
+        <location file="src/orbits/orbits.hpp" line="141" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="408" bodyend="410"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a7b91e2ba1f156a8c5fba2c239c55d20d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -382,12 +412,13 @@
         <argsstring>()</argsstring>
         <name>shuffle_nu</name>
         <briefdescription>
-<para>Suffle the true anomaly. </para>        </briefdescription>
+<para>Suffle the true anomaly. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="146" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="413" bodyend="421"/>
+        <location file="src/orbits/orbits.hpp" line="146" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="413" bodyend="421"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -405,75 +436,83 @@
           <declname>obt</declname>
         </param>
         <briefdescription>
-<para>Write the orbit to an ouput stream. </para>        </briefdescription>
+<para>Write the orbit to an ouput stream. </para>
+        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>os[out]</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Output stream </para></parameterdescription>
+<para>Output stream </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>obt[in]</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Orbit parameters. </para></parameterdescription>
+<para>Orbit parameters. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>std::ostream&amp; Output stream. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>std::ostream&amp; Output stream. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="155" bodyend="158"/>
+        <location file="src/orbits/orbits.hpp" line="155" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="155" bodyend="158"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Orbital parameters of the Kepler orbit. </para>    </briefdescription>
+<para>Orbital parameters of the Kepler orbit. </para>
+    </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Real</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Floating point like type. </para></parameterdescription>
+<para>Floating point like type. </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="313">
+      <node id="4">
         <label>space::orbit::HyperOrbit</label>
         <link refid="structspace_1_1orbit_1_1_hyper_orbit"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="312">
+      <node id="3">
         <label>space::orbit::EllipOrbit</label>
         <link refid="structspace_1_1orbit_1_1_ellip_orbit"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="311">
+      <node id="2">
         <label>space::orbit::KeplerOrbit&lt; double &gt;</label>
         <link refid="structspace_1_1orbit_1_1_kepler_orbit"/>
-        <childnode refid="310" relation="template-instance">
+        <childnode refid="1" relation="template-instance">
           <edgelabel>&lt; double &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="310">
+      <node id="1">
         <label>space::orbit::KeplerOrbit&lt; Real &gt;</label>
         <link refid="structspace_1_1orbit_1_1_kepler_orbit"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="315">
+      <node id="2">
         <label>Real</label>
       </node>
-      <node id="314">
+      <node id="1">
         <label>space::orbit::KeplerOrbit&lt; Real &gt;</label>
         <link refid="structspace_1_1orbit_1_1_kepler_orbit"/>
-        <childnode refid="315" relation="usage">
+        <childnode refid="2" relation="usage">
           <edgelabel>+m1</edgelabel>
           <edgelabel>+p</edgelabel>
           <edgelabel>+m2</edgelabel>
@@ -485,7 +524,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="60" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="60" bodyend="159"/>
+    <location file="src/orbits/orbits.hpp" line="60" column="18" bodyfile="src/orbits/orbits.hpp" bodystart="60" bodyend="159"/>
     <listofallmembers>
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a26c061bf75786254584795af5bcd7315" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>e</name></member>
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a1b7f88495c4c38f56d4d8c8c054a2be9" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>i</name></member>

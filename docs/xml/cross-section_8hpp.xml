@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="cross-section_8hpp" kind="file" language="C++">
     <compoundname>cross-section.hpp</compoundname>
     <includes refid="orbits_8hpp" local="yes">../orbits/orbits.hpp</includes>
@@ -7,184 +7,186 @@
     <includes refid="rand-generator_8hpp" local="yes">../rand-generator.hpp</includes>
     <includes refid="vector3_8hpp" local="yes">../vector/vector3.hpp</includes>
     <incdepgraph>
-      <node id="868">
+      <node id="24">
         <label>vector3d.hpp</label>
         <link refid="vector3d_8hpp"/>
       </node>
-      <node id="846">
+      <node id="2">
         <label>../orbits/orbits.hpp</label>
         <link refid="orbits_8hpp"/>
-        <childnode refid="847" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="848" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="849" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="853" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="857" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="867" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="848">
+      <node id="4">
         <label>variant</label>
       </node>
-      <node id="849">
+      <node id="5">
         <label>../IO.hpp</label>
         <link refid="_i_o_8hpp"/>
-        <childnode refid="850" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="851" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="852" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="847">
+      <node id="3">
         <label>cmath</label>
       </node>
-      <node id="867">
+      <node id="23">
         <label>../vector/vector3.hpp</label>
         <link refid="vector3_8hpp"/>
-        <childnode refid="847" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="850" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="856" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="868" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="869" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="864">
+      <node id="20">
         <label>string</label>
       </node>
-      <node id="854">
+      <node id="10">
         <label>macros.hpp</label>
         <link refid="macros_8hpp"/>
       </node>
-      <node id="861">
+      <node id="17">
         <label>fstream</label>
       </node>
-      <node id="845">
-        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+      <node id="1">
+        <label>src/scattering/cross-section.hpp</label>
         <link refid="cross-section_8hpp"/>
-        <childnode refid="846" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="870" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="857" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="867" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="856">
+      <node id="12">
         <label>dev-tools.hpp</label>
         <link refid="dev-tools_8hpp"/>
-        <childnode refid="850" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="851" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="852" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="849" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="870">
+      <node id="26">
         <label>../orbits/particle-manip.hpp</label>
         <link refid="particle-manip_8hpp"/>
-        <childnode refid="856" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="846" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="858">
+      <node id="14">
         <label>random</label>
       </node>
-      <node id="860">
+      <node id="16">
         <label>cstdio</label>
       </node>
-      <node id="851">
+      <node id="7">
         <label>tuple</label>
       </node>
-      <node id="866">
+      <node id="22">
         <label>vector</label>
       </node>
-      <node id="852">
+      <node id="8">
         <label>array</label>
       </node>
-      <node id="853">
+      <node id="9">
         <label>../core-computation.hpp</label>
         <link refid="core-computation_8hpp"/>
-        <childnode refid="854" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="855" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="850">
+      <node id="6">
         <label>iostream</label>
       </node>
-      <node id="855">
+      <node id="11">
         <label>math.hpp</label>
         <link refid="math_8hpp"/>
-        <childnode refid="847" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="856" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="859">
+      <node id="15">
         <label>multi-thread/multi-thread.hpp</label>
         <link refid="multi-thread_8hpp"/>
-        <childnode refid="860" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="861" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="850" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="862" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="863" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="864" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="865" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="866" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="856" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="863">
+      <node id="19">
         <label>mutex</label>
       </node>
-      <node id="869">
+      <node id="25">
         <label>vector3pd.hpp</label>
         <link refid="vector3pd_8hpp"/>
       </node>
-      <node id="865">
+      <node id="21">
         <label>thread</label>
       </node>
-      <node id="857">
+      <node id="13">
         <label>../rand-generator.hpp</label>
         <link refid="rand-generator_8hpp"/>
-        <childnode refid="847" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="858" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="859" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="862">
+      <node id="18">
         <label>memory</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespacespace_1_1scattering">space::scattering</innernamespace>
+    <innernamespace refid="namespacespace">space</innernamespace>
     <innernamespace refid="namespacespace_1_1run__operations">space::run_operations</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Header file. </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp"/>
+<para>Header file. </para>
+    </detaileddescription>
+    <location file="src/scattering/cross-section.hpp"/>
   </compounddef>
 </doxygen>

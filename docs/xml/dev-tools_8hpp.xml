@@ -1,476 +1,476 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dev-tools_8hpp" kind="file" language="C++">
     <compoundname>dev-tools.hpp</compoundname>
     <includes local="no">iostream</includes>
     <includes local="no">tuple</includes>
     <includes local="no">array</includes>
     <includes refid="_i_o_8hpp" local="yes">IO.hpp</includes>
-    <includedby refid="callbacks_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp</includedby>
-    <includedby refid="collision_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp</includedby>
-    <includedby refid="vector3_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp</includedby>
-    <includedby refid="math_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/math.hpp</includedby>
-    <includedby refid="coords_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/coords.hpp</includedby>
-    <includedby refid="_gauss-_dadau_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</includedby>
-    <includedby refid="particle-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp</includedby>
-    <includedby refid="symplectic-integrator_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp</includedby>
-    <includedby refid="accelerations_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp</includedby>
-    <includedby refid="post-newtonian_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/interaction/post-newtonian.hpp</includedby>
-    <includedby refid="tidal_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</includedby>
-    <includedby refid="multi-thread_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp</includedby>
-    <includedby refid="lazy__expr_8h" local="yes">/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_expr.h</includedby>
-    <includedby refid="ciostream_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp</includedby>
-    <includedby refid="error-checker_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp</includedby>
-    <includedby refid="_i_a_s15_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</includedby>
-    <includedby refid="stepsize-controller_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/step-controller/stepsize-controller.hpp</includedby>
-    <includedby refid="particle-manip_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</includedby>
-    <includedby refid="particles_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp</includedby>
-    <includedby refid="simulator_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/simulator.hpp</includedby>
-    <includedby refid="config-reader_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp</includedby>
+    <includedby refid="callbacks_8hpp" local="yes">src/args-callback/callbacks.hpp</includedby>
+    <includedby refid="collision_8hpp" local="yes">src/args-callback/collision.hpp</includedby>
+    <includedby refid="vector3_8hpp" local="yes">src/vector/vector3.hpp</includedby>
+    <includedby refid="math_8hpp" local="yes">src/math.hpp</includedby>
+    <includedby refid="coords_8hpp" local="yes">src/coords.hpp</includedby>
+    <includedby refid="_gauss-_dadau_8hpp" local="yes">src/integrator/Gauss-Dadau.hpp</includedby>
+    <includedby refid="particle-system_8hpp" local="yes">src/particle-system/particle-system.hpp</includedby>
+    <includedby refid="symplectic-integrator_8hpp" local="yes">src/integrator/symplectic/symplectic-integrator.hpp</includedby>
+    <includedby refid="accelerations_8hpp" local="yes">src/interaction/accelerations.hpp</includedby>
+    <includedby refid="post-newtonian_8hpp" local="yes">src/interaction/post-newtonian.hpp</includedby>
+    <includedby refid="tidal_8hpp" local="yes">src/interaction/tidal.hpp</includedby>
+    <includedby refid="multi-thread_8hpp" local="yes">src/multi-thread/multi-thread.hpp</includedby>
+    <includedby refid="lazy__expr_8h" local="yes">src/lazy-evaluation/lazy_expr.h</includedby>
+    <includedby refid="ciostream_8hpp" local="yes">src/multi-thread/ciostream.hpp</includedby>
+    <includedby refid="error-checker_8hpp" local="yes">src/ode-iterator/error-checker/error-checker.hpp</includedby>
+    <includedby refid="_i_a_s15_8hpp" local="yes">src/ode-iterator/IAS15.hpp</includedby>
+    <includedby refid="stepsize-controller_8hpp" local="yes">src/ode-iterator/step-controller/stepsize-controller.hpp</includedby>
+    <includedby refid="particle-manip_8hpp" local="yes">src/orbits/particle-manip.hpp</includedby>
+    <includedby refid="particles_8hpp" local="yes">src/particles/particles.hpp</includedby>
+    <includedby refid="simulator_8hpp" local="yes">src/simulator.hpp</includedby>
+    <includedby refid="config-reader_8hpp" local="yes">src/tools/config-reader.hpp</includedby>
     <incdepgraph>
-      <node id="74">
+      <node id="5">
         <label>IO.hpp</label>
         <link refid="_i_o_8hpp"/>
-        <childnode refid="71" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="73" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="70">
-        <label>/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp</label>
+      <node id="1">
+        <label>src/dev-tools.hpp</label>
         <link refid="dev-tools_8hpp"/>
-        <childnode refid="71" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="73" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="74" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="72">
+      <node id="3">
         <label>tuple</label>
       </node>
-      <node id="73">
+      <node id="4">
         <label>array</label>
       </node>
-      <node id="71">
+      <node id="2">
         <label>iostream</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="103">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp</label>
+      <node id="29">
+        <label>src/ode-iterator/BS-iterator_bk.hpp</label>
         <link refid="_b_s-iterator__bk_8hpp"/>
       </node>
-      <node id="117">
-        <label>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h</label>
+      <node id="43">
+        <label>src/lazy-evaluation/mkl-array.h</label>
         <link refid="mkl-array_8h"/>
       </node>
-      <node id="118">
-        <label>/home/yihan/Repositories/SpaceHub/src/multi-thread/ciostream.hpp</label>
+      <node id="44">
+        <label>src/multi-thread/ciostream.hpp</label>
         <link refid="ciostream_8hpp"/>
       </node>
-      <node id="106">
-        <label>/home/yihan/Repositories/SpaceHub/src/integrator/integrator.hpp</label>
+      <node id="32">
+        <label>src/integrator/integrator.hpp</label>
         <link refid="integrator_8hpp"/>
-        <childnode refid="93" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="107" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="86">
-        <label>/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</label>
+      <node id="12">
+        <label>src/orbits/orbits.hpp</label>
         <link refid="orbits_8hpp"/>
-        <childnode refid="85" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="87" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="121">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp</label>
+      <node id="47">
+        <label>src/ode-iterator/error-checker/RMS.hpp</label>
         <link refid="_r_m_s_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="83">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/newtonian.hpp</label>
+      <node id="9">
+        <label>src/interaction/newtonian.hpp</label>
         <link refid="newtonian_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="122">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/worst-offender.hpp</label>
+      <node id="48">
+        <label>src/ode-iterator/error-checker/worst-offender.hpp</label>
         <link refid="worst-offender_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="101">
-        <label>/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp</label>
+      <node id="27">
+        <label>src/kahan-number.hpp</label>
         <link refid="kahan-number_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="111">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/accelerations.hpp</label>
+      <node id="37">
+        <label>src/interaction/accelerations.hpp</label>
         <link refid="accelerations_8hpp"/>
-        <childnode refid="98" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="110">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/const-iterator.hpp</label>
+      <node id="36">
+        <label>src/ode-iterator/const-iterator.hpp</label>
         <link refid="const-iterator_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="95">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp</label>
+      <node id="21">
+        <label>src/particle-system/chain.hpp</label>
         <link refid="chain_8hpp"/>
-        <childnode refid="96" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="96">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp</label>
+      <node id="22">
+        <label>src/particle-system/archain.hpp</label>
         <link refid="archain_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="82">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp</label>
+      <node id="8">
+        <label>src/interaction/interaction.hpp</label>
         <link refid="interaction_8hpp"/>
-        <childnode refid="83" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="84" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="85" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="116">
-        <label>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/slice.h</label>
+      <node id="42">
+        <label>src/lazy-evaluation/slice.h</label>
         <link refid="slice_8h"/>
-        <childnode refid="114" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="123">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/step-controller/stepsize-controller.hpp</label>
+      <node id="49">
+        <label>src/ode-iterator/step-controller/stepsize-controller.hpp</label>
         <link refid="stepsize-controller_8hpp"/>
-        <childnode refid="104" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="79">
-        <label>/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp</label>
+      <node id="5">
+        <label>src/vector/vector3.hpp</label>
         <link refid="vector3_8hpp"/>
-        <childnode refid="78" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="80" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="81" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="86" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="89" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="100">
-        <label>/home/yihan/Repositories/SpaceHub/src/simulator.hpp</label>
+      <node id="26">
+        <label>src/simulator.hpp</label>
         <link refid="simulator_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="77">
-        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+      <node id="3">
+        <label>src/spaceHub.hpp</label>
         <link refid="space_hub_8hpp"/>
       </node>
-      <node id="97">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</label>
+      <node id="23">
+        <label>src/particle-system/chain-system.hpp</label>
         <link refid="chain-system_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="76">
-        <label>/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp</label>
+      <node id="2">
+        <label>src/args-callback/callbacks.hpp</label>
         <link refid="callbacks_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="107">
-        <label>/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp</label>
+      <node id="33">
+        <label>src/integrator/symplectic/symplectic-integrator.hpp</label>
         <link refid="symplectic-integrator_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="125">
-        <label>/home/yihan/Repositories/SpaceHub/src/tools/config-reader.hpp</label>
+      <node id="51">
+        <label>src/tools/config-reader.hpp</label>
         <link refid="config-reader_8hpp"/>
       </node>
-      <node id="90">
-        <label>/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp</label>
+      <node id="16">
+        <label>src/particles/finite-size.hpp</label>
         <link refid="finite-size_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="119">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/error-checker.hpp</label>
+      <node id="45">
+        <label>src/ode-iterator/error-checker/error-checker.hpp</label>
         <link refid="error-checker_8hpp"/>
-        <childnode refid="120" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="121" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="122" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="88">
-        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+      <node id="14">
+        <label>src/scattering/cross-section.hpp</label>
         <link refid="cross-section_8hpp"/>
       </node>
-      <node id="75">
-        <label>/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp</label>
+      <node id="1">
+        <label>src/dev-tools.hpp</label>
         <link refid="dev-tools_8hpp"/>
-        <childnode refid="76" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="78" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="79" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="91" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="80" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="93" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="105" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="107" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="111" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="84" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="85" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="112" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="115" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="118" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="119" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="123" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="87" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="124" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="125" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
-      <node id="114">
-        <label>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h</label>
+      <node id="40">
+        <label>src/lazy-evaluation/lazy_array.h</label>
         <link refid="lazy__array_8h"/>
       </node>
-      <node id="124">
-        <label>/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp</label>
+      <node id="50">
+        <label>src/particles/particles.hpp</label>
         <link refid="particles_8hpp"/>
-        <childnode refid="89" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="87">
-        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+      <node id="13">
+        <label>src/orbits/particle-manip.hpp</label>
         <link refid="particle-manip_8hpp"/>
-        <childnode refid="88" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="98">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp</label>
+      <node id="24">
+        <label>src/particle-system/regu-system.hpp</label>
         <link refid="regu-system_8hpp"/>
-        <childnode refid="96" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="120">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp</label>
+      <node id="46">
+        <label>src/ode-iterator/error-checker/IAS15-error.hpp</label>
         <link refid="_i_a_s15-error_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="109">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/Burlish-Stoer.hpp</label>
+      <node id="35">
+        <label>src/ode-iterator/Burlish-Stoer.hpp</label>
         <link refid="_burlish-_stoer_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="102">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator0.hpp</label>
+      <node id="28">
+        <label>src/ode-iterator/BS-iterator0.hpp</label>
         <link refid="_b_s-iterator0_8hpp"/>
       </node>
-      <node id="108">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/ode-iterator.hpp</label>
+      <node id="34">
+        <label>src/ode-iterator/ode-iterator.hpp</label>
         <link refid="ode-iterator_8hpp"/>
-        <childnode refid="102" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="103" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="109" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="110" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="115">
-        <label>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_expr.h</label>
+      <node id="41">
+        <label>src/lazy-evaluation/lazy_expr.h</label>
         <link refid="lazy__expr_8h"/>
-        <childnode refid="114" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="116" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="117" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="94">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</label>
+      <node id="20">
+        <label>src/ode-iterator/IAS15.hpp</label>
         <link refid="_i_a_s15_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="78">
-        <label>/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp</label>
+      <node id="4">
+        <label>src/args-callback/collision.hpp</label>
         <link refid="collision_8hpp"/>
       </node>
-      <node id="84">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/post-newtonian.hpp</label>
+      <node id="10">
+        <label>src/interaction/post-newtonian.hpp</label>
         <link refid="post-newtonian_8hpp"/>
       </node>
-      <node id="99">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp</label>
+      <node id="25">
+        <label>src/particle-system/base-system.hpp</label>
         <link refid="base-system_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="92">
-        <label>/home/yihan/Repositories/SpaceHub/src/core-computation.hpp</label>
+      <node id="18">
+        <label>src/core-computation.hpp</label>
         <link refid="core-computation_8hpp"/>
-        <childnode refid="80" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="93" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="82" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="86" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="95" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="98" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="85">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</label>
+      <node id="11">
+        <label>src/interaction/tidal.hpp</label>
         <link refid="tidal_8hpp"/>
       </node>
-      <node id="104">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/step-controller/PID-controller.hpp</label>
+      <node id="30">
+        <label>src/ode-iterator/step-controller/PID-controller.hpp</label>
         <link refid="_p_i_d-controller_8hpp"/>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="91">
-        <label>/home/yihan/Repositories/SpaceHub/src/math.hpp</label>
+      <node id="17">
+        <label>src/math.hpp</label>
         <link refid="math_8hpp"/>
-        <childnode refid="92" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="101" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="102" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="103" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="104" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="81">
-        <label>/home/yihan/Repositories/SpaceHub/src/type-class.hpp</label>
+      <node id="7">
+        <label>src/type-class.hpp</label>
         <link refid="type-class_8hpp"/>
-        <childnode refid="82" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="112">
-        <label>/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp</label>
+      <node id="38">
+        <label>src/multi-thread/multi-thread.hpp</label>
         <link refid="multi-thread_8hpp"/>
-        <childnode refid="113" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="114" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="89">
-        <label>/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp</label>
+      <node id="15">
+        <label>src/particles/point-particles.hpp</label>
         <link refid="point-particles_8hpp"/>
-        <childnode refid="90" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="113">
-        <label>/home/yihan/Repositories/SpaceHub/src/rand-generator.hpp</label>
+      <node id="39">
+        <label>src/rand-generator.hpp</label>
         <link refid="rand-generator_8hpp"/>
-        <childnode refid="86" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="93">
-        <label>/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</label>
+      <node id="19">
+        <label>src/integrator/Gauss-Dadau.hpp</label>
         <link refid="_gauss-_dadau_8hpp"/>
-        <childnode refid="94" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="77" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="80">
-        <label>/home/yihan/Repositories/SpaceHub/src/coords.hpp</label>
+      <node id="6">
+        <label>src/coords.hpp</label>
         <link refid="coords_8hpp"/>
-        <childnode refid="81" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="105">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp</label>
+      <node id="31">
+        <label>src/particle-system/particle-system.hpp</label>
         <link refid="particle-system_8hpp"/>
-        <childnode refid="106" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="108" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="98" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -492,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="90" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="90" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="90" column="9" bodyfile="src/dev-tools.hpp" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1acdfe40b6293bb934c6e9b3a8e3446647" prot="public" static="no">
         <name>MACRO_CAT</name>
@@ -505,7 +505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="92" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="92" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="92" column="9" bodyfile="src/dev-tools.hpp" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a73b71c9cec23232564276263c3c36b67" prot="public" static="no">
         <name>MACRO_CAT_I</name>
@@ -518,7 +518,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="93" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="93" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="93" column="9" bodyfile="src/dev-tools.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1ac0633fcb84d102fae11cf1915d380ae4" prot="public" static="no">
         <name>MACRO_CAT_II</name>
@@ -531,7 +531,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="94" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="94" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="94" column="9" bodyfile="src/dev-tools.hpp" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1addeaa2230f7e557c339dd2a7a37d62f2" prot="public" static="no">
         <name>UNIQ</name>
@@ -543,7 +543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="95" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="95" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="95" column="9" bodyfile="src/dev-tools.hpp" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a7e3ba13a65ca1eb893e8a01d8e89d570" prot="public" static="no">
         <name>PACK</name>
@@ -555,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="97" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="97" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="97" column="9" bodyfile="src/dev-tools.hpp" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1afa143f3d190b8ed8cdfd048cb74f99ee" prot="public" static="no">
         <name>DEBUG_MODE</name>
@@ -566,19 +566,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="102" column="10" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="102" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="102" column="10" bodyfile="src/dev-tools.hpp" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a58c80f7d71aa5555df912ee9d60d34ea" prot="public" static="no">
         <name>DEBUG_MSG</name>
         <param><defname>EXPR</defname></param>
         <param><defname>...</defname></param>
         <briefdescription>
-<para>Macros used to output debuf info. </para>        </briefdescription>
+<para>Macros used to output debuf info. <linebreak/>
+ </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="109" column="10" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="109" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="109" column="10" bodyfile="src/dev-tools.hpp" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1abf836016ac652bb5c932fe102c48301e" prot="public" static="no">
         <name>DEBUG_MODE_ASSERT</name>
@@ -590,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="115" column="10" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="115" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="115" column="10" bodyfile="src/dev-tools.hpp" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a3102a3792f55f3ad5ff10f5fe3a6ce79" prot="public" static="no">
         <name>EXPR</name>
@@ -607,7 +609,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="118" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="118" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="118" column="9" bodyfile="src/dev-tools.hpp" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1ac2bdf3bcd9a8848f9533cb143fea0a3a" prot="public" static="no">
         <name>SPACEHUB_MAKE_CONSTRUCTORS</name>
@@ -633,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="126" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="126" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="126" column="9" bodyfile="src/dev-tools.hpp" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a0f585cf51c90e87b303299d7e5901c62" prot="public" static="no">
         <name>SPACEHUB_USING_TYPE_SYSTEM_OF</name>
@@ -654,7 +656,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="139" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="139" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="139" column="9" bodyfile="src/dev-tools.hpp" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1ae057e45edf56a31a4859f89e6bba2100" prot="public" static="no">
         <name>DECLARE_CRTP_ACCESSOR</name>
@@ -675,7 +677,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="151" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="151" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="151" column="9" bodyfile="src/dev-tools.hpp" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a681c127002bf82b9b09dbd0545db1646" prot="public" static="no">
         <name>DECLARE_CRTP_READ_ACCESSOR</name>
@@ -692,7 +694,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="161" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="161" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="161" column="9" bodyfile="src/dev-tools.hpp" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a7048ff21fd022abe7a131342f2fed10d" prot="public" static="no">
         <name>SPACEHUB_STD_ACCESSOR</name>
@@ -713,7 +715,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="167" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="167" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="167" column="9" bodyfile="src/dev-tools.hpp" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a6e8dcb3772ed46afbe5b83c269336181" prot="public" static="no">
         <name>SPACEHUB_READ_ACCESSOR</name>
@@ -730,7 +732,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="177" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="177" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="177" column="9" bodyfile="src/dev-tools.hpp" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a16a43cfb9c6285e18aa33ac354efdd4a" prot="public" static="no">
         <name>SPACEHUB_CONDITIONAL_ACCESSOR</name>
@@ -754,7 +756,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="183" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="183" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="183" column="9" bodyfile="src/dev-tools.hpp" bodystart="183" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a17f1412cb72cf056651b85cafb170d8c" prot="public" static="no">
         <name>SPACEHUB_CONDITIONAL_READ_ACCESSOR</name>
@@ -773,7 +775,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="195" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="195" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="195" column="9" bodyfile="src/dev-tools.hpp" bodystart="195" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a043ac749777107d34e02197c9942ac3d" prot="public" static="no">
         <name>CREATE_METHOD_CHECK</name>
@@ -796,7 +798,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="202" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="202" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="202" column="9" bodyfile="src/dev-tools.hpp" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a01123b58bcb865a870641e5f30ce8ed2" prot="public" static="no">
         <name>HAS_METHOD</name>
@@ -810,7 +812,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="216" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="216" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="216" column="9" bodyfile="src/dev-tools.hpp" bodystart="216" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a002df30e7890bdb68e3693ca94c9e684" prot="public" static="no">
         <name>CREATE_PROTECTED_METHOD_CHECK</name>
@@ -833,7 +835,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="219" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="219" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="219" column="9" bodyfile="src/dev-tools.hpp" bodystart="219" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a1c72db210bcf48a1b855a5e83e78e840" prot="public" static="no">
         <name>HAS_PROTECTED_METHOD</name>
@@ -847,7 +849,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="233" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="233" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="233" column="9" bodyfile="src/dev-tools.hpp" bodystart="233" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a4250abbdfc25337cd0dca29f9b55ff47" prot="public" static="no">
         <name>CREATE_CRTP_IMPLEMENTATION_CHECK</name>
@@ -859,7 +861,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="235" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="235" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="235" column="9" bodyfile="src/dev-tools.hpp" bodystart="235" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a71c2a282f291770b45b3f1cef8c19f75" prot="public" static="no">
         <name>HAS_CRTP_IMPLEMENTATION</name>
@@ -873,7 +875,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="237" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="237" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="237" column="9" bodyfile="src/dev-tools.hpp" bodystart="237" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a86408b2e79be508b3c8b8c90f66e89a7" prot="public" static="no">
         <name>CREATE_MEMBER_CHECK</name>
@@ -891,12 +893,13 @@ inline TYPE const &amp; NAME () const noexcept {                                
         &gt;::type                                                                                                        \
     &gt;: std::true_type { };</initializer>
         <briefdescription>
-<para>Macros used to check if a class has a member. </para>        </briefdescription>
+<para>Macros used to check if a class has a member. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="240" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="240" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="240" column="9" bodyfile="src/dev-tools.hpp" bodystart="240" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a4e050f8974fcc0ca3e7ecfee0558f4f2" prot="public" static="no">
         <name>HAS_MEMBER</name>
@@ -909,7 +912,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="254" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="254" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="254" column="9" bodyfile="src/dev-tools.hpp" bodystart="254" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1acd50abf2f60a8ebc7dcc2a94bda2d7ca" prot="public" static="no">
         <name>CREATE_STATIC_MEMBER_CHECK</name>
@@ -930,10 +933,12 @@ inline TYPE const &amp; NAME () const noexcept {                                
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Macros used to check if a class has a static member. </para>        </detaileddescription>
+<para>Macros used to check if a class has a static member. <linebreak/>
+ </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="257" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="257" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="257" column="9" bodyfile="src/dev-tools.hpp" bodystart="257" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a53374bd759b4f29eaec7c33870b03da5" prot="public" static="no">
         <name>HAS_STATIC_MEMBER</name>
@@ -946,7 +951,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="272" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="272" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="272" column="9" bodyfile="src/dev-tools.hpp" bodystart="272" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1ac2fd4f3ea0b555c107cad2c9430717f8" prot="public" static="no">
         <name>CHECK_METHOD</name>
@@ -957,12 +962,13 @@ inline TYPE const &amp; NAME () const noexcept {                                
             static_assert(has_method_##METHOD&lt;CLASS, ##__VA_ARGS__&gt;::value,                                            \
             &quot;Template argument &apos;&quot; # CLASS  &quot;&apos; must have method &apos;&quot;  # METHOD  &quot;(&quot;  #__VA_ARGS__  &quot;)&apos;. &quot;);</initializer>
         <briefdescription>
-<para>Macros used to static_assert if a class has a specific method. </para>        </briefdescription>
+<para>Macros used to static_assert if a class has a specific method. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="275" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="275" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="275" column="9" bodyfile="src/dev-tools.hpp" bodystart="275" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a3004813da8a05abadaad077b5cacbc6f" prot="public" static="no">
         <name>CHECK_MEMBER</name>
@@ -971,12 +977,13 @@ inline TYPE const &amp; NAME () const noexcept {                                
         <initializer>static_assert(has_ ## MB&lt;C&gt;::value,                                                                              \
             &quot;Template argument &apos;&quot; # CLASS  &quot;&apos; must have member &apos;&quot;  # MB  &quot;&apos;. &quot;);</initializer>
         <briefdescription>
-<para>Macros used to static_assert if a class has a member. </para>        </briefdescription>
+<para>Macros used to static_assert if a class has a member. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="281" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="281" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="281" column="9" bodyfile="src/dev-tools.hpp" bodystart="281" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1ac10c0f62e719b8f64c36b62dfacfbd82" prot="public" static="no">
         <name>CHECK_STATIC_MEMBER</name>
@@ -986,12 +993,13 @@ inline TYPE const &amp; NAME () const noexcept {                                
             static_assert(has_static ## MB&lt;CLASS&gt;::value,                                                              \
             &quot;Template argument &apos;&quot; # CLASS  &quot;&apos; must have static member &apos;&quot;  # MB  &quot;&apos;. &quot;);</initializer>
         <briefdescription>
-<para>Macros used to static_assert if a class has a static member. </para>        </briefdescription>
+<para>Macros used to static_assert if a class has a static member. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="286" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="286" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="286" column="9" bodyfile="src/dev-tools.hpp" bodystart="286" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a9165bf60ffe95b57b3a1deb24f92b7f7" prot="public" static="no">
         <name>CHECK_TYPE</name>
@@ -1000,12 +1008,13 @@ inline TYPE const &amp; NAME () const noexcept {                                
         <initializer>static_assert(std::is_same&lt; typename T1::Types, typename T2::Types&gt;::value,                                \
             &quot;Template argument &apos;&quot; #T1 &quot;&apos; and &apos;&quot; #T2 &quot;&apos; must have the same type of the type member(space::ProtoType&lt;...&gt;)&quot;);</initializer>
         <briefdescription>
-<para>Macros used to static_assert if two class have the same base type set. </para>        </briefdescription>
+<para>Macros used to static_assert if two class have the same base type set. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="292" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="292" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="292" column="9" bodyfile="src/dev-tools.hpp" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1ad76c4399904c876b0fde01a7edbaf093" prot="public" static="no">
         <name>CHECK_POD</name>
@@ -1017,7 +1026,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="297" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="297" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="297" column="9" bodyfile="src/dev-tools.hpp" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a8a3f3c65b4167fb7188576cfa5e2ca44" prot="public" static="no">
         <name>IS_BASE_OF</name>
@@ -1030,7 +1039,7 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="356" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="356" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="356" column="9" bodyfile="src/dev-tools.hpp" bodystart="356" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dev-tools_8hpp_1a16d2c5a0818a4356eb912b06c8b0a0e3" prot="public" static="no">
         <name>TYPE_OF_SELF</name>
@@ -1041,13 +1050,14 @@ inline TYPE const &amp; NAME () const noexcept {                                
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="358" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="358" bodyend="-1"/>
+        <location file="src/dev-tools.hpp" line="358" column="9" bodyfile="src/dev-tools.hpp" bodystart="358" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Header file. </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp"/>
+<para>Header file. </para>
+    </detaileddescription>
+    <location file="src/dev-tools.hpp"/>
   </compounddef>
 </doxygen>

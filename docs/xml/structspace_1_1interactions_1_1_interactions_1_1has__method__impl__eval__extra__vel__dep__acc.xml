@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc" kind="struct" language="C++" prot="private">
     <compoundname>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</compoundname>
     <templateparamlist>
@@ -13,7 +13,7 @@
       </param>
     </templateparamlist>
       <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a7f5ec8de831c135dccb69078111dcd8c" prot="public" static="yes" mutable="no">
+      <memberdef kind="variable" id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a7f5ec8de831c135dccb69078111dcd8c" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>constexpr bool</type>
         <definition>constexpr bool space::interactions::Interactions&lt; Derived &gt;::has_method_impl_eval_extra_vel_dep_acc&lt; T, Args &gt;::value</definition>
         <argsstring></argsstring>
@@ -25,18 +25,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp" line="48" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp" bodystart="48" bodyend="-1"/>
+        <location file="src/interaction/interaction.hpp" line="48" column="191" bodyfile="src/interaction/interaction.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a3b6728a448ed157e4d7d6feadc13094c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a0de84f8a08f0e1af92b0a2d6f018df63" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename U</type>
           </param>
         </templateparamlist>
-        <type>constexpr auto</type>
-        <definition>static constexpr auto space::interactions::Interactions&lt; Derived &gt;::has_method_impl_eval_extra_vel_dep_acc&lt; T, Args &gt;::check</definition>
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto space::interactions::Interactions&lt; Derived &gt;::has_method_impl_eval_extra_vel_dep_acc&lt; T, Args &gt;::check</definition>
         <argsstring>(const void *) -&gt; decltype(std::declval&lt; U &gt;(). impl_eval_extra_vel_dep_acc(std::declval&lt; Args &gt;()...), std::true_type())</argsstring>
         <name>check</name>
         <param>
@@ -48,16 +48,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp" line="48" column="1"/>
+        <location file="src/interaction/interaction.hpp" line="48" column="97"/>
       </memberdef>
-      <memberdef kind="function" id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1ab22ec553bc564238356109bba17dd025" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a00ed61bc7530096ad84c0ca95daa92af" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename U</type>
           </param>
         </templateparamlist>
-        <type>constexpr std::false_type</type>
-        <definition>static constexpr std::false_type space::interactions::Interactions&lt; Derived &gt;::has_method_impl_eval_extra_vel_dep_acc&lt; T, Args &gt;::check</definition>
+        <type>constexpr static std::false_type</type>
+        <definition>constexpr static std::false_type space::interactions::Interactions&lt; Derived &gt;::has_method_impl_eval_extra_vel_dep_acc&lt; T, Args &gt;::check</definition>
         <argsstring>(...)</argsstring>
         <name>check</name>
         <param>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp" line="48" column="1"/>
+        <location file="src/interaction/interaction.hpp" line="48" column="159"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,14 +77,14 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="137">
+      <node id="1">
         <label>space::interactions::Interactions&lt; Derived &gt;::has_method_impl_eval_extra_vel_dep_acc&lt; T, Args &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp" line="48" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp" bodystart="48" bodyend="48"/>
+    <location file="src/interaction/interaction.hpp" line="48" column="62" bodyfile="src/interaction/interaction.hpp" bodystart="48" bodyend="48"/>
     <listofallmembers>
-      <member refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a3b6728a448ed157e4d7d6feadc13094c" prot="public" virt="non-virtual"><scope>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</scope><name>check</name></member>
-      <member refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1ab22ec553bc564238356109bba17dd025" prot="public" virt="non-virtual"><scope>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</scope><name>check</name></member>
+      <member refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a0de84f8a08f0e1af92b0a2d6f018df63" prot="public" virt="non-virtual"><scope>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</scope><name>check</name></member>
+      <member refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a00ed61bc7530096ad84c0ca95daa92af" prot="public" virt="non-virtual"><scope>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</scope><name>check</name></member>
       <member refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a7f5ec8de831c135dccb69078111dcd8c" prot="public" virt="non-virtual"><scope>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</scope><name>value</name></member>
     </listofallmembers>
   </compounddef>

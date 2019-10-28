@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="classspace_1_1ode__iterator_1_1_r_m_s" kind="class" language="C++" prot="public">
     <compoundname>space::ode_iterator::RMS</compoundname>
     <basecompoundref refid="classspace_1_1ode__iterator_1_1_error_checker" prot="public" virt="non-virtual">space::ode_iterator::ErrorChecker&lt; RMS&lt; T &gt; &gt;</basecompoundref>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="42" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="42" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="42" column="3" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classspace_1_1ode__iterator_1_1_r_m_s_1a3b225aa93518909e535c0441411983af" prot="public" static="no">
         <type>T</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="44" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="44" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="44" column="3" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classspace_1_1ode__iterator_1_1_r_m_s_1ab0fe8e98aee377c30a4f780229baf2a2" prot="public" static="no">
         <type>T</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="46" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="46" column="3" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="53" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="53" column="11" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="71" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="71" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="71" column="10" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classspace_1_1ode__iterator_1_1_r_m_s_1a1373628b594c3c166e64f7d80a7221c6" prot="private" static="no" mutable="no">
         <type><ref refid="classspace_1_1ode__iterator_1_1_r_m_s_1a3b225aa93518909e535c0441411983af" kindref="member">Scalar</ref></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="73" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="73" bodyend="-1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="73" column="10" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="73" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -110,10 +110,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default constructor. </para>        </detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="49" column="7"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a4d0492c54be6d9050a4095a8b039148b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -126,10 +127,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy constructor. </para>        </detaileddescription>
+<para>Default copy constructor. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="49" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a7157e1766e18572fce56370e3a36c93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -142,10 +144,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move constructor </para>        </detaileddescription>
+<para>Default move constructor </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="49" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1ab46b10fafe2d028809cfe49fc4fd8778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1ode__iterator_1_1_r_m_s" kindref="compound">RMS</ref> &amp;</type>
@@ -158,10 +161,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default copy assignment operator </para>        </detaileddescription>
+<para>Default copy assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="49" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a7f08503f273359fd47b07dd50125cf98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classspace_1_1ode__iterator_1_1_r_m_s" kindref="compound">RMS</ref> &amp;</type>
@@ -174,10 +178,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Default move assignment operator </para>        </detaileddescription>
+<para>Default move assignment operator </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="49" column="1"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="49" column="120"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1acf7af51b7d1512d45908b75a981e1877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -198,35 +203,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="51" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="148" bodyend="148"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="51" column="3" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="148" bodyend="148"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a49a4cb482f3a3c0f4e8e588da3839145" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::RMS&lt; T &gt;::impl_atol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a91faa7d922c18b64cd8be28be8964cb3" prot="protected" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::RMS&lt; T &gt;::impl_atol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>impl_atol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>atol_</computeroutput> in name of <computeroutput>impl_atol</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>atol_</computeroutput> in name of <computeroutput>impl_atol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="56" bodyend="56"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="56" column="31" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="56" bodyend="56"/>
       </memberdef>
-      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a023a74a18798be67d98081fe8734d283" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>auto const  &amp;</type>
-        <definition>auto const&amp; space::ode_iterator::RMS&lt; T &gt;::impl_rtol</definition>
+      <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1afad514eaaebb06eaa0928d92a4cb56d3" prot="protected" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto&amp; space::ode_iterator::RMS&lt; T &gt;::impl_rtol</definition>
         <argsstring>() const noexcept</argsstring>
         <name>impl_rtol</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The getter interface of member <computeroutput>rtol_</computeroutput> in name of <computeroutput>impl_rtol</computeroutput>. </para>        </detaileddescription>
+<para>The getter interface of member <computeroutput>rtol_</computeroutput> in name of <computeroutput>impl_rtol</computeroutput>. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="58" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="58" bodyend="58"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="58" column="27" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a4629d1199987e74242470b1c7f1c735d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -243,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="60" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="90" bodyend="92"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="60" column="8" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="90" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a646ed83633a3e3dcca81533405a6d3d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -260,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="95" bodyend="97"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="62" column="8" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="95" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1ace502b463070fb0e6c9bf113fe37a846" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -286,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="65" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="101" bodyend="109"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="65" column="8" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="101" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1a64c99d930ed478bd44d58e4e029b38b3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -316,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="68" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="113" bodyend="121"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="68" column="8" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="113" bodyend="121"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -344,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="81" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="125" bodyend="133"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="81" column="8" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="125" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classspace_1_1ode__iterator_1_1_r_m_s_1ab5b5666bbe66db6b77d24fff589bea0c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -374,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="84" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="137" bodyend="145"/>
+        <location file="src/ode-iterator/error-checker/RMS.hpp" line="84" column="8" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="137" bodyend="145"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -385,61 +392,63 @@
 <parametername>T</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+<para></para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>    </detaileddescription>
+</para>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="421">
+      <node id="3">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="420">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; RMS&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="421" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; RMS&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="419">
+      <node id="1">
         <label>space::ode_iterator::RMS&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_r_m_s"/>
-        <childnode refid="420" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="424">
+      <node id="3">
         <label>space::ode_iterator::ErrorChecker&lt; Derived &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
       </node>
-      <node id="423">
+      <node id="2">
         <label>space::ode_iterator::ErrorChecker&lt; RMS&lt; T &gt; &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_error_checker"/>
-        <childnode refid="424" relation="template-instance">
+        <childnode refid="3" relation="template-instance">
           <edgelabel>&lt; RMS&lt; T &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="422">
+      <node id="1">
         <label>space::ode_iterator::RMS&lt; T &gt;</label>
         <link refid="classspace_1_1ode__iterator_1_1_r_m_s"/>
-        <childnode refid="423" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="39" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="39" bodyend="85"/>
+    <location file="src/ode-iterator/error-checker/RMS.hpp" line="39" column="32" bodyfile="src/ode-iterator/error-checker/RMS.hpp" bodystart="39" bodyend="85"/>
     <listofallmembers>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a563a4c2559d79f569369cde381541b86" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab595d8b44e36594e174e71af36bc0217" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a0ffe6387211147c0367c1bdc85898124" prot="private" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>atol_</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1afdb4ef5c9bb511ca96d0d80469b474a7" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>Base</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a193a93a3872d0afeffd4a871718476d3" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>Base</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a792b9fc0a077429cb686224089b9ae8b" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>derived</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1ab1820edaab1060f661ef11dae93ceb56" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1af219d44501ea532d0349dfe991fd45cf" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>error</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a49a4cb482f3a3c0f4e8e588da3839145" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_atol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a91faa7d922c18b64cd8be28be8964cb3" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1ace502b463070fb0e6c9bf113fe37a846" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_error</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a64c99d930ed478bd44d58e4e029b38b3" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_error</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a023a74a18798be67d98081fe8734d283" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1afad514eaaebb06eaa0928d92a4cb56d3" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a4629d1199987e74242470b1c7f1c735d" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_set_atol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a646ed83633a3e3dcca81533405a6d3d5" prot="protected" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>impl_set_rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a5a80ec39279d6d89e91ecb6c542cdad9" prot="private" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>one_dimension_error</name></member>
@@ -450,7 +459,7 @@
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a4d0492c54be6d9050a4095a8b039148b" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>RMS</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a7157e1766e18572fce56370e3a36c93c" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>RMS</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1acf7af51b7d1512d45908b75a981e1877" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>RMS</name></member>
-      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1aefaf011e4879aa0acfe87926243b058f" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>rtol</name></member>
+      <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a9aa73c7df45017e93423bfcabe1db3a9" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>rtol</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a1373628b594c3c166e64f7d80a7221c6" prot="private" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>rtol_</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_r_m_s_1a3b225aa93518909e535c0441411983af" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>Scalar</name></member>
       <member refid="classspace_1_1ode__iterator_1_1_error_checker_1a1f767e96bfc475742126d0894a6ad389" prot="public" virt="non-virtual"><scope>space::ode_iterator::RMS</scope><name>set_atol</name></member>

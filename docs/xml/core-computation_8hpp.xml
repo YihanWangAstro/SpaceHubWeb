@@ -1,213 +1,213 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="core-computation_8hpp" kind="file" language="C++">
     <compoundname>core-computation.hpp</compoundname>
     <includes refid="macros_8hpp" local="yes">macros.hpp</includes>
     <includes refid="math_8hpp" local="yes">math.hpp</includes>
-    <includedby refid="coords_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/coords.hpp</includedby>
-    <includedby refid="_gauss-_dadau_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</includedby>
-    <includedby refid="interaction_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp</includedby>
-    <includedby refid="orbits_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</includedby>
-    <includedby refid="chain_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp</includedby>
-    <includedby refid="regu-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp</includedby>
-    <includedby refid="base-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp</includedby>
-    <includedby refid="chain-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</includedby>
-    <includedby refid="simulator_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/simulator.hpp</includedby>
+    <includedby refid="coords_8hpp" local="yes">src/coords.hpp</includedby>
+    <includedby refid="_gauss-_dadau_8hpp" local="yes">src/integrator/Gauss-Dadau.hpp</includedby>
+    <includedby refid="interaction_8hpp" local="yes">src/interaction/interaction.hpp</includedby>
+    <includedby refid="orbits_8hpp" local="yes">src/orbits/orbits.hpp</includedby>
+    <includedby refid="chain_8hpp" local="yes">src/particle-system/chain.hpp</includedby>
+    <includedby refid="regu-system_8hpp" local="yes">src/particle-system/regu-system.hpp</includedby>
+    <includedby refid="base-system_8hpp" local="yes">src/particle-system/base-system.hpp</includedby>
+    <includedby refid="chain-system_8hpp" local="yes">src/particle-system/chain-system.hpp</includedby>
+    <includedby refid="simulator_8hpp" local="yes">src/simulator.hpp</includedby>
     <incdepgraph>
-      <node id="50">
+      <node id="9">
         <label>IO.hpp</label>
         <link refid="_i_o_8hpp"/>
-        <childnode refid="47" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="4">
         <label>cmath</label>
       </node>
-      <node id="43">
+      <node id="2">
         <label>macros.hpp</label>
         <link refid="macros_8hpp"/>
       </node>
-      <node id="46">
+      <node id="5">
         <label>dev-tools.hpp</label>
         <link refid="dev-tools_8hpp"/>
-        <childnode refid="47" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="7">
         <label>tuple</label>
       </node>
-      <node id="49">
+      <node id="8">
         <label>array</label>
       </node>
-      <node id="42">
-        <label>/home/yihan/Repositories/SpaceHub/src/core-computation.hpp</label>
+      <node id="1">
+        <label>src/core-computation.hpp</label>
         <link refid="core-computation_8hpp"/>
-        <childnode refid="43" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="6">
         <label>iostream</label>
       </node>
-      <node id="44">
+      <node id="3">
         <label>math.hpp</label>
         <link refid="math_8hpp"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="61">
-        <label>/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</label>
+      <node id="11">
+        <label>src/orbits/orbits.hpp</label>
         <link refid="orbits_8hpp"/>
-        <childnode refid="58" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="62" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="63" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="55">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/newtonian.hpp</label>
+      <node id="5">
+        <label>src/interaction/newtonian.hpp</label>
         <link refid="newtonian_8hpp"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="64">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp</label>
+      <node id="14">
+        <label>src/particle-system/chain.hpp</label>
         <link refid="chain_8hpp"/>
-        <childnode refid="65" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="65">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp</label>
+      <node id="15">
+        <label>src/particle-system/archain.hpp</label>
         <link refid="archain_8hpp"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="54">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp</label>
+      <node id="4">
+        <label>src/interaction/interaction.hpp</label>
         <link refid="interaction_8hpp"/>
-        <childnode refid="55" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="69">
-        <label>/home/yihan/Repositories/SpaceHub/src/simulator.hpp</label>
+      <node id="19">
+        <label>src/simulator.hpp</label>
         <link refid="simulator_8hpp"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="56">
-        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+      <node id="6">
+        <label>src/spaceHub.hpp</label>
         <link refid="space_hub_8hpp"/>
       </node>
-      <node id="66">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</label>
+      <node id="16">
+        <label>src/particle-system/chain-system.hpp</label>
         <link refid="chain-system_8hpp"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="63">
-        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+      <node id="13">
+        <label>src/scattering/cross-section.hpp</label>
         <link refid="cross-section_8hpp"/>
       </node>
-      <node id="62">
-        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+      <node id="12">
+        <label>src/orbits/particle-manip.hpp</label>
         <link refid="particle-manip_8hpp"/>
-        <childnode refid="63" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="67">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp</label>
+      <node id="17">
+        <label>src/particle-system/regu-system.hpp</label>
         <link refid="regu-system_8hpp"/>
-        <childnode refid="65" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="60">
-        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</label>
+      <node id="10">
+        <label>src/ode-iterator/IAS15.hpp</label>
         <link refid="_i_a_s15_8hpp"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="57">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/post-newtonian.hpp</label>
+      <node id="7">
+        <label>src/interaction/post-newtonian.hpp</label>
         <link refid="post-newtonian_8hpp"/>
       </node>
-      <node id="68">
-        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp</label>
+      <node id="18">
+        <label>src/particle-system/base-system.hpp</label>
         <link refid="base-system_8hpp"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="51">
-        <label>/home/yihan/Repositories/SpaceHub/src/core-computation.hpp</label>
+      <node id="1">
+        <label>src/core-computation.hpp</label>
         <link refid="core-computation_8hpp"/>
-        <childnode refid="52" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="64" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="58">
-        <label>/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</label>
+      <node id="8">
+        <label>src/interaction/tidal.hpp</label>
         <link refid="tidal_8hpp"/>
       </node>
-      <node id="53">
-        <label>/home/yihan/Repositories/SpaceHub/src/type-class.hpp</label>
+      <node id="3">
+        <label>src/type-class.hpp</label>
         <link refid="type-class_8hpp"/>
-        <childnode refid="54" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="59">
-        <label>/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</label>
+      <node id="9">
+        <label>src/integrator/Gauss-Dadau.hpp</label>
         <link refid="_gauss-_dadau_8hpp"/>
-        <childnode refid="60" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="52">
-        <label>/home/yihan/Repositories/SpaceHub/src/coords.hpp</label>
+      <node id="2">
+        <label>src/coords.hpp</label>
         <link refid="coords_8hpp"/>
-        <childnode refid="53" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -219,10 +219,12 @@
     <innerclass refid="structspace_1_1calc_1_1has__method__pos" prot="public">space::calc::has_method_pos</innerclass>
     <innerclass refid="structspace_1_1calc_1_1has__method__vel" prot="public">space::calc::has_method_vel</innerclass>
     <innernamespace refid="namespacespace_1_1calc">space::calc</innernamespace>
+    <innernamespace refid="namespacespace">space</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Header file. </para>    </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/core-computation.hpp"/>
+<para>Header file. </para>
+    </detaileddescription>
+    <location file="src/core-computation.hpp"/>
   </compounddef>
 </doxygen>

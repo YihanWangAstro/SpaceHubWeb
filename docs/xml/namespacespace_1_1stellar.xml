@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="namespacespace_1_1stellar" kind="namespace" language="C++">
     <compoundname>space::stellar</compoundname>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8" prot="public" static="no">
+      <memberdef kind="enum" id="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8" prot="public" static="no" strong="yes">
+        <type></type>
         <name>StarType</name>
         <enumvalue id="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8a1baa5a77aeff33338948c1e0c4466462" prot="public">
           <name>BH</name>
@@ -39,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/stellar/stellar.hpp" line="12" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/stellar/stellar.hpp" bodystart="12" bodyend="12"/>
+        <location file="src/stellar/stellar.hpp" line="12" column="20" bodyfile="src/stellar/stellar.hpp" bodystart="12" bodyend="12"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -67,13 +68,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yihan/Repositories/SpaceHub/src/stellar/stellar.hpp" line="15" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/stellar/stellar.hpp" bodystart="15" bodyend="25"/>
+        <location file="src/stellar/stellar.hpp" line="15" column="6" bodyfile="src/stellar/stellar.hpp" bodystart="15" bodyend="25"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yihan/Repositories/SpaceHub/src/stellar/stellar.hpp" line="10" column="1"/>
+    <location file="src/stellar/stellar.hpp" line="10" column="24"/>
   </compounddef>
 </doxygen>
