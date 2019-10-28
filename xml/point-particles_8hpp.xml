@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="point-particles_8hpp" kind="file" language="C++">
+    <compoundname>point-particles.hpp</compoundname>
+    <includes refid="vector3_8hpp" local="yes">../vector/vector3.hpp</includes>
+    <includes refid="particles_8hpp" local="yes">particles.hpp</includes>
+    <includes refid="_i_o_8hpp" local="yes">../IO.hpp</includes>
+    <includedby refid="finite-size_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp</includedby>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="817">
+        <label>vector3d.hpp</label>
+        <link refid="vector3d_8hpp"/>
+      </node>
+      <node id="816">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="812" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="815" relation="include">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>cmath</label>
+      </node>
+      <node id="810">
+        <label>../vector/vector3.hpp</label>
+        <link refid="vector3_8hpp"/>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="812" relation="include">
+        </childnode>
+        <childnode refid="813" relation="include">
+        </childnode>
+        <childnode refid="817" relation="include">
+        </childnode>
+        <childnode refid="818" relation="include">
+        </childnode>
+      </node>
+      <node id="813">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="812" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="815" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+      </node>
+      <node id="819">
+        <label>particles.hpp</label>
+        <link refid="particles_8hpp"/>
+        <childnode refid="813" relation="include">
+        </childnode>
+      </node>
+      <node id="814">
+        <label>tuple</label>
+      </node>
+      <node id="815">
+        <label>array</label>
+      </node>
+      <node id="812">
+        <label>iostream</label>
+      </node>
+      <node id="809">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp</label>
+        <link refid="point-particles_8hpp"/>
+        <childnode refid="810" relation="include">
+        </childnode>
+        <childnode refid="819" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+      </node>
+      <node id="818">
+        <label>vector3pd.hpp</label>
+        <link refid="vector3pd_8hpp"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="822">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="821">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp</label>
+        <link refid="finite-size_8hpp"/>
+        <childnode refid="822" relation="include">
+        </childnode>
+      </node>
+      <node id="820">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp</label>
+        <link refid="point-particles_8hpp"/>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="822" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structspace_1_1particle__set_1_1_point_particle" prot="public">space::particle_set::PointParticle</innerclass>
+    <innerclass refid="classspace_1_1particle__set_1_1_point_particles" prot="public">space::particle_set::PointParticles</innerclass>
+    <innernamespace refid="namespacespace_1_1particle__set">space::particle_set</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp"/>
+  </compounddef>
+</doxygen>

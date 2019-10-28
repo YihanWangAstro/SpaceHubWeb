@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="orbits_8hpp" kind="file" language="C++">
+    <compoundname>orbits.hpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes local="no">variant</includes>
+    <includes refid="_i_o_8hpp" local="yes">../IO.hpp</includes>
+    <includes refid="core-computation_8hpp" local="yes">../core-computation.hpp</includes>
+    <includes refid="rand-generator_8hpp" local="yes">../rand-generator.hpp</includes>
+    <includes refid="vector3_8hpp" local="yes">../vector/vector3.hpp</includes>
+    <includedby refid="tidal_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</includedby>
+    <includedby refid="particle-manip_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</includedby>
+    <includedby refid="cross-section_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</includedby>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="640">
+        <label>vector3d.hpp</label>
+        <link refid="vector3d_8hpp"/>
+      </node>
+      <node id="618">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</label>
+        <link refid="orbits_8hpp"/>
+        <childnode refid="619" relation="include">
+        </childnode>
+        <childnode refid="620" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+        <childnode refid="625" relation="include">
+        </childnode>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+      </node>
+      <node id="620">
+        <label>variant</label>
+      </node>
+      <node id="621">
+        <label>../IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="624" relation="include">
+        </childnode>
+      </node>
+      <node id="619">
+        <label>cmath</label>
+      </node>
+      <node id="639">
+        <label>../vector/vector3.hpp</label>
+        <link refid="vector3_8hpp"/>
+        <childnode refid="619" relation="include">
+        </childnode>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="628" relation="include">
+        </childnode>
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+      </node>
+      <node id="636">
+        <label>string</label>
+      </node>
+      <node id="626">
+        <label>macros.hpp</label>
+        <link refid="macros_8hpp"/>
+      </node>
+      <node id="633">
+        <label>fstream</label>
+      </node>
+      <node id="628">
+        <label>dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="624" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+      </node>
+      <node id="630">
+        <label>random</label>
+      </node>
+      <node id="632">
+        <label>cstdio</label>
+      </node>
+      <node id="623">
+        <label>tuple</label>
+      </node>
+      <node id="638">
+        <label>vector</label>
+      </node>
+      <node id="624">
+        <label>array</label>
+      </node>
+      <node id="625">
+        <label>../core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="626" relation="include">
+        </childnode>
+        <childnode refid="627" relation="include">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>iostream</label>
+      </node>
+      <node id="627">
+        <label>math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="619" relation="include">
+        </childnode>
+        <childnode refid="628" relation="include">
+        </childnode>
+      </node>
+      <node id="631">
+        <label>multi-thread/multi-thread.hpp</label>
+        <link refid="multi-thread_8hpp"/>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+        <childnode refid="635" relation="include">
+        </childnode>
+        <childnode refid="636" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+        <childnode refid="628" relation="include">
+        </childnode>
+      </node>
+      <node id="635">
+        <label>mutex</label>
+      </node>
+      <node id="641">
+        <label>vector3pd.hpp</label>
+        <link refid="vector3pd_8hpp"/>
+      </node>
+      <node id="637">
+        <label>thread</label>
+      </node>
+      <node id="629">
+        <label>../rand-generator.hpp</label>
+        <link refid="rand-generator_8hpp"/>
+        <childnode refid="619" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+      </node>
+      <node id="634">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="642">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</label>
+        <link refid="orbits_8hpp"/>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="644" relation="include">
+        </childnode>
+        <childnode refid="645" relation="include">
+        </childnode>
+        <childnode refid="646" relation="include">
+        </childnode>
+      </node>
+      <node id="646">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="645">
+        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+        <link refid="cross-section_8hpp"/>
+      </node>
+      <node id="644">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+        <link refid="particle-manip_8hpp"/>
+        <childnode refid="645" relation="include">
+        </childnode>
+        <childnode refid="646" relation="include">
+        </childnode>
+      </node>
+      <node id="643">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</label>
+        <link refid="tidal_8hpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structspace_1_1orbit_1_1_random_indicator" prot="public">space::orbit::RandomIndicator</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1_kepler_orbit" prot="public">space::orbit::KeplerOrbit</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1_hyper_orbit" prot="public">space::orbit::HyperOrbit</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1_ellip_orbit" prot="public">space::orbit::EllipOrbit</innerclass>
+    <innernamespace refid="namespacespace_1_1orbit">space::orbit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp"/>
+  </compounddef>
+</doxygen>

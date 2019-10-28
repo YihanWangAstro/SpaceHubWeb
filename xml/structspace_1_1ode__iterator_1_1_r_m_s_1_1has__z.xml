@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspace_1_1ode__iterator_1_1_r_m_s_1_1has__z" kind="struct" language="C++" prot="private">
+    <compoundname>space::ode_iterator::RMS::has_z</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">false_type</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename __T</type>
+      </param>
+      <param>
+        <type>typename __V</type>
+        <defval>bool</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="229">
+        <label>false_type</label>
+      </node>
+      <node id="228">
+        <label>space::ode_iterator::RMS&lt; T &gt;::has_z&lt; __T, __V &gt;</label>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="231">
+        <label>false_type</label>
+      </node>
+      <node id="230">
+        <label>space::ode_iterator::RMS&lt; T &gt;::has_z&lt; __T, __V &gt;</label>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/RMS.hpp" bodystart="78" bodyend="78"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

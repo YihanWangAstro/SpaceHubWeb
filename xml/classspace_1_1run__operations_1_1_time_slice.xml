@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classspace_1_1run__operations_1_1_time_slice" kind="class" language="C++" prot="public">
+    <compoundname>space::run_operations::TimeSlice</compoundname>
+    <includes refid="callbacks_8hpp" local="no">callbacks.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Operation</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_time_slice_1af6ef6c25027fd7b6b780fb280d4fc097" prot="private" static="no" mutable="no">
+        <type>Operation</type>
+        <definition>Operation space::run_operations::TimeSlice&lt; Operation &gt;::opt_</definition>
+        <argsstring></argsstring>
+        <name>opt_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="96" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_time_slice_1aecbd6605ffe3de2e1561df9823579a5b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double space::run_operations::TimeSlice&lt; Operation &gt;::opt_time_</definition>
+        <argsstring></argsstring>
+        <name>opt_time_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="97" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_time_slice_1a3609da5623888ca29be2715583ed230d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double space::run_operations::TimeSlice&lt; Operation &gt;::end_time_</definition>
+        <argsstring></argsstring>
+        <name>end_time_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="98" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_time_slice_1af64fda27f4ed5509a059fa0be808c43b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double space::run_operations::TimeSlice&lt; Operation &gt;::opt_interval_</definition>
+        <argsstring></argsstring>
+        <name>opt_interval_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="99" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a8e5fedde36b478257678beb23a090811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::TimeSlice&lt; Operation &gt;::TimeSlice</definition>
+        <argsstring>()=default</argsstring>
+        <name>TimeSlice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a9318b5d5733075aabbf3eff18400e417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::TimeSlice&lt; Operation &gt;::TimeSlice</definition>
+        <argsstring>(TimeSlice const &amp;)=default</argsstring>
+        <name>TimeSlice</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1ad129ccd737781d22f5ce82ced30367be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::TimeSlice&lt; Operation &gt;::TimeSlice</definition>
+        <argsstring>(TimeSlice &amp;&amp;)=default</argsstring>
+        <name>TimeSlice</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default move constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a319e8eeba742eb1a8ddb8e46a1d092f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref> &amp;</type>
+        <definition>TimeSlice&amp; space::run_operations::TimeSlice&lt; Operation &gt;::operator=</definition>
+        <argsstring>(TimeSlice const &amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy assignment operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a69d38f6c5c0e9aa9a003b45fe6cbd65a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref> &amp;</type>
+        <definition>TimeSlice&amp; space::run_operations::TimeSlice&lt; Operation &gt;::operator=</definition>
+        <argsstring>(TimeSlice &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default move assignment operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a8a61ba94ce556c873fdc9040ea36900e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::TimeSlice&lt; Operation &gt;::TimeSlice</definition>
+        <argsstring>(Operation const &amp;opt, double start, double end, size_t opt_num=5000)</argsstring>
+        <name>TimeSlice</name>
+        <param>
+          <type>Operation const &amp;</type>
+          <declname>opt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>opt_num</declname>
+          <defval>5000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor of the time slice <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">opt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callable object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The start time of the time slice </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The end time of the time slice </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">opt_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bin number of the time slice. i.e time interval = (end-start)/opt_num </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="191" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a0bdb83ea7538fdfd44805da61fea458f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ParticleSys</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::run_operations::TimeSlice&lt; Operation &gt;::operator()</definition>
+        <argsstring>(ParticleSys &amp;ptc) -&gt; std::enable_if_t&lt; std::is_same_v&lt; void, std::result_of_t&lt; Operation(ParticleSys &amp;)&gt;&gt;, void &gt;</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>ParticleSys &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callable interface. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ParticleSys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type provides method <computeroutput>time()</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="74" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="196" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a5d6216808a77897367a6d050bbfb497b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ParticleSys</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::run_operations::TimeSlice&lt; Operation &gt;::operator()</definition>
+        <argsstring>(ParticleSys &amp;ptc) -&gt; std::enable_if_t&lt; std::is_same_v&lt; bool, std::result_of_t&lt; Operation(ParticleSys &amp;)&gt;&gt;, bool &gt;</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>ParticleSys &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callable interface. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ParticleSys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type provides method <computeroutput>time()</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_time_slice_1a7d1259b11c13f0e68bf85b9e8b132ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void space::run_operations::TimeSlice&lt; Operation &gt;::reset_slice_params</definition>
+        <argsstring>(double start, double end, size_t opt_num=5000)</argsstring>
+        <name>reset_slice_params</name>
+        <param>
+          <type>double</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>opt_num</declname>
+          <defval>5000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset the slice parameters. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The start time of the time slice. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The end time of the time slice. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">opt_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bin number of the time slice. i.e time interval = (end-start)/opt_num </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="93" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="221" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Create a wrapper on callable object(function pointer, functor, lambda) of which accepts one parameter. The type of the parameter must have method <computeroutput>time()</computeroutput>. The wrapped callable object will be invoked for equal spacing time interval for time provided by time(). This class is basically used to implement equal time operation in simulations. For example, one can provide a printer <computeroutput>[](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; std::endl;}</computeroutput> as the pre_step_operation in <ref refid="classspace_1_1_run_args" kindref="compound">RunArgs</ref> to output the state of the integrated system. This printer then will be invoked before every step integration. The output might be very dense sometimes, thus outputting the result of every step is somewhat heavy. If one wraps the printer with <ref refid="classspace_1_1run__operations_1_1_time_slice" kindref="compound">TimeSlice</ref>, `TimeSlice([](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; &apos;<linebreak/>
+&apos;}, 0, 100, 10)`, then the output will be performed only at p.time()=[0,100/10, 2*100/10, 3*100/10,...100]. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callable object. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="498">
+        <label>space::run_operations::TimeSlice&lt; Operation &gt;</label>
+        <link refid="classspace_1_1run__operations_1_1_time_slice"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="55" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="55" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a3609da5623888ca29be2715583ed230d" prot="private" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>end_time_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a0bdb83ea7538fdfd44805da61fea458f" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>operator()</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a5d6216808a77897367a6d050bbfb497b" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>operator()</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a319e8eeba742eb1a8ddb8e46a1d092f3" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>operator=</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a69d38f6c5c0e9aa9a003b45fe6cbd65a" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>operator=</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1af6ef6c25027fd7b6b780fb280d4fc097" prot="private" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>opt_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1af64fda27f4ed5509a059fa0be808c43b" prot="private" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>opt_interval_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1aecbd6605ffe3de2e1561df9823579a5b" prot="private" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>opt_time_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a7d1259b11c13f0e68bf85b9e8b132ebf" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>reset_slice_params</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a8e5fedde36b478257678beb23a090811" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>TimeSlice</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a9318b5d5733075aabbf3eff18400e417" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>TimeSlice</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1ad129ccd737781d22f5ce82ced30367be" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>TimeSlice</name></member>
+      <member refid="classspace_1_1run__operations_1_1_time_slice_1a8a61ba94ce556c873fdc9040ea36900e" prot="public" virt="non-virtual"><scope>space::run_operations::TimeSlice</scope><name>TimeSlice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

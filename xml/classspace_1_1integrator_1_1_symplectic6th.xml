@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classspace_1_1integrator_1_1_symplectic6th" kind="class" language="C++" prot="public">
+    <compoundname>space::integrator::Symplectic6th</compoundname>
+    <basecompoundref refid="classspace_1_1integrator_1_1_integrator" prot="public" virt="non-virtual">space::integrator::Integrator&lt; Symplectic6th &gt;</basecompoundref>
+    <includes refid="symplectic-integrator_8hpp" local="no">symplectic-integrator.hpp</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classspace_1_1integrator_1_1_symplectic6th_1aa28afc7e3dea3dc81cb595a9f3e6eca9" prot="public" static="no">
+        <type><ref refid="classspace_1_1integrator_1_1_integrator" kindref="compound">Integrator</ref>&lt; <ref refid="classspace_1_1integrator_1_1_symplectic6th" kindref="compound">Symplectic6th</ref> &gt;</type>
+        <definition>using space::integrator::Symplectic6th::Base =  Integrator&lt;Symplectic6th&gt;</definition>
+        <argsstring></argsstring>
+        <name>Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" line="86" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classspace_1_1integrator_1_1_symplectic6th_1a715a9024643f7b7648a4ff00289f3898" prot="public" static="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t space::integrator::Symplectic6th::order</definition>
+        <argsstring></argsstring>
+        <name>order</name>
+        <initializer>{6}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Order of the integrator. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" line="90" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classspace_1_1integrator_1_1_symplectic6th_1a951a9a52bb7005118c8586b3669ad1b7" prot="public" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend space::integrator::Symplectic6th::Base</definition>
+        <argsstring></argsstring>
+        <name>Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" line="92" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classspace_1_1integrator_1_1_symplectic6th_1af25d64d57c8a7671010fd6baa14f2981" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ParticleSys</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::integrator::Symplectic6th::impl_integrate</definition>
+        <argsstring>(ParticleSys &amp;system, typename ParticleSys::Scalar step_size)</argsstring>
+        <name>impl_integrate</name>
+        <param>
+          <type>ParticleSys &amp;</type>
+          <declname>system</declname>
+        </param>
+        <param>
+          <type>typename ParticleSys::Scalar</type>
+          <declname>step_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" line="96" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" bodystart="169" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Sixth order symplectic method. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="479">
+        <label>space::integrator::Integrator&lt; Derived &gt;</label>
+        <link refid="classspace_1_1integrator_1_1_integrator"/>
+      </node>
+      <node id="477">
+        <label>space::integrator::Symplectic6th</label>
+        <link refid="classspace_1_1integrator_1_1_symplectic6th"/>
+        <childnode refid="478" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>space::integrator::Integrator&lt; Symplectic6th &gt;</label>
+        <link refid="classspace_1_1integrator_1_1_integrator"/>
+        <childnode refid="479" relation="template-instance">
+          <edgelabel>&lt; Symplectic6th &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="482">
+        <label>space::integrator::Integrator&lt; Derived &gt;</label>
+        <link refid="classspace_1_1integrator_1_1_integrator"/>
+      </node>
+      <node id="480">
+        <label>space::integrator::Symplectic6th</label>
+        <link refid="classspace_1_1integrator_1_1_symplectic6th"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>space::integrator::Integrator&lt; Symplectic6th &gt;</label>
+        <link refid="classspace_1_1integrator_1_1_integrator"/>
+        <childnode refid="482" relation="template-instance">
+          <edgelabel>&lt; Symplectic6th &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" line="84" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp" bodystart="84" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classspace_1_1integrator_1_1_symplectic6th_1aa28afc7e3dea3dc81cb595a9f3e6eca9" prot="public" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>Base</name></member>
+      <member refid="classspace_1_1integrator_1_1_symplectic6th_1a951a9a52bb7005118c8586b3669ad1b7" prot="public" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>Base</name></member>
+      <member refid="classspace_1_1integrator_1_1_symplectic6th_1af25d64d57c8a7671010fd6baa14f2981" prot="protected" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>impl_integrate</name></member>
+      <member refid="classspace_1_1integrator_1_1_integrator_1a7a799322c0005d6e983f151996ebd126" prot="public" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>integrate</name></member>
+      <member refid="classspace_1_1integrator_1_1_symplectic6th_1a715a9024643f7b7648a4ff00289f3898" prot="public" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>order</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

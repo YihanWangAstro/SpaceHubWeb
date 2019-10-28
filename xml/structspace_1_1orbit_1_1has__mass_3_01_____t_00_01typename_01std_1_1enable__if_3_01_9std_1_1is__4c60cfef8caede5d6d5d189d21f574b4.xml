@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4" kind="struct" language="C++" prot="public">
+    <compoundname>space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">true_type</basecompoundref>
+    <includes refid="particle-manip_8hpp" local="no">particle-manip.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename __T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="119">
+        <label>true_type</label>
+      </node>
+      <node id="118">
+        <label>space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</label>
+        <link refid="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="121">
+        <label>true_type</label>
+      </node>
+      <node id="120">
+        <label>space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</label>
+        <link refid="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="519" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="519" bodyend="519"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

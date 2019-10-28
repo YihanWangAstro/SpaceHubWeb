@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="collision_8hpp" kind="file" language="C++">
+    <compoundname>collision.hpp</compoundname>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includes refid="vector3_8hpp" local="yes">../vector/vector3.hpp</includes>
+    <incdepgraph>
+      <node id="19">
+        <label>vector3d.hpp</label>
+        <link refid="vector3d_8hpp"/>
+      </node>
+      <node id="16">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="17">
+        <label>../vector/vector3.hpp</label>
+        <link refid="vector3_8hpp"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>tuple</label>
+      </node>
+      <node id="11">
+        <label>/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp</label>
+        <link refid="collision_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>array</label>
+      </node>
+      <node id="13">
+        <label>iostream</label>
+      </node>
+      <node id="20">
+        <label>vector3pd.hpp</label>
+        <link refid="vector3pd_8hpp"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structrun__operations_1_1has__method__radius" prot="public">run_operations::has_method_radius</innerclass>
+    <innerclass refid="classrun__operations_1_1_sticky_collision" prot="public">run_operations::StickyCollision</innerclass>
+    <innernamespace refid="namespacerun__operations">run_operations</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspace_1_1is__ranges" kind="struct" language="C++" prot="public">
+    <compoundname>space::is_ranges</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">false_type</basecompoundref>
+    <includes refid="dev-tools_8hpp" local="no">dev-tools.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename _</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="296">
+        <label>false_type</label>
+      </node>
+      <node id="295">
+        <label>space::is_ranges&lt; T, _ &gt;</label>
+        <link refid="structspace_1_1is__ranges"/>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="298">
+        <label>false_type</label>
+      </node>
+      <node id="297">
+        <label>space::is_ranges&lt; T, _ &gt;</label>
+        <link refid="structspace_1_1is__ranges"/>
+        <childnode refid="298" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="325" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="325" bodyend="326"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

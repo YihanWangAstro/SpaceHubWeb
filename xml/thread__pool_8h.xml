@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="thread__pool_8h" kind="file" language="C++">
+    <compoundname>thread_pool.h</compoundname>
+    <includes local="no">atomic</includes>
+    <includes local="no">condition_variable</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">future</includes>
+    <includes local="no">queue</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">thread</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="475">
+        <label>atomic</label>
+      </node>
+      <node id="477">
+        <label>functional</label>
+      </node>
+      <node id="479">
+        <label>queue</label>
+      </node>
+      <node id="480">
+        <label>stdexcept</label>
+      </node>
+      <node id="476">
+        <label>condition_variable</label>
+      </node>
+      <node id="478">
+        <label>future</label>
+      </node>
+      <node id="482">
+        <label>vector</label>
+      </node>
+      <node id="474">
+        <label>/home/yihan/Repositories/SpaceHub/src/multi-thread/thread_pool.h</label>
+        <link refid="thread__pool_8h"/>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+        <childnode refid="482" relation="include">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>thread</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classspace_1_1multi__thread_1_1_thread_pool" prot="public">space::multi_thread::ThreadPool</innerclass>
+    <innernamespace refid="namespacespace_1_1multi__thread">space::multi_thread</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/thread_pool.h"/>
+  </compounddef>
+</doxygen>

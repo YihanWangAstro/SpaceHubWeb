@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_b_s-iterator0_8hpp" kind="file" language="C++">
+    <compoundname>BS-iterator0.hpp</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">vector</includes>
+    <includes refid="ode-iterator_8hpp" local="yes">ode-iterator.hpp</includes>
+    <includes refid="math_8hpp" local="yes">../math.hpp</includes>
+    <incdepgraph>
+      <node id="492">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="485" relation="include">
+        </childnode>
+      </node>
+      <node id="494">
+        <label>cmath</label>
+      </node>
+      <node id="489">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator0.hpp</label>
+        <link refid="_b_s-iterator0_8hpp"/>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+      </node>
+      <node id="487">
+        <label>ode-iterator.hpp</label>
+        <link refid="ode-iterator_8hpp"/>
+        <childnode refid="488" relation="include">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>tuple</label>
+      </node>
+      <node id="486">
+        <label>vector</label>
+      </node>
+      <node id="485">
+        <label>array</label>
+      </node>
+      <node id="490">
+        <label>iostream</label>
+      </node>
+      <node id="493">
+        <label>../math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="489" relation="include">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>../particle-system/particle-system.hpp</label>
+        <link refid="particle-system_8hpp"/>
+        <childnode refid="489" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classspace_1_1ode_iterator_1_1_burlish___stoer__tab" prot="public">space::odeIterator::Burlish_Stoer_tab</innerclass>
+    <innerclass refid="classspace_1_1ode_iterator_1_1_b_s_iterator" prot="public">space::odeIterator::BSIterator</innerclass>
+    <innernamespace refid="namespacespace_1_1ode_iterator">space::odeIterator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator0.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classspace_1_1run__operations_1_1_step_slice" kind="class" language="C++" prot="public">
+    <compoundname>space::run_operations::StepSlice</compoundname>
+    <includes refid="callbacks_8hpp" local="no">callbacks.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Operation</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_step_slice_1a9aae8204879faefd0d60f3dea5100c78" prot="private" static="no" mutable="no">
+        <type>Operation</type>
+        <definition>Operation space::run_operations::StepSlice&lt; Operation &gt;::opt_</definition>
+        <argsstring></argsstring>
+        <name>opt_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="153" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_step_slice_1ae0c92e17487eab9fffb766fd925f4d42" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t space::run_operations::StepSlice&lt; Operation &gt;::step_</definition>
+        <argsstring></argsstring>
+        <name>step_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="154" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classspace_1_1run__operations_1_1_step_slice_1aed99a8a6d485e67e551343b8fd4f411d" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t space::run_operations::StepSlice&lt; Operation &gt;::step_interval_</definition>
+        <argsstring></argsstring>
+        <name>step_interval_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1af64235f9534d74cd85cef5d09f4c1c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::StepSlice&lt; Operation &gt;::StepSlice</definition>
+        <argsstring>()=default</argsstring>
+        <name>StepSlice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a5e898a62d1e8e4cfe6fe5084d7d64fec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::StepSlice&lt; Operation &gt;::StepSlice</definition>
+        <argsstring>(StepSlice const &amp;)=default</argsstring>
+        <name>StepSlice</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a19eabdb207206805375acd8cbf683f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::StepSlice&lt; Operation &gt;::StepSlice</definition>
+        <argsstring>(StepSlice &amp;&amp;)=default</argsstring>
+        <name>StepSlice</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default move constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1ab32bdfa83b053551ad4858adba05bf8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> &amp;</type>
+        <definition>StepSlice&amp; space::run_operations::StepSlice&lt; Operation &gt;::operator=</definition>
+        <argsstring>(StepSlice const &amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy assignment operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1acc0d35a9597f90177a3e68811837f126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> &amp;</type>
+        <definition>StepSlice&amp; space::run_operations::StepSlice&lt; Operation &gt;::operator=</definition>
+        <argsstring>(StepSlice &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default move assignment operator </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a38da8fce31fbb7c82ba70a9a0f7e0ee0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>space::run_operations::StepSlice&lt; Operation &gt;::StepSlice</definition>
+        <argsstring>(Operation const &amp;opt, size_t step_interval=1)</argsstring>
+        <name>StepSlice</name>
+        <param>
+          <type>Operation const &amp;</type>
+          <declname>opt</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>step_interval</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor of step slice. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">opt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callable object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">step_interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Step interval. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="125" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="231" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a1443376025b4c21c09e2dcfc42a36bd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ParticleSys</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::run_operations::StepSlice&lt; Operation &gt;::operator()</definition>
+        <argsstring>(ParticleSys &amp;ptc) -&gt; std::enable_if_t&lt; std::is_same_v&lt; void, std::result_of_t&lt; Operation(ParticleSys &amp;)&gt;&gt;, void &gt;</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>ParticleSys &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callable interface. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ParticleSys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type used as call back parameter. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="133" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="236" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a1ca319130730fb1d5db31e098cd1e16d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ParticleSys</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::run_operations::StepSlice&lt; Operation &gt;::operator()</definition>
+        <argsstring>(ParticleSys &amp;ptc) -&gt; std::enable_if_t&lt; std::is_same_v&lt; bool, std::result_of_t&lt; Operation(ParticleSys &amp;)&gt;&gt;, bool &gt;</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>ParticleSys &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callable interface. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ParticleSys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type used as call back parameter. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classspace_1_1run__operations_1_1_step_slice_1a9e404eac8f9a5fe2ac8ad82478f908b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void space::run_operations::StepSlice&lt; Operation &gt;::reset_slice_params</definition>
+        <argsstring>(size_t step_interval)</argsstring>
+        <name>reset_slice_params</name>
+        <param>
+          <type>size_t</type>
+          <declname>step_interval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset the slice parameters. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">step_interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Step interval. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="150" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="258" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Create a wrapper on callable object(function pointer, functor, lambda) of which accepts one parameter. The wrapped callable object will be invoked for equal spacing steps. This class is basically used to implement equal step operation in simulations. For example, one can provide a printer <computeroutput>[](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; std::endl;}</computeroutput> as the pre_step_operation in <ref refid="classspace_1_1_run_args" kindref="compound">RunArgs</ref> to output the state of the integrated system. This printer then will be invoked before every step integration. The output might be very dense sometimes, thus outputting the result of every step is somewhat heavy. If one wraps the printer with <ref refid="classspace_1_1run__operations_1_1_step_slice" kindref="compound">StepSlice</ref>, `StepSlice([](auto&amp;p){std::cout &lt;&lt; p &lt;&lt; &apos;<linebreak/>
+&apos;}, 10)`, then the output will be performed every 10 steps. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callable object. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="456">
+        <label>space::run_operations::StepSlice&lt; Operation &gt;</label>
+        <link refid="classspace_1_1run__operations_1_1_step_slice"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="116" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="116" bodyend="156"/>
+    <listofallmembers>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a1443376025b4c21c09e2dcfc42a36bd9" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>operator()</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a1ca319130730fb1d5db31e098cd1e16d" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>operator()</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1ab32bdfa83b053551ad4858adba05bf8b" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>operator=</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1acc0d35a9597f90177a3e68811837f126" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>operator=</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a9aae8204879faefd0d60f3dea5100c78" prot="private" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>opt_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a9e404eac8f9a5fe2ac8ad82478f908b7" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>reset_slice_params</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1ae0c92e17487eab9fffb766fd925f4d42" prot="private" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>step_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1aed99a8a6d485e67e551343b8fd4f411d" prot="private" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>step_interval_</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1af64235f9534d74cd85cef5d09f4c1c0c" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>StepSlice</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a5e898a62d1e8e4cfe6fe5084d7d64fec" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>StepSlice</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a19eabdb207206805375acd8cbf683f06" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>StepSlice</name></member>
+      <member refid="classspace_1_1run__operations_1_1_step_slice_1a38da8fce31fbb7c82ba70a9a0f7e0ee0" prot="public" virt="non-virtual"><scope>space::run_operations::StepSlice</scope><name>StepSlice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

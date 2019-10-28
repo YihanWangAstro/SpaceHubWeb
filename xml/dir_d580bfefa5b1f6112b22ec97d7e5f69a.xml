@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d580bfefa5b1f6112b22ec97d7e5f69a" kind="dir">
+    <compoundname>/home/yihan/Repositories/SpaceHub/src/particle-system</compoundname>
+    <innerfile refid="archain_8hpp">archain.hpp</innerfile>
+    <innerfile refid="base-system_8hpp">base-system.hpp</innerfile>
+    <innerfile refid="chain-system_8hpp">chain-system.hpp</innerfile>
+    <innerfile refid="chain_8hpp">chain.hpp</innerfile>
+    <innerfile refid="octree_8hpp">octree.hpp</innerfile>
+    <innerfile refid="particle-system_8hpp">particle-system.hpp</innerfile>
+    <innerfile refid="regu-system_8hpp">regu-system.hpp</innerfile>
+    <briefdescription>
+<para>Directory of particle-system. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/"/>
+  </compounddef>
+</doxygen>

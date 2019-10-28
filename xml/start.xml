@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="start" kind="page">
+    <compoundname>start</compoundname>
+    <title>Getting started</title>
+    <detaileddescription>
+<sect1 id="start_1prerequisite">
+<title>Prerequisite</title>
+<para>SpaceHub is written based on the morden-ish C++ standard <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-info" /> <bold>c++17</bold>. To make the code compiled, the compiler on the target machine need to give full support on at least <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-info" /> <bold>c++17</bold>. The lowest compiler version for different OS is listed below.</para><para><table rows="7" cols="4"><row>
+<entry thead="yes"><para>Operating System </para></entry><entry thead="yes"><para>Compiler </para></entry><entry thead="yes"><para>Lowest Version required </para></entry><entry thead="yes"><para>Version recommended  </para></entry></row>
+<row>
+<entry thead="no"><para>Linux </para></entry><entry thead="no"><para>GCC </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>7</bold> </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>9</bold> </para></entry></row>
+<row>
+<entry thead="no"><para>Linux/MacOS </para></entry><entry thead="no"><para>Intel C++ </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>19.01</bold> </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>19.01</bold> </para></entry></row>
+<row>
+<entry thead="no"><para>MacOS </para></entry><entry thead="no"><para>Clang </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>4</bold> </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>8</bold> </para></entry></row>
+<row>
+<entry thead="no"><para>MacOS </para></entry><entry thead="no"><para>Apple Clang </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>support</bold> </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>support</bold> </para></entry></row>
+<row>
+<entry thead="no"><para>Windows </para></entry><entry thead="no"><para>MSVC </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>19.14</bold> </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>19.14</bold> </para></entry></row>
+<row>
+<entry thead="no"><para>Windows </para></entry><entry thead="no"><para>GCC via CygWin/MinGw </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-info" /> <bold>7</bold> </para></entry><entry thead="no"><para> <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-flat m-success" /> <bold>9 if support</bold> </para></entry></row>
+</table>
+<itemizedlist>
+<listitem>
+<para>For Linux/MacOS user, check the version of your GCC in terminal,</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>g++<sp/>-v</highlight></codeline>
+</programlisting></para><para>or check the version of the intel++ via,</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>icpc<sp/>-v</highlight></codeline>
+</programlisting></para><para>If your compiler version doesn&apos;t satisfy the lowest version required by SpaceHub, you need to update/install the new compiler.</para><para>You can install the new GCC from scratch by executing the following commands by sequence,</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>wget<sp/>https://ftp.gnu.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.xz</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>tar<sp/>xf<sp/>gcc-9.1.0.tar.xz</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>cd<sp/>gcc-9.1.0</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>./contrib/download_prerequisites</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>mkdir<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>cd<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>../configure<sp/>--prefix=$HOME/GCC-9.1.0<sp/>--enable-languages=c,c++<sp/>--disable-multilib</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>make<sp/>-j<sp/>8</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>make<sp/>install</highlight></codeline>
+</programlisting></para><para>after the installation, add the new g++ executable to your environment variable <computeroutput>PATH</computeroutput> by adding the following lines into your <computeroutput>.bashrc</computeroutput>(Linux)/<computeroutput>.bash_profile</computeroutput>(MacOS) under your directory <computeroutput>~</computeroutput>,</para><para><programlisting><codeline><highlight class="normal">export<sp/>PATH=$PATH:$HOME/GCC-9.1.0/bin</highlight></codeline>
+<codeline><highlight class="normal">export<sp/>LD_LIBRARY_PATH=$HOME/GCC-9.1.0/lib</highlight></codeline>
+<codeline><highlight class="normal">export<sp/>LD_LIBRARY_PATH=$HOME/GCC-9.1.0/lib64</highlight></codeline>
+</programlisting></para><para>and source it</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>source<sp/>~/.bashrc</highlight></codeline>
+</programlisting></para><para>or</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>source<sp/>~/.bash_profile</highlight></codeline>
+</programlisting></para><para>then, check the GCC version again via</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>g++<sp/>-v</highlight></codeline>
+</programlisting></para><para></para><para></para></listitem>
+<listitem>
+<para>For Windows user, if you have installed <ulink url="https://visualstudio.microsoft.com/vs/">Microsoft Visual Studio</ulink>, check the version of your MSVC in cmd terminal,</para><para><programlisting><codeline><highlight class="normal">path_to_your_installed_dir\Microsoft<sp/>Visual<sp/>Studio<sp/>xxx\VC<sp/>&gt;<sp/>cl</highlight></codeline>
+</programlisting></para><para>or just open your <ulink url="https://visualstudio.microsoft.com/vs/">Microsoft Visual Studio</ulink>, check the version information through <emphasis>about</emphasis> or <emphasis>help</emphasis>.</para><para>If your MSVC doesn&apos;t satisfy the lowest version required by SpaceHub, update <ulink url="https://visualstudio.microsoft.com/vs/">Microsoft Visual Studio</ulink> to the newest version. If <ulink url="https://visualstudio.microsoft.com/vs/">Microsoft Visual Studio</ulink> is too heavy for you, you can also install the GCC on Windows via <ulink url="http://www.cygwin.com/">CygWin</ulink> or <ulink url="http://www.mingw.org/">MinGw</ulink>. </para><para></para></listitem>
+<listitem>
+<para>For cluster user, if the cluster has build system like <ulink url="https://easybuild.readthedocs.io/en/latest/">EasyBuild</ulink>, check if any gcc module with version later than 7 is available via</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>module<sp/>avail</highlight></codeline>
+</programlisting></para><para>If any GCC module is available, e.g <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-info" /> <bold>gcc/9.2.0</bold>, you can use</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>module<sp/>load<sp/>gcc/9.2.0</highlight></codeline>
+</programlisting></para><para>to load the GCC-9.2.0. Otherwise, you need to install the GCC under your own directories without root privilege through the method above for linux user.</para><para></para></listitem>
+</itemizedlist>
+</para></sect1>
+<sect1 id="start_1install">
+<title>Install</title>
+<para>SpaceHub is a header only code(In <mcss:class xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-label m-info" /> <bold>c++20</bold>, we will make into <ulink url="https://en.cppreference.com/w/cpp/language/modules">Modules</ulink>). <mcss:span xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-text m-danger"> No installation </mcss:span> is required, you only need <programlisting><codeline><highlight class="preprocessor">#include&quot;path_to_spacehub/src/spaceHub.hpp&quot;</highlight><highlight class="normal"><sp/></highlight></codeline>
+</programlisting> in your application code to use the SpaceHub. <itemizedlist>
+<listitem>
+<para>For Linux/MacOS user, open the terminal and <computeroutput>cd</computeroutput> to a place where you want to install the SpaceHub,</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>git<sp/>clone<sp/>https://github.com/YihanWangAstro/SpaceHub.git</highlight></codeline>
+</programlisting></para><para>That&apos;s it. </para><para></para></listitem>
+<listitem>
+<para>For Windows user, download the repository of SpaceHub and unpack it.  <mcss:div xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-button m-info"> <ulink url="https://github.com/YihanWangAstro/SpaceHub/archive/master.zip"> <mcss:div xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-big">SpaceHub </mcss:div> <mcss:div xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:class="m-small"> download </mcss:div> </ulink> </mcss:div> </para></listitem>
+</itemizedlist>
+</para></sect1>
+<sect1 id="start_1demo">
+<title>Demo</title>
+<para>Here is a very simple example to integrate a (sun-earth-moon) system. For more information we recommend to read tutorial carefully.</para><para><programlisting><codeline><highlight class="comment">//<sp/>main.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;PATH_TO_SPACEHUB/src/spaceHub.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacespace" kindref="compound">space</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">unit;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="secular_8h_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(){</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Particle<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="classspace_1_1_simulator_1aa216238bcffe4be483681dca40bc478e" kindref="member">DefaultSolver::Particle</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>three<sp/>particles.<sp/>particles<sp/>are<sp/>rest<sp/>at<sp/>origin.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>Particle<sp/>sun{<ref refid="namespacespace_1_1unit_1a1f5af7def5a965203687480eba9d82b5" kindref="member">m_solar</ref>},<sp/>earth{<ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref>},<sp/>moon{<ref refid="namespacespace_1_1unit_1a8ffc166e31c159462e8b56793e3b258c" kindref="member">m_moon</ref>};</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>a<sp/>Kepler<sp/>orbit<sp/>of<sp/>(moon<sp/>mass,<sp/>earth<sp/>mass)<sp/>with<sp/>a<sp/>=<sp/>268782<sp/>km,<sp/>e<sp/>=<sp/>0.055<sp/>and<sp/>i<sp/>=<sp/>1.543<sp/>degree.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>moon_orbit<sp/>=<sp/><ref refid="structspace_1_1orbit_1_1_ellip_orbit" kindref="compound">orbit::EllipOrbit</ref>{earth.mass,<sp/>moon.mass,<sp/>268782<sp/>*<sp/><ref refid="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" kindref="member">km</ref>,<sp/>0.055,<sp/>1.543<sp/>*<sp/><ref refid="namespacespace_1_1unit_1a9a70961c217cbd1f7057b7286e73530a" kindref="member">deg</ref>,<sp/>0.0,<sp/>0.0,<sp/>0.0};</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>move<sp/>the<sp/>moon<sp/>to<sp/>the<sp/>moon<sp/>orbit</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>orbit::move_particles_to(moon_orbit,<sp/>moon);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>a<sp/>Kepler<sp/>orbit<sp/>of<sp/>(moon<sp/>mass<sp/>+<sp/>earth<sp/>mass,<sp/>solar<sp/>mass)<sp/>a<sp/>=<sp/>1<sp/>au,<sp/>e<sp/>=<sp/>0.016<sp/>and<sp/>i<sp/>=<sp/>7.155<sp/>degree.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>earth_orbit<sp/>=<sp/><ref refid="structspace_1_1orbit_1_1_ellip_orbit" kindref="compound">orbit::EllipOrbit</ref>{sun.mass,<sp/>earth.mass<sp/>+<sp/>moon.mass,<sp/><ref refid="namespacespace_1_1unit_1ace4f7e3b11e370c6c6911aa1d78869bc" kindref="member">au</ref>,<sp/>0.016,<sp/>7.155<sp/>*<sp/><ref refid="namespacespace_1_1unit_1a9a70961c217cbd1f7057b7286e73530a" kindref="member">deg</ref>,<sp/>0.0,<sp/>0.0,<sp/>0.0};</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>move<sp/>the<sp/>centre<sp/>of<sp/>mass<sp/>of<sp/>the<sp/>moon<sp/>and<sp/>earth<sp/>to<sp/>the<sp/>earth<sp/>orbit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>orbit::move_particles_to(earth_orbit,<sp/>earth,<sp/>moon);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>move<sp/>the<sp/>three<sp/>objects<sp/>to<sp/>the<sp/>centre<sp/>of<sp/>mass<sp/>reference<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="namespacespace_1_1orbit_1a677e14d0c7acb0457417f99abae243be" kindref="member">orbit::move_to_COM_frame</ref>(sun,<sp/>earth,<sp/>moon);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>the<sp/>system<sp/>with<sp/>the<sp/>three<sp/>particles<sp/>and<sp/>set<sp/>the<sp/>time<sp/>=<sp/>0.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="classspace_1_1_simulator" kindref="compound">DefaultSolver</ref><sp/>sim{0,<sp/>sun,<sp/>earth,<sp/>moon};</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="classspace_1_1_run_args" kindref="compound">DefaultSolver::RunArgs</ref><sp/>args;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>a<sp/>default<sp/>output<sp/>printer</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>args.<ref refid="classspace_1_1_run_args_1a40dd8e75c3602befb2ea3a54f850a3de" kindref="member">add_pre_step_operation</ref>(run_operations::DefaultWriter(</highlight><highlight class="stringliteral">&quot;solar.dat&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>args.<ref refid="classspace_1_1_run_args_1a1f7732aa10f12671047acd41f43b7035" kindref="member">add_stop_condition</ref>(100<sp/>*<sp/><ref refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kindref="member">unit::year</ref>);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>run<sp/>simulation<sp/>with<sp/>arguments.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>sim.run(args);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>compile it with</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>g++<sp/>-std=c++17<sp/>-O3<sp/>-o<sp/>test<sp/>main.cpp</highlight></codeline>
+</programlisting></para><para>and run</para><para><programlisting><codeline><highlight class="normal">&gt;<sp/>./test</highlight></codeline>
+</programlisting></para><para>Enjoy! </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

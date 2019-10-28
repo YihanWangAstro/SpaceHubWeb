@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_gauss-_dadau_8hpp" kind="file" language="C++">
+    <compoundname>Gauss-Dadau.hpp</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">vector</includes>
+    <includes refid="core-computation_8hpp" local="yes">../core-computation.hpp</includes>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includes refid="integrator_8hpp" local="yes">integrator.hpp</includes>
+    <includedby refid="_i_a_s15_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</includedby>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="137">
+        <label>integrator.hpp</label>
+        <link refid="integrator_8hpp"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>cmath</label>
+      </node>
+      <node id="130">
+        <label>macros.hpp</label>
+        <link refid="macros_8hpp"/>
+      </node>
+      <node id="133">
+        <label>dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>tuple</label>
+      </node>
+      <node id="128">
+        <label>vector</label>
+      </node>
+      <node id="127">
+        <label>array</label>
+      </node>
+      <node id="129">
+        <label>../core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>iostream</label>
+      </node>
+      <node id="131">
+        <label>math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</label>
+        <link refid="_gauss-_dadau_8hpp"/>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>../particle-system/particle-system.hpp</label>
+        <link refid="particle-system_8hpp"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="141">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="140">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</label>
+        <link refid="_i_a_s15_8hpp"/>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</label>
+        <link refid="_gauss-_dadau_8hpp"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1integrator_1_1_radau_consts" prot="public">space::integrator::RadauConsts</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_gauss_dadau" prot="public">space::integrator::GaussDadau</innerclass>
+    <innernamespace refid="namespacespace_1_1integrator">space::integrator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp"/>
+  </compounddef>
+</doxygen>

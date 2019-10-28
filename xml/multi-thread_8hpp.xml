@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="multi-thread_8hpp" kind="file" language="C++">
+    <compoundname>multi-thread.hpp</compoundname>
+    <includes local="no">cstdio</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">mutex</includes>
+    <includes local="no">string</includes>
+    <includes local="no">thread</includes>
+    <includes local="no">vector</includes>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includedby refid="rand-generator_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/rand-generator.hpp</includedby>
+    <includedby refid="lazy__array_8h" local="yes">/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h</includedby>
+    <incdepgraph>
+      <node id="465">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+      </node>
+      <node id="459">
+        <label>string</label>
+      </node>
+      <node id="455">
+        <label>fstream</label>
+      </node>
+      <node id="462">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="465" relation="include">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>cstdio</label>
+      </node>
+      <node id="463">
+        <label>tuple</label>
+      </node>
+      <node id="461">
+        <label>vector</label>
+      </node>
+      <node id="464">
+        <label>array</label>
+      </node>
+      <node id="456">
+        <label>iostream</label>
+      </node>
+      <node id="453">
+        <label>/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp</label>
+        <link refid="multi-thread_8hpp"/>
+        <childnode refid="454" relation="include">
+        </childnode>
+        <childnode refid="455" relation="include">
+        </childnode>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="458" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+        <childnode refid="460" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>mutex</label>
+      </node>
+      <node id="460">
+        <label>thread</label>
+      </node>
+      <node id="457">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="468">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</label>
+        <link refid="orbits_8hpp"/>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="472">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="471">
+        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+        <link refid="cross-section_8hpp"/>
+      </node>
+      <node id="473">
+        <label>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/lazy_array.h</label>
+        <link refid="lazy__array_8h"/>
+      </node>
+      <node id="470">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+        <link refid="particle-manip_8hpp"/>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</label>
+        <link refid="tidal_8hpp"/>
+      </node>
+      <node id="466">
+        <label>/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp</label>
+        <link refid="multi-thread_8hpp"/>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
+        </childnode>
+      </node>
+      <node id="467">
+        <label>/home/yihan/Repositories/SpaceHub/src/rand-generator.hpp</label>
+        <link refid="rand-generator_8hpp"/>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1multi__thread_1_1_concurrent_file" prot="public">space::multi_thread::ConcurrentFile</innerclass>
+    <innernamespace refid="namespacespace_1_1multi__thread">space::multi_thread</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/multi-thread/multi-thread.hpp"/>
+  </compounddef>
+</doxygen>

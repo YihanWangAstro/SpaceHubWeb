@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="finite-size_8hpp" kind="file" language="C++">
+    <compoundname>finite-size.hpp</compoundname>
+    <includes refid="_i_o_8hpp" local="yes">../IO.hpp</includes>
+    <includes refid="point-particles_8hpp" local="yes">point-particles.hpp</includes>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="794">
+        <label>vector3d.hpp</label>
+        <link refid="vector3d_8hpp"/>
+      </node>
+      <node id="786">
+        <label>../IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+      </node>
+      <node id="792">
+        <label>cmath</label>
+      </node>
+      <node id="791">
+        <label>../vector/vector3.hpp</label>
+        <link refid="vector3_8hpp"/>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="794" relation="include">
+        </childnode>
+        <childnode refid="795" relation="include">
+        </childnode>
+      </node>
+      <node id="785">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp</label>
+        <link refid="finite-size_8hpp"/>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="790" relation="include">
+        </childnode>
+      </node>
+      <node id="793">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+      </node>
+      <node id="796">
+        <label>particles.hpp</label>
+        <link refid="particles_8hpp"/>
+        <childnode refid="793" relation="include">
+        </childnode>
+      </node>
+      <node id="788">
+        <label>tuple</label>
+      </node>
+      <node id="789">
+        <label>array</label>
+      </node>
+      <node id="787">
+        <label>iostream</label>
+      </node>
+      <node id="790">
+        <label>point-particles.hpp</label>
+        <link refid="point-particles_8hpp"/>
+        <childnode refid="791" relation="include">
+        </childnode>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+      </node>
+      <node id="795">
+        <label>vector3pd.hpp</label>
+        <link refid="vector3pd_8hpp"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="798">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="797">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp</label>
+        <link refid="finite-size_8hpp"/>
+        <childnode refid="798" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1particle__set_1_1_size_particles" prot="public">space::particle_set::SizeParticles</innerclass>
+    <innerclass refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" prot="public">space::particle_set::SizeParticles::Particle</innerclass>
+    <innernamespace refid="namespacespace_1_1particle__set">space::particle_set</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp"/>
+  </compounddef>
+</doxygen>

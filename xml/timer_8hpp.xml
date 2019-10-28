@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="timer_8hpp" kind="file" language="C++">
+    <compoundname>timer.hpp</compoundname>
+    <includes local="no">chrono</includes>
+    <includedby refid="mkl-array_8h" local="yes">/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h</includedby>
+    <incdepgraph>
+      <node id="982">
+        <label>/home/yihan/Repositories/SpaceHub/src/tools/timer.hpp</label>
+        <link refid="timer_8hpp"/>
+        <childnode refid="983" relation="include">
+        </childnode>
+      </node>
+      <node id="983">
+        <label>chrono</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="985">
+        <label>/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h</label>
+        <link refid="mkl-array_8h"/>
+      </node>
+      <node id="984">
+        <label>/home/yihan/Repositories/SpaceHub/src/tools/timer.hpp</label>
+        <link refid="timer_8hpp"/>
+        <childnode refid="985" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1tools_1_1_timer" prot="public">space::tools::Timer</innerclass>
+    <innernamespace refid="namespacespace_1_1tools">space::tools</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/tools/timer.hpp"/>
+  </compounddef>
+</doxygen>

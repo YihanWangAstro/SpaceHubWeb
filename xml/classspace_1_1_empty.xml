@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classspace_1_1_empty" kind="class" language="C++" prot="public">
+    <compoundname>space::Empty</compoundname>
+    <includes refid="dev-tools_8hpp" local="no">dev-tools.hpp</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="83">
+        <label>space::Empty</label>
+        <link refid="classspace_1_1_empty"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="72" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="72" bodyend="73"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="particles_8hpp" kind="file" language="C++">
+    <compoundname>particles.hpp</compoundname>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includedby refid="point-particles_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp</includedby>
+    <incdepgraph>
+      <node id="804">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="800">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+        <childnode refid="804" relation="include">
+        </childnode>
+      </node>
+      <node id="799">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp</label>
+        <link refid="particles_8hpp"/>
+        <childnode refid="800" relation="include">
+        </childnode>
+      </node>
+      <node id="802">
+        <label>tuple</label>
+      </node>
+      <node id="803">
+        <label>array</label>
+      </node>
+      <node id="801">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="808">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="807">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/finite-size.hpp</label>
+        <link refid="finite-size_8hpp"/>
+        <childnode refid="808" relation="include">
+        </childnode>
+      </node>
+      <node id="805">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp</label>
+        <link refid="particles_8hpp"/>
+        <childnode refid="806" relation="include">
+        </childnode>
+      </node>
+      <node id="806">
+        <label>/home/yihan/Repositories/SpaceHub/src/particles/point-particles.hpp</label>
+        <link refid="point-particles_8hpp"/>
+        <childnode refid="807" relation="include">
+        </childnode>
+        <childnode refid="808" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1particle__set_1_1_particles" prot="public">space::particle_set::Particles</innerclass>
+    <innernamespace refid="namespacespace_1_1particle__set">space::particle_set</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="particles_8hpp_1a89c368e13a9bed5d13ed5e4381bb44d9" prot="public" static="no">
+        <name>SPACEHUB_PARTICLE_TYPE_CHECK</name>
+        <param><defname>CTR</defname></param>
+        <param><defname>VAL</defname></param>
+        <initializer>static_assert(std::is_base_of_v&lt;typename CTR::value_type, VAL&gt;, \
+                &quot;Class can only be initialized by containers with its internal &apos;Particle&apos; type!&quot;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp" line="175" column="9" bodyfile="/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particles/particles.hpp"/>
+  </compounddef>
+</doxygen>

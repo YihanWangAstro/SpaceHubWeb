@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="particle-system_8hpp" kind="file" language="C++">
+    <compoundname>particle-system.hpp</compoundname>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includedby refid="integrator_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/integrator/integrator.hpp</includedby>
+    <includedby refid="ode-iterator_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/ode-iterator.hpp</includedby>
+    <includedby refid="regu-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp</includedby>
+    <includedby refid="base-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp</includedby>
+    <includedby refid="chain-system_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</includedby>
+    <incdepgraph>
+      <node id="753">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
+      </node>
+      <node id="749">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>tuple</label>
+      </node>
+      <node id="752">
+        <label>array</label>
+      </node>
+      <node id="750">
+        <label>iostream</label>
+      </node>
+      <node id="748">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp</label>
+        <link refid="particle-system_8hpp"/>
+        <childnode refid="749" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="762">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp</label>
+        <link refid="_b_s-iterator__bk_8hpp"/>
+      </node>
+      <node id="755">
+        <label>/home/yihan/Repositories/SpaceHub/src/integrator/integrator.hpp</label>
+        <link refid="integrator_8hpp"/>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+      </node>
+      <node id="764">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/const-iterator.hpp</label>
+        <link refid="const-iterator_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="766">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp</label>
+        <link refid="archain_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="758">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="768">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</label>
+        <link refid="chain-system_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="759">
+        <label>/home/yihan/Repositories/SpaceHub/src/integrator/symplectic/symplectic-integrator.hpp</label>
+        <link refid="symplectic-integrator_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="765">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp</label>
+        <link refid="regu-system_8hpp"/>
+        <childnode refid="766" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="763">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/Burlish-Stoer.hpp</label>
+        <link refid="_burlish-_stoer_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="761">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator0.hpp</label>
+        <link refid="_b_s-iterator0_8hpp"/>
+      </node>
+      <node id="760">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/ode-iterator.hpp</label>
+        <link refid="ode-iterator_8hpp"/>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="762" relation="include">
+        </childnode>
+        <childnode refid="763" relation="include">
+        </childnode>
+        <childnode refid="764" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+      </node>
+      <node id="757">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</label>
+        <link refid="_i_a_s15_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="767">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp</label>
+        <link refid="base-system_8hpp"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="756">
+        <label>/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</label>
+        <link refid="_gauss-_dadau_8hpp"/>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+      </node>
+      <node id="754">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp</label>
+        <link refid="particle-system_8hpp"/>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
+        <childnode refid="765" relation="include">
+        </childnode>
+        <childnode refid="767" relation="include">
+        </childnode>
+        <childnode refid="768" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1particle__system_1_1_particle_system" prot="public">space::particle_system::ParticleSystem</innerclass>
+    <innerclass refid="structspace_1_1particle__system_1_1has__method__radius" prot="public">space::particle_system::has_method_radius</innerclass>
+    <innernamespace refid="namespacespace_1_1particle__system">space::particle_system</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/particle-system.hpp"/>
+  </compounddef>
+</doxygen>

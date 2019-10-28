@@ -1,0 +1,2550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacespace_1_1orbit" kind="namespace" language="C++">
+    <compoundname>space::orbit</compoundname>
+    <innerclass refid="structspace_1_1orbit_1_1_ellip_orbit" prot="public">space::orbit::EllipOrbit</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__mass" prot="public">space::orbit::has_mass</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4" prot="public">space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__radius" prot="public">space::orbit::has_radius</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__radius_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is1bba305d1e0f1813c9cb26256d6aff6b" prot="public">space::orbit::has_radius&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). radius), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1_hyper_orbit" prot="public">space::orbit::HyperOrbit</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1_kepler_orbit" prot="public">space::orbit::KeplerOrbit</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1_random_indicator" prot="public">space::orbit::RandomIndicator</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5" prot="public" static="no">
+        <name>OrbitType</name>
+        <enumvalue id="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5a119518c2134c46108179369f0ce81fa2" prot="public">
+          <name>Ellipse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5adf5a05bb403aa376bd71f1341f8acfa6" prot="public">
+          <name>Parabola</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5a2af03ca39974cae19a90cdad5a5f3230" prot="public">
+          <name>Hyperbola</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum of kepler orbit type. Possible value: Ellipse, Parabola, Hyperbola, None. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="47" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacespace_1_1orbit_1a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1" prot="public" static="no">
+        <name>Hyper</name>
+        <enumvalue id="namespacespace_1_1orbit_1a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1a13b5bfe96f3e2fe411c9f66f4a582adf" prot="public">
+          <name>in</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacespace_1_1orbit_1a6d5f1fbb31b8dcdf0aa2ae8f83dfc5a1ac68271a63ddbc431c307beb7d2918275" prot="public">
+          <name>out</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum type that indicates the trajectory is hyperbolically incident in or hyperbolically eject out. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="172" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="172" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacespace_1_1orbit_1aa6519650f1ef6058c7996a2d74762577" prot="public" static="no">
+        <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; double &gt;</type>
+        <definition>using space::orbit::Kepler = typedef KeplerOrbit&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>Kepler</name>
+        <briefdescription>
+<para>Alias of OrbitArgs&lt;double&gt;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="164" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacespace_1_1orbit_1aed359d482e51883a181da73f6efa5013" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structspace_1_1orbit_1_1_random_indicator" kindref="compound">space::orbit::RandomIndicator</ref></type>
+        <definition>struct space::orbit::RandomIndicator  space::orbit::isotherm</definition>
+        <argsstring></argsstring>
+        <name>isotherm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a5e97a93d48049cbc0c44079083da7222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::myacos</definition>
+        <argsstring>(Scalar x)</argsstring>
+        <name>myacos</name>
+        <param>
+          <type>Scalar</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="251" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="251" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1afe2f5846e68cbd436925e553686533ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto space::orbit::semi_latus_rectum</definition>
+        <argsstring>(Scalar a, Scalar e)</argsstring>
+        <name>semi_latus_rectum</name>
+        <param>
+          <type>Scalar</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="256" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a95676ada3e97610dea9a0260651ba437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::euler_rotate</definition>
+        <argsstring>(Vector &amp;v, const Scalar phi, const Scalar theta, const Scalar psi)</argsstring>
+        <name>euler_rotate</name>
+        <param>
+          <type>Vector &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Scalar</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>const Scalar</type>
+          <declname>theta</declname>
+        </param>
+        <param>
+          <type>const Scalar</type>
+          <declname>psi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="261" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="261" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a8ef2c00e2bb99f648553dade399dd1b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::E_anomaly_to_T_anomaly</definition>
+        <argsstring>(Scalar E_anomaly, Scalar e)</argsstring>
+        <name>E_anomaly_to_T_anomaly</name>
+        <param>
+          <type>Scalar</type>
+          <declname>E_anomaly</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="281" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="281" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a37bec1328992111f2647fcf5fe667260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::M_anomaly_to_E_anomaly</definition>
+        <argsstring>(Scalar mean_anomaly, Scalar e)</argsstring>
+        <name>M_anomaly_to_E_anomaly</name>
+        <param>
+          <type>Scalar</type>
+          <declname>mean_anomaly</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="294" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="294" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a61a80214b377e8a424441c73ec251558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::T_anomaly_to_E_anomaly</definition>
+        <argsstring>(Scalar T_anomaly, Scalar e)</argsstring>
+        <name>T_anomaly_to_E_anomaly</name>
+        <param>
+          <type>Scalar</type>
+          <declname>T_anomaly</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="315" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="315" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a7e91be3bf07a512d6e03dd42b55ff177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::E_anomaly_to_M_anomaly</definition>
+        <argsstring>(Scalar E_anomaly, Scalar e)</argsstring>
+        <name>E_anomaly_to_M_anomaly</name>
+        <param>
+          <type>Scalar</type>
+          <declname>E_anomaly</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="327" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="327" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ac639ca4751557b8a5dd59e452344fdc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr <ref refid="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5" kindref="member">OrbitType</ref></type>
+        <definition>constexpr OrbitType space::orbit::classify_orbit</definition>
+        <argsstring>(T eccentricity)</argsstring>
+        <name>classify_orbit</name>
+        <param>
+          <type>T</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="340" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="340" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a4184496dc0934f5365a00fc5c6438d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::orbit_to_coord</definition>
+        <argsstring>(const KeplerOrbit&lt; Scalar &gt; &amp;args, Vector &amp;pos, Vector &amp;vel)</argsstring>
+        <name>orbit_to_coord</name>
+        <param>
+          <type>const <ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>Vector &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Vector &amp;</type>
+          <declname>vel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="457" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="457" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1af5ab176b14b301e161efe4f5f519914a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::coord_to_orbit</definition>
+        <argsstring>(Scalar m1, Scalar m2, const Vector &amp;dr, const Vector &amp;dv, KeplerOrbit&lt; Scalar &gt; &amp;args)</argsstring>
+        <name>coord_to_orbit</name>
+        <param>
+          <type>Scalar</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>const Vector &amp;</type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type>const Vector &amp;</type>
+          <declname>dv</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="474" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="474" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1add1ade24d81a2e820776c4d1076f0886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::orbit_to_coord</definition>
+        <argsstring>(KeplerOrbit&lt; Scalar &gt; const &amp;args)</argsstring>
+        <name>orbit_to_coord</name>
+        <param>
+          <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="522" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="522" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1af559e3bfe01ebd1ea5b0b7cf91d9a1b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::calc_eccentricity</definition>
+        <argsstring>(Scalar u, Vector const &amp;dr, Vector const &amp;dv)</argsstring>
+        <name>calc_eccentricity</name>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>dv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="543" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="543" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a4e547b3a0a6d5133eb38c6548172c867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::calc_eccentricity</definition>
+        <argsstring>(Scalar u, Scalar dx, Scalar dy, Scalar dz, Scalar dvx, Scalar dvy, Scalar dvz)</argsstring>
+        <name>calc_eccentricity</name>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dz</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvx</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvy</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="548" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="548" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ac766a365db0f96da95764a569ca27810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::calc_semi_major_axis</definition>
+        <argsstring>(Scalar u, Vector const &amp;dr, Vector const &amp;dv)</argsstring>
+        <name>calc_semi_major_axis</name>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>dv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="554" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="554" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a1b58851ecb7a98faaaef30f809b08362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>Scalar</type>
+        <definition>Scalar space::orbit::calc_semi_major_axis</definition>
+        <argsstring>(Scalar u, Scalar dx, Scalar dy, Scalar dz, Scalar dvx, Scalar dvy, Scalar dvz)</argsstring>
+        <name>calc_semi_major_axis</name>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dz</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvx</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvy</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="560" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="560" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1adb8a9f565c97cb198ec36ae657b9efe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::calc_a_e</definition>
+        <argsstring>(Scalar u, Vector const &amp;dr, Vector const &amp;dv)</argsstring>
+        <name>calc_a_e</name>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>dr</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>dv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="566" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="566" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab429eb4e43b25ce8ad7bd0b53d502ca8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::calc_a_e</definition>
+        <argsstring>(Scalar u, Scalar dx, Scalar dy, Scalar dz, Scalar dvx, Scalar dvy, Scalar dvz)</argsstring>
+        <name>calc_a_e</name>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dz</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvx</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvy</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>dvz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="578" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="578" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1af915bfd8389f1cdd65a450ea91312a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::period</definition>
+        <argsstring>(Scalar m1, Scalar m2, Scalar a)</argsstring>
+        <name>period</name>
+        <param>
+          <type>Scalar</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="584" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="584" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ae86668ddeeacfc3cd845e59131489bdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::period</definition>
+        <argsstring>(KeplerOrbit&lt; Scalar &gt; const &amp;args)</argsstring>
+        <name>period</name>
+        <param>
+          <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="593" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="593" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1afc818fe269b48ed49370c7c3bf8680d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::time_to_periapsis</definition>
+        <argsstring>(OrbitType obt_type, Scalar u, Scalar a, Scalar M_anomaly)</argsstring>
+        <name>time_to_periapsis</name>
+        <param>
+          <type><ref refid="namespacespace_1_1orbit_1a5b218ab4c1cd5603e9dfb9e657297ff5" kindref="member">OrbitType</ref></type>
+          <declname>obt_type</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>M_anomaly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="598" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="598" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a29f8ccd596edbab0d97b792b78d72c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::time_to_periapsis</definition>
+        <argsstring>(KeplerOrbit&lt; Scalar &gt; const &amp;args)</argsstring>
+        <name>time_to_periapsis</name>
+        <param>
+          <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="609" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" bodystart="609" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a1b5f49246a5fcbe95273097552d9aa5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::cluster</definition>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... ptcs)</argsstring>
+        <name>cluster</name>
+        <param>
+          <type>Particle const &amp;</type>
+          <declname>ptc1</declname>
+        </param>
+        <param>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Create a std::ranges like(Container) from individual particles. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structspace_1_1_types" kindref="compound">Types</ref> of particle, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest if exits. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The containers contains input particles. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="43" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a8f18aff33abc64c71ba151623b94d1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::M_tot</definition>
+        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <name>M_tot</name>
+        <param>
+          <type>Cluster &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the total mass of a cluster of particles/single particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="56" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a1f8e25ad70c9dee4d830939285114ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::M_tot</definition>
+        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <name>M_tot</name>
+        <param>
+          <type>Particle &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the total mass of particles. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exits. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The total mass of particles </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a99902b1d7bb3ac1c001bda82a3293ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::COM_p</definition>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
+        <name>COM_p</name>
+        <param>
+          <type>Cluster const &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the centre of mass position of a particle cluster/single particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The centre of mass position of the particle cluster/single particle. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="91" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="91" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1afa4baadc2df682e51a1f678305cb8432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::COM_p</definition>
+        <argsstring>(Particle const &amp;ptc, Args const &amp;... ptcs)</argsstring>
+        <name>COM_p</name>
+        <param>
+          <type>Particle const &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the centre of mass position of particles. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exist. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The centre of mass position of particles. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="121" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a0e27a26d9d86be65351198b5e416317d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::COM_v</definition>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
+        <name>COM_v</name>
+        <param>
+          <type>Cluster const &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the centre of mass velocity of a particle cluster/single particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The centre of mass velocity of the particle cluster/single particle. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="136" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="136" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a04a43e75b9555ef843f4596dfbae2b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::COM_v</definition>
+        <argsstring>(Particle const &amp;ptc, Args const &amp;... ptcs)</argsstring>
+        <name>COM_v</name>
+        <param>
+          <type>Particle const &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the centre of mass velocity of particles. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exist. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The centre of mass velocity of particles. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="168" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="168" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1aab787895d7b6984014353bde538bef83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::M_rdc</definition>
+        <argsstring>(Cluster1 &amp;&amp;m1, Cluster2 &amp;&amp;m2)</argsstring>
+        <name>M_rdc</name>
+        <param>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+<para>The reduced mass of two clusters(cluster can also be a single particle). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m1[in]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m2[in]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/second single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The reduced mass of the two clusters(cluster can also be a single particle). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="186" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="186" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a9ce15ee351be8dcc5b55294381b24d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles_pos</definition>
+        <argsstring>(Vector const &amp;centre_mass_pos, Cluster &amp;ptc)</argsstring>
+        <name>move_particles_pos</name>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_pos</declname>
+        </param>
+        <param>
+          <type>Cluster &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass position of a cluster(can be a single particle) to a specific position. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>3-D Vector type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">centre_mass_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass position. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cluster(can be a single particle) needs to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="201" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="201" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a4eebe44f1be852965dbc818295492ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles_pos</definition>
+        <argsstring>(Vector const &amp;centre_mass_pos, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <name>move_particles_pos</name>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_pos</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass position of particles to a specific position. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>3-D Vector type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">centre_mass_pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass position. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle needs to be moved. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles need to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="223" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="223" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a02faa6ac98764495a3fadfd8812d6d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles_vel</definition>
+        <argsstring>(Vector const &amp;centre_mass_vel, Cluster &amp;ptc)</argsstring>
+        <name>move_particles_vel</name>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_vel</declname>
+        </param>
+        <param>
+          <type>Cluster &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass velocity of a cluster(can be a single particle) to a specific velocity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>3-D Vector type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">centre_mass_vel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass position. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cluster(can be a single particle) needs to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="238" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="238" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a7d94139d003e346e281da7e42182babf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles_vel</definition>
+        <argsstring>(Vector const &amp;centre_mass_vel, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <name>move_particles_vel</name>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_vel</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass velocity of particles to a specific velocity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>3-D Vector type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">centre_mass_vel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass position. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle needs to be moved. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles need to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="260" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="260" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a7e2e611df033fb699f00e4d145a5b40e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles</definition>
+        <argsstring>(Vector const &amp;centre_mass_pos, Vector const &amp;centre_mass_vel, Cluster &amp;ptc)</argsstring>
+        <name>move_particles</name>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_pos</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_vel</declname>
+        </param>
+        <param>
+          <type>Cluster &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass position and velocity of a cluster(can be a single particle) to a specific position and velocity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>3-D Vector type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>centre_mass_pos[in]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass position. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>centre_mass_vel[in]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass velocity. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ptc[in</parametername>
+<parametername>out]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cluster(can be a single particle) needs to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="277" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="277" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab86985125e07cebae62b4e98b431bec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Vector</type>
+          </param>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles</definition>
+        <argsstring>(Vector const &amp;centre_mass_pos, Vector const &amp;centre_mass_vel, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <name>move_particles</name>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_pos</declname>
+        </param>
+        <param>
+          <type>Vector const &amp;</type>
+          <declname>centre_mass_vel</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass position and velocity of particles to a specific position and velocity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Vector</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector 3-D Vector type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>centre_mass_pos[in]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass position. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>centre_mass_vel[in]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target centre of mass velocity. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ptc[in</parametername>
+<parametername>out]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle needs to be moved. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ptcs[in</parametername>
+<parametername>out]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles need to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="303" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="303" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a0786bc85eb5074f5b87de8dea2e54400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_particles</definition>
+        <argsstring>(KeplerOrbit&lt; Scalar &gt; const &amp;orbit, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <name>move_particles</name>
+        <param>
+          <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; const &amp;</type>
+          <declname>orbit</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Move the centre of mass position and velocity of particles/a cluster of particles/single particle to the corresponding position and velocity of a Kepler orbit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Scalar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Floating point like type for <ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the first particle/std::ranges(Container) like type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles if exits, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">orbit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Kepler orbit. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle/The cluster/single particle needs to be moved. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles need to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="322" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="322" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a677e14d0c7acb0457417f99abae243be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::orbit::move_to_COM_frame</definition>
+        <argsstring>(Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <name>move_to_COM_frame</name>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;...</type>
+          <declname>ptcs</declname>
+        </param>
+        <briefdescription>
+<para>Move the particles/a cluster of particles/single particle to the centre of mass frame and set the centre of mass to original point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the first particle/std::ranges(Container) like type. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles if exits, should be same as Particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle/The cluster/single particle needs to be moved. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles need to be moved. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="338" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="338" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a554cddd364d8d653bf8f2d5de717c2d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::calc_eccentricity</definition>
+        <argsstring>(Cluster1 const &amp;p1, Cluster2 const &amp;p2)</argsstring>
+        <name>calc_eccentricity</name>
+        <param>
+          <type>Cluster1 const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Cluster2 const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the eccentricity of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The eccentricity. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="354" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="354" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a3cefe8d59dbaad7cc8fda0dede0274be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::calc_semi_major_axis</definition>
+        <argsstring>(Cluster1 const &amp;p1, Cluster2 const &amp;p2)</argsstring>
+        <name>calc_semi_major_axis</name>
+        <param>
+          <type>Cluster1 const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Cluster2 const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the semi-major axis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The semi-major axis. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="373" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="373" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a9da0f714d9323621a6af19505987188b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::calc_a_e</definition>
+        <argsstring>(Cluster1 const &amp;p1, Cluster2 const &amp;p2)</argsstring>
+        <name>calc_a_e</name>
+        <param>
+          <type>Cluster1 const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Cluster2 const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the semi-major axis and eccentricity of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto A tuple of (sem-major axis, eccentricity). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="392" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="392" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a71f4a3021854a242b8146bd54f6e9447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::period</definition>
+        <argsstring>(Cluster1 const &amp;p1, Cluster2 const &amp;p2)</argsstring>
+        <name>period</name>
+        <param>
+          <type>Cluster1 const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Cluster2 const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the semi-major axis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The period. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="411" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="411" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a8ca73a6c05802dc9e130699e4b39f0a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::time_to_periapsis</definition>
+        <argsstring>(Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2)</argsstring>
+        <name>time_to_periapsis</name>
+        <param>
+          <type>Cluster1 const &amp;</type>
+          <declname>cluster1</declname>
+        </param>
+        <param>
+          <type>Cluster2 const &amp;</type>
+          <declname>cluster2</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the time to the periapsis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The time to the periapsis. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="428" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="428" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1abab89661f2ac2942f99e8be9e9889120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_k</definition>
+        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <name>E_k</name>
+        <param>
+          <type>Cluster &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the kinetic energy of a cluster/single particle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) like type/Type of single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The kinetic energy. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="461" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="461" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a62aa5911b95fe07955123df08756df55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_k</definition>
+        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <name>E_k</name>
+        <param>
+          <type>Particle &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="476" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="476" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a89ac5442941f75beb422499d610cae94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_p</definition>
+        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <name>E_p</name>
+        <param>
+          <type>Cluster &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="483" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="483" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a28efecf6eaeb0b9baa3832382e67363d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_p</definition>
+        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <name>E_p</name>
+        <param>
+          <type>Particle &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="499" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="499" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a9dba4506ea4b230de2664ef8a1e57f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_k_COM</definition>
+        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <name>E_k_COM</name>
+        <param>
+          <type>Cluster &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="505" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="505" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a67a3f5f12681f5033d5d543a01e27c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_k_COM</definition>
+        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <name>E_k_COM</name>
+        <param>
+          <type>Particle &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="512" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="512" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1abe461eae0124a9648799d1967b7fcb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_tot</definition>
+        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <name>E_tot</name>
+        <param>
+          <type>Particle &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="523" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="523" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::cluster_size</definition>
+        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <name>cluster_size</name>
+        <param>
+          <type>Cluster &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="529" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="529" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1aa0a205742d395d5d14e6ca11db1dba7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Particle</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::cluster_size</definition>
+        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <name>cluster_size</name>
+        <param>
+          <type>Particle &amp;&amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="556" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="556" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ae49288a093e751ac40fa74528e902d11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_tid</definition>
+        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2, Scalar R2)</argsstring>
+        <name>E_tid</name>
+        <param>
+          <type>T1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>T2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="562" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="562" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a5e416ded7e228314e00780f3b94a3e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_tid</definition>
+        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2)</argsstring>
+        <name>E_tid</name>
+        <param>
+          <type>T1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>T2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="571" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="571" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1aa2a8137644b27370612bb0f44748b66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_factor</definition>
+        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2, Scalar R2)</argsstring>
+        <name>tidal_factor</name>
+        <param>
+          <type>T1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>T2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="577" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="577" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a3995e90bc81be235540e9577f8943897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_factor</definition>
+        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2)</argsstring>
+        <name>tidal_factor</name>
+        <param>
+          <type>T1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>T2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="588" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="588" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a9b765abae826122665d38b818b47d7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_radius</definition>
+        <argsstring>(Scalar tidal_factor, T1 &amp;&amp;m1, T2 &amp;&amp;m2, Scalar R2)</argsstring>
+        <name>tidal_radius</name>
+        <param>
+          <type>Scalar</type>
+          <declname>tidal_factor</declname>
+        </param>
+        <param>
+          <type>T1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>T2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="594" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="594" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a05cb33653185a3f5afb027a2eae5520d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_radius</definition>
+        <argsstring>(Scalar tidal_factor, T1 &amp;&amp;m1, T2 &amp;&amp;m2)</argsstring>
+        <name>tidal_radius</name>
+        <param>
+          <type>Scalar</type>
+          <declname>tidal_factor</declname>
+        </param>
+        <param>
+          <type>T1 &amp;&amp;</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>T2 &amp;&amp;</type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="602" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="602" bodyend="605"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Documentation </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp" line="35" column="1"/>
+  </compounddef>
+</doxygen>

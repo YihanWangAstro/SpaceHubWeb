@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="particle-manip_8hpp" kind="file" language="C++">
+    <compoundname>particle-manip.hpp</compoundname>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includes refid="orbits_8hpp" local="yes">orbits.hpp</includes>
+    <includedby refid="cross-section_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</includedby>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="670">
+        <label>vector3d.hpp</label>
+        <link refid="vector3d_8hpp"/>
+      </node>
+      <node id="653">
+        <label>orbits.hpp</label>
+        <link refid="orbits_8hpp"/>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="655" relation="include">
+        </childnode>
+        <childnode refid="652" relation="include">
+        </childnode>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="659" relation="include">
+        </childnode>
+        <childnode refid="669" relation="include">
+        </childnode>
+      </node>
+      <node id="655">
+        <label>variant</label>
+      </node>
+      <node id="652">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+        <childnode refid="651" relation="include">
+        </childnode>
+      </node>
+      <node id="654">
+        <label>cmath</label>
+      </node>
+      <node id="669">
+        <label>../vector/vector3.hpp</label>
+        <link refid="vector3_8hpp"/>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+        <childnode refid="670" relation="include">
+        </childnode>
+        <childnode refid="671" relation="include">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>string</label>
+      </node>
+      <node id="657">
+        <label>macros.hpp</label>
+        <link refid="macros_8hpp"/>
+      </node>
+      <node id="663">
+        <label>fstream</label>
+      </node>
+      <node id="648">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+        <childnode refid="651" relation="include">
+        </childnode>
+        <childnode refid="652" relation="include">
+        </childnode>
+      </node>
+      <node id="647">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+        <link refid="particle-manip_8hpp"/>
+        <childnode refid="648" relation="include">
+        </childnode>
+        <childnode refid="653" relation="include">
+        </childnode>
+      </node>
+      <node id="660">
+        <label>random</label>
+      </node>
+      <node id="662">
+        <label>cstdio</label>
+      </node>
+      <node id="650">
+        <label>tuple</label>
+      </node>
+      <node id="668">
+        <label>vector</label>
+      </node>
+      <node id="651">
+        <label>array</label>
+      </node>
+      <node id="656">
+        <label>../core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="657" relation="include">
+        </childnode>
+        <childnode refid="658" relation="include">
+        </childnode>
+      </node>
+      <node id="649">
+        <label>iostream</label>
+      </node>
+      <node id="658">
+        <label>math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+      </node>
+      <node id="661">
+        <label>multi-thread/multi-thread.hpp</label>
+        <link refid="multi-thread_8hpp"/>
+        <childnode refid="662" relation="include">
+        </childnode>
+        <childnode refid="663" relation="include">
+        </childnode>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="665" relation="include">
+        </childnode>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="667" relation="include">
+        </childnode>
+        <childnode refid="668" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>mutex</label>
+      </node>
+      <node id="671">
+        <label>vector3pd.hpp</label>
+        <link refid="vector3pd_8hpp"/>
+      </node>
+      <node id="667">
+        <label>thread</label>
+      </node>
+      <node id="659">
+        <label>../rand-generator.hpp</label>
+        <link refid="rand-generator_8hpp"/>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="660" relation="include">
+        </childnode>
+        <childnode refid="661" relation="include">
+        </childnode>
+      </node>
+      <node id="664">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="674">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="673">
+        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+        <link refid="cross-section_8hpp"/>
+      </node>
+      <node id="672">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+        <link refid="particle-manip_8hpp"/>
+        <childnode refid="673" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structspace_1_1orbit_1_1has__mass" prot="public">space::orbit::has_mass</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4" prot="public">space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__radius" prot="public">space::orbit::has_radius</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__radius_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is1bba305d1e0f1813c9cb26256d6aff6b" prot="public">space::orbit::has_radius&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). radius), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innernamespace refid="namespacespace_1_1orbit">space::orbit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp"/>
+  </compounddef>
+</doxygen>

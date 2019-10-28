@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="chain-system_8hpp" kind="file" language="C++">
+    <compoundname>chain-system.hpp</compoundname>
+    <includes local="no">type_traits</includes>
+    <includes refid="core-computation_8hpp" local="yes">../core-computation.hpp</includes>
+    <includes refid="chain_8hpp" local="yes">chain.hpp</includes>
+    <includes refid="particle-system_8hpp" local="yes">particle-system.hpp</includes>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="723">
+        <label>list</label>
+      </node>
+      <node id="721">
+        <label>chain.hpp</label>
+        <link refid="chain_8hpp"/>
+        <childnode refid="722" relation="include">
+        </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
+        <childnode refid="724" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+      </node>
+      <node id="720">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+        <childnode refid="719" relation="include">
+        </childnode>
+      </node>
+      <node id="715">
+        <label>cmath</label>
+      </node>
+      <node id="710">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</label>
+        <link refid="chain-system_8hpp"/>
+        <childnode refid="711" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="721" relation="include">
+        </childnode>
+        <childnode refid="725" relation="include">
+        </childnode>
+      </node>
+      <node id="713">
+        <label>macros.hpp</label>
+        <link refid="macros_8hpp"/>
+      </node>
+      <node id="716">
+        <label>dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+        <childnode refid="719" relation="include">
+        </childnode>
+        <childnode refid="720" relation="include">
+        </childnode>
+      </node>
+      <node id="718">
+        <label>tuple</label>
+      </node>
+      <node id="724">
+        <label>vector</label>
+      </node>
+      <node id="719">
+        <label>array</label>
+      </node>
+      <node id="712">
+        <label>../core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="713" relation="include">
+        </childnode>
+        <childnode refid="714" relation="include">
+        </childnode>
+      </node>
+      <node id="717">
+        <label>iostream</label>
+      </node>
+      <node id="714">
+        <label>math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="715" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+      </node>
+      <node id="711">
+        <label>type_traits</label>
+      </node>
+      <node id="722">
+        <label>algorithm</label>
+      </node>
+      <node id="725">
+        <label>particle-system.hpp</label>
+        <link refid="particle-system_8hpp"/>
+        <childnode refid="716" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="727">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="726">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</label>
+        <link refid="chain-system_8hpp"/>
+        <childnode refid="727" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1particle__system_1_1_chain_system" prot="public">space::particle_system::ChainSystem</innerclass>
+    <innernamespace refid="namespacespace_1_1particle__system">space::particle_system</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol" kind="struct" language="C++" prot="private">
+    <compoundname>space::Simulator::has_protected_method_impl_set_atol</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">__T</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename __T</type>
+      </param>
+      <param>
+        <type>typename...</type>
+        <declname>__Args</declname>
+        <defname>__Args</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1a1b33e7430e10d1264ea99aad90eb7687" prot="public" static="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_atol&lt; __T, __Args &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= decltype(check&lt;__T&gt;(nullptr))::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1ae4ed5ca239b00d79bf8cf4c517ef9c1c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>static constexpr auto space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_atol&lt; __T, __Args &gt;::check</definition>
+        <argsstring>(const void *) -&gt; decltype(std::declval&lt; has_protected_method_impl_set_atol&lt; U, __Args... &gt; &gt;(). impl_set_atol(std::declval&lt; __Args &gt;()...), std::true_type())</argsstring>
+        <name>check</name>
+        <param>
+          <type>const void *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1ac1f9e820c4fae70fb0a0532083cf98d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr std::false_type</type>
+        <definition>static constexpr std::false_type space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_atol&lt; __T, __Args &gt;::check</definition>
+        <argsstring>(...)</argsstring>
+        <name>check</name>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_atol&lt; __T, __Args &gt;</label>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>__T</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="166">
+        <label>space::Simulator&lt; ParticleSys, OdeIterator &gt;::has_protected_method_impl_set_atol&lt; __T, __Args &gt;</label>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>__T</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" line="275" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/simulator.hpp" bodystart="275" bodyend="275"/>
+    <listofallmembers>
+      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1ae4ed5ca239b00d79bf8cf4c517ef9c1c" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_atol</scope><name>check</name></member>
+      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1ac1f9e820c4fae70fb0a0532083cf98d2" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_atol</scope><name>check</name></member>
+      <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1a1b33e7430e10d1264ea99aad90eb7687" prot="public" virt="non-virtual"><scope>space::Simulator::has_protected_method_impl_set_atol</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

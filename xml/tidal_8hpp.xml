@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="tidal_8hpp" kind="file" language="C++">
+    <compoundname>tidal.hpp</compoundname>
+    <includes refid="dev-tools_8hpp" local="yes">../dev-tools.hpp</includes>
+    <includes refid="macros_8hpp" local="yes">../macros.hpp</includes>
+    <includes refid="orbits_8hpp" local="yes">../orbits/orbits.hpp</includes>
+    <includes refid="interaction_8hpp" local="yes">interaction.hpp</includes>
+    <incdepgraph>
+      <node id="256">
+        <label>vector3d.hpp</label>
+        <link refid="vector3d_8hpp"/>
+      </node>
+      <node id="240">
+        <label>../orbits/orbits.hpp</label>
+        <link refid="orbits_8hpp"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>variant</label>
+      </node>
+      <node id="238">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>cmath</label>
+      </node>
+      <node id="258">
+        <label>interaction.hpp</label>
+        <link refid="interaction_8hpp"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>../vector/vector3.hpp</label>
+        <link refid="vector3_8hpp"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>string</label>
+      </node>
+      <node id="239">
+        <label>../macros.hpp</label>
+        <link refid="macros_8hpp"/>
+      </node>
+      <node id="249">
+        <label>fstream</label>
+      </node>
+      <node id="234">
+        <label>../dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>random</label>
+      </node>
+      <node id="248">
+        <label>cstdio</label>
+      </node>
+      <node id="236">
+        <label>tuple</label>
+      </node>
+      <node id="254">
+        <label>vector</label>
+      </node>
+      <node id="237">
+        <label>array</label>
+      </node>
+      <node id="243">
+        <label>../core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</label>
+        <link refid="tidal_8hpp"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>iostream</label>
+      </node>
+      <node id="244">
+        <label>math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>../type-class.hpp</label>
+        <link refid="type-class_8hpp"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>multi-thread/multi-thread.hpp</label>
+        <link refid="multi-thread_8hpp"/>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>mutex</label>
+      </node>
+      <node id="257">
+        <label>vector3pd.hpp</label>
+        <link refid="vector3pd_8hpp"/>
+      </node>
+      <node id="253">
+        <label>thread</label>
+      </node>
+      <node id="245">
+        <label>../rand-generator.hpp</label>
+        <link refid="rand-generator_8hpp"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>coords.hpp</label>
+        <link refid="coords_8hpp"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classspace_1_1_tidal_force" prot="public">space::TidalForce</innerclass>
+    <innerclass refid="structspace_1_1_tidal_force_1_1has__method__chain__pos" prot="private">space::TidalForce::has_method_chain_pos</innerclass>
+    <innerclass refid="structspace_1_1_tidal_force_1_1has__method__chain__vel" prot="private">space::TidalForce::has_method_chain_vel</innerclass>
+    <innerclass refid="structspace_1_1_tidal_force_1_1has__method__index" prot="private">space::TidalForce::has_method_index</innerclass>
+    <innernamespace refid="namespacespace">space</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp"/>
+  </compounddef>
+</doxygen>

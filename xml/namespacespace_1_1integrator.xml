@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacespace_1_1integrator" kind="namespace" language="C++">
+    <compoundname>space::integrator</compoundname>
+    <innerclass refid="classspace_1_1integrator_1_1_gauss_dadau" prot="public">space::integrator::GaussDadau</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_integrator" prot="public">space::integrator::Integrator</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_radau_consts" prot="public">space::integrator::RadauConsts</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_symplectic10th" prot="public">space::integrator::Symplectic10th</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_symplectic2nd" prot="public">space::integrator::Symplectic2nd</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_symplectic4th" prot="public">space::integrator::Symplectic4th</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_symplectic6th" prot="public">space::integrator::Symplectic6th</innerclass>
+    <innerclass refid="classspace_1_1integrator_1_1_symplectic8th" prot="public">space::integrator::Symplectic8th</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacespace_1_1integrator_1a5d56e284f1dad79884875428d5b98bd5" prot="public" static="no" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool space::integrator::is_sym_integrator_v</definition>
+        <argsstring></argsstring>
+        <name>is_sym_integrator_v</name>
+        <initializer>= std::is_base_of_v&lt;<ref refid="classspace_1_1integrator_1_1_integrator" kindref="compound">Integrator</ref>&lt;T&gt;, T&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/integrator/integrator.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/integrator/integrator.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Documentation for space </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

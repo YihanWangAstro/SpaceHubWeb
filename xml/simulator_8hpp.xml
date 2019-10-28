@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="simulator_8hpp" kind="file" language="C++">
+    <compoundname>simulator.hpp</compoundname>
+    <includes local="no">functional</includes>
+    <includes refid="core-computation_8hpp" local="yes">core-computation.hpp</includes>
+    <includes refid="dev-tools_8hpp" local="yes">dev-tools.hpp</includes>
+    <includes refid="_i_o_8hpp" local="yes">IO.hpp</includes>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="880">
+        <label>functional</label>
+      </node>
+      <node id="889">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="886" relation="include">
+        </childnode>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+      </node>
+      <node id="884">
+        <label>cmath</label>
+      </node>
+      <node id="879">
+        <label>/home/yihan/Repositories/SpaceHub/src/simulator.hpp</label>
+        <link refid="simulator_8hpp"/>
+        <childnode refid="880" relation="include">
+        </childnode>
+        <childnode refid="881" relation="include">
+        </childnode>
+        <childnode refid="885" relation="include">
+        </childnode>
+        <childnode refid="889" relation="include">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>macros.hpp</label>
+        <link refid="macros_8hpp"/>
+      </node>
+      <node id="885">
+        <label>dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="886" relation="include">
+        </childnode>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+        <childnode refid="889" relation="include">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>tuple</label>
+      </node>
+      <node id="888">
+        <label>array</label>
+      </node>
+      <node id="881">
+        <label>core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="882" relation="include">
+        </childnode>
+        <childnode refid="883" relation="include">
+        </childnode>
+      </node>
+      <node id="886">
+        <label>iostream</label>
+      </node>
+      <node id="883">
+        <label>math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="884" relation="include">
+        </childnode>
+        <childnode refid="885" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="890">
+        <label>/home/yihan/Repositories/SpaceHub/src/simulator.hpp</label>
+        <link refid="simulator_8hpp"/>
+        <childnode refid="891" relation="include">
+        </childnode>
+      </node>
+      <node id="891">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classspace_1_1_run_args" prot="public">space::RunArgs</innerclass>
+    <innerclass refid="classspace_1_1_simulator" prot="public">space::Simulator</innerclass>
+    <innerclass refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol" prot="private">space::Simulator::has_protected_method_impl_set_atol</innerclass>
+    <innerclass refid="structspace_1_1_simulator_1_1has__method__set__atol" prot="private">space::Simulator::has_method_set_atol</innerclass>
+    <innerclass refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__rtol" prot="private">space::Simulator::has_protected_method_impl_set_rtol</innerclass>
+    <innerclass refid="structspace_1_1_simulator_1_1has__method__set__rtol" prot="private">space::Simulator::has_method_set_rtol</innerclass>
+    <innernamespace refid="namespacespace">space</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Header file. </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/simulator.hpp"/>
+  </compounddef>
+</doxygen>

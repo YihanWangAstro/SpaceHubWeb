@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacespace_1_1scattering" kind="namespace" language="C++">
+    <compoundname>space::scattering</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacespace_1_1scattering_1a514479ce359e520db147fe04be0e7c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::scattering::critical_vel</definition>
+        <argsstring>(Scalar m_rdc, Scalar E_stay, Scalar E_incident)</argsstring>
+        <name>critical_vel</name>
+        <param>
+          <type>Scalar</type>
+          <declname>m_rdc</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>E_stay</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>E_incident</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" line="40" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1scattering_1ab5a0d1d4bbea0ddcacc22dffce56b01e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::scattering::b_max</definition>
+        <argsstring>(Scalar v_c, Scalar v_inf, Scalar a_max)</argsstring>
+        <name>b_max</name>
+        <param>
+          <type>Scalar</type>
+          <declname>v_c</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>v_inf</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>a_max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" line="45" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1scattering_1aa1b4756ea3d3658b3d8fc2633f943724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::scattering::random_incident</definition>
+        <argsstring>(Scalar m_stay, Scalar m_incident, Scalar v_inf, Scalar b_max, Scalar r)</argsstring>
+        <name>random_incident</name>
+        <param>
+          <type>Scalar</type>
+          <declname>m_stay</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m_incident</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>v_inf</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>b_max</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" line="50" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1scattering_1ad3464c85e01fe272b582e5e5dded5e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::scattering::random_incident</definition>
+        <argsstring>(Cluster1 &amp;&amp;stay_cluster, Cluster2 &amp;&amp;incident_cluster, Scalar v_inf, Scalar tidal_factor=1e-4)</argsstring>
+        <name>random_incident</name>
+        <param>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>stay_cluster</declname>
+        </param>
+        <param>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>incident_cluster</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>v_inf</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>tidal_factor</declname>
+          <defval>1e-4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" line="59" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" bodystart="59" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>namespace for scattering </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp" line="34" column="1"/>
+  </compounddef>
+</doxygen>

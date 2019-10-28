@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="auto-name_8hpp" kind="file" language="C++">
+    <compoundname>auto-name.hpp</compoundname>
+    <includes local="no">ctime</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">string</includes>
+    <includedby refid="space_hub_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</includedby>
+    <incdepgraph>
+      <node id="966">
+        <label>iomanip</label>
+      </node>
+      <node id="968">
+        <label>string</label>
+      </node>
+      <node id="965">
+        <label>ctime</label>
+      </node>
+      <node id="964">
+        <label>/home/yihan/Repositories/SpaceHub/src/tools/auto-name.hpp</label>
+        <link refid="auto-name_8hpp"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+      </node>
+      <node id="967">
+        <label>sstream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="970">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="969">
+        <label>/home/yihan/Repositories/SpaceHub/src/tools/auto-name.hpp</label>
+        <link refid="auto-name_8hpp"/>
+        <childnode refid="970" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacespace_1_1tools">space::tools</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/tools/auto-name.hpp"/>
+  </compounddef>
+</doxygen>

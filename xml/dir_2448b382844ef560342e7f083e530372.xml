@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_2448b382844ef560342e7f083e530372" kind="dir">
+    <compoundname>/home/yihan/Repositories/SpaceHub/src/particles</compoundname>
+    <innerfile refid="finite-size_8hpp">finite-size.hpp</innerfile>
+    <innerfile refid="particles_8hpp">particles.hpp</innerfile>
+    <innerfile refid="point-particles_8hpp">point-particles.hpp</innerfile>
+    <briefdescription>
+<para>Directory of particles. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/particles/"/>
+  </compounddef>
+</doxygen>

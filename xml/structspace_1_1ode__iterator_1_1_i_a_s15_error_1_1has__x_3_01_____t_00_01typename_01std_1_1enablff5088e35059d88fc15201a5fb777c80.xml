@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspace_1_1ode__iterator_1_1_i_a_s15_error_1_1has__x_3_01_____t_00_01typename_01std_1_1enablff5088e35059d88fc15201a5fb777c80" kind="struct" language="C++" prot="private">
+    <compoundname>space::ode_iterator::IAS15Error::has_x&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). x), void &gt;::value, bool &gt;::type &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">true_type</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename __T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="193">
+        <label>true_type</label>
+      </node>
+      <node id="192">
+        <label>space::ode_iterator::IAS15Error&lt; T &gt;::has_x&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). x), void &gt;::value, bool &gt;::type &gt;</label>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="195">
+        <label>true_type</label>
+      </node>
+      <node id="194">
+        <label>space::ode_iterator::IAS15Error&lt; T &gt;::has_x&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). x), void &gt;::value, bool &gt;::type &gt;</label>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" line="74" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/ode-iterator/error-checker/IAS15-error.hpp" bodystart="74" bodyend="74"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

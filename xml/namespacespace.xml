@@ -1,0 +1,1212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacespace" kind="namespace" language="C++">
+    <compoundname>space</compoundname>
+    <innerclass refid="classspace_1_1_chain" prot="public">space::Chain</innerclass>
+    <innerclass refid="structspace_1_1_coords" prot="public">space::Coords</innerclass>
+    <innerclass refid="classspace_1_1_empty" prot="public">space::Empty</innerclass>
+    <innerclass refid="structspace_1_1get__value__type" prot="public">space::get_value_type</innerclass>
+    <innerclass refid="structspace_1_1is__indexable" prot="public">space::is_indexable</innerclass>
+    <innerclass refid="structspace_1_1is__ranges" prot="public">space::is_ranges</innerclass>
+    <innerclass refid="structspace_1_1is__ranges_3_01_t_00_01std_1_1conditional__t_3_01false_00_01is__ranges__helper_3_dfd741d710d2af4f42f5a693851cc2c1" prot="public">space::is_ranges&lt; T, std::conditional_t&lt; false, is_ranges_helper&lt; typename T::value_type, decltype(std::declval&lt; T &gt;().size()), decltype(std::declval&lt; T &gt;().begin()), decltype(std::declval&lt; T &gt;().end()) &gt;, void &gt; &gt;</innerclass>
+    <innerclass refid="structspace_1_1is__ranges__helper" prot="public">space::is_ranges_helper</innerclass>
+    <innerclass refid="structspace_1_1is__reservable" prot="public">space::is_reservable</innerclass>
+    <innerclass refid="structspace_1_1_kahan" prot="public">space::Kahan</innerclass>
+    <innerclass refid="structspace_1_1_m_k_l_array" prot="public">space::MKLArray</innerclass>
+    <innerclass refid="classspace_1_1_run_args" prot="public">space::RunArgs</innerclass>
+    <innerclass refid="classspace_1_1_simulator" prot="public">space::Simulator</innerclass>
+    <innerclass refid="classspace_1_1_tidal_force" prot="public">space::TidalForce</innerclass>
+    <innerclass refid="structspace_1_1_types" prot="public">space::Types</innerclass>
+    <innerclass refid="structspace_1_1_vec3" prot="public">space::Vec3</innerclass>
+    <innernamespace refid="namespacespace_1_1calc">space::calc</innernamespace>
+    <innernamespace refid="namespacespace_1_1consts">space::consts</innernamespace>
+    <innernamespace refid="namespacespace_1_1integrator">space::integrator</innernamespace>
+    <innernamespace refid="namespacespace_1_1interactions">space::interactions</innernamespace>
+    <innernamespace refid="namespacespace_1_1math">space::math</innernamespace>
+    <innernamespace refid="namespacespace_1_1multi__thread">space::multi_thread</innernamespace>
+    <innernamespace refid="namespacespace_1_1octree">space::octree</innernamespace>
+    <innernamespace refid="namespacespace_1_1ode__iterator">space::ode_iterator</innernamespace>
+    <innernamespace refid="namespacespace_1_1ode_iterator">space::odeIterator</innernamespace>
+    <innernamespace refid="namespacespace_1_1orbit">space::orbit</innernamespace>
+    <innernamespace refid="namespacespace_1_1particle__set">space::particle_set</innernamespace>
+    <innernamespace refid="namespacespace_1_1particle__system">space::particle_system</innernamespace>
+    <innernamespace refid="namespacespace_1_1random">space::random</innernamespace>
+    <innernamespace refid="namespacespace_1_1run__operations">space::run_operations</innernamespace>
+    <innernamespace refid="namespacespace_1_1scattering">space::scattering</innernamespace>
+    <innernamespace refid="namespacespace_1_1stellar">space::stellar</innernamespace>
+    <innernamespace refid="namespacespace_1_1tools">space::tools</innernamespace>
+    <innernamespace refid="namespacespace_1_1unit">space::unit</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacespace_1ad15e69df5dff14118c0f8803a17524f7" prot="public" static="no">
+        <type><ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref>&lt; double &gt;</type>
+        <definition>using space::precise_d = typedef Kahan&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>precise_d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="154" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a54aebfe3aa3980061d97b59d9bc812e7" prot="public" static="no">
+        <type><ref refid="structspace_1_1_kahan" kindref="compound">Kahan</ref>&lt; float &gt;</type>
+        <definition>using space::precise_f = typedef Kahan&lt;float&gt;</definition>
+        <argsstring></argsstring>
+        <name>precise_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" line="155" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a49d7d5fcc8177f9c1e92b48b75c0835c" prot="public" static="no">
+        <type><ref refid="structspace_1_1_types" kindref="compound">Types</ref>&lt; double, std::vector &gt;</type>
+        <definition>using space::DefaultTypes = typedef Types&lt;double, std::vector&gt;</definition>
+        <argsstring></argsstring>
+        <name>DefaultTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" line="86" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a1ea15efe066793369cbef21b0c4ce6e6" prot="public" static="no">
+        <type><ref refid="classspace_1_1_simulator" kindref="compound">Simulator</ref>&lt; <ref refid="classspace_1_1particle__system_1_1_a_rchain_system" kindref="compound">particle_system::ARchainSystem</ref>&lt; <ref refid="classspace_1_1particle__set_1_1_point_particles" kindref="compound">particle_set::PointParticles</ref>&lt; <ref refid="namespacespace_1a49d7d5fcc8177f9c1e92b48b75c0835c" kindref="member">DefaultTypes</ref> &gt;, <ref refid="classspace_1_1interactions_1_1_newtonian_grav" kindref="compound">interactions::NewtonianGrav</ref>, <ref refid="namespacespace_1_1particle__system_1ad1d6bb96466a13872b2362628224c740a360c009cc18cabba43fcbfe53c5f61ef" kindref="member">particle_system::ReguType::LogH</ref> &gt;, <ref refid="classspace_1_1ode__iterator_1_1_burlish_stoer" kindref="compound">ode_iterator::BurlishStoer</ref>&lt; double, <ref refid="classspace_1_1ode__iterator_1_1_worst_offender" kindref="compound">ode_iterator::WorstOffender</ref>, <ref refid="classspace_1_1ode__iterator_1_1_p_i_d_controller" kindref="compound">ode_iterator::PIDController</ref> &gt; &gt;</type>
+        <definition>using space::DefaultSolver = typedef Simulator&lt;particle_system::ARchainSystem&lt;particle_set::PointParticles&lt;DefaultTypes&gt;, interactions::NewtonianGrav, particle_system::ReguType::LogH&gt;, ode_iterator::BurlishStoer&lt;double, ode_iterator::WorstOffender, ode_iterator::PIDController&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>DefaultSolver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" line="88" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a048d540ea29aff679591a1b5b9303497" prot="public" static="no">
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; long double &gt;</type>
+        <definition>using space::vec3ld = typedef Vec3&lt;long double&gt;</definition>
+        <argsstring></argsstring>
+        <name>vec3ld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for long double 3-d vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="253" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a19a48ecf1339c52009ccb6934cf799bd" prot="public" static="no">
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; double &gt;</type>
+        <definition>using space::vec3d = typedef Vec3&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>vec3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for double 3-d vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="257" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a67fb2a2bc7af0f2c219853cda7be35d3" prot="public" static="no">
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; float &gt;</type>
+        <definition>using space::vec3f = typedef Vec3&lt;float&gt;</definition>
+        <argsstring></argsstring>
+        <name>vec3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for float 3-d vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="261" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1aa23d52e014eb76d5d9929854718d9c1e" prot="public" static="no">
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; int &gt;</type>
+        <definition>using space::vec3i = typedef Vec3&lt;int&gt;</definition>
+        <argsstring></argsstring>
+        <name>vec3i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for int 3-d vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="265" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a026d91839a4aecf0564d111622a38351" prot="public" static="no">
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; char &gt;</type>
+        <definition>using space::vec3c = typedef Vec3&lt;char&gt;</definition>
+        <argsstring></argsstring>
+        <name>vec3c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for char 3-d vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="269" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacespace_1a00335c4bf483b31127c2757316593d6b" prot="public" static="no">
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; bool &gt;</type>
+        <definition>using space::vec3b = typedef Vec3&lt;bool&gt;</definition>
+        <argsstring></argsstring>
+        <name>vec3b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for bool 3-d vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="273" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacespace_1ae9f9654e8e42fa98a2a3a50d0d4955d1" prot="public" static="no" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool space::is_ranges_v</definition>
+        <argsstring></argsstring>
+        <name>is_ranges_v</name>
+        <initializer>= <ref refid="structspace_1_1is__ranges" kindref="compound">is_ranges</ref>&lt;T&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="353" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacespace_1a8245395dfd53171e9ea418b21ca7ef77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename STL</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::add_coords_to</definition>
+        <argsstring>(STL &amp;stl_ranges, Coords&lt; T &gt; &amp;coords)</argsstring>
+        <name>add_coords_to</name>
+        <param>
+          <type>STL &amp;</type>
+          <declname>stl_ranges</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_coords" kindref="compound">Coords</ref>&lt; T &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="176" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="176" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a4606cc6c62a632506125d8ba2bc3ae86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename STLIterator</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::load_to_coords</definition>
+        <argsstring>(STLIterator iter_start, STLIterator iter_end, Coords&lt; T &gt; &amp;coords)</argsstring>
+        <name>load_to_coords</name>
+        <param>
+          <type>STLIterator</type>
+          <declname>iter_start</declname>
+        </param>
+        <param>
+          <type>STLIterator</type>
+          <declname>iter_end</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_coords" kindref="compound">Coords</ref>&lt; T &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="184" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="184" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a56a7205312bc74520aad69dbc1e1b93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::distance</definition>
+        <argsstring>(Coords&lt; T &gt; const &amp;c, size_t i, size_t j)</argsstring>
+        <name>distance</name>
+        <param>
+          <type><ref refid="structspace_1_1_coords" kindref="compound">Coords</ref>&lt; T &gt; const &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/coords.hpp" line="200" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/coords.hpp" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1aed12b8f4a16d159f377a64a2fe8b4ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename STL</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::emplace_back</definition>
+        <argsstring>(STL &amp;container, Args &amp;&amp;...args)</argsstring>
+        <name>emplace_back</name>
+        <param>
+          <type>STL &amp;</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="36" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1ab18ef7ad843fd44458401037a3b717cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename STL</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::push_back</definition>
+        <argsstring>(STL &amp;container, Args &amp;&amp;...args)</argsstring>
+        <name>push_back</name>
+        <param>
+          <type>STL &amp;</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="41" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a398177de9db360b7fd651350a38d45c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::resize_all</definition>
+        <argsstring>(size_t new_sz, Args &amp;&amp;... args)</argsstring>
+        <name>resize_all</name>
+        <param>
+          <type>size_t</type>
+          <declname>new_sz</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="46" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a0426cf18d918efe6a70d54dd3f21f17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::reserve_all</definition>
+        <argsstring>(size_t new_cap, Args &amp;&amp;... args)</argsstring>
+        <name>reserve_all</name>
+        <param>
+          <type>size_t</type>
+          <declname>new_cap</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="51" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a31e63f1ffbf6d7b9e51838b57de6c74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::clear_all</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>clear_all</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a3e07eb66af61266dbc425dc2b7686ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::shrink_to_fit_all</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>shrink_to_fit_all</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="61" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a34ee00c2009d3625b40b22952b312575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::spacehub_abort</definition>
+        <argsstring>(Args &amp;&amp;...args)</argsstring>
+        <name>spacehub_abort</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/dev-tools.hpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a2be4d877e57c66060db8fb55e9769d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Ostream</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto&amp; space::print</definition>
+        <argsstring>(Ostream &amp;os, Args &amp;&amp;... args)</argsstring>
+        <name>print</name>
+        <param>
+          <type>Ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Print variables to an output stream. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Ostream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output stream. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variadic type(any). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="39" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1aeecc6819f58b322d851fe63d9edf8992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Istream</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto&amp; space::input</definition>
+        <argsstring>(Istream &amp;is, Args &amp;&amp;... args)</argsstring>
+        <name>input</name>
+        <param>
+          <type>Istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Input variables from an input stream. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Istream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input stream. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variadic type(any). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="54" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1aa711c0aa2909a0a48b579033b7cb4499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto&amp; space::std_print</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>std_print</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print variables to std::cout. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variadic type(any). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variables. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::cout. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a423503d664e1b35744da843e92d598ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto&amp; space::std_input</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>std_input</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input variables from std::cin. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variadic type(any). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variables. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::cin. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="78" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a17e908fe80f7ae52016ef47a729c1b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Ostream</type>
+          </param>
+          <param>
+            <type>typename Arg</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto&amp; space::print_csv</definition>
+        <argsstring>(Ostream &amp;out, Arg &amp;&amp;arg, Args &amp;&amp;... args)</argsstring>
+        <name>print_csv</name>
+        <param>
+          <type>Ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>Arg &amp;&amp;</type>
+          <declname>arg</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="84" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1aed845d4bfb0c082f803fbf19d3635d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Ostream</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::display</definition>
+        <argsstring>(Ostream &amp;out, Args &amp;&amp;... args)</argsstring>
+        <name>display</name>
+        <param>
+          <type>Ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="91" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a3989b951687ce9e2244140e8e52dbc52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Ostream</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; space::operator&lt;&lt;</definition>
+        <argsstring>(Ostream &amp;out, std::tuple&lt; Args... &gt; const &amp;tup)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>Ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>std::tuple&lt; Args... &gt; const &amp;</type>
+          <declname>tup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="96" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1abf2958174204d96726d8d6a590d613d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Istream</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; space::operator&gt;&gt;</definition>
+        <argsstring>(Istream &amp;in, std::tuple&lt; Args... &gt; &amp;&amp;tup)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>Istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>std::tuple&lt; Args... &gt; &amp;&amp;</type>
+          <declname>tup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="105" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a301e15c92f31fd05dd8b57fa06302355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Ostream</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; space::operator&lt;&lt;</definition>
+        <argsstring>(Ostream &amp;os, std::array&lt; T, N &gt; const &amp;container)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>Ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>std::array&lt; T, N &gt; const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/IO.hpp" line="113" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/IO.hpp" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a2ba0c134cb2d13ec1c74328f64989fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt;</type>
+        <definition>MKLArray&lt; double , Size&gt; space::operator+</definition>
+        <argsstring>(MKLArray&lt; double, Size &gt; const &amp;lhs, MKLArray&lt; double, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="56" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a53a0bed399538e40bfad48f78aac2711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt;</type>
+        <definition>MKLArray&lt; double , Size&gt; space::operator-</definition>
+        <argsstring>(MKLArray&lt; double, Size &gt; const &amp;lhs, MKLArray&lt; double, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="58" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a8f312d23a8a0435798f63003c530e853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt;</type>
+        <definition>MKLArray&lt; double , Size&gt; space::operator*</definition>
+        <argsstring>(MKLArray&lt; double, Size &gt; const &amp;lhs, MKLArray&lt; double, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="60" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1aa0d46a0ce862fdb24cf755f2642237b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt;</type>
+        <definition>MKLArray&lt; double , Size&gt; space::operator/</definition>
+        <argsstring>(MKLArray&lt; double, Size &gt; const &amp;lhs, MKLArray&lt; double, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; double, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="62" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1ae4e316979b29b673c7d7fcb608b9c3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt;</type>
+        <definition>MKLArray&lt; float , Size&gt; space::operator+</definition>
+        <argsstring>(MKLArray&lt; float, Size &gt; const &amp;lhs, MKLArray&lt; float, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="64" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a507bb6ef2573fa8160a7e0b94e18d8b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt;</type>
+        <definition>MKLArray&lt; float , Size&gt; space::operator-</definition>
+        <argsstring>(MKLArray&lt; float, Size &gt; const &amp;lhs, MKLArray&lt; float, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="66" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a8a81bf40243c80bf07c8ba62e46f5101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt;</type>
+        <definition>MKLArray&lt; float , Size&gt; space::operator*</definition>
+        <argsstring>(MKLArray&lt; float, Size &gt; const &amp;lhs, MKLArray&lt; float, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="68" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a993cecd37400a1385c7937aa21c9cfd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Size</declname>
+            <defname>Size</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt;</type>
+        <definition>MKLArray&lt; float , Size&gt; space::operator/</definition>
+        <argsstring>(MKLArray&lt; float, Size &gt; const &amp;lhs, MKLArray&lt; float, Size &gt; const &amp;rhs)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="structspace_1_1_m_k_l_array" kindref="compound">MKLArray</ref>&lt; float, Size &gt; const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" line="70" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/lazy-evaluation/mkl-array.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a4f55f5f0c3a2005e4f942b28b3737cc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>T1</type>
+        <definition>T1 space::distance</definition>
+        <argsstring>(const Vec3&lt; T1 &gt; &amp;v1, const Vec3&lt; T2 &gt; &amp;v2)</argsstring>
+        <name>distance</name>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T1 &gt; &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T2 &gt; &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the Euclid distance of two vectors </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="216" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="216" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1adf38096a3a9b96060bc460782e20593f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>T1</type>
+        <definition>T1 space::dot</definition>
+        <argsstring>(const Vec3&lt; T1 &gt; &amp;v1, const Vec3&lt; T2 &gt; &amp;v2)</argsstring>
+        <name>dot</name>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T1 &gt; &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T2 &gt; &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the inner product of two vectors </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="222" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="222" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1af528f519f6072ce27becb1d2acc270ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T space::norm</definition>
+        <argsstring>(const Vec3&lt; T &gt; &amp;v)</argsstring>
+        <name>norm</name>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the length of a vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="228" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="228" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a336c4b7ef644a2d2e28cb69c1e3d8dc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T space::re_norm</definition>
+        <argsstring>(const Vec3&lt; T &gt; &amp;v)</argsstring>
+        <name>re_norm</name>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the inverse lenght of a vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="234" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="234" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1afbb0245be78abc3f96541898d1aeced4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T space::norm2</definition>
+        <argsstring>(const Vec3&lt; T &gt; &amp;v)</argsstring>
+        <name>norm2</name>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the length square of a vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="240" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="240" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1a4f60b73a85573cf74386e5d5b06c3e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T1 &gt;</type>
+        <definition>Vec3&lt;T1&gt; space::cross</definition>
+        <argsstring>(const Vec3&lt; T1 &gt; &amp;v1, const Vec3&lt; T2 &gt; &amp;v2)</argsstring>
+        <name>cross</name>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T1 &gt; &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; T2 &gt; &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the cross product of two vectors </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" line="246" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/vector/vector3.hpp" bodystart="246" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Documentation for space </para>    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

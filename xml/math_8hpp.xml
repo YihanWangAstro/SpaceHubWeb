@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="math_8hpp" kind="file" language="C++">
+    <compoundname>math.hpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes refid="dev-tools_8hpp" local="yes">dev-tools.hpp</includes>
+    <includedby refid="core-computation_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/core-computation.hpp</includedby>
+    <includedby refid="kahan-number_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp</includedby>
+    <includedby refid="_b_s-iterator0_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator0.hpp</includedby>
+    <includedby refid="_b_s-iterator__bk_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp</includedby>
+    <includedby refid="_i_a_s15_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</includedby>
+    <includedby refid="_p_i_d-controller_8hpp" local="yes">/home/yihan/Repositories/SpaceHub/src/ode-iterator/step-controller/PID-controller.hpp</includedby>
+    <incdepgraph>
+      <node id="410">
+        <label>IO.hpp</label>
+        <link refid="_i_o_8hpp"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>cmath</label>
+      </node>
+      <node id="406">
+        <label>dev-tools.hpp</label>
+        <link refid="dev-tools_8hpp"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>tuple</label>
+      </node>
+      <node id="409">
+        <label>array</label>
+      </node>
+      <node id="407">
+        <label>iostream</label>
+      </node>
+      <node id="404">
+        <label>/home/yihan/Repositories/SpaceHub/src/math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="433">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator_bk.hpp</label>
+        <link refid="_b_s-iterator__bk_8hpp"/>
+      </node>
+      <node id="422">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/orbits.hpp</label>
+        <link refid="orbits_8hpp"/>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/newtonian.hpp</label>
+        <link refid="newtonian_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>/home/yihan/Repositories/SpaceHub/src/kahan-number.hpp</label>
+        <link refid="kahan-number_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain.hpp</label>
+        <link refid="chain_8hpp"/>
+        <childnode refid="426" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/archain.hpp</label>
+        <link refid="archain_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/interaction.hpp</label>
+        <link refid="interaction_8hpp"/>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>/home/yihan/Repositories/SpaceHub/src/simulator.hpp</label>
+        <link refid="simulator_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>/home/yihan/Repositories/SpaceHub/src/spaceHub.hpp</label>
+        <link refid="space_hub_8hpp"/>
+      </node>
+      <node id="427">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/chain-system.hpp</label>
+        <link refid="chain-system_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>/home/yihan/Repositories/SpaceHub/src/scattering/cross-section.hpp</label>
+        <link refid="cross-section_8hpp"/>
+      </node>
+      <node id="423">
+        <label>/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp</label>
+        <link refid="particle-manip_8hpp"/>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/regu-system.hpp</label>
+        <link refid="regu-system_8hpp"/>
+        <childnode refid="426" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/BS-iterator0.hpp</label>
+        <link refid="_b_s-iterator0_8hpp"/>
+      </node>
+      <node id="421">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/IAS15.hpp</label>
+        <link refid="_i_a_s15_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/post-newtonian.hpp</label>
+        <link refid="post-newtonian_8hpp"/>
+      </node>
+      <node id="429">
+        <label>/home/yihan/Repositories/SpaceHub/src/particle-system/base-system.hpp</label>
+        <link refid="base-system_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>/home/yihan/Repositories/SpaceHub/src/core-computation.hpp</label>
+        <link refid="core-computation_8hpp"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>/home/yihan/Repositories/SpaceHub/src/interaction/tidal.hpp</label>
+        <link refid="tidal_8hpp"/>
+      </node>
+      <node id="434">
+        <label>/home/yihan/Repositories/SpaceHub/src/ode-iterator/step-controller/PID-controller.hpp</label>
+        <link refid="_p_i_d-controller_8hpp"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>/home/yihan/Repositories/SpaceHub/src/math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>/home/yihan/Repositories/SpaceHub/src/type-class.hpp</label>
+        <link refid="type-class_8hpp"/>
+        <childnode refid="415" relation="include">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>/home/yihan/Repositories/SpaceHub/src/integrator/Gauss-Dadau.hpp</label>
+        <link refid="_gauss-_dadau_8hpp"/>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>/home/yihan/Repositories/SpaceHub/src/coords.hpp</label>
+        <link refid="coords_8hpp"/>
+        <childnode refid="414" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structspace_1_1math_1_1epsilon" prot="public">space::math::epsilon</innerclass>
+    <innerclass refid="structspace_1_1math_1_1max__value" prot="public">space::math::max_value</innerclass>
+    <innerclass refid="structspace_1_1math_1_1big__value" prot="public">space::math::big_value</innerclass>
+    <innernamespace refid="namespacespace_1_1math">space::math</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/math.hpp"/>
+  </compounddef>
+</doxygen>

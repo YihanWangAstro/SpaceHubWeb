@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classrun__operations_1_1_sticky_collision" kind="class" language="C++" prot="public">
+    <compoundname>run_operations::StickyCollision</compoundname>
+    <includes refid="collision_8hpp" local="no">collision.hpp</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classrun__operations_1_1_sticky_collision_1aca8accdbccdf39e7014205b23a827fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ParticleSys</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool run_operations::StickyCollision::operator()</definition>
+        <argsstring>(ParticleSys const &amp;ptc)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>ParticleSys const &amp;</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp" line="34" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp" bodystart="34" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="458">
+        <label>run_operations::StickyCollision</label>
+        <link refid="classrun__operations_1_1_sticky_collision"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp" line="32" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/collision.hpp" bodystart="32" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classrun__operations_1_1_sticky_collision_1aca8accdbccdf39e7014205b23a827fff" prot="private" virt="non-virtual"><scope>run_operations::StickyCollision</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

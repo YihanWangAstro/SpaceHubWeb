@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacespace_1_1run__operations" kind="namespace" language="C++">
+    <compoundname>space::run_operations</compoundname>
+    <innerclass refid="classspace_1_1run__operations_1_1_default_writer" prot="public">space::run_operations::DefaultWriter</innerclass>
+    <innerclass refid="classspace_1_1run__operations_1_1_step_slice" prot="public">space::run_operations::StepSlice</innerclass>
+    <innerclass refid="classspace_1_1run__operations_1_1_time_slice" prot="public">space::run_operations::TimeSlice</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacespace_1_1run__operations_1ad453ea1cb65268c226cae135ab3ed8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classspace_1_1run__operations_1_1_default_writer" kindref="compound">DefaultWriter</ref> &amp;</type>
+        <definition>DefaultWriter&amp; space::run_operations::operator&lt;&lt;</definition>
+        <argsstring>(DefaultWriter &amp;wtr, const T &amp;d)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type><ref refid="classspace_1_1run__operations_1_1_default_writer" kindref="compound">DefaultWriter</ref> &amp;</type>
+          <declname>wtr</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="280" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" bodystart="280" bodyend="283"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Documentation for <ref refid="namespacespace_1_1run__operations" kindref="compound">run_operations</ref> </para>    </detaileddescription>
+    <location file="/home/yihan/Repositories/SpaceHub/src/args-callback/callbacks.hpp" line="35" column="1"/>
+  </compounddef>
+</doxygen>

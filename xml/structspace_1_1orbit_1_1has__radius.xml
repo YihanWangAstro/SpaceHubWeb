@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspace_1_1orbit_1_1has__radius" kind="struct" language="C++" prot="public">
+    <compoundname>space::orbit::has_radius</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">false_type</basecompoundref>
+    <includes refid="particle-manip_8hpp" local="no">particle-manip.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename __T</type>
+      </param>
+      <param>
+        <type>typename __V</type>
+        <defval>bool</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="173">
+        <label>false_type</label>
+      </node>
+      <node id="172">
+        <label>space::orbit::has_radius&lt; __T, __V &gt;</label>
+        <link refid="structspace_1_1orbit_1_1has__radius"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="175">
+        <label>false_type</label>
+      </node>
+      <node id="174">
+        <label>space::orbit::has_radius&lt; __T, __V &gt;</label>
+        <link refid="structspace_1_1orbit_1_1has__radius"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" line="520" column="1" bodyfile="/home/yihan/Repositories/SpaceHub/src/orbits/particle-manip.hpp" bodystart="520" bodyend="520"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
