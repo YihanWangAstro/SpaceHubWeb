@@ -5,8 +5,12 @@
     <innerclass refid="structspace_1_1orbit_1_1_ellip_orbit" prot="public">space::orbit::EllipOrbit</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__mass" prot="public">space::orbit::has_mass</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4" prot="public">space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__pos" prot="public">space::orbit::has_pos</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__pos_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__sefb893918cc539add71052bde1ef149e" prot="public">space::orbit::has_pos&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). pos), void &gt;::value, bool &gt;::type &gt;</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__radius" prot="public">space::orbit::has_radius</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__radius_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is1bba305d1e0f1813c9cb26256d6aff6b" prot="public">space::orbit::has_radius&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). radius), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__vel" prot="public">space::orbit::has_vel</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__vel_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__s8dfe958a08974f9ee63ceff9031ab806" prot="public">space::orbit::has_vel&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). vel), void &gt;::value, bool &gt;::type &gt;</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1_hyper_orbit" prot="public">space::orbit::HyperOrbit</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1_kepler_orbit" prot="public">space::orbit::KeplerOrbit</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1_random_indicator" prot="public">space::orbit::RandomIndicator</innerclass>
@@ -841,7 +845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="43" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="43" bodyend="46"/>
+        <location file="src/orbits/particle-manip.hpp" line="48" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a8f18aff33abc64c71ba151623b94d1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -866,7 +870,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -885,7 +889,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="56" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="56" bodyend="66"/>
+        <location file="src/orbits/particle-manip.hpp" line="62" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="62" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a1f8e25ad70c9dee4d830939285114ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -919,7 +923,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the particle. </para>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -954,7 +958,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="78" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="78" bodyend="81"/>
+        <location file="src/orbits/particle-manip.hpp" line="86" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="86" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a99902b1d7bb3ac1c001bda82a3293ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -979,7 +983,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -998,7 +1002,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="91" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="91" bodyend="109"/>
+        <location file="src/orbits/particle-manip.hpp" line="100" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="100" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1afa4baadc2df682e51a1f678305cb8432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1032,7 +1036,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the particle. </para>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1067,7 +1071,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="121" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="121" bodyend="126"/>
+        <location file="src/orbits/particle-manip.hpp" line="132" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="132" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a0e27a26d9d86be65351198b5e416317d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1092,7 +1096,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1111,7 +1115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="136" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="136" bodyend="156"/>
+        <location file="src/orbits/particle-manip.hpp" line="148" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="148" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a04a43e75b9555ef843f4596dfbae2b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1145,7 +1149,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the particle. </para>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1180,7 +1184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="168" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="168" bodyend="174"/>
+        <location file="src/orbits/particle-manip.hpp" line="182" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="182" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1aab787895d7b6984014353bde538bef83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1212,7 +1216,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1220,7 +1224,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1247,7 +1251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="186" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="186" bodyend="190"/>
+        <location file="src/orbits/particle-manip.hpp" line="202" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="202" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a9ce15ee351be8dcc5b55294381b24d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1287,7 +1291,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1312,7 +1316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="201" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="201" bodyend="210"/>
+        <location file="src/orbits/particle-manip.hpp" line="218" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="218" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a4eebe44f1be852965dbc818295492ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1361,7 +1365,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the particle. </para>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1402,7 +1406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="223" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="223" bodyend="227"/>
+        <location file="src/orbits/particle-manip.hpp" line="240" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="240" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a02faa6ac98764495a3fadfd8812d6d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1442,7 +1446,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1467,7 +1471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="238" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="238" bodyend="247"/>
+        <location file="src/orbits/particle-manip.hpp" line="256" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="256" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a7d94139d003e346e281da7e42182babf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1516,7 +1520,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the particle. </para>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1557,7 +1561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="260" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="260" bodyend="264"/>
+        <location file="src/orbits/particle-manip.hpp" line="278" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="278" bodyend="282"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a7e2e611df033fb699f00e4d145a5b40e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1601,7 +1605,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1634,7 +1638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="277" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="277" bodyend="289"/>
+        <location file="src/orbits/particle-manip.hpp" line="296" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="296" bodyend="308"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1ab86985125e07cebae62b4e98b431bec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1687,7 +1691,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the particle. </para>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1736,7 +1740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="303" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="303" bodyend="308"/>
+        <location file="src/orbits/particle-manip.hpp" line="322" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="322" bodyend="327"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a0786bc85eb5074f5b87de8dea2e54400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1785,7 +1789,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the first particle/std::ranges(Container) like type. </para>
+<para>Type of the first particle/std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector).. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1826,30 +1830,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="322" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="322" bodyend="326"/>
+        <location file="src/orbits/particle-manip.hpp" line="342" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="342" bodyend="346"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a677e14d0c7acb0457417f99abae243be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab6e8ae7f7ad9035524595a2d1b540a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename Particle</type>
-          </param>
-          <param>
             <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
+            <declname>Particle</declname>
+            <defname>Particle</defname>
           </param>
         </templateparamlist>
         <type>void</type>
         <definition>void space::orbit::move_to_COM_frame</definition>
-        <argsstring>(Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <argsstring>(Particle &amp;... ptc)</argsstring>
         <name>move_to_COM_frame</name>
         <param>
-          <type>Particle &amp;</type>
+          <type>Particle &amp;...</type>
           <declname>ptc</declname>
-        </param>
-        <param>
-          <type>Args &amp;...</type>
-          <declname>ptcs</declname>
         </param>
         <briefdescription>
 <para>Move the particles/a cluster of particles/single particle to the centre of mass frame and set the centre of mass to original point. </para>
@@ -1860,15 +1857,7 @@
 <parametername>Particle</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Type of the first particle/std::ranges(Container) like type. </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>Args</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Type of the particles if exits, should be same as Particle. </para>
+<para>Type of the first particle/std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1877,15 +1866,7 @@
 <parametername direction="inout">ptc</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The first particle/The cluster/single particle needs to be moved. </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername direction="inout">ptcs</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The rest particles need to be moved. </para>
+<para>The particles/The cluster/single particle needs to be moved. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1893,7 +1874,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="338" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="338" bodyend="341"/>
+        <location file="src/orbits/particle-manip.hpp" line="357" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="357" bodyend="360"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a554cddd364d8d653bf8f2d5de717c2d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1925,7 +1906,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1933,7 +1914,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1960,7 +1941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="354" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="354" bodyend="360"/>
+        <location file="src/orbits/particle-manip.hpp" line="375" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="375" bodyend="381"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a3cefe8d59dbaad7cc8fda0dede0274be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1992,7 +1973,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2000,7 +1981,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2027,7 +2008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="373" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="373" bodyend="379"/>
+        <location file="src/orbits/particle-manip.hpp" line="396" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="396" bodyend="402"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a9da0f714d9323621a6af19505987188b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2059,7 +2040,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2067,7 +2048,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2094,7 +2075,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="392" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="392" bodyend="398"/>
+        <location file="src/orbits/particle-manip.hpp" line="417" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="417" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a71f4a3021854a242b8146bd54f6e9447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2126,7 +2107,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2134,7 +2115,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2161,7 +2142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="411" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="411" bodyend="415"/>
+        <location file="src/orbits/particle-manip.hpp" line="438" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="438" bodyend="442"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a8ca73a6c05802dc9e130699e4b39f0a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2193,7 +2174,7 @@
 <parametername>Cluster1</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2201,7 +2182,7 @@
 <parametername>Cluster2</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2228,7 +2209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="428" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="428" bodyend="451"/>
+        <location file="src/orbits/particle-manip.hpp" line="457" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="457" bodyend="480"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1abab89661f2ac2942f99e8be9e9889120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2253,7 +2234,7 @@
 <parametername>Cluster</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>std::ranges(Container) like type/Type of single particle. </para>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2272,7 +2253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="461" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="461" bodyend="473"/>
+        <location file="src/orbits/particle-manip.hpp" line="491" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="491" bodyend="503"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a62aa5911b95fe07955123df08756df55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2298,12 +2279,50 @@
           <declname>args</declname>
         </param>
         <briefdescription>
+<para>Calculate the kinetic energy of particles. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The kinetic energy of particles. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="476" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="476" bodyend="480"/>
+        <location file="src/orbits/particle-manip.hpp" line="515" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="515" bodyend="519"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a89ac5442941f75beb422499d610cae94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2320,12 +2339,34 @@
           <declname>ptc</declname>
         </param>
         <briefdescription>
+<para>Calculate the potential energy of a cluster/single particle. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The potential energy. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="483" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="483" bodyend="496"/>
+        <location file="src/orbits/particle-manip.hpp" line="530" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="530" bodyend="543"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a28efecf6eaeb0b9baa3832382e67363d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2351,12 +2392,50 @@
           <declname>args</declname>
         </param>
         <briefdescription>
+<para>Calculate the kinetic energy of particles. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The potential energy of particles. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="499" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="499" bodyend="502"/>
+        <location file="src/orbits/particle-manip.hpp" line="555" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="555" bodyend="558"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a9dba4506ea4b230de2664ef8a1e57f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2373,12 +2452,34 @@
           <declname>ptc</declname>
         </param>
         <briefdescription>
+<para>Calculate the kinetic energy of the centre of mass of a cluster/single particle. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The kinetic energy of the centre of mass. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="505" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="505" bodyend="509"/>
+        <location file="src/orbits/particle-manip.hpp" line="569" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="569" bodyend="573"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a67a3f5f12681f5033d5d543a01e27c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2404,43 +2505,142 @@
           <declname>args</declname>
         </param>
         <briefdescription>
+<para>Calculate the kinetic energy of the centre of mass of particles. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The kinetic energy of the centre of mass of particles. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="512" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="512" bodyend="517"/>
+        <location file="src/orbits/particle-manip.hpp" line="585" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="585" bodyend="590"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1abe461eae0124a9648799d1967b7fcb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a79f4bde0da60b421fd82115c05492827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename Particle</type>
-          </param>
-          <param>
             <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
+            <declname>Particle</declname>
+            <defname>Particle</defname>
           </param>
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_tot</definition>
-        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Particle &amp;&amp;... ptc)</argsstring>
         <name>E_tot</name>
         <param>
-          <type>Particle &amp;&amp;</type>
+          <type>Particle &amp;&amp;...</type>
           <declname>ptc</declname>
         </param>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
         <briefdescription>
+<para>Calculate the total energy of particles/a cluster of particles/single particle. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the first particle/std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The particles/The cluster/single particle needs to be evaluated. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The total energy. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="523" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="523" bodyend="526"/>
+        <location file="src/orbits/particle-manip.hpp" line="601" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="601" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a37d58843ce7af899bb825f131265aeaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Particle</declname>
+            <defname>Particle</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::E_inner</definition>
+        <argsstring>(Particle &amp;&amp;... ptc)</argsstring>
+        <name>E_inner</name>
+        <param>
+          <type>Particle &amp;&amp;...</type>
+          <declname>ptc</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the inner energy of particles/a cluster of particles/single particle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the first particle/std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The particles/The cluster/single particle needs to be evaluated. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The inner energy. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/orbits/particle-manip.hpp" line="614" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="614" bodyend="616"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2457,12 +2657,35 @@
           <declname>ptc</declname>
         </param>
         <briefdescription>
+<para>Calculate the size of a cluster/single particle. </para>
         </briefdescription>
         <detaileddescription>
+<para>The size of the cluster are calculated by detecting the farest distance between two particles in this cluster.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>particle container/single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The size of the cluster. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="529" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="529" bodyend="553"/>
+        <location file="src/orbits/particle-manip.hpp" line="629" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="629" bodyend="653"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1aa0a205742d395d5d14e6ca11db1dba7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2488,20 +2711,59 @@
           <declname>args</declname>
         </param>
         <briefdescription>
+<para>Calculate the size of a set of particles. </para>
         </briefdescription>
         <detaileddescription>
+<para>The size of the cluster are calculated by detecting the farest distance between two particles in this cluster.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particle with public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the particles, should be same as Particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rest particles if exits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The size of the cluster. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="556" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="556" bodyend="559"/>
+        <location file="src/orbits/particle-manip.hpp" line="667" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="667" bodyend="670"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1ae49288a093e751ac40fa74528e902d11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1aad32f85f1dde156aa98689f36e59750f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename T1</type>
+            <type>typename Cluster1</type>
           </param>
           <param>
-            <type>typename T2</type>
+            <type>typename Cluster2</type>
           </param>
           <param>
             <type>typename Scalar</type>
@@ -2509,64 +2771,177 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_tid</definition>
-        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2, Scalar R2)</argsstring>
+        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2, Scalar R1, Scalar R2)</argsstring>
         <name>E_tid</name>
         <param>
-          <type>T1 &amp;&amp;</type>
-          <declname>m1</declname>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>cluster1</declname>
         </param>
         <param>
-          <type>T2 &amp;&amp;</type>
-          <declname>m2</declname>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>cluster2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R1</declname>
         </param>
         <param>
           <type>Scalar</type>
           <declname>R2</declname>
         </param>
         <briefdescription>
+<para>Calculate the tidal potential between two clusters/single particles by providing the size of clusters. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Scalar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Floating point like type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">R1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the first cluster. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">R2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the second cluster. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The tidal potential energy. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="562" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="562" bodyend="568"/>
+        <location file="src/orbits/particle-manip.hpp" line="687" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="687" bodyend="693"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a5e416ded7e228314e00780f3b94a3e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1abf53e310008d3292e9ea8684d326ac25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename T1</type>
+            <type>typename Cluster1</type>
           </param>
           <param>
-            <type>typename T2</type>
+            <type>typename Cluster2</type>
           </param>
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_tid</definition>
-        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2)</argsstring>
+        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2)</argsstring>
         <name>E_tid</name>
         <param>
-          <type>T1 &amp;&amp;</type>
-          <declname>m1</declname>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>cluster1</declname>
         </param>
         <param>
-          <type>T2 &amp;&amp;</type>
-          <declname>m2</declname>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>cluster2</declname>
         </param>
         <briefdescription>
+<para>Calculate the tidal potential between two clusters/single particles. </para>
         </briefdescription>
         <detaileddescription>
+<para>The size of the clusters will be estimated by <ref refid="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" kindref="member">cluster_size()</ref>.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Scalar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Floating point like type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The tidal potential energy. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="571" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="571" bodyend="574"/>
+        <location file="src/orbits/particle-manip.hpp" line="710" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="710" bodyend="714"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1aa2a8137644b27370612bb0f44748b66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1afcc234faa207023dd4e6912995662f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename T1</type>
+            <type>typename Cluster1</type>
           </param>
           <param>
-            <type>typename T2</type>
+            <type>typename Cluster2</type>
           </param>
           <param>
             <type>typename Scalar</type>
@@ -2574,64 +2949,169 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_factor</definition>
-        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2, Scalar R2)</argsstring>
+        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2, Scalar R1, Scalar R2)</argsstring>
         <name>tidal_factor</name>
         <param>
-          <type>T1 &amp;&amp;</type>
-          <declname>m1</declname>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>cluster1</declname>
         </param>
         <param>
-          <type>T2 &amp;&amp;</type>
-          <declname>m2</declname>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>cluster2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R1</declname>
         </param>
         <param>
           <type>Scalar</type>
           <declname>R2</declname>
         </param>
         <briefdescription>
+<para>Calculate the tidal factors between two clusters/single particles by providing the size of clusters. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Scalar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Floating point like type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">R1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the first cluster. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">R2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the second cluster. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto A tuple of (factor1, factor2), where factor1 is the tidal factor of first cluster and factor2 is for the second. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="577" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="577" bodyend="585"/>
+        <location file="src/orbits/particle-manip.hpp" line="732" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="732" bodyend="741"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a3995e90bc81be235540e9577f8943897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a1b0255f8dbc2d4b282c4820ede70f389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename T1</type>
+            <type>typename Cluster1</type>
           </param>
           <param>
-            <type>typename T2</type>
+            <type>typename Cluster2</type>
           </param>
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_factor</definition>
-        <argsstring>(T1 &amp;&amp;m1, T2 &amp;&amp;m2)</argsstring>
+        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2)</argsstring>
         <name>tidal_factor</name>
         <param>
-          <type>T1 &amp;&amp;</type>
-          <declname>m1</declname>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>cluster1</declname>
         </param>
         <param>
-          <type>T2 &amp;&amp;</type>
-          <declname>m2</declname>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>cluster2</declname>
         </param>
         <briefdescription>
+<para>Calculate the tidal factors between two clusters/single particles. </para>
         </briefdescription>
         <detaileddescription>
+<para>The size of the clusters will be estimated by <ref refid="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" kindref="member">cluster_size()</ref>.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto A tuple of (factor1, factor2), where factor1 is the tidal factor of first cluster and factor2 is for the second. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="588" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="588" bodyend="591"/>
+        <location file="src/orbits/particle-manip.hpp" line="758" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="758" bodyend="762"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a9b765abae826122665d38b818b47d7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ac4c34871cd0ebd853d3d5837ace441c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename T1</type>
+            <type>typename Cluster1</type>
           </param>
           <param>
-            <type>typename T2</type>
+            <type>typename Cluster2</type>
           </param>
           <param>
             <type>typename Scalar</type>
@@ -2639,39 +3119,101 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_radius</definition>
-        <argsstring>(Scalar tidal_factor, T1 &amp;&amp;m1, T2 &amp;&amp;m2, Scalar R2)</argsstring>
+        <argsstring>(Scalar tidal_factor, Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2, Scalar R2)</argsstring>
         <name>tidal_radius</name>
         <param>
           <type>Scalar</type>
           <declname>tidal_factor</declname>
         </param>
         <param>
-          <type>T1 &amp;&amp;</type>
-          <declname>m1</declname>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>cluster1</declname>
         </param>
         <param>
-          <type>T2 &amp;&amp;</type>
-          <declname>m2</declname>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>cluster2</declname>
         </param>
         <param>
           <type>Scalar</type>
           <declname>R2</declname>
         </param>
         <briefdescription>
+<para>Calculate the tidal radius between two clusters. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Scalar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Floating point like type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tidal_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tidal factor indicates where the radius is estimated. =1 means tidal disrupted. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>R2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the second cluster. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The tidal radius of the second cluster tidaled by the first cluster. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="594" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="594" bodyend="599"/>
+        <location file="src/orbits/particle-manip.hpp" line="779" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="779" bodyend="784"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a05cb33653185a3f5afb027a2eae5520d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a05f6fc353b6451efa83663bebe8b73ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
-            <type>typename T1</type>
+            <type>typename Cluster1</type>
           </param>
           <param>
-            <type>typename T2</type>
+            <type>typename Cluster2</type>
           </param>
           <param>
             <type>typename Scalar</type>
@@ -2679,27 +3221,81 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_radius</definition>
-        <argsstring>(Scalar tidal_factor, T1 &amp;&amp;m1, T2 &amp;&amp;m2)</argsstring>
+        <argsstring>(Scalar tidal_factor, Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2)</argsstring>
         <name>tidal_radius</name>
         <param>
           <type>Scalar</type>
           <declname>tidal_factor</declname>
         </param>
         <param>
-          <type>T1 &amp;&amp;</type>
-          <declname>m1</declname>
+          <type>Cluster1 &amp;&amp;</type>
+          <declname>cluster1</declname>
         </param>
         <param>
-          <type>T2 &amp;&amp;</type>
-          <declname>m2</declname>
+          <type>Cluster2 &amp;&amp;</type>
+          <declname>cluster2</declname>
         </param>
         <briefdescription>
+<para>Calculate the tidal radius between two clusters. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::ranges(Container) with element type has public member <computeroutput>mass</computeroutput>(Scalar), <computeroutput>pos</computeroutput>(Vector) and <computeroutput>vel</computeroutput>(Vector)./Type of single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Scalar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Floating point like type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tidal_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tidal factor indicates where the radius is estimated. =1 means tidal disrupted. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">cluster2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second cluster/first single particle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>auto The tidal radius of the second cluster tidaled by the first cluster. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="602" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="602" bodyend="605"/>
+        <location file="src/orbits/particle-manip.hpp" line="800" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="800" bodyend="803"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

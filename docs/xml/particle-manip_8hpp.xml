@@ -187,6 +187,10 @@
     </invincdepgraph>
     <innerclass refid="structspace_1_1orbit_1_1has__mass" prot="public">space::orbit::has_mass</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__mass_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__4c60cfef8caede5d6d5d189d21f574b4" prot="public">space::orbit::has_mass&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). mass), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__pos" prot="public">space::orbit::has_pos</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__pos_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__sefb893918cc539add71052bde1ef149e" prot="public">space::orbit::has_pos&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). pos), void &gt;::value, bool &gt;::type &gt;</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__vel" prot="public">space::orbit::has_vel</innerclass>
+    <innerclass refid="structspace_1_1orbit_1_1has__vel_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__s8dfe958a08974f9ee63ceff9031ab806" prot="public">space::orbit::has_vel&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). vel), void &gt;::value, bool &gt;::type &gt;</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__radius" prot="public">space::orbit::has_radius</innerclass>
     <innerclass refid="structspace_1_1orbit_1_1has__radius_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is1bba305d1e0f1813c9cb26256d6aff6b" prot="public">space::orbit::has_radius&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). radius), void &gt;::value, bool &gt;::type &gt;</innerclass>
     <innernamespace refid="namespacespace">space</innernamespace>

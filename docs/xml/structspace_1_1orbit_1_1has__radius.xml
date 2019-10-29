@@ -39,7 +39,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/orbits/particle-manip.hpp" line="520" column="50" bodyfile="src/orbits/particle-manip.hpp" bodystart="520" bodyend="520"/>
+    <location file="src/orbits/particle-manip.hpp" line="35" column="50" bodyfile="src/orbits/particle-manip.hpp" bodystart="35" bodyend="35"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

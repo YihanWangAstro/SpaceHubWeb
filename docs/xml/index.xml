@@ -510,30 +510,30 @@
     <member refid="structspace_1_1calc_1_1has__method__chain__pos_1a2c14901b6b6088a15ab490a5bd0c0839" kind="function"><name>check</name></member>
     <member refid="structspace_1_1calc_1_1has__method__chain__pos_1ac37b876aed6c99c04a0fd76f9288325d" kind="function"><name>check</name></member>
   </compound>
-  <compound refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos" kind="struct"><name>space::interactions::PostNewtonianGrav::has_method_chain_pos</name>
-    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos_1a4f1a09b55597f598e3274fe61bae285f" kind="variable"><name>value</name></member>
-    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos_1a63069140f17a22134e778a13e7f1597d" kind="function"><name>check</name></member>
-    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos_1a641c65dc49dfbed9366284cab3469b8c" kind="function"><name>check</name></member>
-  </compound>
   <compound refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__chain__pos" kind="struct"><name>space::interactions::NewtonianGrav::has_method_chain_pos</name>
     <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__chain__pos_1a9fccaa02beff0994a2cf20e729cb926e" kind="variable"><name>value</name></member>
     <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__chain__pos_1a1da7c1f65d4943b696fc4e6bf2b0c284" kind="function"><name>check</name></member>
     <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__chain__pos_1a63c97c474bb0e92a163d245f9f8dc0e3" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos" kind="struct"><name>space::interactions::PostNewtonianGrav::has_method_chain_pos</name>
+    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos_1a4f1a09b55597f598e3274fe61bae285f" kind="variable"><name>value</name></member>
+    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos_1a63069140f17a22134e778a13e7f1597d" kind="function"><name>check</name></member>
+    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__pos_1a641c65dc49dfbed9366284cab3469b8c" kind="function"><name>check</name></member>
   </compound>
   <compound refid="structspace_1_1_tidal_force_1_1has__method__chain__pos" kind="struct"><name>space::TidalForce::has_method_chain_pos</name>
     <member refid="structspace_1_1_tidal_force_1_1has__method__chain__pos_1ac1a99e2e2e8139ce9ca08e30e0c22b14" kind="variable"><name>value</name></member>
     <member refid="structspace_1_1_tidal_force_1_1has__method__chain__pos_1a41fcce9e24b90144be01013b65deb4f3" kind="function"><name>check</name></member>
     <member refid="structspace_1_1_tidal_force_1_1has__method__chain__pos_1ad6ff53993cd0988db5217b1570e50764" kind="function"><name>check</name></member>
   </compound>
-  <compound refid="structspace_1_1_tidal_force_1_1has__method__chain__vel" kind="struct"><name>space::TidalForce::has_method_chain_vel</name>
-    <member refid="structspace_1_1_tidal_force_1_1has__method__chain__vel_1a8c36751ae922b38ca55f32aba677abe9" kind="variable"><name>value</name></member>
-    <member refid="structspace_1_1_tidal_force_1_1has__method__chain__vel_1a1642339cc943260160406c4d47a12350" kind="function"><name>check</name></member>
-    <member refid="structspace_1_1_tidal_force_1_1has__method__chain__vel_1a6b792433553dc97f61b914442d849a16" kind="function"><name>check</name></member>
-  </compound>
   <compound refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__vel" kind="struct"><name>space::interactions::PostNewtonianGrav::has_method_chain_vel</name>
     <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__vel_1aca94596b85436c0a3007e26e2f7e8ea9" kind="variable"><name>value</name></member>
     <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__vel_1ad1b95f0dd58aee1033e3205f49f04ab2" kind="function"><name>check</name></member>
     <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__chain__vel_1a7fb0ce0a082b912a83afb3344df43f1c" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="structspace_1_1_tidal_force_1_1has__method__chain__vel" kind="struct"><name>space::TidalForce::has_method_chain_vel</name>
+    <member refid="structspace_1_1_tidal_force_1_1has__method__chain__vel_1a8c36751ae922b38ca55f32aba677abe9" kind="variable"><name>value</name></member>
+    <member refid="structspace_1_1_tidal_force_1_1has__method__chain__vel_1a1642339cc943260160406c4d47a12350" kind="function"><name>check</name></member>
+    <member refid="structspace_1_1_tidal_force_1_1has__method__chain__vel_1a6b792433553dc97f61b914442d849a16" kind="function"><name>check</name></member>
   </compound>
   <compound refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc" kind="struct"><name>space::interactions::Interactions::has_method_impl_eval_extra_vel_dep_acc</name>
     <member refid="structspace_1_1interactions_1_1_interactions_1_1has__method__impl__eval__extra__vel__dep__acc_1a7f5ec8de831c135dccb69078111dcd8c" kind="variable"><name>value</name></member>
@@ -550,15 +550,15 @@
     <member refid="structspace_1_1calc_1_1has__method__index_1a9936d936f6090ccd8c6f30dddd78d859" kind="function"><name>check</name></member>
     <member refid="structspace_1_1calc_1_1has__method__index_1adea3d47b8efae846e8edda14976abb1d" kind="function"><name>check</name></member>
   </compound>
-  <compound refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index" kind="struct"><name>space::interactions::NewtonianGrav::has_method_index</name>
-    <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1ace687614158720b081f9844585d491d2" kind="variable"><name>value</name></member>
-    <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1a652ca1b40418eb2a421ea03822e65ace" kind="function"><name>check</name></member>
-    <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1a188058c45c1c869d143f52f0ac9b31ac" kind="function"><name>check</name></member>
-  </compound>
   <compound refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index" kind="struct"><name>space::interactions::PostNewtonianGrav::has_method_index</name>
     <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a30ffa50eb34a1fa995b9a4a21626ecff" kind="variable"><name>value</name></member>
     <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a6d61c530aa49c9cefe8fd6da4b9c132d" kind="function"><name>check</name></member>
     <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a26bab821098f039a0be0f829dd52564e" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index" kind="struct"><name>space::interactions::NewtonianGrav::has_method_index</name>
+    <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1ace687614158720b081f9844585d491d2" kind="variable"><name>value</name></member>
+    <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1a652ca1b40418eb2a421ea03822e65ace" kind="function"><name>check</name></member>
+    <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1a188058c45c1c869d143f52f0ac9b31ac" kind="function"><name>check</name></member>
   </compound>
   <compound refid="structspace_1_1_tidal_force_1_1has__method__index" kind="struct"><name>space::TidalForce::has_method_index</name>
     <member refid="structspace_1_1_tidal_force_1_1has__method__index_1aaad1c6770cfb69abc122292cb0e5213c" kind="variable"><name>value</name></member>
@@ -605,6 +605,10 @@
     <member refid="structspace_1_1calc_1_1has__method__vel_1a54d6e1b2587b36faa8693a465beb61db" kind="function"><name>check</name></member>
     <member refid="structspace_1_1calc_1_1has__method__vel_1a0d1a9959b84e9fc4553fbab5f5161480" kind="function"><name>check</name></member>
   </compound>
+  <compound refid="structspace_1_1orbit_1_1has__pos" kind="struct"><name>space::orbit::has_pos</name>
+  </compound>
+  <compound refid="structspace_1_1orbit_1_1has__pos_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__sefb893918cc539add71052bde1ef149e" kind="struct"><name>space::orbit::has_pos&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). pos), void &gt;::value, bool &gt;::type &gt;</name>
+  </compound>
   <compound refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol" kind="struct"><name>space::Simulator::has_protected_method_impl_set_atol</name>
     <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1a1b33e7430e10d1264ea99aad90eb7687" kind="variable"><name>value</name></member>
     <member refid="structspace_1_1_simulator_1_1has__protected__method__impl__set__atol_1a04d8568e87f14d4d2c4593cf31af1512" kind="function"><name>check</name></member>
@@ -618,6 +622,10 @@
   <compound refid="structspace_1_1orbit_1_1has__radius" kind="struct"><name>space::orbit::has_radius</name>
   </compound>
   <compound refid="structspace_1_1orbit_1_1has__radius_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is1bba305d1e0f1813c9cb26256d6aff6b" kind="struct"><name>space::orbit::has_radius&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). radius), void &gt;::value, bool &gt;::type &gt;</name>
+  </compound>
+  <compound refid="structspace_1_1orbit_1_1has__vel" kind="struct"><name>space::orbit::has_vel</name>
+  </compound>
+  <compound refid="structspace_1_1orbit_1_1has__vel_3_01_____t_00_01typename_01std_1_1enable__if_3_01_9std_1_1is__s8dfe958a08974f9ee63ceff9031ab806" kind="struct"><name>space::orbit::has_vel&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). vel), void &gt;::value, bool &gt;::type &gt;</name>
   </compound>
   <compound refid="structspace_1_1ode__iterator_1_1_i_a_s15_error_1_1has__x" kind="struct"><name>space::ode_iterator::IAS15Error::has_x</name>
   </compound>
@@ -1726,7 +1734,7 @@
     <member refid="namespacespace_1_1orbit_1a7e2e611df033fb699f00e4d145a5b40e" kind="function"><name>move_particles</name></member>
     <member refid="namespacespace_1_1orbit_1ab86985125e07cebae62b4e98b431bec5" kind="function"><name>move_particles</name></member>
     <member refid="namespacespace_1_1orbit_1a0786bc85eb5074f5b87de8dea2e54400" kind="function"><name>move_particles</name></member>
-    <member refid="namespacespace_1_1orbit_1a677e14d0c7acb0457417f99abae243be" kind="function"><name>move_to_COM_frame</name></member>
+    <member refid="namespacespace_1_1orbit_1ab6e8ae7f7ad9035524595a2d1b540a85" kind="function"><name>move_to_COM_frame</name></member>
     <member refid="namespacespace_1_1orbit_1a554cddd364d8d653bf8f2d5de717c2d7" kind="function"><name>calc_eccentricity</name></member>
     <member refid="namespacespace_1_1orbit_1a3cefe8d59dbaad7cc8fda0dede0274be" kind="function"><name>calc_semi_major_axis</name></member>
     <member refid="namespacespace_1_1orbit_1a9da0f714d9323621a6af19505987188b" kind="function"><name>calc_a_e</name></member>
@@ -1738,15 +1746,16 @@
     <member refid="namespacespace_1_1orbit_1a28efecf6eaeb0b9baa3832382e67363d" kind="function"><name>E_p</name></member>
     <member refid="namespacespace_1_1orbit_1a9dba4506ea4b230de2664ef8a1e57f65" kind="function"><name>E_k_COM</name></member>
     <member refid="namespacespace_1_1orbit_1a67a3f5f12681f5033d5d543a01e27c08" kind="function"><name>E_k_COM</name></member>
-    <member refid="namespacespace_1_1orbit_1abe461eae0124a9648799d1967b7fcb02" kind="function"><name>E_tot</name></member>
+    <member refid="namespacespace_1_1orbit_1a79f4bde0da60b421fd82115c05492827" kind="function"><name>E_tot</name></member>
+    <member refid="namespacespace_1_1orbit_1a37d58843ce7af899bb825f131265aeaa" kind="function"><name>E_inner</name></member>
     <member refid="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" kind="function"><name>cluster_size</name></member>
     <member refid="namespacespace_1_1orbit_1aa0a205742d395d5d14e6ca11db1dba7c" kind="function"><name>cluster_size</name></member>
-    <member refid="namespacespace_1_1orbit_1ae49288a093e751ac40fa74528e902d11" kind="function"><name>E_tid</name></member>
-    <member refid="namespacespace_1_1orbit_1a5e416ded7e228314e00780f3b94a3e69" kind="function"><name>E_tid</name></member>
-    <member refid="namespacespace_1_1orbit_1aa2a8137644b27370612bb0f44748b66d" kind="function"><name>tidal_factor</name></member>
-    <member refid="namespacespace_1_1orbit_1a3995e90bc81be235540e9577f8943897" kind="function"><name>tidal_factor</name></member>
-    <member refid="namespacespace_1_1orbit_1a9b765abae826122665d38b818b47d7de" kind="function"><name>tidal_radius</name></member>
-    <member refid="namespacespace_1_1orbit_1a05cb33653185a3f5afb027a2eae5520d" kind="function"><name>tidal_radius</name></member>
+    <member refid="namespacespace_1_1orbit_1aad32f85f1dde156aa98689f36e59750f" kind="function"><name>E_tid</name></member>
+    <member refid="namespacespace_1_1orbit_1abf53e310008d3292e9ea8684d326ac25" kind="function"><name>E_tid</name></member>
+    <member refid="namespacespace_1_1orbit_1afcc234faa207023dd4e6912995662f52" kind="function"><name>tidal_factor</name></member>
+    <member refid="namespacespace_1_1orbit_1a1b0255f8dbc2d4b282c4820ede70f389" kind="function"><name>tidal_factor</name></member>
+    <member refid="namespacespace_1_1orbit_1ac4c34871cd0ebd853d3d5837ace441c4" kind="function"><name>tidal_radius</name></member>
+    <member refid="namespacespace_1_1orbit_1a05f6fc353b6451efa83663bebe8b73ca" kind="function"><name>tidal_radius</name></member>
   </compound>
   <compound refid="namespacespace_1_1particle__set" kind="namespace"><name>space::particle_set</name>
     <member refid="namespacespace_1_1particle__set_1a909fba3130536b3eee034885b926ae81" kind="variable"><name>is_soa_particles_v</name></member>
@@ -1783,7 +1792,8 @@
     <member refid="namespacespace_1_1run__operations_1ad453ea1cb65268c226cae135ab3ed8dd" kind="function"><name>operator&lt;&lt;</name></member>
   </compound>
   <compound refid="namespacespace_1_1scattering" kind="namespace"><name>space::scattering</name>
-    <member refid="namespacespace_1_1scattering_1a514479ce359e520db147fe04be0e7c29" kind="function"><name>critical_vel</name></member>
+    <member refid="namespacespace_1_1scattering_1a84d47b5792a76effb34964b0a40f19bb" kind="function"><name>critical_vel</name></member>
+    <member refid="namespacespace_1_1scattering_1a50d577d5c70e1c0aefb4d884e6e76b0e" kind="function"><name>critical_vel</name></member>
     <member refid="namespacespace_1_1scattering_1ab5a0d1d4bbea0ddcacc22dffce56b01e" kind="function"><name>b_max</name></member>
     <member refid="namespacespace_1_1scattering_1aa1b4756ea3d3658b3d8fc2633f943724" kind="function"><name>random_incident</name></member>
     <member refid="namespacespace_1_1scattering_1ad3464c85e01fe272b582e5e5dded5e0c" kind="function"><name>random_incident</name></member>

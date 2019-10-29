@@ -19,15 +19,40 @@
           <declname>ptc</declname>
         </param>
         <briefdescription>
+<para>Callable interface for collision detection. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ParticleSys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any implementation of ParticleSystem. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Particle system. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true Collision detected. </para>
+</simplesect>
+<simplesect kind="return"><para>false No collision detected. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/args-callback/collision.hpp" line="34" column="8" bodyfile="src/args-callback/collision.hpp" bodystart="34" bodyend="52"/>
+        <location file="src/args-callback/collision.hpp" line="47" column="8" bodyfile="src/args-callback/collision.hpp" bodystart="47" bodyend="65"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Detect collisions with sticky radius approximation. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -37,7 +62,7 @@
         <link refid="classrun__operations_1_1_sticky_collision"/>
       </node>
     </collaborationgraph>
-    <location file="src/args-callback/collision.hpp" line="32" column="22" bodyfile="src/args-callback/collision.hpp" bodystart="32" bodyend="53"/>
+    <location file="src/args-callback/collision.hpp" line="37" column="22" bodyfile="src/args-callback/collision.hpp" bodystart="37" bodyend="66"/>
     <listofallmembers>
       <member refid="classrun__operations_1_1_sticky_collision_1aca8accdbccdf39e7014205b23a827fff" prot="private" virt="non-virtual"><scope>run_operations::StickyCollision</scope><name>operator()</name></member>
     </listofallmembers>

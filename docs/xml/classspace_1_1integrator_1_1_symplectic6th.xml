@@ -11,12 +11,13 @@
         <argsstring></argsstring>
         <name>Base</name>
         <briefdescription>
+<para>Base class. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="86" column="3" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="86" bodyend="-1"/>
+        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="95" column="3" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="95" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -33,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="90" column="27" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="90" bodyend="-1"/>
+        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="99" column="27" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="99" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -48,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="92" column="11" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="92" bodyend="-1"/>
+        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="101" column="11" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="101" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -76,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="96" column="7" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="169" bodyend="186"/>
+        <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="105" column="7" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="184" bodyend="201"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -122,7 +123,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="84" column="39" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="84" bodyend="97"/>
+    <location file="src/integrator/symplectic/symplectic-integrator.hpp" line="90" column="39" bodyfile="src/integrator/symplectic/symplectic-integrator.hpp" bodystart="90" bodyend="106"/>
     <listofallmembers>
       <member refid="classspace_1_1integrator_1_1_symplectic6th_1aa28afc7e3dea3dc81cb595a9f3e6eca9" prot="public" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>Base</name></member>
       <member refid="classspace_1_1integrator_1_1_symplectic6th_1a951a9a52bb7005118c8586b3669ad1b7" prot="public" virt="non-virtual"><scope>space::integrator::Symplectic6th</scope><name>Base</name></member>
