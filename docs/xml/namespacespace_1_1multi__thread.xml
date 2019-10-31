@@ -71,7 +71,7 @@
         </inbodydescription>
         <location file="src/multi-thread/multi-thread.hpp" line="57" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="57" bodyend="71"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1multi__thread_1abe57c2f536979d62dc8f0fbf1f660df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1multi__thread_1a28006daebb279b5461b0cfef93df26d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Callable</type>
@@ -83,9 +83,9 @@
           </param>
         </templateparamlist>
         <type>void</type>
-        <definition>void space::multi_thread::multi_thread_run</definition>
+        <definition>void space::multi_thread::multi_thread</definition>
         <argsstring>(size_t thread_num, Callable &amp;&amp;job, Args &amp;&amp;... args)</argsstring>
-        <name>multi_thread_run</name>
+        <name>multi_thread</name>
         <param>
           <type>size_t</type>
           <declname>thread_num</declname>
@@ -105,6 +105,41 @@
         <inbodydescription>
         </inbodydescription>
         <location file="src/multi-thread/multi-thread.hpp" line="74" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1multi__thread_1a8618769c3437a681b00ca69f68412849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Callable</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::multi_thread::indexed_multi_thread</definition>
+        <argsstring>(size_t thread_num, Callable &amp;&amp;job, Args &amp;&amp;... args)</argsstring>
+        <name>indexed_multi_thread</name>
+        <param>
+          <type>size_t</type>
+          <declname>thread_num</declname>
+        </param>
+        <param>
+          <type>Callable &amp;&amp;</type>
+          <declname>job</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/multi-thread/multi-thread.hpp" line="87" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="87" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1a28108191f5b6832d42d96800778992c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -128,7 +163,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/multi-thread/multi-thread.hpp" line="87" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="87" bodyend="89"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="100" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1multi__thread_1a0a4238f1ec328af55a89b76c939b5e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void space::multi_thread::auto_indexed_multi_thread</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>auto_indexed_multi_thread</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/multi-thread/multi-thread.hpp" line="105" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="105" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1ab21b694891b6881b04a527d23df913fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -154,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/multi-thread/multi-thread.hpp" line="141" column="1" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="141" bodyend="145"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="159" column="1" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="159" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1a62023f629d437ed86e7c6eca66cd0fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -180,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/multi-thread/multi-thread.hpp" line="148" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="148" bodyend="153"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="166" column="6" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="166" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1multi__thread_1add48464677ab9c4134943907d3fa625d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classspace_1_1multi__thread_1_1_concurrent_file" kindref="compound">ConcurrentFile</ref></type>
@@ -201,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/multi-thread/multi-thread.hpp" line="155" column="23" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="155" bodyend="157"/>
+        <location file="src/multi-thread/multi-thread.hpp" line="173" column="23" bodyfile="src/multi-thread/multi-thread.hpp" bodystart="173" bodyend="175"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

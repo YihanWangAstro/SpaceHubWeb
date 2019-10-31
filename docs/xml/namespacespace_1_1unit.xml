@@ -3,397 +3,1015 @@
   <compounddef id="namespacespace_1_1unit" kind="namespace" language="C++">
     <compoundname>space::unit</compoundname>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="namespacespace_1_1unit_1ace4f7e3b11e370c6c6911aa1d78869bc" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1a149220f8dbbb5902de112e1f5c024446" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::au</definition>
+        <definition>constexpr double space::unit::AU</definition>
         <argsstring></argsstring>
-        <name>au</name>
-        <initializer>= 1</initializer>
+        <name>AU</name>
+        <initializer>=  1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="41" column="20" bodyfile="src/macros.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/macros.hpp" line="47" column="19" bodyfile="src/macros.hpp" bodystart="47" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a1f5af7def5a965203687480eba9d82b5" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1ae1cb68c8561ed910fe213d6d6bcebb16" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_solar</definition>
+        <definition>constexpr double space::unit::Ms</definition>
         <argsstring></argsstring>
-        <name>m_solar</name>
-        <initializer>= 1</initializer>
+        <name>Ms</name>
+        <initializer>=  1</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="42" column="20" bodyfile="src/macros.hpp" bodystart="42" bodyend="-1"/>
+        <location file="src/macros.hpp" line="48" column="19" bodyfile="src/macros.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::year</definition>
         <argsstring></argsstring>
         <name>year</name>
-        <initializer>= 2 * <ref refid="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" kindref="member">consts::pi</ref></initializer>
+        <initializer>=  2 * <ref refid="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" kindref="member">consts::pi</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="43" column="20" bodyfile="src/macros.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/macros.hpp" line="49" column="19" bodyfile="src/macros.hpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a9a70961c217cbd1f7057b7286e73530a" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::deg</definition>
         <argsstring></argsstring>
         <name>deg</name>
-        <initializer>= <ref refid="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" kindref="member">consts::pi</ref> / 180.0</initializer>
+        <initializer>=  <ref refid="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" kindref="member">consts::pi</ref> / 180.0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="44" column="20" bodyfile="src/macros.hpp" bodystart="44" bodyend="-1"/>
+        <location file="src/macros.hpp" line="50" column="19" bodyfile="src/macros.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a170170a6e5154418a0221ef99b1584a5" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::kyr</definition>
         <argsstring></argsstring>
         <name>kyr</name>
-        <initializer>= 1e3 * <ref refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kindref="member">year</ref></initializer>
+        <initializer>=  1e3_year</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="46" column="20" bodyfile="src/macros.hpp" bodystart="46" bodyend="-1"/>
+        <location file="src/macros.hpp" line="52" column="19" bodyfile="src/macros.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a226bead689dcda4fa3b135d4dadff648" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::Myr</definition>
         <argsstring></argsstring>
         <name>Myr</name>
-        <initializer>= 1e6 * <ref refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kindref="member">year</ref></initializer>
+        <initializer>=  1e6_year</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="47" column="20" bodyfile="src/macros.hpp" bodystart="47" bodyend="-1"/>
+        <location file="src/macros.hpp" line="53" column="19" bodyfile="src/macros.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1af00deabf093d6eedb794f51b394a69ba" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::Gyr</definition>
         <argsstring></argsstring>
         <name>Gyr</name>
-        <initializer>= 1e9 * <ref refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kindref="member">year</ref></initializer>
+        <initializer>=  1e9_year</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="48" column="20" bodyfile="src/macros.hpp" bodystart="48" bodyend="-1"/>
+        <location file="src/macros.hpp" line="54" column="19" bodyfile="src/macros.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a7dd7a50474bc07f10975b486b411c813" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::month</definition>
         <argsstring></argsstring>
         <name>month</name>
-        <initializer>= <ref refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kindref="member">year</ref> / 12</initializer>
+        <initializer>=  1_year / 12.0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="49" column="20" bodyfile="src/macros.hpp" bodystart="49" bodyend="-1"/>
+        <location file="src/macros.hpp" line="55" column="19" bodyfile="src/macros.hpp" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1aed1606d2d29735b0da5980642bcf0ba6" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::day</definition>
         <argsstring></argsstring>
         <name>day</name>
-        <initializer>= <ref refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kindref="member">year</ref> / 365.25636042</initializer>
+        <initializer>=  1_year / 365.25636042</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="50" column="20" bodyfile="src/macros.hpp" bodystart="50" bodyend="-1"/>
+        <location file="src/macros.hpp" line="56" column="19" bodyfile="src/macros.hpp" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1ac136c07b8841fbdf9c053e20eefc2338" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::hr</definition>
         <argsstring></argsstring>
         <name>hr</name>
-        <initializer>= <ref refid="namespacespace_1_1unit_1aed1606d2d29735b0da5980642bcf0ba6" kindref="member">day</ref> / 24</initializer>
+        <initializer>=  1_day / 24.0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="51" column="20" bodyfile="src/macros.hpp" bodystart="51" bodyend="-1"/>
+        <location file="src/macros.hpp" line="57" column="19" bodyfile="src/macros.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1add4c1e6ad3b1e30f659965cc92afea6d" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::min</definition>
         <argsstring></argsstring>
         <name>min</name>
-        <initializer>= <ref refid="namespacespace_1_1unit_1ac136c07b8841fbdf9c053e20eefc2338" kindref="member">hr</ref> / 60</initializer>
+        <initializer>=  1_hr / 60.0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="52" column="20" bodyfile="src/macros.hpp" bodystart="52" bodyend="-1"/>
+        <location file="src/macros.hpp" line="58" column="19" bodyfile="src/macros.hpp" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1ad9c0125bd61d3145ff091be30cb746c5" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::sec</definition>
         <argsstring></argsstring>
         <name>sec</name>
-        <initializer>= <ref refid="namespacespace_1_1unit_1add4c1e6ad3b1e30f659965cc92afea6d" kindref="member">min</ref> / 60</initializer>
+        <initializer>=  1_min / 60.0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="53" column="20" bodyfile="src/macros.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/macros.hpp" line="59" column="19" bodyfile="src/macros.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a67d71b64393768825be5d2fdef5c3505" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1a7e8817113dde8445b794358a0f229dcf" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::hubble_t</definition>
+        <definition>constexpr double space::unit::T_hubble</definition>
         <argsstring></argsstring>
-        <name>hubble_t</name>
-        <initializer>= 13.7 * <ref refid="namespacespace_1_1unit_1af00deabf093d6eedb794f51b394a69ba" kindref="member">Gyr</ref></initializer>
+        <name>T_hubble</name>
+        <initializer>=  13.7_Gyr</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="54" column="20" bodyfile="src/macros.hpp" bodystart="54" bodyend="-1"/>
+        <location file="src/macros.hpp" line="60" column="19" bodyfile="src/macros.hpp" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::km</definition>
         <argsstring></argsstring>
         <name>km</name>
-        <initializer>= 1 / 149597870.7</initializer>
+        <initializer>=  1_AU / 149597870.7</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="56" column="20" bodyfile="src/macros.hpp" bodystart="56" bodyend="-1"/>
+        <location file="src/macros.hpp" line="62" column="19" bodyfile="src/macros.hpp" bodystart="62" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1ad0db1a5a2107bbbd7a10877f3ba8416b" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1aef2621b74942c07d3be87634994318ca" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::pc</definition>
+        <definition>constexpr double space::unit::PC</definition>
         <argsstring></argsstring>
-        <name>pc</name>
-        <initializer>= 648000 / <ref refid="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" kindref="member">consts::pi</ref></initializer>
+        <name>PC</name>
+        <initializer>=  1_AU * 648000.0 / <ref refid="namespacespace_1_1consts_1a436bead862d0e0b42edd61c233628d20" kindref="member">consts::pi</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="57" column="20" bodyfile="src/macros.hpp" bodystart="57" bodyend="-1"/>
+        <location file="src/macros.hpp" line="63" column="19" bodyfile="src/macros.hpp" bodystart="63" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1ad2c6f5b55598471b1f7348f487b646d5" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1a57d74cd675d8ce9360927eafbcafb6c0" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::r_solar</definition>
+        <definition>constexpr double space::unit::Rs</definition>
         <argsstring></argsstring>
-        <name>r_solar</name>
-        <initializer>= 6.957E5 * <ref refid="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" kindref="member">km</ref></initializer>
+        <name>Rs</name>
+        <initializer>=  6.957e5_km</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="58" column="20" bodyfile="src/macros.hpp" bodystart="58" bodyend="-1"/>
+        <location file="src/macros.hpp" line="64" column="19" bodyfile="src/macros.hpp" bodystart="64" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a728d522d5be26e350704b8fa9c51c535" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1a5dcf4ce021c6c95427d1a48bbd9b839d" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::r_jupiter</definition>
+        <definition>constexpr double space::unit::Rj</definition>
         <argsstring></argsstring>
-        <name>r_jupiter</name>
-        <initializer>= 69911 * <ref refid="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" kindref="member">km</ref></initializer>
+        <name>Rj</name>
+        <initializer>=  69911_km</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="59" column="20" bodyfile="src/macros.hpp" bodystart="59" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a8ac77ca8d0a841ba7ee2f80c5fe8b0ea" prot="public" static="no" constexpr="yes" mutable="no">
-        <type>constexpr double</type>
-        <definition>constexpr double space::unit::r_neptune</definition>
-        <argsstring></argsstring>
-        <name>r_neptune</name>
-        <initializer>= 24622 * <ref refid="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" kindref="member">km</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="src/macros.hpp" line="60" column="20" bodyfile="src/macros.hpp" bodystart="60" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a73387aa7c7c0a35ca6d96150d6cfbb7e" prot="public" static="no" constexpr="yes" mutable="no">
-        <type>constexpr double</type>
-        <definition>constexpr double space::unit::v_unit</definition>
-        <argsstring></argsstring>
-        <name>v_unit</name>
-        <initializer>= 2.9784651272402163E1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="src/macros.hpp" line="62" column="20" bodyfile="src/macros.hpp" bodystart="62" bodyend="-1"/>
+        <location file="src/macros.hpp" line="65" column="19" bodyfile="src/macros.hpp" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespacespace_1_1unit_1a9ecd524cf30ef01953aaeacfb611cf77" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
         <definition>constexpr double space::unit::kms</definition>
         <argsstring></argsstring>
         <name>kms</name>
-        <initializer>= 1 / <ref refid="namespacespace_1_1unit_1a73387aa7c7c0a35ca6d96150d6cfbb7e" kindref="member">v_unit</ref></initializer>
+        <initializer>=  <ref refid="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" kindref="member">km</ref> / <ref refid="namespacespace_1_1unit_1ad9c0125bd61d3145ff091be30cb746c5" kindref="member">sec</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="63" column="20" bodyfile="src/macros.hpp" bodystart="63" bodyend="-1"/>
+        <location file="src/macros.hpp" line="67" column="19" bodyfile="src/macros.hpp" bodystart="67" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1a6da723656c7bad2be18de1774a226aed" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_earth</definition>
+        <definition>constexpr double space::unit::Me</definition>
         <argsstring></argsstring>
-        <name>m_earth</name>
-        <initializer>= 3.003E-6 * <ref refid="namespacespace_1_1unit_1a1f5af7def5a965203687480eba9d82b5" kindref="member">m_solar</ref></initializer>
+        <name>Me</name>
+        <initializer>=  3.003E-6_Ms</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="65" column="20" bodyfile="src/macros.hpp" bodystart="65" bodyend="-1"/>
+        <location file="src/macros.hpp" line="69" column="19" bodyfile="src/macros.hpp" bodystart="69" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a7561fcf84aeccaeee1310885311a095c" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1aa4e7996abc85f3eeea08fc0574147c7e" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_mercury</definition>
+        <definition>constexpr double space::unit::Mj</definition>
         <argsstring></argsstring>
-        <name>m_mercury</name>
-        <initializer>= 0.055 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <name>Mj</name>
+        <initializer>=  317.8_Me</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="66" column="20" bodyfile="src/macros.hpp" bodystart="66" bodyend="-1"/>
+        <location file="src/macros.hpp" line="70" column="19" bodyfile="src/macros.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a168952d8be9f4e2e9ca2fe3a7188d192" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="variable" id="namespacespace_1_1unit_1aeb11b39ae67a6ecd2cad453ff11c379e" prot="public" static="no" constexpr="yes" mutable="no">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_venus</definition>
+        <definition>constexpr double space::unit::Mmoon</definition>
         <argsstring></argsstring>
-        <name>m_venus</name>
-        <initializer>= 0.815 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <name>Mmoon</name>
+        <initializer>=  0.012300_Me</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="67" column="20" bodyfile="src/macros.hpp" bodystart="67" bodyend="-1"/>
+        <location file="src/macros.hpp" line="71" column="19" bodyfile="src/macros.hpp" bodystart="71" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a2485a8059b30dd2e6e8697f5106266ca" prot="public" static="no" constexpr="yes" mutable="no">
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacespace_1_1unit_1ae44803b9f307fbada6710056513b3156" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_mars</definition>
-        <argsstring></argsstring>
-        <name>m_mars</name>
-        <initializer>= 0.107 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <definition>constexpr double space::unit::operator&quot;&quot;_AU</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_AU</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="68" column="20" bodyfile="src/macros.hpp" bodystart="68" bodyend="-1"/>
+        <location file="src/macros.hpp" line="47" column="43" bodyfile="src/macros.hpp" bodystart="47" bodyend="47"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1acfd91c7281357b77ecafdd261fa82393" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="function" id="namespacespace_1_1unit_1a873148ec4fd08949b831ecbef1e33ae4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_jupiter</definition>
-        <argsstring></argsstring>
-        <name>m_jupiter</name>
-        <initializer>= 317.8 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <definition>constexpr double space::unit::operator&quot;&quot;_AU</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_AU</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="69" column="20" bodyfile="src/macros.hpp" bodystart="69" bodyend="-1"/>
+        <location file="src/macros.hpp" line="47" column="122" bodyfile="src/macros.hpp" bodystart="47" bodyend="47"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a434335814b47b28077ff7cd6148f74ff" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="function" id="namespacespace_1_1unit_1ad380a6ad8e0ffa0fbb5548f67f5e30cb" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_saturn</definition>
-        <argsstring></argsstring>
-        <name>m_saturn</name>
-        <initializer>= 95.16 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Ms</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Ms</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="70" column="20" bodyfile="src/macros.hpp" bodystart="70" bodyend="-1"/>
+        <location file="src/macros.hpp" line="48" column="43" bodyfile="src/macros.hpp" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1aa1fb7ba25eb80d54bbe3c0941e02d4fb" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="function" id="namespacespace_1_1unit_1ae59d47ce6e330bf5642c84e525032d89" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_neptune</definition>
-        <argsstring></argsstring>
-        <name>m_neptune</name>
-        <initializer>= 17.15 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Ms</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Ms</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="71" column="20" bodyfile="src/macros.hpp" bodystart="71" bodyend="-1"/>
+        <location file="src/macros.hpp" line="48" column="122" bodyfile="src/macros.hpp" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="variable" id="namespacespace_1_1unit_1a8ffc166e31c159462e8b56793e3b258c" prot="public" static="no" constexpr="yes" mutable="no">
+      <memberdef kind="function" id="namespacespace_1_1unit_1ac82168096c044f6cd7b3dca294c7b4c9" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>constexpr double</type>
-        <definition>constexpr double space::unit::m_moon</definition>
-        <argsstring></argsstring>
-        <name>m_moon</name>
-        <initializer>= 0.012300 * <ref refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kindref="member">m_earth</ref></initializer>
+        <definition>constexpr double space::unit::operator&quot;&quot;_year</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_year</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/macros.hpp" line="72" column="20" bodyfile="src/macros.hpp" bodystart="72" bodyend="-1"/>
+        <location file="src/macros.hpp" line="49" column="45" bodyfile="src/macros.hpp" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a5cf248677b8dafbbb66bfee7618698d7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_year</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_year</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="49" column="139" bodyfile="src/macros.hpp" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1abd634c7c54a0714526ffa4e690d1155a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_deg</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_deg</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="50" column="44" bodyfile="src/macros.hpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a93be3f1029be6f85bf8633cc0d294b7d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_deg</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_deg</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="50" column="140" bodyfile="src/macros.hpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1aaeb66f12b02789e9a38610e2de29dff9" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_kyr</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_kyr</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="52" column="44" bodyfile="src/macros.hpp" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a8b618f0a7c3c98cab525796427a18eb2" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_kyr</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_kyr</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="52" column="131" bodyfile="src/macros.hpp" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a97cc223234da65d252cd361f9bb14359" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Myr</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Myr</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="53" column="44" bodyfile="src/macros.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a4814b3b26640d8bc775b83f217e9cf50" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Myr</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Myr</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="53" column="131" bodyfile="src/macros.hpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a3e158f4e7ec9d77f1562dcffcfeaa686" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Gyr</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Gyr</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="54" column="44" bodyfile="src/macros.hpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a5f37d722137dbbf9a6035e698bb139ed" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Gyr</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Gyr</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="54" column="131" bodyfile="src/macros.hpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a85f8383b892cea3e2c6fa9c700875194" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_month</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_month</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="55" column="46" bodyfile="src/macros.hpp" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1ab8d44f0f7779ea94d5b22c5b9a4fc478" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_month</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_month</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="55" column="139" bodyfile="src/macros.hpp" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a504ce52aef3234aa6d48a8faf611567a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_day</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_day</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="56" column="44" bodyfile="src/macros.hpp" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1aee16a8405029944a962736a78407fdf5" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_day</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_day</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="56" column="143" bodyfile="src/macros.hpp" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1afaf858bda37682f6ecd0aa63ec1938d6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_hr</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_hr</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="57" column="43" bodyfile="src/macros.hpp" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a3344b0377533153616d26f405275bb5b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_hr</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_hr</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="57" column="132" bodyfile="src/macros.hpp" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a9153e21150e100dc537b7adf0340f62f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_min</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_min</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="58" column="44" bodyfile="src/macros.hpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a2e16a49f8c9b6dae5e6148c6d4d535aa" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_min</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_min</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="58" column="133" bodyfile="src/macros.hpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1aaf173eafa909cc0782498e0802d55ce9" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_sec</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_sec</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="59" column="44" bodyfile="src/macros.hpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a161185a39efeda0b36fead602c2c6808" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_sec</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_sec</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="59" column="134" bodyfile="src/macros.hpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a78509467dd1332689a5429c9b0d96b03" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_T_hubble</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_T_hubble</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="60" column="49" bodyfile="src/macros.hpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1ace6d8960462a057e4d973a1e57e35854" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_T_hubble</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_T_hubble</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="60" column="141" bodyfile="src/macros.hpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a52a76b32e633630fa23f9b09cc1ffa6a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_km</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_km</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="62" column="43" bodyfile="src/macros.hpp" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a19c94fb86ff14e4af1ba97630ea7649a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_km</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_km</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="62" column="138" bodyfile="src/macros.hpp" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1ac0a601f4ef851a22ce52d31c36366ceb" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_PC</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_PC</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="63" column="43" bodyfile="src/macros.hpp" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a7b157366b70714208baa8e808b7dec7b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_PC</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_PC</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="63" column="148" bodyfile="src/macros.hpp" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1acf069d7d6c21404175b659926578ecef" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Rs</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Rs</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="64" column="43" bodyfile="src/macros.hpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a7f7b938976721734b5777177d63c6e81" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Rs</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Rs</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="64" column="131" bodyfile="src/macros.hpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1abbaed4d32ade87ff8b1a444bd8a84c1d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Rj</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Rj</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="65" column="43" bodyfile="src/macros.hpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a1ec8b53333681387dd9a88d646d6c68c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Rj</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Rj</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="65" column="129" bodyfile="src/macros.hpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1aac733ca81b489814a05cc95a24be7f9f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_kms</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_kms</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="67" column="44" bodyfile="src/macros.hpp" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a89f71a4aaef8036445c9611de47d85ad" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_kms</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_kms</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="67" column="130" bodyfile="src/macros.hpp" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1aedaf28e982270baf2355d6e160095abe" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Me</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Me</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="69" column="43" bodyfile="src/macros.hpp" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a11599f31e1ce641888596c8c721e7bce" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Me</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Me</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="69" column="132" bodyfile="src/macros.hpp" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1ab315d729dae1057bd3653c69f489c32e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Mj</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Mj</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="70" column="43" bodyfile="src/macros.hpp" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a8d4517d904b9ff4147388a125e3089e3" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Mj</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Mj</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="70" column="129" bodyfile="src/macros.hpp" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1aba7e6164ff09b405586150328a0e5276" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Mmoon</definition>
+        <argsstring>(unsigned long long int x)</argsstring>
+        <name>operator&quot;&quot;_Mmoon</name>
+        <param>
+          <type>unsigned long long int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="71" column="46" bodyfile="src/macros.hpp" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1unit_1a98b2925aa9e7d03dd3ae5832b9ef1908" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double space::unit::operator&quot;&quot;_Mmoon</definition>
+        <argsstring>(long double x)</argsstring>
+        <name>operator&quot;&quot;_Mmoon</name>
+        <param>
+          <type>long double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="71" column="138" bodyfile="src/macros.hpp" bodystart="71" bodyend="71"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

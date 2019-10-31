@@ -160,6 +160,23 @@
     <innernamespace refid="namespacespace_1_1consts">space::consts</innernamespace>
     <innernamespace refid="namespacespace">space</innernamespace>
     <innernamespace refid="namespacespace_1_1unit">space::unit</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="macros_8hpp_1afb4c2e04720828be102cbe14fa7f54c6" prot="public" static="no">
+        <name>MAKE_UNIT</name>
+        <param><defname>NAME</defname></param>
+        <param><defname>UNIT</defname></param>
+        <initializer>constexpr double NAME = UNIT;                                                                             \
+  constexpr double operator&quot;&quot; _##NAME(unsigned long long int x) { return static_cast&lt;double&gt;(x) * (UNIT); } \
+  constexpr double operator&quot;&quot; _##NAME(long double x) { return static_cast&lt;double&gt;(x) * (UNIT); }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macros.hpp" line="42" column="9" bodyfile="src/macros.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

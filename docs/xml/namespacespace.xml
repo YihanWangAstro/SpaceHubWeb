@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="253" column="1" bodyfile="src/vector/vector3.hpp" bodystart="253" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="256" column="1" bodyfile="src/vector/vector3.hpp" bodystart="256" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a19a48ecf1339c52009ccb6934cf799bd" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; double &gt;</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="257" column="1" bodyfile="src/vector/vector3.hpp" bodystart="257" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="260" column="1" bodyfile="src/vector/vector3.hpp" bodystart="260" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a67fb2a2bc7af0f2c219853cda7be35d3" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; float &gt;</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="261" column="1" bodyfile="src/vector/vector3.hpp" bodystart="261" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="264" column="1" bodyfile="src/vector/vector3.hpp" bodystart="264" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1aa23d52e014eb76d5d9929854718d9c1e" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; int &gt;</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="265" column="1" bodyfile="src/vector/vector3.hpp" bodystart="265" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="268" column="1" bodyfile="src/vector/vector3.hpp" bodystart="268" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a026d91839a4aecf0564d111622a38351" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; char &gt;</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="269" column="1" bodyfile="src/vector/vector3.hpp" bodystart="269" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="272" column="1" bodyfile="src/vector/vector3.hpp" bodystart="272" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespacespace_1a00335c4bf483b31127c2757316593d6b" prot="public" static="no">
         <type><ref refid="structspace_1_1_vec3" kindref="compound">Vec3</ref>&lt; bool &gt;</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="273" column="1" bodyfile="src/vector/vector3.hpp" bodystart="273" bodyend="-1"/>
+        <location file="src/vector/vector3.hpp" line="276" column="1" bodyfile="src/vector/vector3.hpp" bodystart="276" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -1123,7 +1123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="216" column="11" bodyfile="src/vector/vector3.hpp" bodystart="216" bodyend="218"/>
+        <location file="src/vector/vector3.hpp" line="216" column="11" bodyfile="src/vector/vector3.hpp" bodystart="216" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1adf38096a3a9b96060bc460782e20593f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1153,7 +1153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="222" column="11" bodyfile="src/vector/vector3.hpp" bodystart="222" bodyend="224"/>
+        <location file="src/vector/vector3.hpp" line="225" column="11" bodyfile="src/vector/vector3.hpp" bodystart="225" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1af528f519f6072ce27becb1d2acc270ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1176,7 +1176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="228" column="10" bodyfile="src/vector/vector3.hpp" bodystart="228" bodyend="230"/>
+        <location file="src/vector/vector3.hpp" line="231" column="10" bodyfile="src/vector/vector3.hpp" bodystart="231" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a336c4b7ef644a2d2e28cb69c1e3d8dc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1199,7 +1199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="234" column="10" bodyfile="src/vector/vector3.hpp" bodystart="234" bodyend="236"/>
+        <location file="src/vector/vector3.hpp" line="237" column="10" bodyfile="src/vector/vector3.hpp" bodystart="237" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1afbb0245be78abc3f96541898d1aeced4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1222,7 +1222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="240" column="10" bodyfile="src/vector/vector3.hpp" bodystart="240" bodyend="242"/>
+        <location file="src/vector/vector3.hpp" line="243" column="10" bodyfile="src/vector/vector3.hpp" bodystart="243" bodyend="245"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1a4f60b73a85573cf74386e5d5b06c3e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1252,7 +1252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/vector/vector3.hpp" line="246" column="13" bodyfile="src/vector/vector3.hpp" bodystart="246" bodyend="248"/>
+        <location file="src/vector/vector3.hpp" line="249" column="13" bodyfile="src/vector/vector3.hpp" bodystart="249" bodyend="251"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

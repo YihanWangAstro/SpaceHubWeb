@@ -6,8 +6,8 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para> <mcss:search xmlns:mcss="http://mcss.mosra.cz/doxygen/" mcss:keyword="tutorial" mcss:title="" mcss:suffix-length="" /></para>
-<para>this ia a tutorial page </para>
+<para><ulink url="initial_condition.html">Initial condition generation </ulink> <linebreak/>
+ </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

@@ -37,7 +37,7 @@
         </inbodydescription>
         <location file="src/scattering/cross-section.hpp" line="40" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="40" bodyend="43"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1scattering_1a50d577d5c70e1c0aefb4d884e6e76b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1scattering_1afea1ca80a5e1af975f0be58a80716b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -48,14 +48,14 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::scattering::critical_vel</definition>
-        <argsstring>(Cluster1 &amp;&amp;stay_cluster, Cluster2 &amp;&amp;incident_cluster)</argsstring>
+        <argsstring>(Cluster1 const &amp;stay_cluster, Cluster2 const &amp;incident_cluster)</argsstring>
         <name>critical_vel</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>stay_cluster</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>incident_cluster</declname>
         </param>
         <briefdescription>
@@ -66,7 +66,7 @@
         </inbodydescription>
         <location file="src/scattering/cross-section.hpp" line="46" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="46" bodyend="52"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1scattering_1ab5a0d1d4bbea0ddcacc22dffce56b01e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1scattering_1a3da9b1fddfeae06ba936fd7b9a6fdd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Scalar</type>
@@ -74,11 +74,11 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::scattering::b_max</definition>
-        <argsstring>(Scalar v_c, Scalar v_inf, Scalar a_max)</argsstring>
+        <argsstring>(Scalar m_tot, Scalar v_inf, Scalar rp_max)</argsstring>
         <name>b_max</name>
         <param>
           <type>Scalar</type>
-          <declname>v_c</declname>
+          <declname>m_tot</declname>
         </param>
         <param>
           <type>Scalar</type>
@@ -86,7 +86,7 @@
         </param>
         <param>
           <type>Scalar</type>
-          <declname>a_max</declname>
+          <declname>rp_max</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -94,18 +94,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scattering/cross-section.hpp" line="55" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="55" bodyend="57"/>
+        <location file="src/scattering/cross-section.hpp" line="60" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="60" bodyend="62"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1scattering_1aa1b4756ea3d3658b3d8fc2633f943724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1scattering_1a3438b9660cc655bd1b852b2df5d71c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Scalar</type>
           </param>
         </templateparamlist>
         <type>auto</type>
-        <definition>auto space::scattering::random_incident</definition>
+        <definition>auto space::scattering::incident_orbit</definition>
         <argsstring>(Scalar m_stay, Scalar m_incident, Scalar v_inf, Scalar b_max, Scalar r)</argsstring>
-        <name>random_incident</name>
+        <name>incident_orbit</name>
         <param>
           <type>Scalar</type>
           <declname>m_stay</declname>
@@ -132,9 +132,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scattering/cross-section.hpp" line="60" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="60" bodyend="66"/>
+        <location file="src/scattering/cross-section.hpp" line="65" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="65" bodyend="70"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1scattering_1ad3464c85e01fe272b582e5e5dded5e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1scattering_1afeddc3b66701d0bdea5afe30df176942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -147,15 +147,15 @@
           </param>
         </templateparamlist>
         <type>auto</type>
-        <definition>auto space::scattering::random_incident</definition>
-        <argsstring>(Cluster1 &amp;&amp;stay_cluster, Cluster2 &amp;&amp;incident_cluster, Scalar v_inf, Scalar tidal_factor=1e-4)</argsstring>
-        <name>random_incident</name>
+        <definition>auto space::scattering::incident_orbit</definition>
+        <argsstring>(Cluster1 const &amp;stay_cluster, Cluster2 const &amp;incident_cluster, Scalar v_inf, Scalar tidal_factor)</argsstring>
+        <name>incident_orbit</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>stay_cluster</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>incident_cluster</declname>
         </param>
         <param>
@@ -165,7 +165,6 @@
         <param>
           <type>Scalar</type>
           <declname>tidal_factor</declname>
-          <defval>1e-4</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -173,7 +172,85 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scattering/cross-section.hpp" line="69" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="69" bodyend="82"/>
+        <location file="src/scattering/cross-section.hpp" line="73" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="73" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1scattering_1a25fe0a9ffaeaf0c613b9296de51dfdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cluster1</type>
+          </param>
+          <param>
+            <type>typename Cluster2</type>
+          </param>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::scattering::incident_orbit</definition>
+        <argsstring>(Cluster1 const &amp;stay_cluster, Cluster2 const &amp;incident_cluster, Scalar v_inf, Scalar b_max, Scalar tidal_factor)</argsstring>
+        <name>incident_orbit</name>
+        <param>
+          <type>Cluster1 const &amp;</type>
+          <declname>stay_cluster</declname>
+        </param>
+        <param>
+          <type>Cluster2 const &amp;</type>
+          <declname>incident_cluster</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>v_inf</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>b_max</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>tidal_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/scattering/cross-section.hpp" line="90" column="6" bodyfile="src/scattering/cross-section.hpp" bodystart="90" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1scattering_1a62f95de5d4377a8e5ee84f4441224999" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::scattering::hard_radius</definition>
+        <argsstring>(Scalar m1, Scalar m2, Scalar m_evn, Scalar sigma)</argsstring>
+        <name>hard_radius</name>
+        <param>
+          <type>Scalar</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m_evn</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>sigma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/scattering/cross-section.hpp" line="103" column="13" bodyfile="src/scattering/cross-section.hpp" bodystart="103" bodyend="105"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

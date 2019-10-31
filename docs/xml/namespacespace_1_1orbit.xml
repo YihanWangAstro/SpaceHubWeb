@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="315" column="8" bodyfile="src/orbits/orbits.hpp" bodystart="315" bodyend="324"/>
+        <location file="src/orbits/orbits.hpp" line="315" column="8" bodyfile="src/orbits/orbits.hpp" bodystart="315" bodyend="327"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a7e91be3bf07a512d6e03dd42b55ff177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="327" column="8" bodyfile="src/orbits/orbits.hpp" bodystart="327" bodyend="337"/>
+        <location file="src/orbits/orbits.hpp" line="330" column="8" bodyfile="src/orbits/orbits.hpp" bodystart="330" bodyend="340"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1ac639ca4751557b8a5dd59e452344fdc4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -323,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="340" column="21" bodyfile="src/orbits/orbits.hpp" bodystart="340" bodyend="350"/>
+        <location file="src/orbits/orbits.hpp" line="343" column="21" bodyfile="src/orbits/orbits.hpp" bodystart="343" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a4184496dc0934f5365a00fc5c6438d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -356,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="457" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="457" bodyend="471"/>
+        <location file="src/orbits/orbits.hpp" line="460" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="460" bodyend="474"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1af5ab176b14b301e161efe4f5f519914a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -397,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="474" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="474" bodyend="519"/>
+        <location file="src/orbits/orbits.hpp" line="477" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="477" bodyend="522"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1add1ade24d81a2e820776c4d1076f0886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -419,7 +419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="522" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="522" bodyend="540"/>
+        <location file="src/orbits/orbits.hpp" line="525" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="525" bodyend="543"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1af559e3bfe01ebd1ea5b0b7cf91d9a1b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -452,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="543" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="543" bodyend="545"/>
+        <location file="src/orbits/orbits.hpp" line="546" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="546" bodyend="548"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a4e547b3a0a6d5133eb38c6548172c867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -498,7 +498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="548" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="548" bodyend="551"/>
+        <location file="src/orbits/orbits.hpp" line="551" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="551" bodyend="554"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1ac766a365db0f96da95764a569ca27810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -531,7 +531,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="554" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="554" bodyend="557"/>
+        <location file="src/orbits/orbits.hpp" line="557" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="557" bodyend="560"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a1b58851ecb7a98faaaef30f809b08362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -577,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="560" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="560" bodyend="563"/>
+        <location file="src/orbits/orbits.hpp" line="563" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="563" bodyend="566"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1adb8a9f565c97cb198ec36ae657b9efe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -610,7 +610,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="566" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="566" bodyend="575"/>
+        <location file="src/orbits/orbits.hpp" line="569" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="569" bodyend="578"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1ab429eb4e43b25ce8ad7bd0b53d502ca8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -656,7 +656,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="578" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="578" bodyend="581"/>
+        <location file="src/orbits/orbits.hpp" line="581" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="581" bodyend="584"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1af915bfd8389f1cdd65a450ea91312a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -686,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="584" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="584" bodyend="590"/>
+        <location file="src/orbits/orbits.hpp" line="587" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="587" bodyend="593"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1ae86668ddeeacfc3cd845e59131489bdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -708,7 +708,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="593" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="593" bodyend="595"/>
+        <location file="src/orbits/orbits.hpp" line="596" column="13" bodyfile="src/orbits/orbits.hpp" bodystart="596" bodyend="598"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1afc818fe269b48ed49370c7c3bf8680d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -742,7 +742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="598" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="598" bodyend="606"/>
+        <location file="src/orbits/orbits.hpp" line="601" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="601" bodyend="609"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a29f8ccd596edbab0d97b792b78d72c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -764,7 +764,117 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="609" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="609" bodyend="621"/>
+        <location file="src/orbits/orbits.hpp" line="612" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="612" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a4ad9afff57ba33ed6d4382b986ac406f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_factor</definition>
+        <argsstring>(Scalar r, Scalar m_tot1, Scalar m_tot2, Scalar R1, Scalar R2)</argsstring>
+        <name>tidal_factor</name>
+        <param>
+          <type>Scalar</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m_tot1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m_tot2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/orbits/orbits.hpp" line="627" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="627" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab2b432c8daf47419d955c5fec22da83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_radius</definition>
+        <argsstring>(Scalar tidal_factor, Scalar m_tot1, Scalar m_tot2, Scalar R2)</argsstring>
+        <name>tidal_radius</name>
+        <param>
+          <type>Scalar</type>
+          <declname>tidal_factor</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m_tot1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m_tot2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/orbits/orbits.hpp" line="635" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="635" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a3e93ceb25d707bacad7dcfd57fb54f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Scalar</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto space::orbit::tidal_radius</definition>
+        <argsstring>(Scalar tidal_factor, Scalar m1, Scalar m2, Scalar R1, Scalar R2)</argsstring>
+        <name>tidal_radius</name>
+        <param>
+          <type>Scalar</type>
+          <declname>tidal_factor</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>m2</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R1</declname>
+        </param>
+        <param>
+          <type>Scalar</type>
+          <declname>R2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/orbits/orbits.hpp" line="640" column="6" bodyfile="src/orbits/orbits.hpp" bodystart="640" bodyend="644"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a1b5f49246a5fcbe95273097552d9aa5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -847,7 +957,7 @@
         </inbodydescription>
         <location file="src/orbits/particle-manip.hpp" line="48" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="48" bodyend="51"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a8f18aff33abc64c71ba151623b94d1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a17a63864154eabd2391d7c1b3aa18a22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster</type>
@@ -855,10 +965,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::M_tot</definition>
-        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
         <name>M_tot</name>
         <param>
-          <type>Cluster &amp;&amp;</type>
+          <type>Cluster const &amp;</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -891,7 +1001,7 @@
         </inbodydescription>
         <location file="src/orbits/particle-manip.hpp" line="62" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="62" bodyend="74"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a1f8e25ad70c9dee4d830939285114ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a989f2b9870a8ca2690ba4136ef208cda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -904,14 +1014,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::M_tot</definition>
-        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... args)</argsstring>
         <name>M_tot</name>
         <param>
-          <type>Particle &amp;&amp;</type>
-          <declname>ptc</declname>
+          <type>Particle const &amp;</type>
+          <declname>ptc1</declname>
         </param>
         <param>
-          <type>Args &amp;&amp;...</type>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
           <declname>args</declname>
         </param>
         <briefdescription>
@@ -937,10 +1051,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -958,7 +1080,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="86" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="86" bodyend="89"/>
+        <location file="src/orbits/particle-manip.hpp" line="87" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a99902b1d7bb3ac1c001bda82a3293ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1002,9 +1124,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="100" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="100" bodyend="120"/>
+        <location file="src/orbits/particle-manip.hpp" line="101" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="101" bodyend="121"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1afa4baadc2df682e51a1f678305cb8432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a3fcdfe4eea53e1c26976a5b6069b2ae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -1017,11 +1139,15 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::COM_p</definition>
-        <argsstring>(Particle const &amp;ptc, Args const &amp;... ptcs)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... ptcs)</argsstring>
         <name>COM_p</name>
         <param>
           <type>Particle const &amp;</type>
-          <declname>ptc</declname>
+          <declname>ptc1</declname>
+        </param>
+        <param>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
         </param>
         <param>
           <type>Args const &amp;...</type>
@@ -1050,10 +1176,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1071,7 +1205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="132" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="132" bodyend="137"/>
+        <location file="src/orbits/particle-manip.hpp" line="134" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="134" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a0e27a26d9d86be65351198b5e416317d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1115,9 +1249,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="148" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="148" bodyend="170"/>
+        <location file="src/orbits/particle-manip.hpp" line="150" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="150" bodyend="172"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a04a43e75b9555ef843f4596dfbae2b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ae0dec731f884bdc01bbfed5ef8ffe0b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -1130,11 +1264,15 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::COM_v</definition>
-        <argsstring>(Particle const &amp;ptc, Args const &amp;... ptcs)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... ptcs)</argsstring>
         <name>COM_v</name>
         <param>
           <type>Particle const &amp;</type>
-          <declname>ptc</declname>
+          <declname>ptc1</declname>
+        </param>
+        <param>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
         </param>
         <param>
           <type>Args const &amp;...</type>
@@ -1163,10 +1301,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1184,9 +1330,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="182" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="182" bodyend="188"/>
+        <location file="src/orbits/particle-manip.hpp" line="185" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="185" bodyend="191"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1aab787895d7b6984014353bde538bef83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1adde7c0ed536ab504522c5a61cfd1488c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -1197,14 +1343,14 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::M_rdc</definition>
-        <argsstring>(Cluster1 &amp;&amp;m1, Cluster2 &amp;&amp;m2)</argsstring>
+        <argsstring>(Cluster1 const &amp;m1, Cluster2 const &amp;m2)</argsstring>
         <name>M_rdc</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>m1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>m2</declname>
         </param>
         <briefdescription>
@@ -1251,7 +1397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="202" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="202" bodyend="206"/>
+        <location file="src/orbits/particle-manip.hpp" line="205" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="205" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a9ce15ee351be8dcc5b55294381b24d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1316,9 +1462,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="218" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="218" bodyend="227"/>
+        <location file="src/orbits/particle-manip.hpp" line="221" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="221" bodyend="230"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a4eebe44f1be852965dbc818295492ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab8569a777096528c38d237ef5be18f49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Vector</type>
@@ -1334,7 +1480,7 @@
         </templateparamlist>
         <type>void</type>
         <definition>void space::orbit::move_particles_pos</definition>
-        <argsstring>(Vector const &amp;centre_mass_pos, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <argsstring>(Vector const &amp;centre_mass_pos, Particle &amp;ptc1, Particle &amp;ptc2, Args &amp;... ptcs)</argsstring>
         <name>move_particles_pos</name>
         <param>
           <type>Vector const &amp;</type>
@@ -1342,7 +1488,11 @@
         </param>
         <param>
           <type>Particle &amp;</type>
-          <declname>ptc</declname>
+          <declname>ptc1</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc2</declname>
         </param>
         <param>
           <type>Args &amp;...</type>
@@ -1387,10 +1537,18 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername direction="inout">ptc</parametername>
+<parametername direction="inout">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle needs to be moved. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle needs to be moved. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1406,7 +1564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="240" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="240" bodyend="244"/>
+        <location file="src/orbits/particle-manip.hpp" line="244" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="244" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a02faa6ac98764495a3fadfd8812d6d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1471,9 +1629,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="256" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="256" bodyend="265"/>
+        <location file="src/orbits/particle-manip.hpp" line="261" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="261" bodyend="270"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a7d94139d003e346e281da7e42182babf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1aa83cc010dbe9d7ddfaea70a60967c66e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Vector</type>
@@ -1489,7 +1647,7 @@
         </templateparamlist>
         <type>void</type>
         <definition>void space::orbit::move_particles_vel</definition>
-        <argsstring>(Vector const &amp;centre_mass_vel, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <argsstring>(Vector const &amp;centre_mass_vel, Particle &amp;ptc1, Particle &amp;ptc2, Args &amp;... ptcs)</argsstring>
         <name>move_particles_vel</name>
         <param>
           <type>Vector const &amp;</type>
@@ -1497,7 +1655,11 @@
         </param>
         <param>
           <type>Particle &amp;</type>
-          <declname>ptc</declname>
+          <declname>ptc1</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc2</declname>
         </param>
         <param>
           <type>Args &amp;...</type>
@@ -1542,7 +1704,15 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername direction="inout">ptc</parametername>
+<parametername direction="inout">ptc1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first particle needs to be moved. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc2</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle needs to be moved. </para>
@@ -1561,7 +1731,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="278" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="278" bodyend="282"/>
+        <location file="src/orbits/particle-manip.hpp" line="284" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="284" bodyend="289"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a7e2e611df033fb699f00e4d145a5b40e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1638,9 +1808,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="296" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="296" bodyend="308"/>
+        <location file="src/orbits/particle-manip.hpp" line="303" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="303" bodyend="315"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1ab86985125e07cebae62b4e98b431bec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a1e583d6280df092ac09a767bda6591d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Vector</type>
@@ -1656,7 +1826,7 @@
         </templateparamlist>
         <type>void</type>
         <definition>void space::orbit::move_particles</definition>
-        <argsstring>(Vector const &amp;centre_mass_pos, Vector const &amp;centre_mass_vel, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <argsstring>(Vector const &amp;centre_mass_pos, Vector const &amp;centre_mass_vel, Particle &amp;ptc1, Particle &amp;ptc2, Args &amp;... ptcs)</argsstring>
         <name>move_particles</name>
         <param>
           <type>Vector const &amp;</type>
@@ -1668,7 +1838,11 @@
         </param>
         <param>
           <type>Particle &amp;</type>
-          <declname>ptc</declname>
+          <declname>ptc1</declname>
+        </param>
+        <param>
+          <type>Particle &amp;</type>
+          <declname>ptc2</declname>
         </param>
         <param>
           <type>Args &amp;...</type>
@@ -1721,10 +1895,18 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername direction="inout">ptc</parametername>
+<parametername direction="inout">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle needs to be moved. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle needs to be moved. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -1740,9 +1922,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="322" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="322" bodyend="327"/>
+        <location file="src/orbits/particle-manip.hpp" line="330" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="330" bodyend="338"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a0786bc85eb5074f5b87de8dea2e54400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a9e84522272046c450b1e67a2e2906876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Scalar</type>
@@ -1758,7 +1940,7 @@
         </templateparamlist>
         <type>void</type>
         <definition>void space::orbit::move_particles</definition>
-        <argsstring>(KeplerOrbit&lt; Scalar &gt; const &amp;orbit, Particle &amp;ptc, Args &amp;... ptcs)</argsstring>
+        <argsstring>(KeplerOrbit&lt; Scalar &gt; const &amp;orbit, Particle &amp;ptc1, Args &amp;... ptcs)</argsstring>
         <name>move_particles</name>
         <param>
           <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit" kindref="compound">KeplerOrbit</ref>&lt; Scalar &gt; const &amp;</type>
@@ -1766,7 +1948,7 @@
         </param>
         <param>
           <type>Particle &amp;</type>
-          <declname>ptc</declname>
+          <declname>ptc1</declname>
         </param>
         <param>
           <type>Args &amp;...</type>
@@ -1811,7 +1993,7 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername direction="inout">ptc</parametername>
+<parametername direction="inout">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle/The cluster/single particle needs to be moved. </para>
@@ -1830,7 +2012,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="342" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="342" bodyend="346"/>
+        <location file="src/orbits/particle-manip.hpp" line="353" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="353" bodyend="357"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1ab6e8ae7f7ad9035524595a2d1b540a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1874,7 +2056,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="357" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="357" bodyend="360"/>
+        <location file="src/orbits/particle-manip.hpp" line="368" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="368" bodyend="371"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a554cddd364d8d653bf8f2d5de717c2d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1941,7 +2123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="375" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="375" bodyend="381"/>
+        <location file="src/orbits/particle-manip.hpp" line="386" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="386" bodyend="392"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a3cefe8d59dbaad7cc8fda0dede0274be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2008,7 +2190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="396" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="396" bodyend="402"/>
+        <location file="src/orbits/particle-manip.hpp" line="407" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="407" bodyend="413"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a9da0f714d9323621a6af19505987188b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2075,7 +2257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="417" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="417" bodyend="423"/>
+        <location file="src/orbits/particle-manip.hpp" line="428" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="428" bodyend="434"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a71f4a3021854a242b8146bd54f6e9447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2142,7 +2324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="438" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="438" bodyend="442"/>
+        <location file="src/orbits/particle-manip.hpp" line="449" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="449" bodyend="453"/>
       </memberdef>
       <memberdef kind="function" id="namespacespace_1_1orbit_1a8ca73a6c05802dc9e130699e4b39f0a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2209,9 +2391,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="457" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="457" bodyend="480"/>
+        <location file="src/orbits/particle-manip.hpp" line="468" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="468" bodyend="492"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1abab89661f2ac2942f99e8be9e9889120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ac33dc349fe9e64484a74e051cfc1035d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster</type>
@@ -2219,10 +2401,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_k</definition>
-        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
         <name>E_k</name>
         <param>
-          <type>Cluster &amp;&amp;</type>
+          <type>Cluster const &amp;</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -2253,9 +2435,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="491" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="491" bodyend="503"/>
+        <location file="src/orbits/particle-manip.hpp" line="503" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="503" bodyend="515"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a62aa5911b95fe07955123df08756df55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a25730c3a07f816f791bd72dece99080c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -2268,14 +2450,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_k</definition>
-        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... args)</argsstring>
         <name>E_k</name>
         <param>
-          <type>Particle &amp;&amp;</type>
-          <declname>ptc</declname>
+          <type>Particle const &amp;</type>
+          <declname>ptc1</declname>
         </param>
         <param>
-          <type>Args &amp;&amp;...</type>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
           <declname>args</declname>
         </param>
         <briefdescription>
@@ -2301,10 +2487,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2322,9 +2516,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="515" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="515" bodyend="519"/>
+        <location file="src/orbits/particle-manip.hpp" line="528" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="528" bodyend="533"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a89ac5442941f75beb422499d610cae94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a67bd62b7b705eba14c2dd7e92638b5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster</type>
@@ -2332,10 +2526,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_p</definition>
-        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
         <name>E_p</name>
         <param>
-          <type>Cluster &amp;&amp;</type>
+          <type>Cluster const &amp;</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -2366,9 +2560,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="530" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="530" bodyend="543"/>
+        <location file="src/orbits/particle-manip.hpp" line="544" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="544" bodyend="557"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a28efecf6eaeb0b9baa3832382e67363d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a175e1895a0aca755edbfc9c8c3da5d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -2381,14 +2575,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_p</definition>
-        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... args)</argsstring>
         <name>E_p</name>
         <param>
-          <type>Particle &amp;&amp;</type>
-          <declname>ptc</declname>
+          <type>Particle const &amp;</type>
+          <declname>ptc1</declname>
         </param>
         <param>
-          <type>Args &amp;&amp;...</type>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
           <declname>args</declname>
         </param>
         <briefdescription>
@@ -2414,10 +2612,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2435,9 +2641,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="555" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="555" bodyend="558"/>
+        <location file="src/orbits/particle-manip.hpp" line="570" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="570" bodyend="573"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a9dba4506ea4b230de2664ef8a1e57f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ae286be0afe88805f3e7ec992be4518a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster</type>
@@ -2445,10 +2651,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_k_COM</definition>
-        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
         <name>E_k_COM</name>
         <param>
-          <type>Cluster &amp;&amp;</type>
+          <type>Cluster const &amp;</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -2479,9 +2685,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="569" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="569" bodyend="573"/>
+        <location file="src/orbits/particle-manip.hpp" line="584" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="584" bodyend="588"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a67a3f5f12681f5033d5d543a01e27c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ac55eec563e51ff10ae37ba4c27fd8665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -2494,14 +2700,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_k_COM</definition>
-        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... args)</argsstring>
         <name>E_k_COM</name>
         <param>
-          <type>Particle &amp;&amp;</type>
-          <declname>ptc</declname>
+          <type>Particle const &amp;</type>
+          <declname>ptc1</declname>
         </param>
         <param>
-          <type>Args &amp;&amp;...</type>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
           <declname>args</declname>
         </param>
         <briefdescription>
@@ -2527,10 +2737,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2548,9 +2766,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="585" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="585" bodyend="590"/>
+        <location file="src/orbits/particle-manip.hpp" line="601" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="601" bodyend="606"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a79f4bde0da60b421fd82115c05492827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a276c70533d1dbfa22aea7dd65b767fe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -2560,10 +2778,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_tot</definition>
-        <argsstring>(Particle &amp;&amp;... ptc)</argsstring>
+        <argsstring>(Particle const &amp;... ptc)</argsstring>
         <name>E_tot</name>
         <param>
-          <type>Particle &amp;&amp;...</type>
+          <type>Particle const &amp;...</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -2594,9 +2812,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="601" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="601" bodyend="603"/>
+        <location file="src/orbits/particle-manip.hpp" line="617" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="617" bodyend="619"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a37d58843ce7af899bb825f131265aeaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab6f2a54b91073cd4972116c10084ea1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -2606,10 +2824,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_inner</definition>
-        <argsstring>(Particle &amp;&amp;... ptc)</argsstring>
+        <argsstring>(Particle const &amp;... ptc)</argsstring>
         <name>E_inner</name>
         <param>
-          <type>Particle &amp;&amp;...</type>
+          <type>Particle const &amp;...</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -2640,9 +2858,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="614" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="614" bodyend="616"/>
+        <location file="src/orbits/particle-manip.hpp" line="630" column="13" bodyfile="src/orbits/particle-manip.hpp" bodystart="630" bodyend="632"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1abc045d6908e3d7f942a33b93085c16a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster</type>
@@ -2650,10 +2868,10 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::cluster_size</definition>
-        <argsstring>(Cluster &amp;&amp;ptc)</argsstring>
+        <argsstring>(Cluster const &amp;ptc)</argsstring>
         <name>cluster_size</name>
         <param>
-          <type>Cluster &amp;&amp;</type>
+          <type>Cluster const &amp;</type>
           <declname>ptc</declname>
         </param>
         <briefdescription>
@@ -2685,9 +2903,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="629" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="629" bodyend="653"/>
+        <location file="src/orbits/particle-manip.hpp" line="645" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="645" bodyend="669"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1aa0a205742d395d5d14e6ca11db1dba7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a38d2063685c03d112fe6c5ae69f186a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Particle</type>
@@ -2700,14 +2918,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::cluster_size</definition>
-        <argsstring>(Particle &amp;&amp;ptc, Args &amp;&amp;... args)</argsstring>
+        <argsstring>(Particle const &amp;ptc1, Particle const &amp;ptc2, Args const &amp;... args)</argsstring>
         <name>cluster_size</name>
         <param>
-          <type>Particle &amp;&amp;</type>
-          <declname>ptc</declname>
+          <type>Particle const &amp;</type>
+          <declname>ptc1</declname>
         </param>
         <param>
-          <type>Args &amp;&amp;...</type>
+          <type>Particle const &amp;</type>
+          <declname>ptc2</declname>
+        </param>
+        <param>
+          <type>Args const &amp;...</type>
           <declname>args</declname>
         </param>
         <briefdescription>
@@ -2734,10 +2956,18 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername direction="in">ptc</parametername>
+<parametername direction="in">ptc1</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>The first particle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ptc2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second particle. </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2755,9 +2985,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="667" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="667" bodyend="670"/>
+        <location file="src/orbits/particle-manip.hpp" line="684" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="684" bodyend="687"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1aad32f85f1dde156aa98689f36e59750f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1aaec086176d2f17382202da3f14fd8d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -2771,14 +3001,14 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_tid</definition>
-        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2, Scalar R1, Scalar R2)</argsstring>
+        <argsstring>(Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2, Scalar R1, Scalar R2)</argsstring>
         <name>E_tid</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>cluster1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>cluster2</declname>
         </param>
         <param>
@@ -2857,9 +3087,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="687" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="687" bodyend="693"/>
+        <location file="src/orbits/particle-manip.hpp" line="704" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="704" bodyend="710"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1abf53e310008d3292e9ea8684d326ac25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a688cc5a754ecb388d27a798a682060f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -2870,21 +3100,21 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::E_tid</definition>
-        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2)</argsstring>
+        <argsstring>(Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2)</argsstring>
         <name>E_tid</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>cluster1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>cluster2</declname>
         </param>
         <briefdescription>
 <para>Calculate the tidal potential between two clusters/single particles. </para>
         </briefdescription>
         <detaileddescription>
-<para>The size of the clusters will be estimated by <ref refid="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" kindref="member">cluster_size()</ref>.</para>
+<para>The size of the clusters will be estimated by <ref refid="namespacespace_1_1orbit_1abc045d6908e3d7f942a33b93085c16a8" kindref="member">cluster_size()</ref>.</para>
 <para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Cluster1</parametername>
@@ -2933,9 +3163,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="710" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="710" bodyend="714"/>
+        <location file="src/orbits/particle-manip.hpp" line="727" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="727" bodyend="731"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1afcc234faa207023dd4e6912995662f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1a113298977f782f979683179ae863dc98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -2949,14 +3179,14 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_factor</definition>
-        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2, Scalar R1, Scalar R2)</argsstring>
+        <argsstring>(Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2, Scalar R1, Scalar R2)</argsstring>
         <name>tidal_factor</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>cluster1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>cluster2</declname>
         </param>
         <param>
@@ -3035,9 +3265,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="732" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="732" bodyend="741"/>
+        <location file="src/orbits/particle-manip.hpp" line="749" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="749" bodyend="755"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a1b0255f8dbc2d4b282c4820ede70f389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1abb8b47bd133ebaa523e9e310706caeb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -3048,21 +3278,21 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_factor</definition>
-        <argsstring>(Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2)</argsstring>
+        <argsstring>(Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2)</argsstring>
         <name>tidal_factor</name>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>cluster1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>cluster2</declname>
         </param>
         <briefdescription>
 <para>Calculate the tidal factors between two clusters/single particles. </para>
         </briefdescription>
         <detaileddescription>
-<para>The size of the clusters will be estimated by <ref refid="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" kindref="member">cluster_size()</ref>.</para>
+<para>The size of the clusters will be estimated by <ref refid="namespacespace_1_1orbit_1abc045d6908e3d7f942a33b93085c16a8" kindref="member">cluster_size()</ref>.</para>
 <para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>Cluster1</parametername>
@@ -3103,9 +3333,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="758" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="758" bodyend="762"/>
+        <location file="src/orbits/particle-manip.hpp" line="772" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="772" bodyend="776"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1ac4c34871cd0ebd853d3d5837ace441c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1abbedcf71bf1879ead67cde1138e0890e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -3119,18 +3349,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_radius</definition>
-        <argsstring>(Scalar tidal_factor, Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2, Scalar R2)</argsstring>
+        <argsstring>(Scalar tidal_factor, Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2, Scalar R2)</argsstring>
         <name>tidal_radius</name>
         <param>
           <type>Scalar</type>
           <declname>tidal_factor</declname>
         </param>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>cluster1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>cluster2</declname>
         </param>
         <param>
@@ -3205,9 +3435,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="779" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="779" bodyend="784"/>
+        <location file="src/orbits/particle-manip.hpp" line="793" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="793" bodyend="798"/>
       </memberdef>
-      <memberdef kind="function" id="namespacespace_1_1orbit_1a05f6fc353b6451efa83663bebe8b73ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1orbit_1ab3e550e17aa88430644d00fb6fb54ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Cluster1</type>
@@ -3221,18 +3451,18 @@
         </templateparamlist>
         <type>auto</type>
         <definition>auto space::orbit::tidal_radius</definition>
-        <argsstring>(Scalar tidal_factor, Cluster1 &amp;&amp;cluster1, Cluster2 &amp;&amp;cluster2)</argsstring>
+        <argsstring>(Scalar tidal_factor, Cluster1 const &amp;cluster1, Cluster2 const &amp;cluster2)</argsstring>
         <name>tidal_radius</name>
         <param>
           <type>Scalar</type>
           <declname>tidal_factor</declname>
         </param>
         <param>
-          <type>Cluster1 &amp;&amp;</type>
+          <type>Cluster1 const &amp;</type>
           <declname>cluster1</declname>
         </param>
         <param>
-          <type>Cluster2 &amp;&amp;</type>
+          <type>Cluster2 const &amp;</type>
           <declname>cluster2</declname>
         </param>
         <briefdescription>
@@ -3295,7 +3525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/particle-manip.hpp" line="800" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="800" bodyend="803"/>
+        <location file="src/orbits/particle-manip.hpp" line="814" column="6" bodyfile="src/orbits/particle-manip.hpp" bodystart="814" bodyend="817"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

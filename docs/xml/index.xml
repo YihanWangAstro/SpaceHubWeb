@@ -550,15 +550,15 @@
     <member refid="structspace_1_1calc_1_1has__method__index_1a9936d936f6090ccd8c6f30dddd78d859" kind="function"><name>check</name></member>
     <member refid="structspace_1_1calc_1_1has__method__index_1adea3d47b8efae846e8edda14976abb1d" kind="function"><name>check</name></member>
   </compound>
-  <compound refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index" kind="struct"><name>space::interactions::PostNewtonianGrav::has_method_index</name>
-    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a30ffa50eb34a1fa995b9a4a21626ecff" kind="variable"><name>value</name></member>
-    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a6d61c530aa49c9cefe8fd6da4b9c132d" kind="function"><name>check</name></member>
-    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a26bab821098f039a0be0f829dd52564e" kind="function"><name>check</name></member>
-  </compound>
   <compound refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index" kind="struct"><name>space::interactions::NewtonianGrav::has_method_index</name>
     <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1ace687614158720b081f9844585d491d2" kind="variable"><name>value</name></member>
     <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1a652ca1b40418eb2a421ea03822e65ace" kind="function"><name>check</name></member>
     <member refid="structspace_1_1interactions_1_1_newtonian_grav_1_1has__method__index_1a188058c45c1c869d143f52f0ac9b31ac" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index" kind="struct"><name>space::interactions::PostNewtonianGrav::has_method_index</name>
+    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a30ffa50eb34a1fa995b9a4a21626ecff" kind="variable"><name>value</name></member>
+    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a6d61c530aa49c9cefe8fd6da4b9c132d" kind="function"><name>check</name></member>
+    <member refid="structspace_1_1interactions_1_1_post_newtonian_grav_1_1has__method__index_1a26bab821098f039a0be0f829dd52564e" kind="function"><name>check</name></member>
   </compound>
   <compound refid="structspace_1_1_tidal_force_1_1has__method__index" kind="struct"><name>space::TidalForce::has_method_index</name>
     <member refid="structspace_1_1_tidal_force_1_1has__method__index_1aaad1c6770cfb69abc122292cb0e5213c" kind="variable"><name>value</name></member>
@@ -651,11 +651,11 @@
   </compound>
   <compound refid="structspace_1_1ode__iterator_1_1_worst_offender_1_1has__y_3_01_____t_00_01typename_01std_1_1enab14598e5192bece9fbee244dc1c2e0eb1" kind="struct"><name>space::ode_iterator::WorstOffender::has_y&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). y), void &gt;::value, bool &gt;::type &gt;</name>
   </compound>
-  <compound refid="structspace_1_1ode__iterator_1_1_worst_offender_1_1has__z" kind="struct"><name>space::ode_iterator::WorstOffender::has_z</name>
-  </compound>
   <compound refid="structspace_1_1ode__iterator_1_1_i_a_s15_error_1_1has__z" kind="struct"><name>space::ode_iterator::IAS15Error::has_z</name>
   </compound>
   <compound refid="structspace_1_1ode__iterator_1_1_r_m_s_1_1has__z" kind="struct"><name>space::ode_iterator::RMS::has_z</name>
+  </compound>
+  <compound refid="structspace_1_1ode__iterator_1_1_worst_offender_1_1has__z" kind="struct"><name>space::ode_iterator::WorstOffender::has_z</name>
   </compound>
   <compound refid="structspace_1_1ode__iterator_1_1_i_a_s15_error_1_1has__z_3_01_____t_00_01typename_01std_1_1enabl8f56ad51116373b6d067e41591f90d45" kind="struct"><name>space::ode_iterator::IAS15Error::has_z&lt; __T, typename std::enable_if&lt; !std::is_same&lt; decltype(std::declval&lt; __T &gt;(). z), void &gt;::value, bool &gt;::type &gt;</name>
   </compound>
@@ -784,8 +784,8 @@
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a87fe252c858a2655420c61ba2994dc3f" kind="typedef"><name>Variant</name></member>
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a6bd820deefe5d0c09012e3fd36aea952" kind="variable"><name>m1</name></member>
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1acc8297d015fd61029bec16c31b677a6a" kind="variable"><name>m2</name></member>
-    <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a26c061bf75786254584795af5bcd7315" kind="variable"><name>e</name></member>
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1ada8aad58f3afe02ccef9aac32904659e" kind="variable"><name>p</name></member>
+    <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a26c061bf75786254584795af5bcd7315" kind="variable"><name>e</name></member>
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a1b7f88495c4c38f56d4d8c8c054a2be9" kind="variable"><name>i</name></member>
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1af07efe10f12bb60fc34030b407d7da2d" kind="variable"><name>Omega</name></member>
     <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a003a56ed520317c25f6ee50670aa1c2b" kind="variable"><name>omega</name></member>
@@ -906,6 +906,23 @@
     <member refid="classspace_1_1multi__thread_1_1_opip_1a192d6729523d661ce8e7df24c79e4f15" kind="function"><name>Opip</name></member>
     <member refid="classspace_1_1multi__thread_1_1_opip_1a4b8f6c869ac3ed877366e6cf2610c3a5" kind="function"><name>~Opip</name></member>
     <member refid="classspace_1_1multi__thread_1_1_opip_1a5dae72941612649f0ef8d257be244f3d" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classspace_1_1tools_1_1_opt_arg" kind="class"><name>space::tools::OptArg</name>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a1f886ca0e320f25ae8019ed8c72e4fd4" kind="variable"><name>opt_</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a566eb15d6761eb9da3f6299da27b05eb" kind="function"><name>operator float</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a9cd1fe1bafdbc75ced48bebcd43deb40" kind="function"><name>operator double</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a245069be99fdf81c33e7db31281c8f2a" kind="function"><name>operator long double</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1aa3deb75dd62e769c94b3c1cbf2348e6d" kind="function"><name>operator int</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1ae3cf9b8a649a4a8640c30cda2aaa4294" kind="function"><name>operator long</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1ae9e7168f7f855bbac0a72fe2ea4ebe68" kind="function"><name>operator long long</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a2e616f8861d00604845d7c29550a3bb1" kind="function"><name>operator unsigned long</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a9afe4d06778f22274832fc20c340a1f0" kind="function"><name>operator unsigned long long</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a6d52f4134cdeb4a633b96e95cd78d9fe" kind="function"><name>operator char const *</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a611cca7ffda2c4178fb1b7a49c1cb54a" kind="function"><name>operator std::string</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1aef0efd987ca39fb23f834190d8e00e4c" kind="function"><name>operator bool</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a0fdd512ea73768a6c95d22e0f499f1ff" kind="function"><name>as</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1aa5061436a6194868e6da17008af0c504" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="classspace_1_1tools_1_1_opt_arg_1a6138761552bb748849df6ee22b0333b6" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
   <compound refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle" kind="struct"><name>space::particle_set::SizeParticles::Particle</name>
     <member refid="structspace_1_1particle__set_1_1_size_particles_1_1_particle_1a17f053dfbf0715cf69ac4a8b38be7528" kind="typedef"><name>Scalar</name></member>
@@ -1665,8 +1682,10 @@
     <member refid="namespacespace_1_1multi__thread_1a48be29b2e3204f77b8304b314322f351" kind="variable"><name>auto_thread</name></member>
     <member refid="namespacespace_1_1multi__thread_1a2351ce9cd3a76b80202faf14e09bc8d9" kind="variable"><name>machine_thread_num</name></member>
     <member refid="namespacespace_1_1multi__thread_1a47debc0613414e94f27c8e16441fd207" kind="function"><name>multi_threads_loop</name></member>
-    <member refid="namespacespace_1_1multi__thread_1abe57c2f536979d62dc8f0fbf1f660df3" kind="function"><name>multi_thread_run</name></member>
+    <member refid="namespacespace_1_1multi__thread_1a28006daebb279b5461b0cfef93df26d6" kind="function"><name>multi_thread</name></member>
+    <member refid="namespacespace_1_1multi__thread_1a8618769c3437a681b00ca69f68412849" kind="function"><name>indexed_multi_thread</name></member>
     <member refid="namespacespace_1_1multi__thread_1a28108191f5b6832d42d96800778992c2" kind="function"><name>auto_multi_thread</name></member>
+    <member refid="namespacespace_1_1multi__thread_1a0a4238f1ec328af55a89b76c939b5e79" kind="function"><name>auto_indexed_multi_thread</name></member>
     <member refid="namespacespace_1_1multi__thread_1ab21b694891b6881b04a527d23df913fa" kind="function"><name>operator&lt;&lt;</name></member>
     <member refid="namespacespace_1_1multi__thread_1a62023f629d437ed86e7c6eca66cd0fce" kind="function"><name>operator&gt;&gt;</name></member>
     <member refid="namespacespace_1_1multi__thread_1add48464677ab9c4134943907d3fa625d" kind="function"><name>make_thread_safe_fstream</name></member>
@@ -1719,43 +1738,46 @@
     <member refid="namespacespace_1_1orbit_1ae86668ddeeacfc3cd845e59131489bdc" kind="function"><name>period</name></member>
     <member refid="namespacespace_1_1orbit_1afc818fe269b48ed49370c7c3bf8680d3" kind="function"><name>time_to_periapsis</name></member>
     <member refid="namespacespace_1_1orbit_1a29f8ccd596edbab0d97b792b78d72c55" kind="function"><name>time_to_periapsis</name></member>
+    <member refid="namespacespace_1_1orbit_1a4ad9afff57ba33ed6d4382b986ac406f" kind="function"><name>tidal_factor</name></member>
+    <member refid="namespacespace_1_1orbit_1ab2b432c8daf47419d955c5fec22da83b" kind="function"><name>tidal_radius</name></member>
+    <member refid="namespacespace_1_1orbit_1a3e93ceb25d707bacad7dcfd57fb54f9d" kind="function"><name>tidal_radius</name></member>
     <member refid="namespacespace_1_1orbit_1a1b5f49246a5fcbe95273097552d9aa5d" kind="function"><name>cluster</name></member>
-    <member refid="namespacespace_1_1orbit_1a8f18aff33abc64c71ba151623b94d1e8" kind="function"><name>M_tot</name></member>
-    <member refid="namespacespace_1_1orbit_1a1f8e25ad70c9dee4d830939285114ead" kind="function"><name>M_tot</name></member>
+    <member refid="namespacespace_1_1orbit_1a17a63864154eabd2391d7c1b3aa18a22" kind="function"><name>M_tot</name></member>
+    <member refid="namespacespace_1_1orbit_1a989f2b9870a8ca2690ba4136ef208cda" kind="function"><name>M_tot</name></member>
     <member refid="namespacespace_1_1orbit_1a99902b1d7bb3ac1c001bda82a3293ac4" kind="function"><name>COM_p</name></member>
-    <member refid="namespacespace_1_1orbit_1afa4baadc2df682e51a1f678305cb8432" kind="function"><name>COM_p</name></member>
+    <member refid="namespacespace_1_1orbit_1a3fcdfe4eea53e1c26976a5b6069b2ae6" kind="function"><name>COM_p</name></member>
     <member refid="namespacespace_1_1orbit_1a0e27a26d9d86be65351198b5e416317d" kind="function"><name>COM_v</name></member>
-    <member refid="namespacespace_1_1orbit_1a04a43e75b9555ef843f4596dfbae2b1e" kind="function"><name>COM_v</name></member>
-    <member refid="namespacespace_1_1orbit_1aab787895d7b6984014353bde538bef83" kind="function"><name>M_rdc</name></member>
+    <member refid="namespacespace_1_1orbit_1ae0dec731f884bdc01bbfed5ef8ffe0b7" kind="function"><name>COM_v</name></member>
+    <member refid="namespacespace_1_1orbit_1adde7c0ed536ab504522c5a61cfd1488c" kind="function"><name>M_rdc</name></member>
     <member refid="namespacespace_1_1orbit_1a9ce15ee351be8dcc5b55294381b24d95" kind="function"><name>move_particles_pos</name></member>
-    <member refid="namespacespace_1_1orbit_1a4eebe44f1be852965dbc818295492ead" kind="function"><name>move_particles_pos</name></member>
+    <member refid="namespacespace_1_1orbit_1ab8569a777096528c38d237ef5be18f49" kind="function"><name>move_particles_pos</name></member>
     <member refid="namespacespace_1_1orbit_1a02faa6ac98764495a3fadfd8812d6d2d" kind="function"><name>move_particles_vel</name></member>
-    <member refid="namespacespace_1_1orbit_1a7d94139d003e346e281da7e42182babf" kind="function"><name>move_particles_vel</name></member>
+    <member refid="namespacespace_1_1orbit_1aa83cc010dbe9d7ddfaea70a60967c66e" kind="function"><name>move_particles_vel</name></member>
     <member refid="namespacespace_1_1orbit_1a7e2e611df033fb699f00e4d145a5b40e" kind="function"><name>move_particles</name></member>
-    <member refid="namespacespace_1_1orbit_1ab86985125e07cebae62b4e98b431bec5" kind="function"><name>move_particles</name></member>
-    <member refid="namespacespace_1_1orbit_1a0786bc85eb5074f5b87de8dea2e54400" kind="function"><name>move_particles</name></member>
+    <member refid="namespacespace_1_1orbit_1a1e583d6280df092ac09a767bda6591d7" kind="function"><name>move_particles</name></member>
+    <member refid="namespacespace_1_1orbit_1a9e84522272046c450b1e67a2e2906876" kind="function"><name>move_particles</name></member>
     <member refid="namespacespace_1_1orbit_1ab6e8ae7f7ad9035524595a2d1b540a85" kind="function"><name>move_to_COM_frame</name></member>
     <member refid="namespacespace_1_1orbit_1a554cddd364d8d653bf8f2d5de717c2d7" kind="function"><name>calc_eccentricity</name></member>
     <member refid="namespacespace_1_1orbit_1a3cefe8d59dbaad7cc8fda0dede0274be" kind="function"><name>calc_semi_major_axis</name></member>
     <member refid="namespacespace_1_1orbit_1a9da0f714d9323621a6af19505987188b" kind="function"><name>calc_a_e</name></member>
     <member refid="namespacespace_1_1orbit_1a71f4a3021854a242b8146bd54f6e9447" kind="function"><name>period</name></member>
     <member refid="namespacespace_1_1orbit_1a8ca73a6c05802dc9e130699e4b39f0a9" kind="function"><name>time_to_periapsis</name></member>
-    <member refid="namespacespace_1_1orbit_1abab89661f2ac2942f99e8be9e9889120" kind="function"><name>E_k</name></member>
-    <member refid="namespacespace_1_1orbit_1a62aa5911b95fe07955123df08756df55" kind="function"><name>E_k</name></member>
-    <member refid="namespacespace_1_1orbit_1a89ac5442941f75beb422499d610cae94" kind="function"><name>E_p</name></member>
-    <member refid="namespacespace_1_1orbit_1a28efecf6eaeb0b9baa3832382e67363d" kind="function"><name>E_p</name></member>
-    <member refid="namespacespace_1_1orbit_1a9dba4506ea4b230de2664ef8a1e57f65" kind="function"><name>E_k_COM</name></member>
-    <member refid="namespacespace_1_1orbit_1a67a3f5f12681f5033d5d543a01e27c08" kind="function"><name>E_k_COM</name></member>
-    <member refid="namespacespace_1_1orbit_1a79f4bde0da60b421fd82115c05492827" kind="function"><name>E_tot</name></member>
-    <member refid="namespacespace_1_1orbit_1a37d58843ce7af899bb825f131265aeaa" kind="function"><name>E_inner</name></member>
-    <member refid="namespacespace_1_1orbit_1a8fd2a54d188eeb6f9f5b640f46706e2a" kind="function"><name>cluster_size</name></member>
-    <member refid="namespacespace_1_1orbit_1aa0a205742d395d5d14e6ca11db1dba7c" kind="function"><name>cluster_size</name></member>
-    <member refid="namespacespace_1_1orbit_1aad32f85f1dde156aa98689f36e59750f" kind="function"><name>E_tid</name></member>
-    <member refid="namespacespace_1_1orbit_1abf53e310008d3292e9ea8684d326ac25" kind="function"><name>E_tid</name></member>
-    <member refid="namespacespace_1_1orbit_1afcc234faa207023dd4e6912995662f52" kind="function"><name>tidal_factor</name></member>
-    <member refid="namespacespace_1_1orbit_1a1b0255f8dbc2d4b282c4820ede70f389" kind="function"><name>tidal_factor</name></member>
-    <member refid="namespacespace_1_1orbit_1ac4c34871cd0ebd853d3d5837ace441c4" kind="function"><name>tidal_radius</name></member>
-    <member refid="namespacespace_1_1orbit_1a05f6fc353b6451efa83663bebe8b73ca" kind="function"><name>tidal_radius</name></member>
+    <member refid="namespacespace_1_1orbit_1ac33dc349fe9e64484a74e051cfc1035d" kind="function"><name>E_k</name></member>
+    <member refid="namespacespace_1_1orbit_1a25730c3a07f816f791bd72dece99080c" kind="function"><name>E_k</name></member>
+    <member refid="namespacespace_1_1orbit_1a67bd62b7b705eba14c2dd7e92638b5f5" kind="function"><name>E_p</name></member>
+    <member refid="namespacespace_1_1orbit_1a175e1895a0aca755edbfc9c8c3da5d70" kind="function"><name>E_p</name></member>
+    <member refid="namespacespace_1_1orbit_1ae286be0afe88805f3e7ec992be4518a1" kind="function"><name>E_k_COM</name></member>
+    <member refid="namespacespace_1_1orbit_1ac55eec563e51ff10ae37ba4c27fd8665" kind="function"><name>E_k_COM</name></member>
+    <member refid="namespacespace_1_1orbit_1a276c70533d1dbfa22aea7dd65b767fe9" kind="function"><name>E_tot</name></member>
+    <member refid="namespacespace_1_1orbit_1ab6f2a54b91073cd4972116c10084ea1b" kind="function"><name>E_inner</name></member>
+    <member refid="namespacespace_1_1orbit_1abc045d6908e3d7f942a33b93085c16a8" kind="function"><name>cluster_size</name></member>
+    <member refid="namespacespace_1_1orbit_1a38d2063685c03d112fe6c5ae69f186a7" kind="function"><name>cluster_size</name></member>
+    <member refid="namespacespace_1_1orbit_1aaec086176d2f17382202da3f14fd8d6b" kind="function"><name>E_tid</name></member>
+    <member refid="namespacespace_1_1orbit_1a688cc5a754ecb388d27a798a682060f1" kind="function"><name>E_tid</name></member>
+    <member refid="namespacespace_1_1orbit_1a113298977f782f979683179ae863dc98" kind="function"><name>tidal_factor</name></member>
+    <member refid="namespacespace_1_1orbit_1abb8b47bd133ebaa523e9e310706caeb1" kind="function"><name>tidal_factor</name></member>
+    <member refid="namespacespace_1_1orbit_1abbedcf71bf1879ead67cde1138e0890e" kind="function"><name>tidal_radius</name></member>
+    <member refid="namespacespace_1_1orbit_1ab3e550e17aa88430644d00fb6fb54ea3" kind="function"><name>tidal_radius</name></member>
   </compound>
   <compound refid="namespacespace_1_1particle__set" kind="namespace"><name>space::particle_set</name>
     <member refid="namespacespace_1_1particle__set_1a909fba3130536b3eee034885b926ae81" kind="variable"><name>is_soa_particles_v</name></member>
@@ -1793,10 +1815,12 @@
   </compound>
   <compound refid="namespacespace_1_1scattering" kind="namespace"><name>space::scattering</name>
     <member refid="namespacespace_1_1scattering_1a84d47b5792a76effb34964b0a40f19bb" kind="function"><name>critical_vel</name></member>
-    <member refid="namespacespace_1_1scattering_1a50d577d5c70e1c0aefb4d884e6e76b0e" kind="function"><name>critical_vel</name></member>
-    <member refid="namespacespace_1_1scattering_1ab5a0d1d4bbea0ddcacc22dffce56b01e" kind="function"><name>b_max</name></member>
-    <member refid="namespacespace_1_1scattering_1aa1b4756ea3d3658b3d8fc2633f943724" kind="function"><name>random_incident</name></member>
-    <member refid="namespacespace_1_1scattering_1ad3464c85e01fe272b582e5e5dded5e0c" kind="function"><name>random_incident</name></member>
+    <member refid="namespacespace_1_1scattering_1afea1ca80a5e1af975f0be58a80716b54" kind="function"><name>critical_vel</name></member>
+    <member refid="namespacespace_1_1scattering_1a3da9b1fddfeae06ba936fd7b9a6fdd40" kind="function"><name>b_max</name></member>
+    <member refid="namespacespace_1_1scattering_1a3438b9660cc655bd1b852b2df5d71c3b" kind="function"><name>incident_orbit</name></member>
+    <member refid="namespacespace_1_1scattering_1afeddc3b66701d0bdea5afe30df176942" kind="function"><name>incident_orbit</name></member>
+    <member refid="namespacespace_1_1scattering_1a25fe0a9ffaeaf0c613b9296de51dfdc0" kind="function"><name>incident_orbit</name></member>
+    <member refid="namespacespace_1_1scattering_1a62f95de5d4377a8e5ee84f4441224999" kind="function"><name>hard_radius</name></member>
   </compound>
   <compound refid="namespacespace_1_1stellar" kind="namespace"><name>space::stellar</name>
     <member refid="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8" kind="enum"><name>StarType</name></member>
@@ -1804,7 +1828,7 @@
     <member refid="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8a53c8d15a175221d2127083e66a8cc937" kind="enumvalue"><name>NS</name></member>
     <member refid="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8a8ab2630ada18b94a005a0c5399d9d483" kind="enumvalue"><name>STAR</name></member>
     <member refid="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8aa8522b770693a6c14a26f3aeeec134a9" kind="enumvalue"><name>WD</name></member>
-    <member refid="namespacespace_1_1stellar_1a39134fbabd6f1d47b4cf9f9cad48c8c5" kind="function"><name>calc_obj_radius</name></member>
+    <member refid="namespacespace_1_1stellar_1ab1f308e163549de44d9c57f7b3c5f233" kind="function"><name>stellar_radius</name></member>
   </compound>
   <compound refid="namespacespace_1_1tools" kind="namespace"><name>space::tools</name>
     <member refid="namespacespace_1_1tools_1a5dc6be58712a7905fc890d2a227c9487" kind="enum"><name>ConfigDtype</name></member>
@@ -1817,8 +1841,8 @@
     <member refid="namespacespace_1_1tools_1ae5735d7945a146d2e25aa12e46f3699e" kind="function"><name>read_command_line</name></member>
   </compound>
   <compound refid="namespacespace_1_1unit" kind="namespace"><name>space::unit</name>
-    <member refid="namespacespace_1_1unit_1ace4f7e3b11e370c6c6911aa1d78869bc" kind="variable"><name>au</name></member>
-    <member refid="namespacespace_1_1unit_1a1f5af7def5a965203687480eba9d82b5" kind="variable"><name>m_solar</name></member>
+    <member refid="namespacespace_1_1unit_1a149220f8dbbb5902de112e1f5c024446" kind="variable"><name>AU</name></member>
+    <member refid="namespacespace_1_1unit_1ae1cb68c8561ed910fe213d6d6bcebb16" kind="variable"><name>Ms</name></member>
     <member refid="namespacespace_1_1unit_1a20ad47547f3486c2dd3b894d479a8521" kind="variable"><name>year</name></member>
     <member refid="namespacespace_1_1unit_1a9a70961c217cbd1f7057b7286e73530a" kind="variable"><name>deg</name></member>
     <member refid="namespacespace_1_1unit_1a170170a6e5154418a0221ef99b1584a5" kind="variable"><name>kyr</name></member>
@@ -1829,22 +1853,57 @@
     <member refid="namespacespace_1_1unit_1ac136c07b8841fbdf9c053e20eefc2338" kind="variable"><name>hr</name></member>
     <member refid="namespacespace_1_1unit_1add4c1e6ad3b1e30f659965cc92afea6d" kind="variable"><name>min</name></member>
     <member refid="namespacespace_1_1unit_1ad9c0125bd61d3145ff091be30cb746c5" kind="variable"><name>sec</name></member>
-    <member refid="namespacespace_1_1unit_1a67d71b64393768825be5d2fdef5c3505" kind="variable"><name>hubble_t</name></member>
+    <member refid="namespacespace_1_1unit_1a7e8817113dde8445b794358a0f229dcf" kind="variable"><name>T_hubble</name></member>
     <member refid="namespacespace_1_1unit_1a64f46d036c14b9a2713373a2b0b6b1f8" kind="variable"><name>km</name></member>
-    <member refid="namespacespace_1_1unit_1ad0db1a5a2107bbbd7a10877f3ba8416b" kind="variable"><name>pc</name></member>
-    <member refid="namespacespace_1_1unit_1ad2c6f5b55598471b1f7348f487b646d5" kind="variable"><name>r_solar</name></member>
-    <member refid="namespacespace_1_1unit_1a728d522d5be26e350704b8fa9c51c535" kind="variable"><name>r_jupiter</name></member>
-    <member refid="namespacespace_1_1unit_1a8ac77ca8d0a841ba7ee2f80c5fe8b0ea" kind="variable"><name>r_neptune</name></member>
-    <member refid="namespacespace_1_1unit_1a73387aa7c7c0a35ca6d96150d6cfbb7e" kind="variable"><name>v_unit</name></member>
+    <member refid="namespacespace_1_1unit_1aef2621b74942c07d3be87634994318ca" kind="variable"><name>PC</name></member>
+    <member refid="namespacespace_1_1unit_1a57d74cd675d8ce9360927eafbcafb6c0" kind="variable"><name>Rs</name></member>
+    <member refid="namespacespace_1_1unit_1a5dcf4ce021c6c95427d1a48bbd9b839d" kind="variable"><name>Rj</name></member>
     <member refid="namespacespace_1_1unit_1a9ecd524cf30ef01953aaeacfb611cf77" kind="variable"><name>kms</name></member>
-    <member refid="namespacespace_1_1unit_1a7b08501ffe9dcf21bb296444ee9eab4b" kind="variable"><name>m_earth</name></member>
-    <member refid="namespacespace_1_1unit_1a7561fcf84aeccaeee1310885311a095c" kind="variable"><name>m_mercury</name></member>
-    <member refid="namespacespace_1_1unit_1a168952d8be9f4e2e9ca2fe3a7188d192" kind="variable"><name>m_venus</name></member>
-    <member refid="namespacespace_1_1unit_1a2485a8059b30dd2e6e8697f5106266ca" kind="variable"><name>m_mars</name></member>
-    <member refid="namespacespace_1_1unit_1acfd91c7281357b77ecafdd261fa82393" kind="variable"><name>m_jupiter</name></member>
-    <member refid="namespacespace_1_1unit_1a434335814b47b28077ff7cd6148f74ff" kind="variable"><name>m_saturn</name></member>
-    <member refid="namespacespace_1_1unit_1aa1fb7ba25eb80d54bbe3c0941e02d4fb" kind="variable"><name>m_neptune</name></member>
-    <member refid="namespacespace_1_1unit_1a8ffc166e31c159462e8b56793e3b258c" kind="variable"><name>m_moon</name></member>
+    <member refid="namespacespace_1_1unit_1a6da723656c7bad2be18de1774a226aed" kind="variable"><name>Me</name></member>
+    <member refid="namespacespace_1_1unit_1aa4e7996abc85f3eeea08fc0574147c7e" kind="variable"><name>Mj</name></member>
+    <member refid="namespacespace_1_1unit_1aeb11b39ae67a6ecd2cad453ff11c379e" kind="variable"><name>Mmoon</name></member>
+    <member refid="namespacespace_1_1unit_1ae44803b9f307fbada6710056513b3156" kind="function"><name>operator&quot;&quot;_AU</name></member>
+    <member refid="namespacespace_1_1unit_1a873148ec4fd08949b831ecbef1e33ae4" kind="function"><name>operator&quot;&quot;_AU</name></member>
+    <member refid="namespacespace_1_1unit_1ad380a6ad8e0ffa0fbb5548f67f5e30cb" kind="function"><name>operator&quot;&quot;_Ms</name></member>
+    <member refid="namespacespace_1_1unit_1ae59d47ce6e330bf5642c84e525032d89" kind="function"><name>operator&quot;&quot;_Ms</name></member>
+    <member refid="namespacespace_1_1unit_1ac82168096c044f6cd7b3dca294c7b4c9" kind="function"><name>operator&quot;&quot;_year</name></member>
+    <member refid="namespacespace_1_1unit_1a5cf248677b8dafbbb66bfee7618698d7" kind="function"><name>operator&quot;&quot;_year</name></member>
+    <member refid="namespacespace_1_1unit_1abd634c7c54a0714526ffa4e690d1155a" kind="function"><name>operator&quot;&quot;_deg</name></member>
+    <member refid="namespacespace_1_1unit_1a93be3f1029be6f85bf8633cc0d294b7d" kind="function"><name>operator&quot;&quot;_deg</name></member>
+    <member refid="namespacespace_1_1unit_1aaeb66f12b02789e9a38610e2de29dff9" kind="function"><name>operator&quot;&quot;_kyr</name></member>
+    <member refid="namespacespace_1_1unit_1a8b618f0a7c3c98cab525796427a18eb2" kind="function"><name>operator&quot;&quot;_kyr</name></member>
+    <member refid="namespacespace_1_1unit_1a97cc223234da65d252cd361f9bb14359" kind="function"><name>operator&quot;&quot;_Myr</name></member>
+    <member refid="namespacespace_1_1unit_1a4814b3b26640d8bc775b83f217e9cf50" kind="function"><name>operator&quot;&quot;_Myr</name></member>
+    <member refid="namespacespace_1_1unit_1a3e158f4e7ec9d77f1562dcffcfeaa686" kind="function"><name>operator&quot;&quot;_Gyr</name></member>
+    <member refid="namespacespace_1_1unit_1a5f37d722137dbbf9a6035e698bb139ed" kind="function"><name>operator&quot;&quot;_Gyr</name></member>
+    <member refid="namespacespace_1_1unit_1a85f8383b892cea3e2c6fa9c700875194" kind="function"><name>operator&quot;&quot;_month</name></member>
+    <member refid="namespacespace_1_1unit_1ab8d44f0f7779ea94d5b22c5b9a4fc478" kind="function"><name>operator&quot;&quot;_month</name></member>
+    <member refid="namespacespace_1_1unit_1a504ce52aef3234aa6d48a8faf611567a" kind="function"><name>operator&quot;&quot;_day</name></member>
+    <member refid="namespacespace_1_1unit_1aee16a8405029944a962736a78407fdf5" kind="function"><name>operator&quot;&quot;_day</name></member>
+    <member refid="namespacespace_1_1unit_1afaf858bda37682f6ecd0aa63ec1938d6" kind="function"><name>operator&quot;&quot;_hr</name></member>
+    <member refid="namespacespace_1_1unit_1a3344b0377533153616d26f405275bb5b" kind="function"><name>operator&quot;&quot;_hr</name></member>
+    <member refid="namespacespace_1_1unit_1a9153e21150e100dc537b7adf0340f62f" kind="function"><name>operator&quot;&quot;_min</name></member>
+    <member refid="namespacespace_1_1unit_1a2e16a49f8c9b6dae5e6148c6d4d535aa" kind="function"><name>operator&quot;&quot;_min</name></member>
+    <member refid="namespacespace_1_1unit_1aaf173eafa909cc0782498e0802d55ce9" kind="function"><name>operator&quot;&quot;_sec</name></member>
+    <member refid="namespacespace_1_1unit_1a161185a39efeda0b36fead602c2c6808" kind="function"><name>operator&quot;&quot;_sec</name></member>
+    <member refid="namespacespace_1_1unit_1a78509467dd1332689a5429c9b0d96b03" kind="function"><name>operator&quot;&quot;_T_hubble</name></member>
+    <member refid="namespacespace_1_1unit_1ace6d8960462a057e4d973a1e57e35854" kind="function"><name>operator&quot;&quot;_T_hubble</name></member>
+    <member refid="namespacespace_1_1unit_1a52a76b32e633630fa23f9b09cc1ffa6a" kind="function"><name>operator&quot;&quot;_km</name></member>
+    <member refid="namespacespace_1_1unit_1a19c94fb86ff14e4af1ba97630ea7649a" kind="function"><name>operator&quot;&quot;_km</name></member>
+    <member refid="namespacespace_1_1unit_1ac0a601f4ef851a22ce52d31c36366ceb" kind="function"><name>operator&quot;&quot;_PC</name></member>
+    <member refid="namespacespace_1_1unit_1a7b157366b70714208baa8e808b7dec7b" kind="function"><name>operator&quot;&quot;_PC</name></member>
+    <member refid="namespacespace_1_1unit_1acf069d7d6c21404175b659926578ecef" kind="function"><name>operator&quot;&quot;_Rs</name></member>
+    <member refid="namespacespace_1_1unit_1a7f7b938976721734b5777177d63c6e81" kind="function"><name>operator&quot;&quot;_Rs</name></member>
+    <member refid="namespacespace_1_1unit_1abbaed4d32ade87ff8b1a444bd8a84c1d" kind="function"><name>operator&quot;&quot;_Rj</name></member>
+    <member refid="namespacespace_1_1unit_1a1ec8b53333681387dd9a88d646d6c68c" kind="function"><name>operator&quot;&quot;_Rj</name></member>
+    <member refid="namespacespace_1_1unit_1aac733ca81b489814a05cc95a24be7f9f" kind="function"><name>operator&quot;&quot;_kms</name></member>
+    <member refid="namespacespace_1_1unit_1a89f71a4aaef8036445c9611de47d85ad" kind="function"><name>operator&quot;&quot;_kms</name></member>
+    <member refid="namespacespace_1_1unit_1aedaf28e982270baf2355d6e160095abe" kind="function"><name>operator&quot;&quot;_Me</name></member>
+    <member refid="namespacespace_1_1unit_1a11599f31e1ce641888596c8c721e7bce" kind="function"><name>operator&quot;&quot;_Me</name></member>
+    <member refid="namespacespace_1_1unit_1ab315d729dae1057bd3653c69f489c32e" kind="function"><name>operator&quot;&quot;_Mj</name></member>
+    <member refid="namespacespace_1_1unit_1a8d4517d904b9ff4147388a125e3089e3" kind="function"><name>operator&quot;&quot;_Mj</name></member>
+    <member refid="namespacespace_1_1unit_1aba7e6164ff09b405586150328a0e5276" kind="function"><name>operator&quot;&quot;_Mmoon</name></member>
+    <member refid="namespacespace_1_1unit_1a98b2925aa9e7d03dd3ae5832b9ef1908" kind="function"><name>operator&quot;&quot;_Mmoon</name></member>
   </compound>
   <compound refid="namespace_space_h" kind="namespace"><name>SpaceH</name>
   </compound>
@@ -2009,6 +2068,7 @@
     <member refid="slice_8h_1a65fd0989cf17a9954e67fbe210677e14" kind="define"><name>EXPR_CREATE_SLICE_INTERFACE</name></member>
   </compound>
   <compound refid="macros_8hpp" kind="file"><name>macros.hpp</name>
+    <member refid="macros_8hpp_1afb4c2e04720828be102cbe14fa7f54c6" kind="define"><name>MAKE_UNIT</name></member>
   </compound>
   <compound refid="math_8hpp" kind="file"><name>math.hpp</name>
   </compound>
@@ -2089,6 +2149,7 @@
   <compound refid="auto-name_8hpp" kind="file"><name>auto-name.hpp</name>
   </compound>
   <compound refid="config-reader_8hpp" kind="file"><name>config-reader.hpp</name>
+    <member refid="config-reader_8hpp_1ab47fe9a9f16ac6d70f88fccb491b35f1" kind="define"><name>READ_CMD_LINE</name></member>
   </compound>
   <compound refid="timer_8hpp" kind="file"><name>timer.hpp</name>
   </compound>
@@ -2100,38 +2161,68 @@
   </compound>
   <compound refid="vector3pd_8hpp" kind="file"><name>vector3pd.hpp</name>
   </compound>
-  <compound refid="dir_424c89e9438cbb62f655818540625814" kind="dir"><name>src/args-callback</name>
+  <compound refid="initial__condition_8md" kind="file"><name>initial_condition.md</name>
   </compound>
-  <compound refid="dir_2128a778e2784fa58a7c61cddb70c6f4" kind="dir"><name>src/ode-iterator/error-checker</name>
+  <compound refid="mainpage_8md" kind="file"><name>mainpage.md</name>
   </compound>
-  <compound refid="dir_b91c8ec7ca8417b106f5dff5fa84a9eb" kind="dir"><name>src/integrator</name>
+  <compound refid="start_8md" kind="file"><name>start.md</name>
   </compound>
-  <compound refid="dir_2aa3abbea02cf3977d03d3e5841450fe" kind="dir"><name>src/interaction</name>
+  <compound refid="test_8md" kind="file"><name>test.md</name>
   </compound>
-  <compound refid="dir_def2e0c07a9662857bae3f9a2c127880" kind="dir"><name>src/lazy-evaluation</name>
+  <compound refid="tutorial_8md" kind="file"><name>tutorial.md</name>
   </compound>
-  <compound refid="dir_6abb20ec4f2a1cd4f866c841dcbd8144" kind="dir"><name>src/multi-thread</name>
+  <compound refid="versions_8md" kind="file"><name>versions.md</name>
   </compound>
-  <compound refid="dir_52d8feb32e70d904cecd8c9d74d13935" kind="dir"><name>src/ode-iterator</name>
+  <compound refid="initial_condition" kind="page"><name>initial_condition</name>
   </compound>
-  <compound refid="dir_97a2c73ef3bed537ffd258c18f0ac631" kind="dir"><name>src/orbits</name>
+  <compound refid="start" kind="page"><name>start</name>
   </compound>
-  <compound refid="dir_7e02d1a0cfcbc1aa17c96d2d1136559d" kind="dir"><name>src/particle-system</name>
+  <compound refid="tests" kind="page"><name>tests</name>
   </compound>
-  <compound refid="dir_db762ed8ec3aa0df992389441dbd75cb" kind="dir"><name>src/particles</name>
+  <compound refid="tutorial" kind="page"><name>tutorial</name>
   </compound>
-  <compound refid="dir_27cde2e7a5464088e6432ce652dd7b89" kind="dir"><name>src/scattering</name>
+  <compound refid="versions" kind="page"><name>versions</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  <compound refid="dir_9d5c2ee59eb03b5340452ccde890c10b" kind="dir"><name>src/args-callback</name>
   </compound>
-  <compound refid="dir_42adf73c3025a429ba1a5312fe5c546e" kind="dir"><name>src/stellar</name>
+  <compound refid="dir_f780fb34f16a52054693af664eb79a9e" kind="dir"><name>src/ode-iterator/error-checker</name>
   </compound>
-  <compound refid="dir_158499f600df7226ffe98ff3e1d64525" kind="dir"><name>src/ode-iterator/step-controller</name>
+  <compound refid="dir_38c989f533b8d05a5f49de05695c703a" kind="dir"><name>src/integrator</name>
   </compound>
-  <compound refid="dir_1708dae856d6e8a433bcca2ee14485e2" kind="dir"><name>src/integrator/symplectic</name>
+  <compound refid="dir_abf8e8467b65f1b854dcf5f7e36e0cd4" kind="dir"><name>src/interaction</name>
   </compound>
-  <compound refid="dir_1563a38af0d3a5e4a6330d6d45e9792a" kind="dir"><name>src/tools</name>
+  <compound refid="dir_18863dd3a767c806a32b7d55a6d62837" kind="dir"><name>src/lazy-evaluation</name>
   </compound>
-  <compound refid="dir_0baa9f3d984dd29d1429171590d769d6" kind="dir"><name>src/vector</name>
+  <compound refid="dir_699f3b555d13cbde8802d148bd15e481" kind="dir"><name>src/multi-thread</name>
+  </compound>
+  <compound refid="dir_4848c3ac6bd511a3befe73dc2b2b3b24" kind="dir"><name>src/ode-iterator</name>
+  </compound>
+  <compound refid="dir_d8033b26f9aaee80991a664d876453aa" kind="dir"><name>src/orbits</name>
+  </compound>
+  <compound refid="dir_d580bfefa5b1f6112b22ec97d7e5f69a" kind="dir"><name>src/particle-system</name>
+  </compound>
+  <compound refid="dir_2448b382844ef560342e7f083e530372" kind="dir"><name>src/particles</name>
+  </compound>
+  <compound refid="dir_11b583a00a93de9b58d49b86d7928f56" kind="dir"><name>src/scattering</name>
+  </compound>
+  <compound refid="dir_70aafbd27143240ca6e6a4fc37dc30d0" kind="dir"><name>/home/yihan/Repositories/SpaceHubWeb</name>
+  </compound>
+  <compound refid="dir_2d28839f275d36fddf4bad6ecf372158" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_a876babc1180b7e16b0b0a7b656df9a0" kind="dir"><name>src/stellar</name>
+  </compound>
+  <compound refid="dir_8b02e7e7ee067133a3f8198cb4aa1cb1" kind="dir"><name>src/ode-iterator/step-controller</name>
+  </compound>
+  <compound refid="dir_ecbd9387c6f8f66161dd6b3cb6cd676a" kind="dir"><name>src/integrator/symplectic</name>
+  </compound>
+  <compound refid="dir_acfd45df7da65e827d6245f215e785bf" kind="dir"><name>src/tools</name>
+  </compound>
+  <compound refid="dir_8e007608089cdc87974b2f5216175eea" kind="dir"><name>src/vector</name>
+  </compound>
+  <compound refid="dir_ec36b1a1da73d577d30e443472dfd371" kind="dir"><name>/home/yihan/Repositories/SpaceHubWeb/websrc/webpages</name>
+  </compound>
+  <compound refid="dir_dc627547ae059b9dd5ae1caf9db7679f" kind="dir"><name>/home/yihan/Repositories/SpaceHubWeb/websrc</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
   </compound>
 </doxygenindex>

@@ -1,9 +1,6 @@
 
 @page tutorial Tutorial
-@m_keyword{tutorial,,}
 
 @tableofcontents
 
-this ia a tutorial page
-
-
+<a href="initial_condition.html">Initial condition generation </a>  

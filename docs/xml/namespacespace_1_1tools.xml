@@ -3,6 +3,7 @@
   <compounddef id="namespacespace_1_1tools" kind="namespace" language="C++">
     <compoundname>space::tools</compoundname>
     <innerclass refid="classspace_1_1tools_1_1_config_reader" prot="public">space::tools::ConfigReader</innerclass>
+    <innerclass refid="classspace_1_1tools_1_1_opt_arg" prot="public">space::tools::OptArg</innerclass>
     <innerclass refid="classspace_1_1tools_1_1_timer" prot="public">space::tools::Timer</innerclass>
       <sectiondef kind="enum">
       <memberdef kind="enum" id="namespacespace_1_1tools_1a5dc6be58712a7905fc890d2a227c9487" prot="public" static="no" strong="yes">
@@ -42,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tools/config-reader.hpp" line="43" column="25" bodyfile="src/tools/config-reader.hpp" bodystart="43" bodyend="45"/>
+        <location file="src/tools/config-reader.hpp" line="44" column="23" bodyfile="src/tools/config-reader.hpp" bodystart="44" bodyend="44"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -120,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tools/config-reader.hpp" line="128" column="8" bodyfile="src/tools/config-reader.hpp" bodystart="128" bodyend="140"/>
+        <location file="src/tools/config-reader.hpp" line="128" column="6" bodyfile="src/tools/config-reader.hpp" bodystart="128" bodyend="140"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

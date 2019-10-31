@@ -94,6 +94,8 @@
       <node id="26">
         <label>../orbits/particle-manip.hpp</label>
         <link refid="particle-manip_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
@@ -181,7 +183,6 @@
     </incdepgraph>
     <innernamespace refid="namespacespace_1_1scattering">space::scattering</innernamespace>
     <innernamespace refid="namespacespace">space</innernamespace>
-    <innernamespace refid="namespacespace_1_1run__operations">space::run_operations</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

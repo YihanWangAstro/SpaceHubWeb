@@ -44,16 +44,16 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespacespace_1_1stellar_1a39134fbabd6f1d47b4cf9f9cad48c8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacespace_1_1stellar_1ab1f308e163549de44d9c57f7b3c5f233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Scalar</type>
           </param>
         </templateparamlist>
         <type>auto</type>
-        <definition>auto space::stellar::calc_obj_radius</definition>
+        <definition>auto space::stellar::stellar_radius</definition>
         <argsstring>(StarType T, Scalar mass)</argsstring>
-        <name>calc_obj_radius</name>
+        <name>stellar_radius</name>
         <param>
           <type><ref refid="namespacespace_1_1stellar_1a591f260bdbbffc9c9308b68169c366b8" kindref="member">StarType</ref></type>
           <declname>T</declname>

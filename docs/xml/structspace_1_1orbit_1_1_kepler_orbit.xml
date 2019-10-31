@@ -69,20 +69,6 @@
         </inbodydescription>
         <location file="src/orbits/orbits.hpp" line="78" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="78" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a26c061bf75786254584795af5bcd7315" prot="public" static="no" mutable="no">
-        <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
-        <definition>Scalar space::orbit::KeplerOrbit&lt; Real &gt;::e</definition>
-        <argsstring></argsstring>
-        <name>e</name>
-        <briefdescription>
-<para>Eccentricity of the orbit. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="82" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="82" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1ada8aad58f3afe02ccef9aac32904659e" prot="public" static="no" mutable="no">
         <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
         <definition>Scalar space::orbit::KeplerOrbit&lt; Real &gt;::p</definition>
@@ -93,6 +79,20 @@
         </briefdescription>
         <detaileddescription>
 <para>We don&apos;t use semi-major axis for this general orbital type because the semi-major axis for parabolic orbit is undefined. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/orbits/orbits.hpp" line="85" column="10" bodyfile="src/orbits/orbits.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structspace_1_1orbit_1_1_kepler_orbit_1a26c061bf75786254584795af5bcd7315" prot="public" static="no" mutable="no">
+        <type><ref refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" kindref="member">Scalar</ref></type>
+        <definition>Scalar space::orbit::KeplerOrbit&lt; Real &gt;::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+<para>Eccentricity of the orbit. </para>
+        </briefdescription>
+        <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="125" column="3" bodyfile="src/orbits/orbits.hpp" bodystart="356" bodyend="395"/>
+        <location file="src/orbits/orbits.hpp" line="125" column="3" bodyfile="src/orbits/orbits.hpp" bodystart="359" bodyend="398"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a6b451e32b6f31ffd87b7ff6ce8034c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="131" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="398" bodyend="400"/>
+        <location file="src/orbits/orbits.hpp" line="131" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="401" bodyend="403"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a0d4c3c371062bbe3c34def9fd738467a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -390,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="136" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="403" bodyend="405"/>
+        <location file="src/orbits/orbits.hpp" line="136" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="406" bodyend="408"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a89382d0eaf078c0f687cdfdae211dfb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -404,7 +404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="141" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="408" bodyend="410"/>
+        <location file="src/orbits/orbits.hpp" line="141" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="411" bodyend="413"/>
       </memberdef>
       <memberdef kind="function" id="structspace_1_1orbit_1_1_kepler_orbit_1a7b91e2ba1f156a8c5fba2c239c55d20d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -418,7 +418,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/orbits/orbits.hpp" line="146" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="413" bodyend="421"/>
+        <location file="src/orbits/orbits.hpp" line="146" column="15" bodyfile="src/orbits/orbits.hpp" bodystart="416" bodyend="424"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -545,8 +545,8 @@
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a3522e05da91e018f4e09c0ce2149ab47" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>Scalar</name></member>
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a6b451e32b6f31ffd87b7ff6ce8034c83" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>shuffle_i</name></member>
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a7b91e2ba1f156a8c5fba2c239c55d20d" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>shuffle_nu</name></member>
-      <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a0d4c3c371062bbe3c34def9fd738467a" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>shuffle_Omega</name></member>
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a89382d0eaf078c0f687cdfdae211dfb5" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>shuffle_omega</name></member>
+      <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a0d4c3c371062bbe3c34def9fd738467a" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>shuffle_Omega</name></member>
       <member refid="structspace_1_1orbit_1_1_kepler_orbit_1a87fe252c858a2655420c61ba2994dc3f" prot="public" virt="non-virtual"><scope>space::orbit::KeplerOrbit</scope><name>Variant</name></member>
     </listofallmembers>
   </compounddef>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_70aafbd27143240ca6e6a4fc37dc30d0" kind="dir">
     <compoundname>/home/yihan/Repositories/SpaceHubWeb</compoundname>
-    <innerdir refid="dir_825eb18bae273ec3fe8cd1272f56d6bb">/home/yihan/Repositories/SpaceHubWeb/src</innerdir>
+    <innerdir refid="dir_dc627547ae059b9dd5ae1caf9db7679f">/home/yihan/Repositories/SpaceHubWeb/websrc</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
