@@ -26,8 +26,8 @@ To get started, we first introduce how to create Kepler orbit in SpaceHub. Space
 
  @code{.cpp}
  ...
- using namespace space::unit;//using the unit system of spaceHub
- using namespace space::orbit;//using the namespace `orbit` where `Kepler` located. 
+ using namespace space::unit;//import the unit system of spaceHub
+ using namespace space::orbit;//import `orbit` where `Kepler` located. 
  ...
  Kepler an_orbit = Kepler(1_Ms, 2_Ms, 1_AU, 0.4, 10_deg, 4.2_deg, 46.4_deg, 90.1_deg);
  ...
@@ -92,15 +92,15 @@ The way to create a hyperbolic orbit is kind of different, if you are familiar w
  @endcode
  
 @section random_orbit Create random phase Kepler orbit.
-It's frequently needed to generate random phase orbit to perform Monte Carlo simulations. SpaceHub provides a place holder `space::orbit::isotherm` to indicate this phase will be generated isothermally.
+It's frequently needed to generate random phase orbit to perform Monte Carlo simulations. SpaceHub provides a place holder `space::orbit::isotherm` to indicate a phase parameter will be generated isothermally.
 This place holder can be placed to any phase orbital parameters like @bflabel{i}, @bflabel{Omega}, @bflabel{omega} and @bflabel{nu}.
 
-If phase parameter is placed,
+If phase parameters are placed,
 
 - @bflabel{i} : cos(i) is uniformly distributed in [-1,1].
-- @bflabel{Omega} Omega is uniformly distributed in [-pi, pi].
-- @bflabel{omega} omega is uniformly distributed in [-pi, pi].
-- @bflabel{nv} corresponding nv with @rlabel{M}(mean anomaly) is uniformly distributed in [-pi, pi]. Check the orbital parameters table above.
+- @bflabel{Omega} : Omega is uniformly distributed in [-pi, pi].
+- @bflabel{omega} : omega is uniformly distributed in [-pi, pi].
+- @bflabel{nv} : corresponding nv with @rlabel{M}(mean anomaly) is uniformly distributed in [-pi, pi]. Check the orbital parameters table above.
 
 The way to use this place holder.
 
@@ -109,7 +109,7 @@ The way to use this place holder.
  using namespace space::unit;
  using namespace space::orbit;
  ...
- //randomly generate all phase parameter.
+ //randomly generate all phase parameters.
  EllipOrbit orbit1 = EllipOrbit(1_Ms, 2_Ms, 1_AU, 0.4, isotherm, isotherm, isotherm, isotherm);
  ...
  //randomly generate `i` (the usually way to generate incident orbit in cross section calculations).
@@ -161,17 +161,17 @@ SpaceHub provides anomaly calculations between True anomaly(@bflabel{T}), Mean a
 
 The four functions accept floating point number with any precision like @bflabel{float}, @bflabel{double}... `e` is eccentricity. The equations are listed in the table above.
 
-@code{.cpp}
+```cpp
  ...
  using namespace space::orbit;
- using namespace space::consts;//import constant numbers
+ using namespace space::consts;//import constant numbers `pi`
  ...
  double mean_anomaly = 0.3 * pi;
  double eccentricity = 0.6;
 
  double e_anomaly = M_anomaly_to_E_anomaly(mean_anomaly, eccentricity);
  ...
- @endcode
+ ```
 
 
  
