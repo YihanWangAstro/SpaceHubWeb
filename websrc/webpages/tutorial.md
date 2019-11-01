@@ -1,6 +1,8 @@
 
 @page tutorial Tutorial
 
-@tableofcontents
+- Initial conditions 
+    - <a href="create_kepler.html"> Create Kepler orbit </a>  
+    - <a href="particle_manip.html"> Particle manipulation </a>  
 
-<a href="initial_condition.html">Initial condition generation </a>  
+- 
