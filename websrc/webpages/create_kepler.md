@@ -1,5 +1,5 @@
 
-@page initial_condition Generate Initial conditions
+@page create_kepler Generate Kepler orbit
 
 SpaceHub provides a bunch of user friendly functions to generate the initial conditions you want. 
 
@@ -24,21 +24,21 @@ To get started, we first introduce how to create Kepler orbit in SpaceHub. Space
 
  To create a kepler orbit with @bflabel{m1} = 1 solar mass, @bflabel{m2} = 2 solar mass, @bflabel{p} = 1 AU, @bflabel{e} = 0.4, @bflabel{i} = 10 deg, @bflabel{Omega} = 4.2 deg, @bflabel{omega} = 46.4 deg and @bflabel{nv} = 90.1 deg.
 
- @code{.cpp}
+ ```cpp
  ...
  using namespace space::unit;//import the unit system of spaceHub
- using namespace space::orbit;//import `orbit` where `Kepler` located. 
+ using namespace space::orbit;//import orbit where Kepler located. 
  ...
  Kepler an_orbit = Kepler(1_Ms, 2_Ms, 1_AU, 0.4, 10_deg, 4.2_deg, 46.4_deg, 90.1_deg);
  ...
- @endcode
+ ```
 
  Here we use the unit system of spaceHub. You can use `_Ms`, `_AU`, `_deg` etc directly after constant number(literal) to scale it with unit. You can also use the unit in this way. 
 
- @code{.cpp}
+ ```cpp
  double p = 1 * AU;
  double inclination = 4.52 * deg;
- @endcode
+ ```
 
 
 The `space::orbit::Kepler` can hold elliptic orbit, parabolic and hyperbolic orbit. This is also why we use semi-latus rectum @bflabel{p} instead of semi-major axis @bflabel{a} that is undefined for parabolic orbit. The following table
@@ -64,19 +64,19 @@ Besides the 9 data member as in `space::orbit::Kepler`,  `space::orbit::EllipOrb
 
 You can create elliptic orbit in this way.
 
-@code{.cpp}
+```cpp
  ...
  using namespace space::unit;
  using namespace space::orbit;
  ...
- //now, the third parameter is semi-major axis `a` instead of semi-latus rectum `p`.
+ //now, the third parameter is semi-major axis a instead of semi-latus rectum p.
  EllipOrbit an_orbit = EllipOrbit(1_Ms, 2_Ms, 1_AU, 0.4, 10_deg, 4.2_deg, 46.4_deg, 90.1_deg);
  ...
- @endcode
+ ```
 
 The way to create a hyperbolic orbit is kind of different, if you are familiar with celestial dynamic, @bflabel{a} is hardly used to describe a hyperbolic orbit. Instead, we usually use @bflabel{v_inf} and @bflabel{b}, which is velocity at infinity and impact parameter, respectively.  So you can create an hyperbolic orbit in this way.
 
-@code{.cpp}
+```cpp
  ...
  using namespace space::unit;
  using namespace space::orbit;
@@ -86,12 +86,12 @@ The way to create a hyperbolic orbit is kind of different, if you are familiar w
  //the 5th-7th parameters:i, Omega, omega.
  //the 8th parameter is the distance between two object.(you cannot set particles at infinity in program)
  //the 9th parameter ; indicate this is a incident in orbit or an eject out orbit (the same 8th parameter
- //gives two different orbits, so you need to specify one of it here.)-`Hyper::in` or `Hyper::out`.
+ //gives two different orbits, so you need to specify one of it here.)- Hyper::in or Hyper::out.
  HyperOrbit an_orbit = HyperOrbit(1_Ms, 2_Ms, 5_kms, 4_AU, 10_deg, 4.2_deg, 46.4_deg, 100_AU, Hyper::in);
  ...
- @endcode
+```
  
-@section random_orbit Create random phase Kepler orbit.
+@section random_orbit Create random phase Kepler orbit
 It's frequently needed to generate random phase orbit to perform Monte Carlo simulations. SpaceHub provides a place holder `space::orbit::isotherm` to indicate a phase parameter will be generated isothermally.
 This place holder can be placed to any phase orbital parameters like @bflabel{i}, @bflabel{Omega}, @bflabel{omega} and @bflabel{nu}.
 
@@ -104,7 +104,7 @@ If phase parameters are placed,
 
 The way to use this place holder.
 
-@code{.cpp}
+```cpp
  ...
  using namespace space::unit;
  using namespace space::orbit;
@@ -112,14 +112,14 @@ The way to use this place holder.
  //randomly generate all phase parameters.
  EllipOrbit orbit1 = EllipOrbit(1_Ms, 2_Ms, 1_AU, 0.4, isotherm, isotherm, isotherm, isotherm);
  ...
- //randomly generate `i` (the usually way to generate incident orbit in cross section calculations).
+ //randomly generate i (the usual way to generate incident orbit in cross section calculations).
  HyperOrbit orbit2 = HyperOrbit(1_Ms, 2_Ms, 5_kms, 4_AU, isotherm, 0_deg, 0_deg, 100_AU, Hyper::in);
  ...
- @endcode
- 
+```
+
 You can also manually random the phase parameter of an existed orbit by calling the its methods `suffle_i()`, `suffle_Omega()`, `suffle_omega()` and `suffle_nu()`.
 
-@code{.cpp}
+```cpp
  ...
  using namespace space::unit;
  using namespace space::orbit;
@@ -129,11 +129,11 @@ You can also manually random the phase parameter of an existed orbit by calling 
 
  orbit.suffle_omega();//after this, omega is a random number between -pi and pi.  
  ...
- @endcode
+ ```
 
 You can also use the random number generators provided by SpaceHub to randomlize some parameters. We will introduce the random number generators carefully in details in another topic, but we can use it a bit here.
 
-@code{.cpp}
+```cpp
  ...
  using namespace space::unit;
  using namespace space::orbit;
@@ -142,11 +142,11 @@ You can also use the random number generators provided by SpaceHub to randomlize
  //generate an elliptic orbit with Omega uniformly distributed in [0, 45] deg.
  EllipOrbit orbit = EllipOrbit(1_Ms, 2_Ms, 1_AU, 0.4, 0_deg, Uniform(0_deg, 45_deg), 0_deg, 0_deg);
  ...
- @endcode
+```
 
 @section anomaly Anomaly Calculation
 
-SpaceHub provides anomaly calculations between True anomaly(@bflabel{T}), Mean anomaly(@bflabel{M}) and Eccentric anomaly(@bflabel{E}).
+SpaceHub provides anomaly calculations between True anomaly @bflabel{T}, Mean anomaly @bflabel{M} and Eccentric anomaly @bflabel{E}.
 
 |                           Eccentric anomaly                           |                              Mean anomaly                              |
 | :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
@@ -164,15 +164,26 @@ The four functions accept floating point number with any precision like @bflabel
 ```cpp
  ...
  using namespace space::orbit;
- using namespace space::consts;//import constant numbers `pi`
+ using namespace space::consts;//import constant numbers pi
  ...
  double mean_anomaly = 0.3 * pi;
  double eccentricity = 0.6;
 
  double e_anomaly = M_anomaly_to_E_anomaly(mean_anomaly, eccentricity);
  ...
- ```
+```
 
+@section coord_gen  Position/Velocity generation
 
- 
+The initial conditions for N-body system are basically a group of position and velocity with corresponding particle properties like mass and etc.
+SpaceHub provides two functions to transfer a Kepler orbit to corresponding position and velocity and versus.
+
+- space::orbit::orbit_to_coord;
+- space::orbit::coord_to_orbit;
+
+@m_class{m-block m-note m-info m-text-center} 
+@parblock
+This block is rendered in a dim note.
+Centered.
+@endparblock
 

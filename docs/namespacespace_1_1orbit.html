@@ -152,6 +152,19 @@
             </dt>
             <dd>Calculate the corresponding mean anomaly of the true anomaly.</dd>
             <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac48ee9804430ce271ab08922369cff2f" class="m-doc">coord_to_orbit</a>(</span><span class="m-doc-wrap">Scalar m1,
+              Scalar m2,
+              const Vector&amp; dr,
+              const Vector&amp; dv) -&gt; auto</span>
+            </dt>
+            <dd>Tranfer relative position and velocity between two particles to Kepler orbit parameters.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#add1ade24d81a2e820776c4d1076f0886" class="m-doc">orbit_to_coord</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;Scalar&gt; const&amp; args) -&gt; auto</span>
+            </dt>
+            <dd>Transfer Kepler orbit parameters to relative position and velocity between two component in orbit.</dd>
+            <dt>
               <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
               <span class="m-doc-wrap-bumper">auto <a href="#a1b5f49246a5fcbe95273097552d9aa5d" class="m-doc">cluster</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
               Particle const&amp; ptc2,
@@ -660,6 +673,97 @@
                 <tr>
                   <th>Returns</th>
                   <td>Scalar Mean anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="ac48ee9804430ce271ab08922369cff2f"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac48ee9804430ce271ab08922369cff2f" class="m-doc-self">coord_to_orbit</a>(</span><span class="m-doc-wrap">Scalar m1,
+              Scalar m2,
+              const Vector&amp; dr,
+              const Vector&amp; dv)</span></span>
+            </h3>
+            <p>Tranfer relative position and velocity between two particles to Kepler orbit parameters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Scalar</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>m1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>m2</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>dr</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>dv</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="add1ade24d81a2e820776c4d1076f0886"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#add1ade24d81a2e820776c4d1076f0886" class="m-doc-self">orbit_to_coord</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;Scalar&gt; const&amp; args)</span></span>
+            </h3>
+            <p>Transfer Kepler orbit parameters to relative position and velocity between two component in orbit.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>args</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto</td>
                 </tr>
               </tfoot>
             </table>
