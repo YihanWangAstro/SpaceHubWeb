@@ -24,10 +24,11 @@
 
 :root {
   /* Text properties */
-  --font: 'Source Sans Pro', sans-serif;
-  --code-font: 'Source Code Pro', monospace;
+  --font: "Source Sans Pro", sans-serif;
+  /*--font: "Times", sans-serif;*/
+  --code-font: "Inconsolata", monospace;
   --font-size: 16px;
-  --code-font-size: 0.9em; /* *not* rem, so it follows surrounding font size */
+  --code-font-size: 0.8em; /* *not* rem, so it follows surrounding font size */
   --line-height: normal;
   --paragraph-indent: 1.5rem;
   --paragraph-align: justify;
@@ -58,7 +59,8 @@
   --console-inverted-color: var(--code-inverted-color);
   /* This is simply color-picked --code-note-background-color on top of
      --background-color */
-  --code-background-color: #282e36;
+  /*--code-background-color: #282e36;*/
+  --code-background-color: #161616;
   --code-note-background-color: rgba(34, 39, 46, 0.5);
   --console-background-color: #161616;
   --button-background-color: #22272e;
