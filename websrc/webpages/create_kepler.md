@@ -176,14 +176,43 @@ The four functions accept floating point number with any precision like @bflabel
 @section coord_gen  Position/Velocity generation
 
 The initial conditions for N-body system are basically a group of position and velocity with corresponding particle properties like mass and etc.
-SpaceHub provides two functions to transfer a Kepler orbit to corresponding position and velocity and versus.
+SpaceHub provides two functions to transfer a Kepler orbit to corresponding position and velocity and versus. The definition of the position and velocity here is the relative
+position and velocity between two components in a Kepler orbit.
 
 - space::orbit::orbit_to_coord;
 - space::orbit::coord_to_orbit;
+  
 
-@m_class{m-block m-note m-info m-text-center} 
-@parblock
-This block is rendered in a dim note.
-Centered.
-@endparblock
+Just to use it in this way
 
+```cpp
+...
+ using namespace space::unit;
+ using namespace space::orbit;
+ ...
+ EllipOrbit orbit = EllipOrbit(1_Ms, 1_Me, 1_AU, 0, 0_deg, 0_deg, 0_deg, 0_deg);
+
+ auto [pos, vel] = orbit_to_coord(orbit);
+ ...
+```
+
+The function `space::orbit::orbit_to_coord` returns two 3D-vectors(x,y,z), the first is the position and the second is the velocity. You can also do it reversely,
+
+```cpp
+
+...
+ using namespace space::unit;
+ using namespace space::orbit;
+ ...
+ double m1 = 1_Ms;
+ double m2 = 0.1_Ms;
+
+ Vector pos(1_AU,0,0);
+ Vector vel(0, 30_kms, 0);
+
+ auto orbit = coord_to_orbit(m1, m2, pos, vel);
+ ...
+
+```
+
+The type `Vector` can be any type once it has three public member `x`, `y`, `z` with type of floating point number. We will introduce the type system of SpaceHub later. 
