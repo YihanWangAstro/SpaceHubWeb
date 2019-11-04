@@ -19,7 +19,6 @@ To get started, we first introduce how to create Kepler orbit in SpaceHub. Space
 - @bflabel{nu} True anomaly. ([-pi,pi])
 - @bflabel{orbit_type} The type of the orbit. (@bflabel{Ellipse}, @bflabel{Parabola}, @bflabel{Hyperbola})
   
-
  @image html tutorial/Orbit1.png "credit : wikipedia" width=400px
 
  To create a kepler orbit with @bflabel{m1} = 1 solar mass, @bflabel{m2} = 2 solar mass, @bflabel{p} = 1 AU, @bflabel{e} = 0.4, @bflabel{i} = 10 deg, @bflabel{Omega} = 4.2 deg, @bflabel{omega} = 46.4 deg and @bflabel{nv} = 90.1 deg.
@@ -40,7 +39,6 @@ To get started, we first introduce how to create Kepler orbit in SpaceHub. Space
  double inclination = 4.52 * deg;
  ```
 
-
 The `space::orbit::Kepler` can hold elliptic orbit, parabolic and hyperbolic orbit. This is also why we use semi-latus rectum @bflabel{p} instead of semi-major axis @bflabel{a} that is undefined for parabolic orbit. The following table
 gives the orbital parameters for Kepler orbit.
 
@@ -60,7 +58,6 @@ gives the orbital parameters for Kepler orbit.
 
 Take it easy. SpaceHub also provides you `space::orbit::EllipOrbit` and `space::orbit::HyperOrbit`. If you know a little about Object Oriented Programming, they are the derived class of `space::orbit::Kepler`. 
 Besides the 9 data member as in `space::orbit::Kepler`,  `space::orbit::EllipOrbit` has an additional data member @bflabel{a} which is the semi-major axis, while `space::orbit::HyperOrbit` has an additional data member @bflabel{b} which is the impact parameter.
-
 
 You can create elliptic orbit in this way.
 
@@ -90,7 +87,7 @@ The way to create a hyperbolic orbit is kind of different, if you are familiar w
  HyperOrbit an_orbit = HyperOrbit(1_Ms, 2_Ms, 5_kms, 4_AU, 10_deg, 4.2_deg, 46.4_deg, 100_AU, Hyper::in);
  ...
 ```
- 
+
 @section random_orbit Create random phase Kepler orbit
 It's frequently needed to generate random phase orbit to perform Monte Carlo simulations. SpaceHub provides a place holder `space::orbit::isotherm` to indicate a phase parameter will be generated isothermally.
 This place holder can be placed to any phase orbital parameters like @bflabel{i}, @bflabel{Omega}, @bflabel{omega} and @bflabel{nu}.
@@ -182,7 +179,6 @@ position and velocity between two components in a Kepler orbit.
 - space::orbit::orbit_to_coord;
 - space::orbit::coord_to_orbit;
   
-
 Just to use it in this way
 
 ```cpp
@@ -199,7 +195,6 @@ Just to use it in this way
 The function `space::orbit::orbit_to_coord` returns two 3D-vectors(x,y,z), the first is the position and the second is the velocity. You can also do it reversely,
 
 ```cpp
-
 ...
  using namespace space::unit;
  using namespace space::orbit;
@@ -207,12 +202,19 @@ The function `space::orbit::orbit_to_coord` returns two 3D-vectors(x,y,z), the f
  double m1 = 1_Ms;
  double m2 = 0.1_Ms;
 
- Vector pos(1_AU,0,0);
+ Vector pos(1_AU, 0, 0);
  Vector vel(0, 30_kms, 0);
 
  auto orbit = coord_to_orbit(m1, m2, pos, vel);
  ...
-
 ```
 
-The type `Vector` can be any type once it has three public member `x`, `y`, `z` with type of floating point number. We will introduce the type system of SpaceHub later. 
+The type `Vector` can be any type once it has three public member `x`, `y`, `z` with type of floating point number. We will introduce the type system of SpaceHub later. Indeed the two functions are hardly used because SpaceHub provides you easier way to generate the initial conditions. We will introduce it in next section.
+
+@m_class{m-note m-dim m-text-center}
+
+@parblock
+  <a href="tutorial.html"> Tutorial </a> | <a href="particle_manip.html"> Particle manipulation >> </a>
+@endparblock
+
+
