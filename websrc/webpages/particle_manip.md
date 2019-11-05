@@ -54,7 +54,7 @@ Indeed, what makes you much easier to create the initial conditions are the four
 - space::orbit::move_particles_vel
 - space::orbit::move_particles
 - space::orbit::move_to_COM_frame
- 
+
 Associated with the Kepler orbit we introduced in last tutorial, you can create any initial conditions in a very easy way.
 
 First, we will introduce you `move_particles_pos` and `move_particles_vel`, which are used to move the particles to a specific position or velocity. The two
