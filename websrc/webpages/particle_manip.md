@@ -122,10 +122,30 @@ functions accept arbitrary number of arguments, the first is the target position
  ```
 
  @section move_kepler Move to Kepler orbit
- What SpaceHub really save you from calculating the initial conditions is to combine the move functions above with Kepler orbit in last tutorial. You can pass a orbit variable the function `move_particles` to move the particles to the corresponding position and velocity of that orbit. For example, to create the sun-earth-moon system.
+ The way that SpaceHub really save you from calculating complex initial conditions is to combine the move functions above with Kepler orbit in last tutorial. You can pass a orbit variable as the first parameter to those functions to move the particles to the corresponding position and velocity of that orbit. For example, to create the sun-earth-moon system.
 
  ```cpp
- 
+ using namespace space::unit;
+ using namespace space::orbit;
+ using Particle = typename DefaultSolver::Particle;
+ ...
+ // create three particles. particles are rest at origin.
+ Particle sun{1_Ms}, earth{1_Me}, moon{1_Mmoon};
+
+ auto moon_orbit = orbit::EllipOrbit{earth.mass, moon.mass, 384748_km , 0.0549, 1.543_deg, 0.0, 0.0, isotherm};
+
+ //Move the moon to the corresponding position and velocity of the moon orbit. Now the earth rest at origin and moon form a
+ //[earth, moon] system.
+ move_particles_to(moon_orbit, moon);
+
+ auto earth_orbit = orbit::EllipOrbit{sun.mass, earth.mass + moon.mass, 1_AU, 0.016, 7.155_deg, 174.9_deg, 288.1_deg, isotherm};
+
+ // move the centre of mass of the moon and earth to the earth orbit. Now the sun rest at origin and the earth-moon system form a
+ //[sun, [earth, moon]] system.
+ move_particles_to(earth_orbit, earth, moon);
+
+ // Move them to the centre of mass reference frame.
+ move_to_COM_frame(sun, earth, moon);
  ```
 
 @m_class{m-note m-dim m-text-center}
