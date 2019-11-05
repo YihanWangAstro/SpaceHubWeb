@@ -147,7 +147,9 @@ functions accept arbitrary number of arguments, the first is the target position
  // Move them to the centre of mass reference frame.
  move_to_COM_frame(sun, earth, moon);
  ```
-
+|                                                                |                                                                |                                                                |                                                                |
+| :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: |
+| @image html tutorial/SEM1.pdf "credit : wikipedia" width=100px | @image html tutorial/SEM2.pdf "credit : wikipedia" width=100px | @image html tutorial/SEM3.pdf "credit : wikipedia" width=100px | @image html tutorial/SEM4.pdf "credit : wikipedia" width=100px |
 @m_class{m-note m-dim m-text-center}
 
 @parblock
