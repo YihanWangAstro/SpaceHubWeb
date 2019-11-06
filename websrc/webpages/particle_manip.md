@@ -3,7 +3,7 @@
 
 @tableofcontents
 
-@section particle Use the Particle System.
+@section particle Use the Particle System
 By default, SpaceHub provides you a particle type to create initial conditions. The default type provides you,
 
 - @bflabel{mass} The mass of particle.
@@ -46,7 +46,7 @@ The particle type is associated with the simulator type, so you can get the part
 
 See also space::particle_set::SizeParticles::Particle, which is the default particle type.
 
-@section move_particle1 Move the particles to specific position and velocity.
+@section move_particle1 Move the particles
 
 Indeed, what makes you much easier to create the initial conditions are the four powerful functions provided by SpaceHub.
 
@@ -121,8 +121,8 @@ functions accept arbitrary number of arguments, the first is the target position
 
  ```
 
- @section move_kepler Move to Kepler orbit
- The way that SpaceHub really save you from calculating complex initial conditions is to combine the move functions above with Kepler orbit in last tutorial. You can pass a orbit variable as the first parameter to those functions to move the particles to the corresponding position and velocity of that orbit. For example, to create the sun-earth-moon system.
+ @section move_kepler Move particles to Kepler orbit
+ The way that SpaceHub really save you from calculating complex initial conditions is to combine the move functions above with Kepler orbit in last tutorial. You can pass a orbit variable as the first parameter of `move_particles` to move the particles to the corresponding position and velocity of that orbit. For example, to create the sun-earth-moon system.
 
  ```cpp
  using namespace space::unit;
@@ -147,9 +147,48 @@ functions accept arbitrary number of arguments, the first is the target position
  // Move them to the centre of mass reference frame.
  move_to_COM_frame(sun, earth, moon);
  ```
-|                                                                |                                                                |                                                                |                                                                |
-| :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: |
-| @image html tutorial/SEM1.pdf "credit : wikipedia" width=100px | @image html tutorial/SEM2.pdf "credit : wikipedia" width=100px | @image html tutorial/SEM3.pdf "credit : wikipedia" width=100px | @image html tutorial/SEM4.pdf "credit : wikipedia" width=100px |
+
+| Cartons of generating [sun, [earth, moon]] system |                                               |
+| :-----------------------------------------------: | :-------------------------------------------: |
+|   @image html tutorial/SEM1.png "1" width=400px   | @image html tutorial/SEM2.png "2" width=400px |
+|   @image html tutorial/SEM3.png "3" width=400px   | @image html tutorial/SEM4.png "4" width=400px |
+
+ - 1. `Particle sun{1_Ms}, earth{1_Me}, moon{1_Mmoon};`
+ - 2. `move_particles_to(moon_orbit, moon);`
+ - 3. `move_particles_to(earth_orbit, earth, moon);`
+ - 4. `move_to_COM_frame(sun, earth, moon);`
+
+ You should find that with `move_particles` and `move_to_COM_frame`, we can generate almost all configurations with few works. You don't have to calculate the initial positions and velocities of all particles manually in complex geometry.
+
+@section examples Examples
+
+Here we show you few additional examples of how to generate the initial condition by using the generating system provided by SpaceHub.
+
+@m_class{m-block m-info}
+
+@par Hierarcical Triple
+@parblock
+  ```cpp
+ using namespace space::unit;
+ using namespace space::orbit;
+ using Particle = typename DefaultSolver::Particle;
+ ...
+ Particle m0{30_Ms}, m1{20_Ms}, m2{30_Ms};
+
+ auto inner_orbit = orbit::EllipOrbit{m0.mass, m1.mass, 5_AU , 0.01, 0_deg, 0.0, 0.0, isotherm};
+
+ move_particles_to(inner_orbit, m0);
+
+ move_to_COM_frame(m0, m1);
+
+ auto outer_orbit = orbit::EllipOrbit{m2.mass, m0.mass + m1.mass, 100_AU, 0.01, 67.155_deg, 0.0, 0.0, isotherm};
+
+ move_particles_to(outer_orbit, m2);
+
+ move_to_COM_frame(m0, m1, m2);
+ ```
+@endparblock 
+
 @m_class{m-note m-dim m-text-center}
 
 @parblock
