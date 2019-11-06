@@ -87,6 +87,7 @@
 
   /* Cover image */
   --cover-image-background-color: #0f1217;
+  --image-background-color: #ffffff;
 
   /* Search (used only by m-documentation.css) */
   --search-overlay-color: var(--header-background-color-landing);

@@ -130,7 +130,7 @@ For Windows user, download the repository of SpaceHub and unpack it.
 @section demo Demo 
 Here is a very simple example to integrate a (sun-earth-moon) system. For more information we recommend to read tutorial carefully.
 
-```cpp
+@code{.cpp}
 // main.cpp
 #include"PATH_TO_SPACEHUB/src/spaceHub.hpp"
 using namespace space;
@@ -145,13 +145,13 @@ int main(){
   auto moon_orbit = orbit::EllipOrbit{earth.mass, moon.mass, 268782 * km, 0.055, 1.543 * deg, 0.0, 0.0, 0.0};
 
   // move the moon to the moon orbit
-  orbit::move_particles_to(moon_orbit, moon);
+  orbit::move_particles(moon_orbit, moon);
 
   // create a Kepler orbit of (moon mass + earth mass, solar mass) a = 1 au, e = 0.016 and i = 7.155 degree.
   auto earth_orbit = orbit::EllipOrbit{sun.mass, earth.mass + moon.mass, au, 0.016, 7.155 * deg, 0.0, 0.0, 0.0};
 
   // move the centre of mass of the moon and earth to the earth orbit.
-  orbit::move_particles_to(earth_orbit, earth, moon);
+  orbit::move_particles(earth_orbit, earth, moon);
 
   // move the three objects to the centre of mass reference frame
   orbit::move_to_COM_frame(sun, earth, moon);
@@ -171,7 +171,7 @@ int main(){
 
   return 0;
 }
-```
+@endcode
 
 compile it with
 

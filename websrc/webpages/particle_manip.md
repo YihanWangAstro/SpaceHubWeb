@@ -20,7 +20,7 @@ The particle type is associated with the simulator type, so you can get the part
  //Use the associated particle type of the default simulator of SpaceHub
  using Particle = typename DefaultSolver::Particle;
  ...
- //1.Create particle without any parameter.
+ //1.Create particle without any parameter, mass = 0, radius = 0.
  Particle particle1;
  particle1.mass = 1_Ms;
  particle1.radius = 1_Rs;
@@ -121,8 +121,31 @@ functions accept arbitrary number of arguments, the first is the target position
 
  ```
 
- @section move_kepler Move particles to Kepler orbit
- The way that SpaceHub really save you from calculating complex initial conditions is to combine the move functions above with Kepler orbit in last tutorial. You can pass a orbit variable as the first parameter of `move_particles` to move the particles to the corresponding position and velocity of that orbit. For example, to create the sun-earth-moon system.
+@m_class{m-block m-danger}
+
+@par What you can't
+@parblock
+ ```cpp
+ #include<array>
+ ...
+ using Particle = typename DefaultSolver::Particle;
+ using Vector = typename Particle::Vector;
+ ...
+ Particles p1(1_Ms,1_Rs);
+ //An array with 100 particles
+ std::array<Particles,100> particles;
+ //initializations on the 100 particles. we will provide specific examples later.
+ ...
+ //                                             single particle  particles container
+ //                                                       |       |
+ move_particles(Vector(2_AU, 0, 0), Vector(0, 0.3_kms,0), p1, particles);
+ ```
+@endparblock
+ 
+
+
+@section move_kepler Move particles to Kepler orbit
+The way that SpaceHub really save you from calculating complex initial conditions is to combine the move functions above with Kepler orbit in last tutorial. You can pass a orbit variable as the first parameter of `move_particles` to move the particles to the corresponding position and velocity of that orbit. For example, to create the sun-earth-moon system.
 
  ```cpp
  using namespace space::unit;
@@ -130,69 +153,74 @@ functions accept arbitrary number of arguments, the first is the target position
  using Particle = typename DefaultSolver::Particle;
  ...
  // create three particles. particles are rest at origin.
- Particle sun{1_Ms}, earth{1_Me}, moon{1_Mmoon};
+ Particle sun(1_Ms), earth(1_Me), moon(1_Mmoon);
 
- auto moon_orbit = orbit::EllipOrbit{earth.mass, moon.mass, 384748_km , 0.0549, 1.543_deg, 0.0, 0.0, isotherm};
+ auto moon_orbit = EllipOrbit(earth.mass, moon.mass, 384748_km , 0.0549, 1.543_deg, 0.0, 0.0, isotherm);
 
  //Move the moon to the corresponding position and velocity of the moon orbit. Now the earth rest at origin and moon form a
  //[earth, moon] system.
- move_particles_to(moon_orbit, moon);
+ move_particles(moon_orbit, moon);
 
- auto earth_orbit = orbit::EllipOrbit{sun.mass, earth.mass + moon.mass, 1_AU, 0.016, 7.155_deg, 174.9_deg, 288.1_deg, isotherm};
+ auto earth_orbit = EllipOrbit(sun.mass, earth.mass + moon.mass, 1_AU, 0.016, 7.155_deg, 174.9_deg, 288.1_deg, isotherm);
 
  // move the centre of mass of the moon and earth to the earth orbit. Now the sun rest at origin and the earth-moon system form a
  //[sun, [earth, moon]] system.
- move_particles_to(earth_orbit, earth, moon);
+ move_particles(earth_orbit, earth, moon);
 
  // Move them to the centre of mass reference frame.
  move_to_COM_frame(sun, earth, moon);
  ```
 
-| Cartons of generating [sun, [earth, moon]] system |                                               |
-| :-----------------------------------------------: | :-------------------------------------------: |
-|   @image html tutorial/SEM1.png "1" width=400px   | @image html tutorial/SEM2.png "2" width=400px |
-|   @image html tutorial/SEM3.png "3" width=400px   | @image html tutorial/SEM4.png "4" width=400px |
-
- - 1. `Particle sun{1_Ms}, earth{1_Me}, moon{1_Mmoon};`
- - 2. `move_particles_to(moon_orbit, moon);`
- - 3. `move_particles_to(earth_orbit, earth, moon);`
- - 4. `move_to_COM_frame(sun, earth, moon);`
+|                     2D Cartons of generating [sun, [earth, moon]] system                     |                                                                                   |
+| :------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| @image html tutorial/SEM1.png 1. Particle sun(1_Ms), earth(1_Me), moon(1_Mmoon); width=400px |  @image html tutorial/SEM2.png 2. move_particles(moon_orbit, moon); width=400px   |
+|    @image html tutorial/SEM3.png 3. move_particles(earth_orbit, earth, moon); width=400px    | @image html tutorial/SEM4.png 4. move_to_COM_frame(sun, earth, moon); width=400px |
 
  You should find that with `move_particles` and `move_to_COM_frame`, we can generate almost all configurations with few works. You don't have to calculate the initial positions and velocities of all particles manually in complex geometry.
 
+@note
+The circle is used to illustrate the orbit but does not show the trajectory.
+
 @section examples Examples
 
-Here we show you few additional examples of how to generate the initial condition by using the generating system provided by SpaceHub.
+We show you few additional examples of generating the initial condition with SpaceHub.
 
 @m_class{m-block m-info}
 
-@par Hierarcical Triple
+@par Hierarchical Triple
 @parblock
   ```cpp
  using namespace space::unit;
  using namespace space::orbit;
  using Particle = typename DefaultSolver::Particle;
  ...
- Particle m0{30_Ms}, m1{20_Ms}, m2{30_Ms};
+ Particle m0(30_Ms), m1(20_Ms), m2(30_Ms);
 
- auto inner_orbit = orbit::EllipOrbit{m0.mass, m1.mass, 5_AU , 0.01, 0_deg, 0.0, 0.0, isotherm};
+ auto inner_orbit = EllipOrbit(m0.mass, m1.mass, 5_AU , 0.01, 0_deg, 0.0, 0.0, isotherm);
 
- move_particles_to(inner_orbit, m0);
+ move_particles(inner_orbit, m0);
 
  move_to_COM_frame(m0, m1);
 
- auto outer_orbit = orbit::EllipOrbit{m2.mass, m0.mass + m1.mass, 100_AU, 0.01, 67.155_deg, 0.0, 0.0, isotherm};
+ auto outer_orbit = EllipOrbit(m2.mass, m0.mass + m1.mass, 100_AU, 0.01, 67.155_deg, 0.0, 0.0, isotherm);
 
- move_particles_to(outer_orbit, m2);
+ move_particles(outer_orbit, m2);
 
  move_to_COM_frame(m0, m1, m2);
  ```
+
+ |                     2D Cartons of generating Hierarchical Triple                      |                                                                              |
+ | :-----------------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+ | @image html tutorial/LK1.png 1. Particle m0(30_Ms), m1(20_Ms), m2(30_Ms); width=400px | @image html tutorial/LK2.png 2. move_particles(inner_orbit, m0); width=400px |
+ |        @image html tutorial/LK3.png 3. move_to_COM_frame(m0, m1); width=400px         | @image html tutorial/LK4.png 4. move_particles(outer_orbit, m2); width=400px |
+ |      @image html tutorial/LK5.png 5. move_to_COM_frame(m0, m1, m2); width=400px       |                                                                              |
+
 @endparblock 
 
 
 @m_class{m-block m-info}
 
-@par Binary binary scattering
+@par Binary Binary Scattering
 @parblock
   ```cpp
  using namespace space::unit;
@@ -201,29 +229,106 @@ Here we show you few additional examples of how to generate the initial conditio
  using namespace space::consts;
  using Particle = typename DefaultSolver::Particle;
  ...
- Particle m00{1_Ms}, m01{1_Ms}, m10{1_Ms}, m11{1_Ms};
+ Particle m0(1_Ms), m1(1_Ms), m2(1_Ms), m3(1_Ms);
 
- auto binary_orbit0 = EllipOrbit{m00.mass, m01.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm};
+ auto binary_orbit0 = EllipOrbit(m0.mass, m1.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm);
 
- move_particles_to(binary_orbit0, m01);
+ move_particles(binary_orbit0, m1);
 
- move_to_COM_frame(m00, m01);
+ move_to_COM_frame(m0, m1);
 
- auto binary_orbit1 = EllipOrbit{m10.mass, m11.mass, 2_AU , 0.01, isotherm, isotherm, isotherm, isotherm};
+ auto binary_orbit1 = EllipOrbit(m2.mass, m3.mass, 2_AU , 0.3, isotherm, isotherm, isotherm, isotherm);
 
- move_particles_to(binary_orbit1, m11);
+ move_particles(binary_orbit1, m3);
 
- auto incident_orbit = HyperOrbit(m00.mass + m01.mass, m10.mass + m11.mass, 5_kms, 20_AU, Uniform(0, 2 * pi), 0, 0, 200_AU, Hyper::in);
+ auto incident_orbit = HyperOrbit(m0.mass + m1.mass, m2.mass + m3.mass, 5_kms, 20_AU, Uniform(0, 2 * pi), 0, 0, 200_AU, Hyper::in);
 
- move_particles_to(incident_orbit, m10, m11);
+ move_particles(incident_orbit, m2, m3);
 
- move_to_COM_frame(m00, m01, m11, m10);
+ move_to_COM_frame(m0, m1, m2, m3);
  ```
+
+  |                        2D Cartons of generating binary-binary scattering                        |                                                                                   |
+  | :---------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+  | @image html tutorial/bi-bi1.png 1. Particle m0(1_Ms), m1(1_Ms), m2(1_Ms), m3(1_Ms); width=400px | @image html tutorial/bi-bi2.png 2. move_particles(binary_orbit0, m1); width=400px |
+  |            @image html tutorial/bi-bi3.png 3. move_to_COM_frame(m0, m1); width=400px            | @image html tutorial/bi-bi4.png 4. move_particles(binary_orbit1, m3); width=400px |
+  |     @image html tutorial/bi-bi5.png 5. move_particles(incident_orbit, m2, m3); width=400px      | @image html tutorial/bi-bi6.png 6. move_to_COM_frame(m0, m1, m2, m3); width=400px |
+
+@endparblock
+
+@m_class{m-block m-info}
+
+@par Quadrupole around SMBH
+@parblock
+  ```cpp
+ using namespace space::unit;
+ using namespace space::orbit;
+ using Particle = typename DefaultSolver::Particle;
+ ...
+ Particle m0(1_Ms), m1(1_Ms), m2(1_Ms), m3(1_Ms), M_bh(1e6_Ms);
+
+ auto bi_orbit0 = EllipOrbit(m0.mass, m1.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm);
+
+ move_particles(bi_orbit0, m1);
+
+ move_to_COM_frame(m0, m1);
+
+ auto bi_orbit1 = EllipOrbit(m2.mass, m3.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm);
+
+ move_particles(bi_orbit1, m3);
+
+ auto quad_orbit = EllipOrbit(m0.mass + m1.mass, m2.mass + m3.mass, 5_AU , 0.2, isotherm, isotherm, isotherm, isotherm);
+
+ move_particles(quad_orbit, m2, m3);
+
+ auto bh_orbit = EllipOrbit(M_bh.mass, M_tot(m0, m1, m2, m3), 50_AU , 0.1, isotherm, isotherm, isotherm, isotherm);
+
+ move_particles(bh_orbit, m0, m1, m2, m3);
+
+ move_to_COM_frame(M_bh, m0, m1, m2, m3);
+ ```
+
+  |                               2D Cartons of generating Quadrupole around SMBH                                |                                                                                         |
+  | :----------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+  | @image html tutorial/quad1.png 1. Particle m0(1_Ms), m1(1_Ms), m2(1_Ms), m3(1_Ms), M_bh(1e6_Ms); width=400px |      @image html tutorial/quad2.png 2. move_particles(bi_orbit0, m1); width=400px       |
+  |                   @image html tutorial/quad3.png 3. move_to_COM_frame(m0, m1); width=400px                   |      @image html tutorial/quad4.png 4. move_particles(bi_orbit1, m3); width=400px       |
+  |              @image html tutorial/quad5.png 5. move_particles(quad_orbit, m2, m3); width=400px               | @image html tutorial/quad6.png 6. move_particles(bh_orbit, m0, m1, m2, m3); width=400px |
+  |            @image html tutorial/quad7.png 7. move_to_COM_frame(M_bh, m0, m1, m2, m3); width=400px            |                                                                                         |
+@endparblock
+
+@m_class{m-block m-info}
+
+@par Asteroid belt
+@parblock
+  ```cpp
+ #include<array>
+ ... 
+ using namespace space::unit;
+ using namespace space::orbit;
+ using namespace space::random;
+ using Particle = typename DefaultSolver::Particle;
+ ...
+ Particle sun(1_Ms), earth(1_Me);
+
+ auto earth_orbit = EllipOrbit(sun.mass, earth.mass, 1_AU , 0.01, 0_deg, 0_deg, 0_deg, isotherm);
+
+ move_particles(earth_orbit, earth);
+
+ move_to_COM_frame(sun, earth);
+ //Default mass, radius = 0;
+ std::array<Particle, 1000> asteroids;
+
+ for(auto & a : asteroids) {
+   auto bell_orbit = EllipOrbit(sun.mass + earth.mass, 0, Uniform(2.2_AU, 3.3_AU) , Uniform(0,0.2), Uniform(-5_deg, 5_deg), isotherm, isotherm, isotherm);
+   move_particles(bell_orbit, a);
+ }
+ ```
+ @image html tutorial/asteroid.png Asteroid Belt width=500px 
 @endparblock
 
 
 @m_class{m-note m-dim m-text-center}
 
 @parblock
-  <a href="create_kepler.html"> << Create Kepler orbit </a> | <a href="particle_manip.html"> Particle manipulation >> </a> 
+  <a href="create_kepler.html"> << Create Kepler orbit </a> | <a href="scattering.html"> Scattering Experiments >> </a> 
 @endparblock

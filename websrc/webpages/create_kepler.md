@@ -204,7 +204,7 @@ The function `space::orbit::orbit_to_coord` returns two 3D-vectors(x,y,z), the f
 
  Vector pos(1_AU, 0, 0);
  Vector vel(0, 30_kms, 0);
-
+ 
  auto orbit = coord_to_orbit(m1, m2, pos, vel);
  ...
 ```
