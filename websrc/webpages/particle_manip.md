@@ -209,7 +209,7 @@ Here we show you few additional examples of how to generate the initial conditio
 
  move_to_COM_frame(m00, m01);
 
- auto binary_orbit1 = EllipOrbit{m10.mass, m11.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm};
+ auto binary_orbit1 = EllipOrbit{m10.mass, m11.mass, 2_AU , 0.01, isotherm, isotherm, isotherm, isotherm};
 
  move_particles_to(binary_orbit1, m11);
 
