@@ -189,6 +189,39 @@ Here we show you few additional examples of how to generate the initial conditio
  ```
 @endparblock 
 
+
+@m_class{m-block m-info}
+
+@par Binary binary scattering
+@parblock
+  ```cpp
+ using namespace space::unit;
+ using namespace space::orbit;
+ using namespace space::random;
+ using namespace space::consts;
+ using Particle = typename DefaultSolver::Particle;
+ ...
+ Particle m00{1_Ms}, m01{1_Ms}, m10{1_Ms}, m11{1_Ms};
+
+ auto binary_orbit0 = EllipOrbit{m00.mass, m01.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm};
+
+ move_particles_to(binary_orbit0, m01);
+
+ move_to_COM_frame(m00, m01);
+
+ auto binary_orbit1 = EllipOrbit{m10.mass, m11.mass, 1_AU , 0.01, isotherm, isotherm, isotherm, isotherm};
+
+ move_particles_to(binary_orbit1, m11);
+
+ auto incident_orbit = HyperOrbit(m00.mass + m01.mass, m10.mass + m11.mass, 5_kms, 20_AU, Uniform(0, 2 * pi), 0, 0, 200_AU, Hyper::in);
+
+ move_particles_to(incident_orbit, m10, m11);
+
+ move_to_COM_frame(m00, m01, m11, m10);
+ ```
+@endparblock
+
+
 @m_class{m-note m-dim m-text-center}
 
 @parblock
