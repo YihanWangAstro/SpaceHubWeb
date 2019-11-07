@@ -55,61 +55,54 @@
             <li>
               Reference
               <ul>
-                <li><a href="#nested-classes">Classes</a></li>
                 <li><a href="#func-members">Functions</a></li>
+                <li><a href="#var-members">Variables</a></li>
               </ul>
             </li>
           </ul>
         </div>
 <p>namespace for math</p>
-        <section id="nested-classes">
-          <h2><a href="#nested-classes">Classes</a></h2>
-          <dl class="m-doc">
-            <dt>
-              <div class="m-doc-template">template&lt;typename Dtype&gt;</div>
-              struct <a href="structspace_1_1math_1_1big__value.html" class="m-doc">big_value</a>
-            </dt>
-            <dd></dd>
-            <dt>
-              <div class="m-doc-template">template&lt;typename Dtype&gt;</div>
-              struct <a href="structspace_1_1math_1_1epsilon.html" class="m-doc">epsilon</a>
-            </dt>
-            <dd></dd>
-            <dt>
-              <div class="m-doc-template">template&lt;typename Dtype&gt;</div>
-              struct <a href="structspace_1_1math_1_1max__value.html" class="m-doc">max_value</a>
-            </dt>
-            <dd></dd>
-          </dl>
-        </section>
         <section id="func-members">
           <h2><a href="#func-members">Functions</a></h2>
           <dl class="m-doc">
             <dt>
               <div class="m-doc-template">template&lt;typename T1, typename T2&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#ade32ddc299725340edc41bd8a5554b48" class="m-doc">min</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
-              T2 const&amp; y) -&gt; T2</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#aae709161ecffab02a6445657d35904b2" class="m-doc">min</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
+              T2 const&amp; y) -&gt; T2 <span class="m-label m-flat m-primary">constexpr</span></span>
             </dt>
-            <dd>Self <a href="namespacespace_1_1math.html#ade32ddc299725340edc41bd8a5554b48" class="m-doc">min()</a></dd>
+            <dd>SpaceHub min.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename T1, typename T2&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#a686a9c355dd46e87db74bef0fc4d8533" class="m-doc">max</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
-              T2 const&amp; y) -&gt; T2</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8af409de2b3a9cafb3de192e499be01c" class="m-doc">max</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
+              T2 const&amp; y) -&gt; T2 <span class="m-label m-flat m-primary">constexpr</span></span>
             </dt>
-            <dd>Self <a href="namespacespace_1_1math.html#a686a9c355dd46e87db74bef0fc4d8533" class="m-doc">max()</a></dd>
+            <dd>SpaceHub max.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename T&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#afe694aee30694bec4b28ddab7a8bb8a3" class="m-doc">abs</a>(</span><span class="m-doc-wrap">const T&amp; x) -&gt; T</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5cdc53658dab026a70cd96df1f0f55b0" class="m-doc">abs</a>(</span><span class="m-doc-wrap">const T&amp; x) -&gt; T <span class="m-label m-flat m-primary">constexpr</span></span>
             </dt>
-            <dd>Self <a href="namespacespace_1_1math.html#afe694aee30694bec4b28ddab7a8bb8a3" class="m-doc">abs()</a></dd>
+            <dd>SpaceHub abs.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename T&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a1b96bb8746cfb7ed81868877cafbb8e6" class="m-doc">in_range</a>(</span><span class="m-doc-wrap">T low,
+              T x,
+              T high) -&gt; T <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Truncate a number in a range.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename T&gt;</div>
               <span class="m-doc-wrap-bumper">auto <a href="#a4fa19c3b7ed5589fc8999e67bb48f3f1" class="m-doc">step</a>(</span><span class="m-doc-wrap">T x) -&gt; T <span class="m-label m-flat m-primary">constexpr</span></span>
             </dt>
-            <dd></dd>
+            <dd>Step function.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename T&gt;</div>
               <span class="m-doc-wrap-bumper">auto <a href="#a154d03c4d37ea8ed198a6c0b9d0309a5" class="m-doc">sign</a>(</span><span class="m-doc-wrap">T x) -&gt; T <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Sign function.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename T&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a53f8a8c104780e093980418c7f306c24" class="m-doc">iseq</a>(</span><span class="m-doc-wrap">T x,
+              T y) -&gt; bool</span>
             </dt>
             <dd></dd>
             <dt>
@@ -119,41 +112,206 @@
               decltype(f(0)) high) -&gt; auto</span>
             </dt>
             <dd>find root use bisection method</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Fun&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a68a1a4504386aaf26253722a5af2627e" class="m-doc">root_newton</a>(</span><span class="m-doc-wrap">Fun f) -&gt; decltype(std::declval&lt;Fun&gt;()(0))</span>
+            </dt>
+            <dd>Find root with Newton method.</dd>
+          </dl>
+        </section>
+        <section id="var-members">
+          <h2><a href="#var-members">Variables</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <div class="m-doc-template">template&lt;typename T&gt;</div>
+              T <a href="#aadb8ce07f6570c17ea728b3eba3a573c" class="m-doc">epsilon_v</a> <span class="m-label m-flat m-primary">constexpr</span>
+            </dt>
+            <dd>Min numerical limit(epsilon) of a floating point type/.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename T&gt;</div>
+              T <a href="#ad1f6c37c84a6979e3daf92c62868f1ac" class="m-doc">max_value_v</a> <span class="m-label m-flat m-primary">constexpr</span>
+            </dt>
+            <dd>Max value of a specific type.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename T&gt;</div>
+              T <a href="#a985ae54b9daa58e98df8b649a7dd6500" class="m-doc">big_value_v</a> <span class="m-label m-flat m-primary">constexpr</span>
+            </dt>
+            <dd>A big value of a specifi type.</dd>
           </dl>
         </section>
         <section>
           <h2>Function documentation</h2>
-          <section class="m-doc-details" id="ade32ddc299725340edc41bd8a5554b48"><div>
+          <section class="m-doc-details" id="aae709161ecffab02a6445657d35904b2"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename T1, typename T2&gt;
               </div>
-              <span class="m-doc-wrap-bumper">T2 space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ade32ddc299725340edc41bd8a5554b48" class="m-doc-self">min</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
-              T2 const&amp; y)</span></span>
+              <span class="m-doc-wrap-bumper">T2 space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aae709161ecffab02a6445657d35904b2" class="m-doc-self">min</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
+              T2 const&amp; y) <span class="m-label m-primary">constexpr</span></span></span>
             </h3>
-            <p>Self <a href="namespacespace_1_1math.html#ade32ddc299725340edc41bd8a5554b48" class="m-doc">min()</a></p>
+            <p>SpaceHub min.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T1</td>
+                  <td>Type of the first argument.</td>
+                </tr>
+                <tr>
+                  <td>T2</td>
+                  <td>Type of the second argument.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>x&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first argument.</td>
+                </tr>
+                <tr>
+                  <td>y&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second argument.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>T2 The min of x, y;</td>
+                </tr>
+              </tfoot>
+            </table>
           </div></section>
-          <section class="m-doc-details" id="a686a9c355dd46e87db74bef0fc4d8533"><div>
+          <section class="m-doc-details" id="a8af409de2b3a9cafb3de192e499be01c"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename T1, typename T2&gt;
               </div>
-              <span class="m-doc-wrap-bumper">T2 space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a686a9c355dd46e87db74bef0fc4d8533" class="m-doc-self">max</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
-              T2 const&amp; y)</span></span>
+              <span class="m-doc-wrap-bumper">T2 space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8af409de2b3a9cafb3de192e499be01c" class="m-doc-self">max</a>(</span><span class="m-doc-wrap">T1 const&amp; x,
+              T2 const&amp; y) <span class="m-label m-primary">constexpr</span></span></span>
             </h3>
-            <p>Self <a href="namespacespace_1_1math.html#a686a9c355dd46e87db74bef0fc4d8533" class="m-doc">max()</a></p>
+            <p>SpaceHub max.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T1</td>
+                  <td>Type of the first argument.</td>
+                </tr>
+                <tr>
+                  <td>T2</td>
+                  <td>Type of the second argument.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>x&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first argument.</td>
+                </tr>
+                <tr>
+                  <td>y&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second argument.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>T2 The max of x, y;</td>
+                </tr>
+              </tfoot>
+            </table>
           </div></section>
-          <section class="m-doc-details" id="afe694aee30694bec4b28ddab7a8bb8a3"><div>
+          <section class="m-doc-details" id="a5cdc53658dab026a70cd96df1f0f55b0"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename T&gt;
               </div>
-              <span class="m-doc-wrap-bumper">T space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afe694aee30694bec4b28ddab7a8bb8a3" class="m-doc-self">abs</a>(</span><span class="m-doc-wrap">const T&amp; x)</span></span>
+              <span class="m-doc-wrap-bumper">T space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5cdc53658dab026a70cd96df1f0f55b0" class="m-doc-self">abs</a>(</span><span class="m-doc-wrap">const T&amp; x) <span class="m-label m-primary">constexpr</span></span></span>
             </h3>
-            <p>Self <a href="namespacespace_1_1math.html#afe694aee30694bec4b28ddab7a8bb8a3" class="m-doc">abs()</a></p>
+            <p>SpaceHub abs.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td>Type of the argument.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>x&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The input argument.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>T The absolute value.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a1b96bb8746cfb7ed81868877cafbb8e6"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">T space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1b96bb8746cfb7ed81868877cafbb8e6" class="m-doc-self">in_range</a>(</span><span class="m-doc-wrap">T low,
+              T x,
+              T high) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Truncate a number in a range.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td>Type of the truncated variable.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>low&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The lower limit.</td>
+                </tr>
+                <tr>
+                  <td>x&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The variable need to be truncated.</td>
+                </tr>
+                <tr>
+                  <td>high&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The higher limit.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>T The truncated value.</td>
+                </tr>
+              </tfoot>
+            </table>
           </div></section>
           <section class="m-doc-details" id="a4fa19c3b7ed5589fc8999e67bb48f3f1"><div>
             <h3>
@@ -163,6 +321,7 @@
               </div>
               <span class="m-doc-wrap-bumper">T space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4fa19c3b7ed5589fc8999e67bb48f3f1" class="m-doc-self">step</a>(</span><span class="m-doc-wrap">T x) <span class="m-label m-primary">constexpr</span></span></span>
             </h3>
+            <p>Step function.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -170,7 +329,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">T</td>
-                  <td></td>
+                  <td>Type of the x, y.</td>
                 </tr>
               </tbody>
               <thead>
@@ -178,11 +337,18 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>x</td>
+                  <td>x&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td></td>
                 </tr>
               </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr T y</td>
+                </tr>
+              </tfoot>
             </table>
+<img class="m-image" src="step.png" alt="Image" style="width: 400px;" />
           </div></section>
           <section class="m-doc-details" id="a154d03c4d37ea8ed198a6c0b9d0309a5"><div>
             <h3>
@@ -191,6 +357,44 @@
                 template&lt;typename T&gt;
               </div>
               <span class="m-doc-wrap-bumper">T space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a154d03c4d37ea8ed198a6c0b9d0309a5" class="m-doc-self">sign</a>(</span><span class="m-doc-wrap">T x) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Sign function.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td>Type of x, y</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>x&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr T y</td>
+                </tr>
+              </tfoot>
+            </table>
+<img class="m-image" src="sign.png" alt="Image" style="width: 400px;" />
+          </div></section>
+          <section class="m-doc-details" id="a53f8a8c104780e093980418c7f306c24"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">bool space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a53f8a8c104780e093980418c7f306c24" class="m-doc-self">iseq</a>(</span><span class="m-doc-wrap">T x,
+              T y)</span></span>
             </h3>
             <table class="m-table m-fullwidth m-flat">
               <thead>
@@ -210,7 +414,17 @@
                   <td>x</td>
                   <td></td>
                 </tr>
+                <tr>
+                  <td>y</td>
+                  <td></td>
+                </tr>
               </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>true</td>
+                </tr>
+              </tfoot>
             </table>
           </div></section>
           <section class="m-doc-details" id="a03a25b4b64e102b98c156fbf1cf547f8"><div>
@@ -231,7 +445,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">Fun</td>
-                  <td>Type Callable ojbect.</td>
+                  <td>Type of Callable ojbect.</td>
                 </tr>
               </tbody>
               <thead>
@@ -240,7 +454,7 @@
               <tbody>
                 <tr>
                   <td>f</td>
-                  <td>Callable object/</td>
+                  <td>Callable object</td>
                 </tr>
                 <tr>
                   <td>low</td>
@@ -258,6 +472,109 @@
                 </tr>
               </tfoot>
             </table>
+          </div></section>
+          <section class="m-doc-details" id="a68a1a4504386aaf26253722a5af2627e"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Fun&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">decltype(std::declval&lt;Fun&gt;()(0)) space::<wbr />math::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a68a1a4504386aaf26253722a5af2627e" class="m-doc-self">root_newton</a>(</span><span class="m-doc-wrap">Fun f)</span></span>
+            </h3>
+            <p>Find root with Newton method.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Fun</td>
+                  <td>Type of callable object.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>f</td>
+                  <td>Callable object.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>decltype(std::declval&lt;Fun&gt;()(0)) The root.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+        </section>
+        <section>
+          <h2>Variable documentation</h2>
+          <section class="m-doc-details" id="aadb8ce07f6570c17ea728b3eba3a573c"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              T space::<wbr />math::<wbr /><a href="#aadb8ce07f6570c17ea728b3eba3a573c" class="m-doc-self">epsilon_v</a> <span class="m-label m-primary">constexpr</span>
+            </h3>
+            <p>Min numerical limit(epsilon) of a floating point type/.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="ad1f6c37c84a6979e3daf92c62868f1ac"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              T space::<wbr />math::<wbr /><a href="#ad1f6c37c84a6979e3daf92c62868f1ac" class="m-doc-self">max_value_v</a> <span class="m-label m-primary">constexpr</span>
+            </h3>
+            <p>Max value of a specific type.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a985ae54b9daa58e98df8b649a7dd6500"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="math_8hpp.html">&lt;src/math.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              T space::<wbr />math::<wbr /><a href="#a985ae54b9daa58e98df8b649a7dd6500" class="m-doc-self">big_value_v</a> <span class="m-label m-primary">constexpr</span>
+            </h3>
+            <p>A big value of a specifi type.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+<p>0.1 max_value_v</p>
           </div></section>
         </section>
       </div>

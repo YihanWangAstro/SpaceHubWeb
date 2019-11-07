@@ -50,7 +50,275 @@
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span>random <span class="m-thin">namespace</span>
           <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="rand-generator_8hpp.html">&lt;src/rand-generator.hpp&gt;</a></div>
         </h1>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#func-members">Functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
 <p>Documentation for space</p>
+        <section id="func-members">
+          <h2><a href="#func-members">Functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a61cd0bc0d0884534f0655d734db32989" class="m-doc">Uniform</a>(</span><span class="m-doc-wrap">double low,
+              double high) -&gt; double</span>
+            </dt>
+            <dd>Uniform distributed random number generator.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a19527a63639f15649f1b43f0d17c0db1" class="m-doc">Logarithm</a>(</span><span class="m-doc-wrap">double low,
+              double high) -&gt; double</span>
+            </dt>
+            <dd>Logarithmic distributed random number generator.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a8900b95782690410625519c6a43f4a5f" class="m-doc">PowerLaw</a>(</span><span class="m-doc-wrap">double power,
+              double low,
+              double high) -&gt; double</span>
+            </dt>
+            <dd>Power law distributed random number generator.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#aa6002dea3a4bc94ba61481580783371c" class="m-doc">Normal</a>(</span><span class="m-doc-wrap">double mean = 0,
+              double sigma = 1) -&gt; double</span>
+            </dt>
+            <dd>Normal distributed random number generator.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#adf18118fab4233f3681f7a63f6e66c84" class="m-doc">TruncatedNormal</a>(</span><span class="m-doc-wrap">double low,
+              double high,
+              double mean = 0,
+              double sigma = 1) -&gt; double</span>
+            </dt>
+            <dd>Truncated normal distribution random number generator.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a7f5bc2d34126accdca4861d34b74794d" class="m-doc">Maxwellian</a>(</span><span class="m-doc-wrap">double sigma_1d) -&gt; double</span>
+            </dt>
+            <dd>Maxwellian distributed random number generator.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a55c8d9f5d0a6498e242dd8086878d7a2" class="m-doc">TruncatedMaxwellian</a>(</span><span class="m-doc-wrap">double low,
+              double high,
+              double sigma_1d) -&gt; double</span>
+            </dt>
+            <dd>Truncated Maxwellian distributed random number generator.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a61cd0bc0d0884534f0655d734db32989"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a61cd0bc0d0884534f0655d734db32989" class="m-doc-self">Uniform</a>(</span><span class="m-doc-wrap">double low,
+              double high)</span></span>
+            </h3>
+            <p>Uniform distributed random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">low&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The lower limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>high&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The higher limit of the distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a19527a63639f15649f1b43f0d17c0db1"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a19527a63639f15649f1b43f0d17c0db1" class="m-doc-self">Logarithm</a>(</span><span class="m-doc-wrap">double low,
+              double high)</span></span>
+            </h3>
+            <p>Logarithmic distributed random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">low&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The lower limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>high&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The higher limit of the distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a8900b95782690410625519c6a43f4a5f"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8900b95782690410625519c6a43f4a5f" class="m-doc-self">PowerLaw</a>(</span><span class="m-doc-wrap">double power,
+              double low,
+              double high)</span></span>
+            </h3>
+            <p>Power law distributed random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">power&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The power of the power law</td>
+                </tr>
+                <tr>
+                  <td>low&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The lower limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>high&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The higher limit of the distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aa6002dea3a4bc94ba61481580783371c"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa6002dea3a4bc94ba61481580783371c" class="m-doc-self">Normal</a>(</span><span class="m-doc-wrap">double mean = 0,
+              double sigma = 1)</span></span>
+            </h3>
+            <p>Normal distributed random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">mean&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The mean value of the normal distribution.</td>
+                </tr>
+                <tr>
+                  <td>sigma&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The standard deviation of the normal distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="adf18118fab4233f3681f7a63f6e66c84"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#adf18118fab4233f3681f7a63f6e66c84" class="m-doc-self">TruncatedNormal</a>(</span><span class="m-doc-wrap">double low,
+              double high,
+              double mean = 0,
+              double sigma = 1)</span></span>
+            </h3>
+            <p>Truncated normal distribution random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">low&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The lower limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>high&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The higher limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>mean&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The mean value of the untruncated normal distribution.</td>
+                </tr>
+                <tr>
+                  <td>sigma&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The standard deviation of the untruncated normal distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a7f5bc2d34126accdca4861d34b74794d"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7f5bc2d34126accdca4861d34b74794d" class="m-doc-self">Maxwellian</a>(</span><span class="m-doc-wrap">double sigma_1d)</span></span>
+            </h3>
+            <p>Maxwellian distributed random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">sigma_1d&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The 1D dispersion of the Maxwellian distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a55c8d9f5d0a6498e242dd8086878d7a2"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />random::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a55c8d9f5d0a6498e242dd8086878d7a2" class="m-doc-self">TruncatedMaxwellian</a>(</span><span class="m-doc-wrap">double low,
+              double high,
+              double sigma_1d)</span></span>
+            </h3>
+            <p>Truncated Maxwellian distributed random number generator.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">low&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The lower limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>high&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The higher limit of the distribution.</td>
+                </tr>
+                <tr>
+                  <td>sigma_1d&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The 1D dispersion of the Maxwellian distribution.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>double The generated number.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+        </section>
       </div>
     </div>
   </div>

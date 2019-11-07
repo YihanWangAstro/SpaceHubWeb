@@ -182,12 +182,25 @@
               <div class="m-doc-template">template&lt;typename... Args&gt;</div>
               <span class="m-doc-wrap-bumper">auto <a href="#aa711c0aa2909a0a48b579033b7cb4499" class="m-doc">std_print</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) -&gt; auto&amp;</span>
             </dt>
-            <dd></dd>
+            <dd>Print variables to std::cout.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename... Args&gt;</div>
               <span class="m-doc-wrap-bumper">auto <a href="#a423503d664e1b35744da843e92d598ac" class="m-doc">std_input</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) -&gt; auto&amp;</span>
             </dt>
-            <dd></dd>
+            <dd>Input variables from std::cin.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Ostream, typename Arg, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a17e908fe80f7ae52016ef47a729c1b10" class="m-doc">print_csv</a>(</span><span class="m-doc-wrap">Ostream&amp; out,
+              Arg&amp;&amp; arg,
+              Args &amp;&amp; ... args) -&gt; auto&amp;</span>
+            </dt>
+            <dd>Print comma seperated value to an ostream.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Ostream, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#aed845d4bfb0c082f803fbf19d3635d2b" class="m-doc">display</a>(</span><span class="m-doc-wrap">Ostream&amp; out,
+              Args &amp;&amp; ... args)</span>
+            </dt>
+            <dd>Print space seperated value to an ostream.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename T1, typename T2&gt;</div>
               <span class="m-doc-wrap-bumper">auto <a href="#a4f55f5f0c3a2005e4f942b28b3737cc2" class="m-doc">distance</a>(</span><span class="m-doc-wrap">const <a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a>&lt;T1&gt;&amp; v1,
@@ -272,6 +285,7 @@
           <h2>Function documentation</h2>
           <section class="m-doc-details" id="a2be4d877e57c66060db8fb55e9769d47"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_i_o_8hpp.html">&lt;src/IO.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Ostream, typename... Args&gt;
               </div>
@@ -316,6 +330,7 @@
           </div></section>
           <section class="m-doc-details" id="ad337bc7e18c7087c25bf6ec8ba5ae1fc"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_i_o_8hpp.html">&lt;src/IO.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Istream, typename... Args&gt;
               </div>
@@ -360,11 +375,13 @@
           </div></section>
           <section class="m-doc-details" id="aa711c0aa2909a0a48b579033b7cb4499"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_i_o_8hpp.html">&lt;src/IO.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename... Args&gt;
               </div>
               <span class="m-doc-wrap-bumper">auto&amp; space::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa711c0aa2909a0a48b579033b7cb4499" class="m-doc-self">std_print</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args)</span></span>
             </h3>
+            <p>Print variables to std::cout.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -391,15 +408,16 @@
                 </tr>
               </tfoot>
             </table>
-<p>Print variables to std::cout.</p>
           </div></section>
           <section class="m-doc-details" id="a423503d664e1b35744da843e92d598ac"><div>
             <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_i_o_8hpp.html">&lt;src/IO.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename... Args&gt;
               </div>
               <span class="m-doc-wrap-bumper">auto&amp; space::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a423503d664e1b35744da843e92d598ac" class="m-doc-self">std_input</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args)</span></span>
             </h3>
+            <p>Input variables from std::cin.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -426,7 +444,99 @@
                 </tr>
               </tfoot>
             </table>
-<p>Input variables from std::cin.</p>
+          </div></section>
+          <section class="m-doc-details" id="a17e908fe80f7ae52016ef47a729c1b10"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_i_o_8hpp.html">&lt;src/IO.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Ostream, typename Arg, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a17e908fe80f7ae52016ef47a729c1b10" class="m-doc-self">print_csv</a>(</span><span class="m-doc-wrap">Ostream&amp; out,
+              Arg&amp;&amp; arg,
+              Args &amp;&amp; ... args)</span></span>
+            </h3>
+            <p>Print comma seperated value to an ostream.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Ostream</td>
+                  <td>Type of ostream.</td>
+                </tr>
+                <tr>
+                  <td>Arg</td>
+                  <td>Variadic type(any).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Variadic type(any).</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>out&nbsp;<span class="m-label m-flat m-warning">out</span></td>
+                  <td>output stream.</td>
+                </tr>
+                <tr>
+                  <td>arg&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Variable.</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Variables.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto&amp; output stream.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aed845d4bfb0c082f803fbf19d3635d2b"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_i_o_8hpp.html">&lt;src/IO.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Ostream, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void space::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aed845d4bfb0c082f803fbf19d3635d2b" class="m-doc-self">display</a>(</span><span class="m-doc-wrap">Ostream&amp; out,
+              Args &amp;&amp; ... args)</span></span>
+            </h3>
+            <p>Print space seperated value to an ostream.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Ostream</td>
+                  <td>Type of ostream.</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Variadic type(any).</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>out&nbsp;<span class="m-label m-flat m-warning">out</span></td>
+                  <td>Output stream</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Variables.</td>
+                </tr>
+              </tbody>
+            </table>
           </div></section>
           <section class="m-doc-details" id="a4f55f5f0c3a2005e4f942b28b3737cc2"><div>
             <h3>
