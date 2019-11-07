@@ -145,8 +145,8 @@ You can also use the random number generators provided by SpaceHub to randomlize
 
 SpaceHub provides anomaly calculations between True anomaly @bflabel{T}, Mean anomaly @bflabel{M} and Eccentric anomaly @bflabel{E}.
 
-|                           Eccentric anomaly                           |                              Mean anomaly                              |
-| :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+|                                                     Eccentric anomaly |                              Mean anomaly                              |
+| --------------------------------------------------------------------: | :--------------------------------------------------------------------: |
 | @image html tutorial/ecc_anomaly.png "credit : wikipedia" width=400px | @image html tutorial/mean_anomaly.png "credit : wikipedia" width=400px |
 
 - Scalar space::orbit::M_anomaly_to_E_anomaly(Scalar M_anomaly, Scalar e);
