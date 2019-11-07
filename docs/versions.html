@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SpaceHub</title>
+  <title>Versions | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -32,7 +32,7 @@
           <ol class="m-col-t-6 m-col-m-none" start="4">
             <li><a href="files.html">Files</a></li>
             <li><a href="tests.html">Tests</a></li>
-            <li><a href="versions.html">Versions</a></li>
+            <li><a href="versions.html" id="m-navbar-current">Versions</a></li>
             <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
               <use href="#m-doc-search-icon-path" />
             </svg></a></li>
@@ -46,33 +46,16 @@
   <div class="m-container m-container-inflatable">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <h1>Pages</h2>
-        <ul class="m-doc">
-          <li><a href="create_kepler.html" class="m-doc">Generate Kepler orbit</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__c_h_a_n_g_e_s.html" class="m-doc">Version 9.16.2</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e.html" class="m-doc">Highlight.js</a> <span class="m-doc">The list of supported languages and corresponding classes.</span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e_8ru.html" class="m-doc">Highlight.js</a> <span class="m-doc"></span></li>
-          <li><a href="particle_manip.html" class="m-doc">Particle manipulation</a> <span class="m-doc"></span></li>
-          <li><a href="scattering_exp.html" class="m-doc">Scattering Experiments</a> <span class="m-doc"></span></li>
-          <li><a href="start.html" class="m-doc">Getting started</a> <span class="m-doc"></span></li>
-          <li><a href="tutorial.html" class="m-doc">Tutorial</a> <span class="m-doc"></span></li>
-        </ul>
-        <script>
-        function toggle(e) {
-            e.parentElement.className = e.parentElement.className == 'm-doc-collapsible' ?
-                'm-doc-expansible' : 'm-doc-collapsible';
-            return false;
-        }
-        /* Collapse all nodes marked as such. Doing it via JS instead of
-           directly in markup so disabling it doesn't harm usability. The list
-           is somehow regenerated on every iteration and shrinks as I change
-           the classes. It's not documented anywhere and I'm not sure if this
-           is the same across browsers, so I am going backwards in that list to
-           be sure. */
-        var collapsed = document.getElementsByClassName("collapsed");
-        for(var i = collapsed.length - 1; i >= 0; --i)
-            collapsed[i].className = 'm-doc-expansible';
-        </script>
+        <h1>
+          Versions
+        </h1>
+<aside class="m-block m-info"><h3>Version 0.0.1</h3><div><p><strong class="m-label m-success">New features</strong></p><ul><li>aa</li><li>bb<br /></li></ul>
+  <p><strong class="m-label m-info">Enhancements</strong></p><ul><li>aa</li><li>bb<br /></li></ul>
+<p><br /><strong class="m-label m-danger">Bug fixes</strong></p><ul><li>aa</li><li>bb<br /></li></ul>
+<p><br /></p></div></aside><aside class="m-block m-info"><h3>Version 0.0.0</h3><div><p><strong class="m-label m-success">New features</strong></p><ul><li>aa</li><li>bb<br /></li></ul>
+  <p><strong class="m-label m-info">Enhancements</strong></p><ul><li>aa</li><li>bb<br /></li></ul>
+<p><br /><strong class="m-label m-danger">Bug fixes</strong></p><ul><li>aa</li><li>bb<br /></li></ul>
+<p><br /></p></div></aside>
       </div>
     </div>
   </div>

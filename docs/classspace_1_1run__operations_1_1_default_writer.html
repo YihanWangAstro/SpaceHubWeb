@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SpaceHub</title>
+  <title>space::run_operations::DefaultWriter class | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -46,33 +46,91 @@
   <div class="m-container m-container-inflatable">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <h1>Pages</h2>
-        <ul class="m-doc">
-          <li><a href="create_kepler.html" class="m-doc">Generate Kepler orbit</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__c_h_a_n_g_e_s.html" class="m-doc">Version 9.16.2</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e.html" class="m-doc">Highlight.js</a> <span class="m-doc">The list of supported languages and corresponding classes.</span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e_8ru.html" class="m-doc">Highlight.js</a> <span class="m-doc"></span></li>
-          <li><a href="particle_manip.html" class="m-doc">Particle manipulation</a> <span class="m-doc"></span></li>
-          <li><a href="scattering_exp.html" class="m-doc">Scattering Experiments</a> <span class="m-doc"></span></li>
-          <li><a href="start.html" class="m-doc">Getting started</a> <span class="m-doc"></span></li>
-          <li><a href="tutorial.html" class="m-doc">Tutorial</a> <span class="m-doc"></span></li>
-        </ul>
-        <script>
-        function toggle(e) {
-            e.parentElement.className = e.parentElement.className == 'm-doc-collapsible' ?
-                'm-doc-expansible' : 'm-doc-collapsible';
-            return false;
-        }
-        /* Collapse all nodes marked as such. Doing it via JS instead of
-           directly in markup so disabling it doesn't harm usability. The list
-           is somehow regenerated on every iteration and shrinks as I change
-           the classes. It's not documented anywhere and I'm not sure if this
-           is the same across browsers, so I am going backwards in that list to
-           be sure. */
-        var collapsed = document.getElementsByClassName("collapsed");
-        for(var i = collapsed.length - 1; i >= 0; --i)
-            collapsed[i].className = 'm-doc-expansible';
-        </script>
+        <h1>
+          <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1run__operations.html">run_operations</a>::<wbr/></span>DefaultWriter <span class="m-thin">class</span>
+          <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="callbacks_8hpp.html">&lt;src/args-callback/callbacks.hpp&gt;</a></div>
+        </h1>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+<p>Default outputer for <a href="classspace_1_1_run_args.html" class="m-doc">RunArgs</a>. This class serves as a callable callback object to output data to a file stream.</p>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a41dfe6dfd2fdfd915844ce0cc5af5180" class="m-doc">DefaultWriter</a>(</span><span class="m-doc-wrap">std::string const&amp; file_name) <span class="m-label m-flat m-info">explicit</span> </span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <div class="m-doc-template">template&lt;typename ParticleSys&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a04d4a12a06a50099d26918cc0628370f" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a41dfe6dfd2fdfd915844ce0cc5af5180"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"> space::<wbr />run_operations::<wbr />DefaultWriter::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a41dfe6dfd2fdfd915844ce0cc5af5180" class="m-doc-self">DefaultWriter</a>(</span><span class="m-doc-wrap">std::string const&amp; file_name) <span class="m-label m-info">explicit</span> </span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">file_name</td>
+                  <td>The file name of the output file stream.</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Constructor of the outputer.</p>
+          </div></section>
+          <section class="m-doc-details" id="a04d4a12a06a50099d26918cc0628370f"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename ParticleSys&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void space::<wbr />run_operations::<wbr />DefaultWriter::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a04d4a12a06a50099d26918cc0628370f" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc)</span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">ParticleSys</td>
+                  <td>Any type provides method <code>time()</code></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>Input parameter.</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Callable interface.</p>
+          </div></section>
+        </section>
       </div>
     </div>
   </div>

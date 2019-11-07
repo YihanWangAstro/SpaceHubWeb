@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SpaceHub</title>
+  <title>space::integrator::Integrator class | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -46,33 +46,105 @@
   <div class="m-container m-container-inflatable">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <h1>Pages</h2>
-        <ul class="m-doc">
-          <li><a href="create_kepler.html" class="m-doc">Generate Kepler orbit</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__c_h_a_n_g_e_s.html" class="m-doc">Version 9.16.2</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e.html" class="m-doc">Highlight.js</a> <span class="m-doc">The list of supported languages and corresponding classes.</span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e_8ru.html" class="m-doc">Highlight.js</a> <span class="m-doc"></span></li>
-          <li><a href="particle_manip.html" class="m-doc">Particle manipulation</a> <span class="m-doc"></span></li>
-          <li><a href="scattering_exp.html" class="m-doc">Scattering Experiments</a> <span class="m-doc"></span></li>
-          <li><a href="start.html" class="m-doc">Getting started</a> <span class="m-doc"></span></li>
-          <li><a href="tutorial.html" class="m-doc">Tutorial</a> <span class="m-doc"></span></li>
-        </ul>
-        <script>
-        function toggle(e) {
-            e.parentElement.className = e.parentElement.className == 'm-doc-collapsible' ?
-                'm-doc-expansible' : 'm-doc-collapsible';
-            return false;
-        }
-        /* Collapse all nodes marked as such. Doing it via JS instead of
-           directly in markup so disabling it doesn't harm usability. The list
-           is somehow regenerated on every iteration and shrinks as I change
-           the classes. It's not documented anywhere and I'm not sure if this
-           is the same across browsers, so I am going backwards in that list to
-           be sure. */
-        var collapsed = document.getElementsByClassName("collapsed");
-        for(var i = collapsed.length - 1; i >= 0; --i)
-            collapsed[i].className = 'm-doc-expansible';
-        </script>
+        <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="integrator_8hpp.html">&lt;src/integrator/integrator.hpp&gt;</a></div>
+          <div class="m-doc-template">template&lt;typename Derived&gt;</div>
+          <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1integrator.html">integrator</a>::<wbr/></span>Integrator <span class="m-thin">class</span>
+        </h1>
+        <table class="m-table m-fullwidth m-flat">
+          <thead>
+            <tr><th colspan="2">Template parameters</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 1%">Derived</td>
+              <td>The implement class in CRTP idiom.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#pub-static-attribs">Public static variables</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+<p>Abstract class of integrator. A class implements(partly/fully) the interfaces of this class via CRTP idiom can be used cross the system as an implementation of the concept <code><a href="classspace_1_1integrator_1_1_integrator.html" class="m-doc">Integrator</a></code>.</p>
+        <section id="pub-static-attribs">
+          <h2><a href="#pub-static-attribs">Public static variables</a></h2>
+          <dl class="m-doc">
+            <dt>
+              static size_t <a href="#a2c994d7654035915c0436924f1195ccd" class="m-doc">order</a> <span class="m-label m-flat m-primary">constexpr</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <div class="m-doc-template">template&lt;typename T&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a7a799322c0005d6e983f151996ebd126" class="m-doc">integrate</a>(</span><span class="m-doc-wrap">T&amp; particle_sys,
+              typename T::Scalar step_size)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a7a799322c0005d6e983f151996ebd126"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Derived&gt;
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void space::<wbr />integrator::<wbr />Integrator&lt;Derived&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7a799322c0005d6e983f151996ebd126" class="m-doc-self">integrate</a>(</span><span class="m-doc-wrap">T&amp; particle_sys,
+              typename T::Scalar step_size)</span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">T</td>
+                  <td>Any implementation of concept <a href="classspace_1_1particle__system_1_1_particle_system.html" class="m-doc">particle_system::<wbr />ParticleSystem</a>.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>particle_sys&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The particle system that need integration.</td>
+                </tr>
+                <tr>
+                  <td>step_size&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Step size.</td>
+                </tr>
+              </tbody>
+            </table>
+<p><strong class="m-label m-flat m-danger">must impl</strong></p><p>Integrate a particle system with given step_size.</p>
+          </div></section>
+        </section>
+        <section>
+          <h2>Variable documentation</h2>
+          <section class="m-doc-details" id="a2c994d7654035915c0436924f1195ccd"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Derived&gt;
+              </div>
+              static size_t space::<wbr />integrator::<wbr />Integrator&lt;Derived&gt;::<wbr /><a href="#a2c994d7654035915c0436924f1195ccd" class="m-doc-self">order</a> <span class="m-label m-primary">constexpr</span>
+            </h3>
+<p>Order of the integrator.</p>
+          </div></section>
+        </section>
       </div>
     </div>
   </div>

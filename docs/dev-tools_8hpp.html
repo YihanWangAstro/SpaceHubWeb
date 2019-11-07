@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SpaceHub</title>
+  <title>src/dev-tools.hpp file | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -46,33 +46,77 @@
   <div class="m-container m-container-inflatable">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <h1>Pages</h2>
-        <ul class="m-doc">
-          <li><a href="create_kepler.html" class="m-doc">Generate Kepler orbit</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__c_h_a_n_g_e_s.html" class="m-doc">Version 9.16.2</a> <span class="m-doc"></span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e.html" class="m-doc">Highlight.js</a> <span class="m-doc">The list of supported languages and corresponding classes.</span></li>
-          <li><a href="md__home_yihan__repositories__space_hub_web_websrc_webpages_highlight__r_e_a_d_m_e_8ru.html" class="m-doc">Highlight.js</a> <span class="m-doc"></span></li>
-          <li><a href="particle_manip.html" class="m-doc">Particle manipulation</a> <span class="m-doc"></span></li>
-          <li><a href="scattering_exp.html" class="m-doc">Scattering Experiments</a> <span class="m-doc"></span></li>
-          <li><a href="start.html" class="m-doc">Getting started</a> <span class="m-doc"></span></li>
-          <li><a href="tutorial.html" class="m-doc">Tutorial</a> <span class="m-doc"></span></li>
-        </ul>
-        <script>
-        function toggle(e) {
-            e.parentElement.className = e.parentElement.className == 'm-doc-collapsible' ?
-                'm-doc-expansible' : 'm-doc-collapsible';
-            return false;
-        }
-        /* Collapse all nodes marked as such. Doing it via JS instead of
-           directly in markup so disabling it doesn't harm usability. The list
-           is somehow regenerated on every iteration and shrinks as I change
-           the classes. It's not documented anywhere and I'm not sure if this
-           is the same across browsers, so I am going backwards in that list to
-           be sure. */
-        var collapsed = document.getElementsByClassName("collapsed");
-        for(var i = collapsed.length - 1; i >= 0; --i)
-            collapsed[i].className = 'm-doc-expansible';
-        </script>
+        <h1>
+          <span class="m-breadcrumb"><a href="dir_2d28839f275d36fddf4bad6ecf372158.html">src</a>/</span>dev-tools.hpp <span class="m-thin">file</span>
+        </h1>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#namespaces">Namespaces</a></li>
+                <li><a href="#define-members">Defines</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+<p>Header file.</p>
+        <section id="namespaces">
+          <h2><a href="#namespaces">Namespaces</a></h2>
+          <dl class="m-doc">
+            <dt>namespace <a href="namespacespace.html" class="m-doc">space</a></dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="define-members">
+          <h2><a href="#define-members">Defines</a></h2>
+          <dl class="m-doc">
+            <dt id="a58c80f7d71aa5555df912ee9d60d34ea">
+              <span class="m-doc-wrap-bumper">#define <a href="#a58c80f7d71aa5555df912ee9d60d34ea" class="m-doc-self">DEBUG_MSG</a>(</span><span class="m-doc-wrap">EXPR,
+              ...)</span>
+            </dt>
+            <dd>Macros used to output debuf info.<br /></dd>
+            <dt id="a86408b2e79be508b3c8b8c90f66e89a7">
+              <span class="m-doc-wrap-bumper">#define <a href="#a86408b2e79be508b3c8b8c90f66e89a7" class="m-doc-self">CREATE_MEMBER_CHECK</a>(</span><span class="m-doc-wrap">MEMBER)</span>
+            </dt>
+            <dd>Macros used to check if a class has a member.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">#define <a href="#acd50abf2f60a8ebc7dcc2a94bda2d7ca" class="m-doc">CREATE_STATIC_MEMBER_CHECK</a>(</span><span class="m-doc-wrap">MEMBER)</span>
+            </dt>
+            <dd></dd>
+            <dt id="ac2fd4f3ea0b555c107cad2c9430717f8">
+              <span class="m-doc-wrap-bumper">#define <a href="#ac2fd4f3ea0b555c107cad2c9430717f8" class="m-doc-self">CHECK_METHOD</a>(</span><span class="m-doc-wrap">CLASS,
+              METHOD,
+              ...)</span>
+            </dt>
+            <dd>Macros used to static_assert if a class has a specific method.</dd>
+            <dt id="a3004813da8a05abadaad077b5cacbc6f">
+              <span class="m-doc-wrap-bumper">#define <a href="#a3004813da8a05abadaad077b5cacbc6f" class="m-doc-self">CHECK_MEMBER</a>(</span><span class="m-doc-wrap">CLASS,
+              MB)</span>
+            </dt>
+            <dd>Macros used to static_assert if a class has a member.</dd>
+            <dt id="ac10c0f62e719b8f64c36b62dfacfbd82">
+              <span class="m-doc-wrap-bumper">#define <a href="#ac10c0f62e719b8f64c36b62dfacfbd82" class="m-doc-self">CHECK_STATIC_MEMBER</a>(</span><span class="m-doc-wrap">CLASS,
+              MB)</span>
+            </dt>
+            <dd>Macros used to static_assert if a class has a static member.</dd>
+            <dt id="a9165bf60ffe95b57b3a1deb24f92b7f7">
+              <span class="m-doc-wrap-bumper">#define <a href="#a9165bf60ffe95b57b3a1deb24f92b7f7" class="m-doc-self">CHECK_TYPE</a>(</span><span class="m-doc-wrap">T1,
+              T2)</span>
+            </dt>
+            <dd>Macros used to static_assert if two class have the same base type set.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Define documentation</h2>
+          <section class="m-doc-details" id="acd50abf2f60a8ebc7dcc2a94bda2d7ca"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">#define <a href="#acd50abf2f60a8ebc7dcc2a94bda2d7ca" class="m-doc-self">CREATE_STATIC_MEMBER_CHECK</a>(</span><span class="m-doc-wrap">MEMBER)</span>
+            </h3>
+<p>Macros used to check if a class has a static member.<br /></p>
+          </div></section>
+        </section>
       </div>
     </div>
   </div>
