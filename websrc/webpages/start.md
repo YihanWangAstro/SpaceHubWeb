@@ -128,9 +128,9 @@ For Windows user, download the repository of SpaceHub and unpack it.
 </ul>
 
 @section demo Demo 
-Here is a very simple example to integrate a (sun-earth-moon) system. For more information we recommend to read tutorial carefully.
+Here is a very simple example to integrate a (sun-earth-moon) system. For more information we recommend to read <a href="tutorial.html"> tutorial </a> carefully.
 
-@code{.cpp}
+```cpp
 // main.cpp
 #include"PATH_TO_SPACEHUB/src/spaceHub.hpp"
 using namespace space;
@@ -171,7 +171,7 @@ int main(){
 
   return 0;
 }
-@endcode
+```
 
 compile it with
 

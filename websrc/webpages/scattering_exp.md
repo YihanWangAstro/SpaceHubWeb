@@ -5,13 +5,7 @@
 
 @section COM_calc Centre of Mass Calculation
 
-@code{.cpp}
-#include<iostream>
-int main(){
-  std::cout << "hello world";
-  return 0;
-}
-@endcode
+
 
 @section tidal_factor Tidal factor
 xxx
