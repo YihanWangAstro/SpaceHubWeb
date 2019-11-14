@@ -59,7 +59,7 @@
           <tbody>
             <tr>
               <td style="width: 1%">TypeSystem</td>
-              <td></td>
+              <td>The type system in spaceHub(space::Types).</td>
             </tr>
           </tbody>
         </table>
@@ -95,6 +95,10 @@
               struct <a href="structspace_1_1particle__set_1_1_size_particles_1_1_particle.html" class="m-doc">Particle</a>
             </dt>
             <dd>Embedded <a href="structspace_1_1particle__set_1_1_size_particles_1_1_particle.html" class="m-doc">Particle</a> of SOA particles <code><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a></code>.</dd>
+            <dt id="a1abbc3c3706a6af1ea01e40dcddc2b1f">
+              using <a href="#a1abbc3c3706a6af1ea01e40dcddc2b1f" class="m-doc-self">Base</a> = <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a>&lt;<a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&lt;TypeSystem&gt;&gt;
+            </dt>
+            <dd>Base class.</dd>
           </dl>
         </section>
         <section id="typeless-methods">
@@ -112,6 +116,12 @@
               <span class="m-doc-wrap-bumper"><a href="#ae318d8c7f4b3c178d73457051f2cd251" class="m-doc">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename STL&gt;</div>
+              <span class="m-doc-wrap-bumper"><a href="#ac63626620675889779a34beec0b30756" class="m-doc">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a> time,
+              STL const&amp; particles_set)</span>
+            </dt>
+            <dd>Construct a new Size <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a> object from std::ranges(Container).</dd>
           </dl>
         </section>
         <section id="pub-methods">
@@ -208,6 +218,28 @@
               <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae318d8c7f4b3c178d73457051f2cd251" class="m-doc-self">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default move constructor</p>
+          </div></section>
+          <section class="m-doc-details" id="ac63626620675889779a34beec0b30756"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+                template&lt;typename STL&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac63626620675889779a34beec0b30756" class="m-doc-self">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a> time,
+              STL const&amp; particles_set)</span></span>
+            </h3>
+            <p>Construct a new Size <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a> object from std::ranges(Container).</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">STL</td>
+                  <td>std::ranges(Container)</td>
+                </tr>
+              </tbody>
+            </table>
           </div></section>
           <section class="m-doc-details" id="ac9d9793f1f363570c975ad7b595bdb80"><div>
             <h3>
@@ -380,7 +412,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.16 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>

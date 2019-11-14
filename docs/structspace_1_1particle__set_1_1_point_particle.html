@@ -51,6 +51,7 @@
           <div class="m-doc-template">template&lt;typename Real&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1particle__set.html">particle_set</a>::<wbr/></span>PointParticle <span class="m-thin">struct</span>
         </h1>
+        <p>Point particle.</p>
         <table class="m-table m-fullwidth m-flat">
           <thead>
             <tr><th colspan="2">Template parameters</th></tr>
@@ -58,7 +59,7 @@
           <tbody>
             <tr>
               <td style="width: 1%">Real</td>
-              <td></td>
+              <td>Floating point like type.</td>
             </tr>
           </tbody>
         </table>
@@ -68,19 +69,34 @@
             <li>
               Reference
               <ul>
+                <li><a href="#pub-types">Public types</a></li>
                 <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
                 <li><a href="#pub-methods">Public functions</a></li>
+                <li><a href="#pub-attribs">Public variables</a></li>
               </ul>
             </li>
           </ul>
         </div>
+        <section id="pub-types">
+          <h2><a href="#pub-types">Public types</a></h2>
+          <dl class="m-doc">
+            <dt id="abfe0b6a0369c278ad697041962fa3db9">
+              using <a href="#abfe0b6a0369c278ad697041962fa3db9" class="m-doc-self">Scalar</a> = Real
+            </dt>
+            <dd>Floating point like type;.</dd>
+            <dt id="a3d92e629410f56ab312dcfebccdf8d31">
+              using <a href="#a3d92e629410f56ab312dcfebccdf8d31" class="m-doc-self">Vector</a> = <a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a>&lt;<a href="structspace_1_1particle__set_1_1_point_particle.html#abfe0b6a0369c278ad697041962fa3db9" class="m-doc">Scalar</a>&gt;
+            </dt>
+            <dd>3D vector type.</dd>
+          </dl>
+        </section>
         <section id="typeless-methods">
           <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
           <dl class="m-doc">
             <dt>
               <span class="m-doc-wrap-bumper"><a href="#ac4a06825009e1b11f029b9d137945962" class="m-doc">PointParticle</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
-            <dd>Construct a new Point Particle object.</dd>
+            <dd></dd>
             <dt>
               <span class="m-doc-wrap-bumper"><a href="#a6d96341c619329b2f0132625c3e2bf1c" class="m-doc">PointParticle</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1particle__set_1_1_point_particle.html" class="m-doc">PointParticle</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
@@ -120,6 +136,23 @@
             <dd></dd>
           </dl>
         </section>
+        <section id="pub-attribs">
+          <h2><a href="#pub-attribs">Public variables</a></h2>
+          <dl class="m-doc">
+            <dt id="ac6c86eba6daa1c320da71f6cd9e63b2f">
+              <a href="structspace_1_1particle__set_1_1_point_particle.html#a3d92e629410f56ab312dcfebccdf8d31" class="m-doc">Vector</a> <a href="#ac6c86eba6daa1c320da71f6cd9e63b2f" class="m-doc-self">pos</a>
+            </dt>
+            <dd>Position of the particle.</dd>
+            <dt id="a2c54d82cbaa1539a0d13e0a7a3ae73dd">
+              <a href="structspace_1_1particle__set_1_1_point_particle.html#a3d92e629410f56ab312dcfebccdf8d31" class="m-doc">Vector</a> <a href="#a2c54d82cbaa1539a0d13e0a7a3ae73dd" class="m-doc-self">vel</a>
+            </dt>
+            <dd>Velocity of the particle.</dd>
+            <dt id="a1305c6f9cf975e2b93f894e093e5419c">
+              <a href="structspace_1_1particle__set_1_1_point_particle.html#abfe0b6a0369c278ad697041962fa3db9" class="m-doc">Scalar</a> <a href="#a1305c6f9cf975e2b93f894e093e5419c" class="m-doc-self">mass</a>
+            </dt>
+            <dd>Mass of the particle.</dd>
+          </dl>
+        </section>
         <section>
           <h2>Function documentation</h2>
           <section class="m-doc-details" id="ac4a06825009e1b11f029b9d137945962"><div>
@@ -129,7 +162,6 @@
               </div>
               <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />PointParticle&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac4a06825009e1b11f029b9d137945962" class="m-doc-self">PointParticle</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
-            <p>Construct a new Point Particle object.</p>
 <p>Default constructor.</p>
           </div></section>
           <section class="m-doc-details" id="a6d96341c619329b2f0132625c3e2bf1c"><div>
@@ -171,11 +203,11 @@
                 </tr>
                 <tr>
                   <td>position&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>The 3d vector position of the particle</td>
+                  <td>The 3D vector position of the particle</td>
                 </tr>
                 <tr>
                   <td>velocity&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>The 3d vector velocity of the particle</td>
+                  <td>The 3D vector velocity of the particle</td>
                 </tr>
               </tbody>
             </table>
@@ -200,31 +232,31 @@
               </thead>
               <tbody>
                 <tr>
-                  <td style="width: 1%">mass</td>
+                  <td style="width: 1%">mass&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The mass fof the particle</td>
                 </tr>
                 <tr>
-                  <td>px</td>
+                  <td>px&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The x-component of the position vector</td>
                 </tr>
                 <tr>
-                  <td>py</td>
+                  <td>py&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The y-component of the position vector</td>
                 </tr>
                 <tr>
-                  <td>pz</td>
+                  <td>pz&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The z-component of the position vector</td>
                 </tr>
                 <tr>
-                  <td>vx</td>
+                  <td>vx&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The x-component of the velocity vector</td>
                 </tr>
                 <tr>
-                  <td>vy</td>
+                  <td>vy&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The y-component of the velocity vector</td>
                 </tr>
                 <tr>
-                  <td>vz</td>
+                  <td>vz&nbsp;<span class="m-label m-flat m-info">in</span></td>
                   <td>The z-component of the velocity vector</td>
                 </tr>
               </tbody>
@@ -293,7 +325,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.16 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>

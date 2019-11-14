@@ -77,7 +77,8 @@
           <dl class="m-doc">
             <dt>
               <div class="m-doc-template">template&lt;typename ParticleSys&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#a04d4a12a06a50099d26918cc0628370f" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc)</span>
+              <span class="m-doc-wrap-bumper">void <a href="#afffc6d62ea336fc61c444a3d27291260" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size)</span>
             </dt>
             <dd></dd>
           </dl>
@@ -101,12 +102,13 @@
             </table>
 <p>Constructor of the outputer.</p>
           </div></section>
-          <section class="m-doc-details" id="a04d4a12a06a50099d26918cc0628370f"><div>
+          <section class="m-doc-details" id="afffc6d62ea336fc61c444a3d27291260"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename ParticleSys&gt;
               </div>
-              <span class="m-doc-wrap-bumper">void space::<wbr />run_operations::<wbr />DefaultWriter::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a04d4a12a06a50099d26918cc0628370f" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc)</span></span>
+              <span class="m-doc-wrap-bumper">void space::<wbr />run_operations::<wbr />DefaultWriter::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afffc6d62ea336fc61c444a3d27291260" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size)</span></span>
             </h3>
             <table class="m-table m-fullwidth m-flat">
               <thead>
@@ -125,6 +127,10 @@
                 <tr>
                   <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
                   <td>Input parameter.</td>
+                </tr>
+                <tr>
+                  <td>step_size&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The step size of the integration.</td>
                 </tr>
               </tbody>
             </table>
@@ -175,7 +181,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.16 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>

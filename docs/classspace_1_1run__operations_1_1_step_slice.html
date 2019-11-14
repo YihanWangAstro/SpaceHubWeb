@@ -110,12 +110,14 @@
             <dd></dd>
             <dt>
               <div class="m-doc-template">template&lt;typename ParticleSys&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#a1443376025b4c21c09e2dcfc42a36bd9" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc) &gt;&gt;, void &gt; -&gt; auto</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a7f728d9a95400dc4223574a0ed6a100d" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size) &gt;&gt;, void &gt; -&gt; auto</span>
             </dt>
             <dd></dd>
             <dt>
               <div class="m-doc-template">template&lt;typename ParticleSys&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#a1ca319130730fb1d5db31e098cd1e16d" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc) &gt;&gt;, bool &gt; -&gt; auto</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#adb53d6068d8222fafa070ac19392fbe0" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size) &gt;&gt;, bool &gt; -&gt; auto</span>
             </dt>
             <dd></dd>
             <dt>
@@ -196,13 +198,14 @@
             </h3>
 <p>Default move assignment operator</p>
           </div></section>
-          <section class="m-doc-details" id="a1443376025b4c21c09e2dcfc42a36bd9"><div>
+          <section class="m-doc-details" id="a7f728d9a95400dc4223574a0ed6a100d"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Operation&gt;
                 template&lt;typename ParticleSys&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto space::<wbr />run_operations::<wbr />StepSlice&lt;Operation&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1443376025b4c21c09e2dcfc42a36bd9" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc) &gt;&gt;, void &gt;</span></span>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />run_operations::<wbr />StepSlice&lt;Operation&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7f728d9a95400dc4223574a0ed6a100d" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size) &gt;&gt;, void &gt;</span></span>
             </h3>
             <table class="m-table m-fullwidth m-flat">
               <thead>
@@ -221,18 +224,23 @@
                 <tr>
                   <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
                   <td>Input parameter.</td>
+                </tr>
+                <tr>
+                  <td>step_size&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The step size of the integration.</td>
                 </tr>
               </tbody>
             </table>
 <p>Callable interface.</p>
           </div></section>
-          <section class="m-doc-details" id="a1ca319130730fb1d5db31e098cd1e16d"><div>
+          <section class="m-doc-details" id="adb53d6068d8222fafa070ac19392fbe0"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Operation&gt;
                 template&lt;typename ParticleSys&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto space::<wbr />run_operations::<wbr />StepSlice&lt;Operation&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1ca319130730fb1d5db31e098cd1e16d" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc) &gt;&gt;, bool &gt;</span></span>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />run_operations::<wbr />StepSlice&lt;Operation&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#adb53d6068d8222fafa070ac19392fbe0" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size) &gt;&gt;, bool &gt;</span></span>
             </h3>
             <table class="m-table m-fullwidth m-flat">
               <thead>
@@ -251,6 +259,10 @@
                 <tr>
                   <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
                   <td>Input parameter.</td>
+                </tr>
+                <tr>
+                  <td>step_size&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The step size of the integration.</td>
                 </tr>
               </tbody>
               <tfoot>
@@ -327,7 +339,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.16 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>

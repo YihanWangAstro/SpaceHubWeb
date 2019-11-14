@@ -51,6 +51,7 @@
           <div class="m-doc-template">template&lt;typename T&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span>Coords <span class="m-thin">struct</span>
         </h1>
+        <p>Structure of Array 3D vector container.</p>
         <table class="m-table m-fullwidth m-flat">
           <thead>
             <tr><th colspan="2">Template parameters</th></tr>
@@ -58,7 +59,7 @@
           <tbody>
             <tr>
               <td style="width: 1%">T</td>
-              <td></td>
+              <td>Array like type. i.e std::vector</td>
             </tr>
           </tbody>
         </table>
@@ -68,12 +69,32 @@
             <li>
               Reference
               <ul>
+                <li><a href="#pub-types">Public types</a></li>
                 <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
                 <li><a href="#pub-methods">Public functions</a></li>
+                <li><a href="#pub-attribs">Public variables</a></li>
+                <li><a href="#friends">Friends</a></li>
               </ul>
             </li>
           </ul>
         </div>
+        <section id="pub-types">
+          <h2><a href="#pub-types">Public types</a></h2>
+          <dl class="m-doc">
+            <dt id="aad183bdb28bbffba831152075debe228">
+              using <a href="#aad183bdb28bbffba831152075debe228" class="m-doc-self">Scalar</a> = typename T::value_type
+            </dt>
+            <dd>Type of the elements(Scalar).</dd>
+            <dt id="ab6176efda9355ede397cc2ab5abcf413">
+              using <a href="#ab6176efda9355ede397cc2ab5abcf413" class="m-doc-self">value_type</a> = typename T::value_type
+            </dt>
+            <dd>Type of the elements.</dd>
+            <dt id="a04ff710f593ff09266c15309e5a5e2e9">
+              using <a href="#a04ff710f593ff09266c15309e5a5e2e9" class="m-doc-self">Vector</a> = <a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a>&lt;<a href="structspace_1_1_coords.html#aad183bdb28bbffba831152075debe228" class="m-doc">Scalar</a>&gt;
+            </dt>
+            <dd>3D Vector type.</dd>
+          </dl>
+        </section>
         <section id="typeless-methods">
           <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
           <dl class="m-doc">
@@ -92,7 +113,7 @@
             <dt>
               <span class="m-doc-wrap-bumper"><a href="#a8847cd19bce595b3c1884af35575cdf8" class="m-doc">Coords</a>(</span><span class="m-doc-wrap">size_t count) <span class="m-label m-flat m-info">explicit</span> </span>
             </dt>
-            <dd></dd>
+            <dd>Construct a coord with given size.</dd>
           </dl>
         </section>
         <section id="pub-methods">
@@ -106,25 +127,72 @@
               <span class="m-doc-wrap-bumper">auto <a href="#a0c3a9273be7e68544b85b199e3bf99f4" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&amp;&amp;) -&gt; <a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
+            <dt id="a2ac7befea51cf997e44bc3aebbb4b159">
+              <span class="m-doc-wrap-bumper">void <a href="#a2ac7befea51cf997e44bc3aebbb4b159" class="m-doc-self">clear</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Clear the element of the coords. After the method, the size of the coords is 0;.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename GenVector&gt;</div>
               <span class="m-doc-wrap-bumper">void <a href="#a16e0215407e594a6577553cbcf923d26" class="m-doc">emplace_back</a>(</span><span class="m-doc-wrap">GenVector const&amp; vector)</span>
             </dt>
-            <dd></dd>
+            <dd>Insert an element(3D Vector) at the end.</dd>
             <dt>
               <span class="m-doc-wrap-bumper">void <a href="#a535fc8740e8e19bea38495f93d220188" class="m-doc">emplace_back</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1_coords.html#aad183bdb28bbffba831152075debe228" class="m-doc">Scalar</a> xx,
               <a href="structspace_1_1_coords.html#aad183bdb28bbffba831152075debe228" class="m-doc">Scalar</a> yy,
               <a href="structspace_1_1_coords.html#aad183bdb28bbffba831152075debe228" class="m-doc">Scalar</a> zz)</span>
             </dt>
-            <dd></dd>
+            <dd>Insert an element at the end.</dd>
             <dt>
               <span class="m-doc-wrap-bumper">void <a href="#a31d602268120b0ed77623f7e6df3d6e8" class="m-doc">reserve</a>(</span><span class="m-doc-wrap">size_t new_cap)</span>
             </dt>
-            <dd></dd>
+            <dd>Reserve the space. This doesn&#x27;t change the size of the coords.</dd>
             <dt>
               <span class="m-doc-wrap-bumper">void <a href="#ac69c82658f3f4228ccbe7f283d4a686b" class="m-doc">resize</a>(</span><span class="m-doc-wrap">size_t new_sz)</span>
             </dt>
-            <dd></dd>
+            <dd>Resize the coords.</dd>
+            <dt id="a0533eb5cd049b08a42b94e8ac9819102">
+              <span class="m-doc-wrap-bumper">void <a href="#a0533eb5cd049b08a42b94e8ac9819102" class="m-doc-self">shrink_to_fit</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Shrink the space to the size of the coords.</dd>
+            <dt id="aa18256878a175390092a922c2f24459e">
+              <span class="m-doc-wrap-bumper">void <a href="#aa18256878a175390092a922c2f24459e" class="m-doc-self">set_zero</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Set all elements to 0.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4edddb1c9ce9206f057f0fc45866eb1f" class="m-doc">size</a>(</span><span class="m-doc-wrap">) const -&gt; size_t</span>
+            </dt>
+            <dd>Return the size of the coords.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8b8ba6a4e79985dca23f38e2f49c3e95" class="m-doc">capacity</a>(</span><span class="m-doc-wrap">) const -&gt; size_t</span>
+            </dt>
+            <dd>Return the capacity of the coords.</dd>
+          </dl>
+        </section>
+        <section id="pub-attribs">
+          <h2><a href="#pub-attribs">Public variables</a></h2>
+          <dl class="m-doc">
+            <dt id="a4a63ed0f12c10ee1f53770620988aea2">
+              T <a href="#a4a63ed0f12c10ee1f53770620988aea2" class="m-doc-self">x</a>
+            </dt>
+            <dd>X components of the coords(An array).</dd>
+            <dt id="a98efdb82ca046020c53c01e53585f53b">
+              T <a href="#a98efdb82ca046020c53c01e53585f53b" class="m-doc-self">y</a>
+            </dt>
+            <dd>Y components of the coords(An array).</dd>
+            <dt id="ad0b8256873f0aa88ebb98fbeccf10b87">
+              T <a href="#ad0b8256873f0aa88ebb98fbeccf10b87" class="m-doc-self">z</a>
+            </dt>
+            <dd>Z components of the coords(An array).</dd>
+          </dl>
+        </section>
+        <section id="friends">
+          <h2><a href="#friends">Friends</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#aed88698151b6664961eba2cfe42c2f29" class="m-doc">swap</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&amp; a,
+              <a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&amp; b)</span>
+            </dt>
+            <dd>Swap two coords.</dd>
           </dl>
         </section>
         <section>
@@ -163,6 +231,7 @@
               </div>
               <span class="m-doc-wrap-bumper"> space::<wbr />Coords&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8847cd19bce595b3c1884af35575cdf8" class="m-doc-self">Coords</a>(</span><span class="m-doc-wrap">size_t count) <span class="m-label m-info">explicit</span> </span></span>
             </h3>
+            <p>Construct a coord with given size.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Parameters</th></tr>
@@ -170,7 +239,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">count</td>
-                  <td></td>
+                  <td>Size</td>
                 </tr>
               </tbody>
             </table>
@@ -201,6 +270,7 @@
               </div>
               <span class="m-doc-wrap-bumper">void space::<wbr />Coords&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a16e0215407e594a6577553cbcf923d26" class="m-doc-self">emplace_back</a>(</span><span class="m-doc-wrap">GenVector const&amp; vector)</span></span>
             </h3>
+            <p>Insert an element(3D Vector) at the end.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -208,7 +278,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">GenVector</td>
-                  <td></td>
+                  <td>Type of the 3D Vector.</td>
                 </tr>
               </tbody>
               <thead>
@@ -217,7 +287,7 @@
               <tbody>
                 <tr>
                   <td>vector</td>
-                  <td></td>
+                  <td>The input vector.</td>
                 </tr>
               </tbody>
             </table>
@@ -231,6 +301,7 @@
               <a href="structspace_1_1_coords.html#aad183bdb28bbffba831152075debe228" class="m-doc">Scalar</a> yy,
               <a href="structspace_1_1_coords.html#aad183bdb28bbffba831152075debe228" class="m-doc">Scalar</a> zz)</span></span>
             </h3>
+            <p>Insert an element at the end.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Parameters</th></tr>
@@ -238,15 +309,15 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">xx</td>
-                  <td></td>
+                  <td>x component.</td>
                 </tr>
                 <tr>
                   <td>yy</td>
-                  <td></td>
+                  <td>y component.</td>
                 </tr>
                 <tr>
                   <td>zz</td>
-                  <td></td>
+                  <td>z component.</td>
                 </tr>
               </tbody>
             </table>
@@ -258,6 +329,7 @@
               </div>
               <span class="m-doc-wrap-bumper">void space::<wbr />Coords&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a31d602268120b0ed77623f7e6df3d6e8" class="m-doc-self">reserve</a>(</span><span class="m-doc-wrap">size_t new_cap)</span></span>
             </h3>
+            <p>Reserve the space. This doesn&#x27;t change the size of the coords.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Parameters</th></tr>
@@ -265,7 +337,7 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">new_cap</td>
-                  <td></td>
+                  <td>The size of the space.</td>
                 </tr>
               </tbody>
             </table>
@@ -277,6 +349,7 @@
               </div>
               <span class="m-doc-wrap-bumper">void space::<wbr />Coords&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac69c82658f3f4228ccbe7f283d4a686b" class="m-doc-self">resize</a>(</span><span class="m-doc-wrap">size_t new_sz)</span></span>
             </h3>
+            <p>Resize the coords.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Parameters</th></tr>
@@ -284,7 +357,66 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">new_sz</td>
-                  <td></td>
+                  <td>The size of the coords.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a4edddb1c9ce9206f057f0fc45866eb1f"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">size_t space::<wbr />Coords&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4edddb1c9ce9206f057f0fc45866eb1f" class="m-doc-self">size</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+            <p>Return the size of the coords.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>size_t Size of the coords.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a8b8ba6a4e79985dca23f38e2f49c3e95"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">size_t space::<wbr />Coords&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8b8ba6a4e79985dca23f38e2f49c3e95" class="m-doc-self">capacity</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+            <p>Return the capacity of the coords.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>size_t Capacity of the coords.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aed88698151b6664961eba2cfe42c2f29"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aed88698151b6664961eba2cfe42c2f29" class="m-doc-self">swap</a>(</span><span class="m-doc-wrap"><a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&amp; a,
+              <a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&amp; b)</span></span>
+            </h3>
+            <p>Swap two coords.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">a</td>
+                  <td><a href="structspace_1_1_coords.html" class="m-doc">Coords</a> a.</td>
+                </tr>
+                <tr>
+                  <td>b</td>
+                  <td><a href="structspace_1_1_coords.html" class="m-doc">Coords</a> b.</td>
                 </tr>
               </tbody>
             </table>
@@ -334,7 +466,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.16 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>
