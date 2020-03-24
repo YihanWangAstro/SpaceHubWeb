@@ -139,7 +139,7 @@ int main(){
   using Particle = typename DefaultSolver::Particle;
 
   // create three particles. particles are rest at origin.
-  Particle sun{1_Ms}, earth{1_Me}, moon{m_moon};
+  Particle sun{1_Ms}, earth{1_Me}, moon{Mmoon};
 
   // create a Kepler orbit of (moon mass, earth mass) with a = 268782 km, e = 0.055 and i = 1.543 degree.
   auto moon_orbit = orbit::EllipOrbit{earth.mass, moon.mass, 268782 * km, 0.055, 1.543 * deg, 0.0, 0.0, 0.0};
@@ -148,7 +148,7 @@ int main(){
   orbit::move_particles(moon_orbit, moon);
 
   // create a Kepler orbit of (moon mass + earth mass, solar mass) a = 1 au, e = 0.016 and i = 7.155 degree.
-  auto earth_orbit = orbit::EllipOrbit{sun.mass, earth.mass + moon.mass, au, 0.016, 7.155 * deg, 0.0, 0.0, 0.0};
+  auto earth_orbit = orbit::EllipOrbit{sun.mass, earth.mass + moon.mass, 1_AU, 0.016, 7.155 * deg, 0.0, 0.0, 0.0};
 
   // move the centre of mass of the moon and earth to the earth orbit.
   orbit::move_particles(earth_orbit, earth, moon);
