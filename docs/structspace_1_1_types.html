@@ -110,10 +110,6 @@
               using <a href="#a7da4a9267d13662f1e32489752537689" class="m-doc">VectorArray</a> = <a href="structspace_1_1_types.html#aef9bf10a6cda409d88bd4b721ae206d3" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#ae871a5e6e1d4f92c979dc51b67644ca8" class="m-doc">Vector</a>&gt;
             </dt>
             <dd></dd>
-            <dt>
-              using <a href="#a92ab981bb0ac9ba49ffb6ae5506d21fc" class="m-doc">Coord</a> = <a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&lt;<a href="structspace_1_1_types.html#ad155d339411e1df6e6831a4a561abf17" class="m-doc">ScalarArray</a>&gt;
-            </dt>
-            <dd></dd>
           </dl>
         </section>
         <section>
@@ -121,7 +117,7 @@
           <section class="m-doc-details" id="aef9bf10a6cda409d88bd4b721ae206d3"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
                 template&lt;typename... T&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#aef9bf10a6cda409d88bd4b721ae206d3" class="m-doc-self">Container</a> = TContainer&lt;T...&gt;
@@ -142,7 +138,7 @@
           <section class="m-doc-details" id="aa153db52d77d1848ae930fa41411b3d3"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#aa153db52d77d1848ae930fa41411b3d3" class="m-doc-self">Scalar</a> = Real
             </h3>
@@ -151,7 +147,7 @@
           <section class="m-doc-details" id="ad155d339411e1df6e6831a4a561abf17"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#ad155d339411e1df6e6831a4a561abf17" class="m-doc-self">ScalarArray</a> = <a href="structspace_1_1_types.html#aef9bf10a6cda409d88bd4b721ae206d3" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#aa153db52d77d1848ae930fa41411b3d3" class="m-doc">Scalar</a>&gt;
             </h3>
@@ -160,7 +156,7 @@
           <section class="m-doc-details" id="a74e013af93d6cf750faea20dd29fc197"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#a74e013af93d6cf750faea20dd29fc197" class="m-doc-self">IntArray</a> = <a href="structspace_1_1_types.html#aef9bf10a6cda409d88bd4b721ae206d3" class="m-doc">Container</a>&lt;int&gt;
             </h3>
@@ -169,7 +165,7 @@
           <section class="m-doc-details" id="a7e74ccbdf0fc0e85d11b7b5947408732"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#a7e74ccbdf0fc0e85d11b7b5947408732" class="m-doc-self">IdxArray</a> = <a href="structspace_1_1_types.html#aef9bf10a6cda409d88bd4b721ae206d3" class="m-doc">Container</a>&lt;size_t&gt;
             </h3>
@@ -178,7 +174,7 @@
           <section class="m-doc-details" id="ae871a5e6e1d4f92c979dc51b67644ca8"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#ae871a5e6e1d4f92c979dc51b67644ca8" class="m-doc-self">Vector</a> = <a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a>&lt;<a href="structspace_1_1_types.html#aa153db52d77d1848ae930fa41411b3d3" class="m-doc">Scalar</a>&gt;
             </h3>
@@ -187,20 +183,11 @@
           <section class="m-doc-details" id="a7da4a9267d13662f1e32489752537689"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
+                template&lt;typename Real, template&lt;class...&gt; class TContainer&gt;
               </div>
               using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#a7da4a9267d13662f1e32489752537689" class="m-doc-self">VectorArray</a> = <a href="structspace_1_1_types.html#aef9bf10a6cda409d88bd4b721ae206d3" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#ae871a5e6e1d4f92c979dc51b67644ca8" class="m-doc">Vector</a>&gt;
             </h3>
 <p>1-d array with value type <code>Vector</code>, Alias of <code>Container&lt;Vector&gt;</code>.</p>
-          </div></section>
-          <section class="m-doc-details" id="a92ab981bb0ac9ba49ffb6ae5506d21fc"><div>
-            <h3>
-              <div class="m-doc-template">
-                template&lt;typenameReal, template&lt;class...&gt; classTContainer&gt;
-              </div>
-              using space::<wbr />Types&lt;Real, TContainer&gt;::<wbr /><a href="#a92ab981bb0ac9ba49ffb6ae5506d21fc" class="m-doc-self">Coord</a> = <a href="structspace_1_1_coords.html" class="m-doc">Coords</a>&lt;<a href="structspace_1_1_types.html#ad155d339411e1df6e6831a4a561abf17" class="m-doc">ScalarArray</a>&gt;
-            </h3>
-<p>An <strong>Structure of Array</strong> coordinates system (x, y, z) with x, y, z to be a ScalarArray.</p>
           </div></section>
         </section>
       </div>
@@ -247,7 +234,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.20 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>

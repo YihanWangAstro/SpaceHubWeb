@@ -69,45 +69,19 @@
             <li>
               Reference
               <ul>
-                <li><a href="#base-classes">Base classes</a></li>
-                <li><a href="#pub-types">Public types</a></li>
                 <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
                 <li><a href="#pub-methods">Public functions</a></li>
-                <li><a href="#pro-methods">Protected functions</a></li>
               </ul>
             </li>
           </ul>
         </div>
-        <section id="base-classes">
-          <h2><a href="#base-classes">Base classes</a></h2>
-          <dl class="m-doc">
-            <dt>
-              <div class="m-doc-template">template&lt;typename Derived&gt;</div>
-              class <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a>
-            </dt>
-            <dd></dd>
-          </dl>
-        </section>
-        <section id="pub-types">
-          <h2><a href="#pub-types">Public types</a></h2>
-          <dl class="m-doc">
-            <dt>
-              struct <a href="structspace_1_1particle__set_1_1_size_particles_1_1_particle.html" class="m-doc">Particle</a>
-            </dt>
-            <dd>Embedded <a href="structspace_1_1particle__set_1_1_size_particles_1_1_particle.html" class="m-doc">Particle</a> of SOA particles <code><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a></code>.</dd>
-            <dt id="a1abbc3c3706a6af1ea01e40dcddc2b1f">
-              using <a href="#a1abbc3c3706a6af1ea01e40dcddc2b1f" class="m-doc-self">Base</a> = <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a>&lt;<a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&lt;TypeSystem&gt;&gt;
-            </dt>
-            <dd>Base class.</dd>
-          </dl>
-        </section>
         <section id="typeless-methods">
           <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
           <dl class="m-doc">
             <dt>
               <span class="m-doc-wrap-bumper"><a href="#a065d36f8b838af69aed3992c8bb0dcf2" class="m-doc">SizeParticles</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
-            <dd></dd>
+            <dd>Embedded Particle of SOA particles <code><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a></code>.</dd>
             <dt>
               <span class="m-doc-wrap-bumper"><a href="#a5f01e3c77e6c7130493941402542bb43" class="m-doc">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
@@ -121,7 +95,7 @@
               <span class="m-doc-wrap-bumper"><a href="#ac63626620675889779a34beec0b30756" class="m-doc">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a> time,
               STL const&amp; particles_set)</span>
             </dt>
-            <dd>Construct a new Size <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a> object from std::ranges(Container).</dd>
+            <dd>Construct a new Size Particles object from std::ranges(Container).</dd>
           </dl>
         </section>
         <section id="pub-methods">
@@ -136,56 +110,91 @@
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a3de39f74d68c1c825ec9f88a9b55b11e" class="m-doc">radius</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#ae2e7f71b4d51ee0a61aa5a22d46aaf74" class="m-doc">radius</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#aed3e9eec1809aab50a4c4227f1068efa" class="m-doc">radius</a>(</span><span class="m-doc-wrap">) const -&gt; const auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
-            </dt>
-            <dd></dd>
-          </dl>
-        </section>
-        <section id="pro-methods">
-          <h2><a href="#pro-methods">Protected functions</a></h2>
-          <dl class="m-doc">
-            <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ade5daf01f97188e07f2d6620db9b9308" class="m-doc">impl_mass</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#acaf423009a1023d0e971b140e18273be" class="m-doc">radius</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a3b4830b8e6d11e6df76e9ae8bfb86438" class="m-doc">impl_mass</a>(</span><span class="m-doc-wrap">) const -&gt; const auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a6c5523d896dfa8de038cbcce062ddd3f" class="m-doc">radius</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a25722deaec0e0007d9b766d0f9ddf511" class="m-doc">impl_idn</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#af2c0f62ef39149282d491dd80726beb0" class="m-doc">radius</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a2fdc0b83d41320254cfa1942cef6304d" class="m-doc">impl_idn</a>(</span><span class="m-doc-wrap">) const -&gt; const auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#aa5945ec065a009bc7839dffbada95fe9" class="m-doc">mass</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a8fd261a79ec1e0c344de38829e6fd554" class="m-doc">impl_time</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab99162dfea28512c42968860cb4d745a" class="m-doc">mass</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a5cb84612a8288f03c9b1e7a1f21a9861" class="m-doc">impl_time</a>(</span><span class="m-doc-wrap">) const -&gt; const auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#aaa20aa0337ab90a4e583cb7eacf1d123" class="m-doc">mass</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ad2879cbc80f7c942377e41d11e133339" class="m-doc">impl_pos</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a89e0852ff16a17574a5737df4b4bb4a5" class="m-doc">mass</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ab5f4a05d03d3142de717f9dbe31cc0f6" class="m-doc">impl_pos</a>(</span><span class="m-doc-wrap">) const -&gt; const auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a45cdd81069c4502bcd7e3c9125e13492" class="m-doc">idn</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ae583990c919f76fd59d64652aded092f" class="m-doc">impl_vel</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a25a8ee8c13bf02eb8268975831e0557c" class="m-doc">idn</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a60e34e0bc64f18934eb360dfe667300f" class="m-doc">impl_vel</a>(</span><span class="m-doc-wrap">) const -&gt; const auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a631bdc7568403130cb5adcb098125e91" class="m-doc">idn</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a984b345a173c311f035b9801c7ab2ddd" class="m-doc">idn</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a467b04f64f15ec36e342c49dcfc2fb37" class="m-doc">time</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac87116dd89be0c0fe179aa7391ebe799" class="m-doc">time</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8cc50e4356e2519eeb56e2f71a5086a5" class="m-doc">pos</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aa6ac25ccb0fb3f7f6b6c2eb3a12809c6" class="m-doc">pos</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a59aae5068608b71b1737f44cacf4f872" class="m-doc">pos</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4db75e5fcf12600e29a4ee814553cd24" class="m-doc">pos</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#afb9b7ee0a2b88973a51a6cc6e52a726a" class="m-doc">vel</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a6c8e62af818fff72d529262fae101740" class="m-doc">vel</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a74621366b894b243fe592774c1d09a94" class="m-doc">vel</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aa11835df28e0c6b6610dacdc5b02a31a" class="m-doc">vel</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
           </dl>
@@ -195,16 +204,17 @@
           <section class="m-doc-details" id="a065d36f8b838af69aed3992c8bb0dcf2"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
               <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a065d36f8b838af69aed3992c8bb0dcf2" class="m-doc-self">SizeParticles</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
+            <p>Embedded Particle of SOA particles <code><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a></code>.</p>
 <p>Default constructor.</p>
           </div></section>
           <section class="m-doc-details" id="a5f01e3c77e6c7130493941402542bb43"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
               <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5f01e3c77e6c7130493941402542bb43" class="m-doc-self">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
@@ -213,7 +223,7 @@
           <section class="m-doc-details" id="ae318d8c7f4b3c178d73457051f2cd251"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
               <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae318d8c7f4b3c178d73457051f2cd251" class="m-doc-self">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
@@ -222,13 +232,13 @@
           <section class="m-doc-details" id="ac63626620675889779a34beec0b30756"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
                 template&lt;typename STL&gt;
               </div>
               <span class="m-doc-wrap-bumper"> space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac63626620675889779a34beec0b30756" class="m-doc-self">SizeParticles</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a> time,
               STL const&amp; particles_set)</span></span>
             </h3>
-            <p>Construct a new Size <a href="classspace_1_1particle__set_1_1_particles.html" class="m-doc">Particles</a> object from std::ranges(Container).</p>
+            <p>Construct a new Size Particles object from std::ranges(Container).</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Template parameters</th></tr>
@@ -244,7 +254,7 @@
           <section class="m-doc-details" id="ac9d9793f1f363570c975ad7b595bdb80"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
               <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac9d9793f1f363570c975ad7b595bdb80" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
@@ -253,119 +263,209 @@
           <section class="m-doc-details" id="a1e389195cb2f6fee22e8b86845610ea7"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
               <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1e389195cb2f6fee22e8b86845610ea7" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="classspace_1_1particle__set_1_1_size_particles.html" class="m-doc">SizeParticles</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default move assignment operator</p>
           </div></section>
-          <section class="m-doc-details" id="a3de39f74d68c1c825ec9f88a9b55b11e"><div>
+          <section class="m-doc-details" id="ae2e7f71b4d51ee0a61aa5a22d46aaf74"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a3de39f74d68c1c825ec9f88a9b55b11e" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae2e7f71b4d51ee0a61aa5a22d46aaf74" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The setter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="aed3e9eec1809aab50a4c4227f1068efa"><div>
+          <section class="m-doc-details" id="acaf423009a1023d0e971b140e18273be"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">const auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aed3e9eec1809aab50a4c4227f1068efa" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#acaf423009a1023d0e971b140e18273be" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The getter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="ade5daf01f97188e07f2d6620db9b9308"><div>
+          <section class="m-doc-details" id="a6c5523d896dfa8de038cbcce062ddd3f"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ade5daf01f97188e07f2d6620db9b9308" class="m-doc-self">impl_mass</a>(</span><span class="m-doc-wrap">) <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a6c5523d896dfa8de038cbcce062ddd3f" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The setter interface of member <code>mass_</code> in name of <code>impl_mass</code>.</p>
+<p>The setter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a3b4830b8e6d11e6df76e9ae8bfb86438"><div>
+          <section class="m-doc-details" id="af2c0f62ef39149282d491dd80726beb0"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">const auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a3b4830b8e6d11e6df76e9ae8bfb86438" class="m-doc-self">impl_mass</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af2c0f62ef39149282d491dd80726beb0" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>mass_</code> in name of <code>impl_mass</code>.</p>
+<p>The getter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a25722deaec0e0007d9b766d0f9ddf511"><div>
+          <section class="m-doc-details" id="aa5945ec065a009bc7839dffbada95fe9"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a25722deaec0e0007d9b766d0f9ddf511" class="m-doc-self">impl_idn</a>(</span><span class="m-doc-wrap">) <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa5945ec065a009bc7839dffbada95fe9" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The setter interface of member <code>idn_</code> in name of <code>impl_idn</code>.</p>
+<p>The setter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a2fdc0b83d41320254cfa1942cef6304d"><div>
+          <section class="m-doc-details" id="ab99162dfea28512c42968860cb4d745a"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">const auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2fdc0b83d41320254cfa1942cef6304d" class="m-doc-self">impl_idn</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab99162dfea28512c42968860cb4d745a" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>idn_</code> in name of <code>impl_idn</code>.</p>
+<p>The getter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a8fd261a79ec1e0c344de38829e6fd554"><div>
+          <section class="m-doc-details" id="aaa20aa0337ab90a4e583cb7eacf1d123"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8fd261a79ec1e0c344de38829e6fd554" class="m-doc-self">impl_time</a>(</span><span class="m-doc-wrap">) <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aaa20aa0337ab90a4e583cb7eacf1d123" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The setter interface of member <code>time_</code> in name of <code>impl_time</code>.</p>
+<p>The setter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a5cb84612a8288f03c9b1e7a1f21a9861"><div>
+          <section class="m-doc-details" id="a89e0852ff16a17574a5737df4b4bb4a5"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">const auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5cb84612a8288f03c9b1e7a1f21a9861" class="m-doc-self">impl_time</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ad6ac0fd7937be43641868c6a47889fe9" class="m-doc">ScalarArray</a> ::value_type const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a89e0852ff16a17574a5737df4b4bb4a5" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>time_</code> in name of <code>impl_time</code>.</p>
+<p>The getter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="ad2879cbc80f7c942377e41d11e133339"><div>
+          <section class="m-doc-details" id="a45cdd81069c4502bcd7e3c9125e13492"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad2879cbc80f7c942377e41d11e133339" class="m-doc-self">impl_pos</a>(</span><span class="m-doc-wrap">) <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a45cdd81069c4502bcd7e3c9125e13492" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The setter interface of member <code>pos_</code> in name of <code>impl_pos</code>.</p>
+<p>The setter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="ab5f4a05d03d3142de717f9dbe31cc0f6"><div>
+          <section class="m-doc-details" id="a25a8ee8c13bf02eb8268975831e0557c"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">const auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab5f4a05d03d3142de717f9dbe31cc0f6" class="m-doc-self">impl_pos</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a> const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a25a8ee8c13bf02eb8268975831e0557c" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>pos_</code> in name of <code>impl_pos</code>.</p>
+<p>The getter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="ae583990c919f76fd59d64652aded092f"><div>
+          <section class="m-doc-details" id="a631bdc7568403130cb5adcb098125e91"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae583990c919f76fd59d64652aded092f" class="m-doc-self">impl_vel</a>(</span><span class="m-doc-wrap">) <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a> ::value_type&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a631bdc7568403130cb5adcb098125e91" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The setter interface of member <code>vel_</code> in name of <code>impl_vel</code>.</p>
+<p>The setter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a60e34e0bc64f18934eb360dfe667300f"><div>
+          <section class="m-doc-details" id="a984b345a173c311f035b9801c7ab2ddd"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typenameTypeSystem&gt;
+                template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">const auto&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a60e34e0bc64f18934eb360dfe667300f" class="m-doc-self">impl_vel</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-warning">protected</span> <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#a280ca78ff47e08b1fffd15ff4fd3beb6" class="m-doc">IdxArray</a> ::value_type const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a984b345a173c311f035b9801c7ab2ddd" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>vel_</code> in name of <code>impl_vel</code>.</p>
+<p>The getter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a467b04f64f15ec36e342c49dcfc2fb37"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a467b04f64f15ec36e342c49dcfc2fb37" class="m-doc-self">time</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>time_</code> in name of <code>time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac87116dd89be0c0fe179aa7391ebe799"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#a7cd8aa5b7d58a499df6d51f789e02e6c" class="m-doc">Scalar</a> const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac87116dd89be0c0fe179aa7391ebe799" class="m-doc-self">time</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>time_</code> in name of <code>time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a8cc50e4356e2519eeb56e2f71a5086a5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8cc50e4356e2519eeb56e2f71a5086a5" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="aa6ac25ccb0fb3f7f6b6c2eb3a12809c6"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa6ac25ccb0fb3f7f6b6c2eb3a12809c6" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a59aae5068608b71b1737f44cacf4f872"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a59aae5068608b71b1737f44cacf4f872" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a4db75e5fcf12600e29a4ee814553cd24"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4db75e5fcf12600e29a4ee814553cd24" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="afb9b7ee0a2b88973a51a6cc6e52a726a"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a>&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afb9b7ee0a2b88973a51a6cc6e52a726a" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a6c8e62af818fff72d529262fae101740"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a6c8e62af818fff72d529262fae101740" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a74621366b894b243fe592774c1d09a94"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type&amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a74621366b894b243fe592774c1d09a94" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="aa11835df28e0c6b6610dacdc5b02a31a"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__set_1_1_size_particles.html#ae06b57e7b79896ecdda530f7b486794e" class="m-doc">VectorArray</a> ::value_type const &amp; space::<wbr />particle_set::<wbr />SizeParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa11835df28e0c6b6610dacdc5b02a31a" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
           </div></section>
         </section>
       </div>
@@ -412,7 +512,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.20 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>

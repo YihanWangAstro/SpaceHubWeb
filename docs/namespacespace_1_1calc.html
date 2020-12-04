@@ -66,12 +66,12 @@
           <dl class="m-doc">
             <dt>
               <div class="m-doc-template">template&lt;typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#ab1eb54b1b30947e6b678b543a9c2322e" class="m-doc">add</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) -&gt; auto <span class="m-label m-flat m-primary">constexpr</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#acd7a08107aa2f88547a518519ed1bc90" class="m-doc">add</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) -&gt; auto <span class="m-label m-flat m-primary">constexpr</span></span>
             </dt>
             <dd>Calculate the sum of variables.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#af042dd5822d4fdeea0b2888a3b688533" class="m-doc">mul</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) -&gt; auto <span class="m-label m-flat m-primary">constexpr</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a130d46c24ff64fbda7032ff27c9f03e3" class="m-doc">mul</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) -&gt; auto <span class="m-label m-flat m-primary">constexpr</span></span>
             </dt>
             <dd>Calculate the product of variables.</dd>
             <dt>
@@ -91,19 +91,19 @@
             <dd>Set all elements of a std::ranges(Container) to 0.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#a876d13557c3ddba32cd4440f480ee07c" class="m-doc">set_arrays_zero</a>(</span><span class="m-doc-wrap">Args&amp;... args)</span>
+              <span class="m-doc-wrap-bumper">void <a href="#a1972aadb06f613536912fff3f814a3d0" class="m-doc">set_arrays_zero</a>(</span><span class="m-doc-wrap">Args&amp;... args)</span>
             </dt>
             <dd>Set all elements of std::ranges(Containers) to 0.</dd>
             <dt>
-              <div class="m-doc-template">template&lt;typename Array, typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#a54cff9b21c1dc99cfa0a27d03a361e6a" class="m-doc">array_dot</a>(</span><span class="m-doc-wrap">Array const&amp; a,
-              Array const&amp; b,
+              <div class="m-doc-template">template&lt;typename Array, typename Array2, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a399a4f5547907c972a129f03e39b6e75" class="m-doc">array_dot</a>(</span><span class="m-doc-wrap">Array const&amp; a,
+              Array2 const&amp; b,
               Args const&amp;... args) -&gt; auto</span>
             </dt>
             <dd>Calculate the (general)dot product of arrays.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename Array, typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#a2e39ed28a0614fe6f921b682d2e1ed31" class="m-doc">array_add</a>(</span><span class="m-doc-wrap">Array&amp; dst,
+              <span class="m-doc-wrap-bumper">void <a href="#ad905a886acc0065f54895d5c76d20be3" class="m-doc">array_add</a>(</span><span class="m-doc-wrap">Array&amp; dst,
               Array const&amp; a,
               Args const&amp;... args)</span>
             </dt>
@@ -117,16 +117,16 @@
             <dd>Element wise scale.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename Array, typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#aeb8318a2bff3ae82781e3a8d0611a92c" class="m-doc">array_mul</a>(</span><span class="m-doc-wrap">Array&amp; dst,
+              <span class="m-doc-wrap-bumper">void <a href="#a3be25a563d535f7eeb32dfb1d223e3da" class="m-doc">array_mul</a>(</span><span class="m-doc-wrap">Array&amp; dst,
               Array const&amp; a,
               Array const&amp; b,
               Args const&amp;... args)</span>
             </dt>
             <dd>Element wise multiplication of arrays.</dd>
             <dt>
-              <div class="m-doc-template">template&lt;typename ScalarArray, typename Coord&gt;</div>
-              <span class="m-doc-wrap-bumper">auto <a href="#a803024b9c9a7c28844d9932f4ebecf92" class="m-doc">calc_fall_free_time</a>(</span><span class="m-doc-wrap">ScalarArray const&amp; mass,
-              Coord const&amp; position) -&gt; auto</span>
+              <div class="m-doc-template">template&lt;typename ScalarArray, typename VectorArray&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5635c0910aaf51dea7833e1f0479c55b" class="m-doc">calc_fall_free_time</a>(</span><span class="m-doc-wrap">ScalarArray const&amp; mass,
+              VectorArray const&amp; position) -&gt; auto</span>
             </dt>
             <dd>Calculate the minimal fall free time of two particles.</dd>
             <dt>
@@ -138,13 +138,13 @@
         </section>
         <section>
           <h2>Function documentation</h2>
-          <section class="m-doc-details" id="ab1eb54b1b30947e6b678b543a9c2322e"><div>
+          <section class="m-doc-details" id="acd7a08107aa2f88547a518519ed1bc90"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename... Args&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab1eb54b1b30947e6b678b543a9c2322e" class="m-doc-self">add</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) <span class="m-label m-primary">constexpr</span></span></span>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#acd7a08107aa2f88547a518519ed1bc90" class="m-doc-self">add</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) <span class="m-label m-primary">constexpr</span></span></span>
             </h3>
             <p>Calculate the sum of variables.</p>
             <table class="m-table m-fullwidth m-flat">
@@ -174,13 +174,13 @@
               </tfoot>
             </table>
           </div></section>
-          <section class="m-doc-details" id="af042dd5822d4fdeea0b2888a3b688533"><div>
+          <section class="m-doc-details" id="a130d46c24ff64fbda7032ff27c9f03e3"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename... Args&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af042dd5822d4fdeea0b2888a3b688533" class="m-doc-self">mul</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) <span class="m-label m-primary">constexpr</span></span></span>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a130d46c24ff64fbda7032ff27c9f03e3" class="m-doc-self">mul</a>(</span><span class="m-doc-wrap">Args &amp;&amp; ... args) <span class="m-label m-primary">constexpr</span></span></span>
             </h3>
             <p>Calculate the product of variables.</p>
             <table class="m-table m-fullwidth m-flat">
@@ -312,13 +312,13 @@
               </tbody>
             </table>
           </div></section>
-          <section class="m-doc-details" id="a876d13557c3ddba32cd4440f480ee07c"><div>
+          <section class="m-doc-details" id="a1972aadb06f613536912fff3f814a3d0"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename... Args&gt;
               </div>
-              <span class="m-doc-wrap-bumper">void space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a876d13557c3ddba32cd4440f480ee07c" class="m-doc-self">set_arrays_zero</a>(</span><span class="m-doc-wrap">Args&amp;... args)</span></span>
+              <span class="m-doc-wrap-bumper">void space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1972aadb06f613536912fff3f814a3d0" class="m-doc-self">set_arrays_zero</a>(</span><span class="m-doc-wrap">Args&amp;... args)</span></span>
             </h3>
             <p>Set all elements of std::ranges(Containers) to 0.</p>
             <table class="m-table m-fullwidth m-flat">
@@ -342,14 +342,14 @@
               </tbody>
             </table>
           </div></section>
-          <section class="m-doc-details" id="a54cff9b21c1dc99cfa0a27d03a361e6a"><div>
+          <section class="m-doc-details" id="a399a4f5547907c972a129f03e39b6e75"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
-                template&lt;typename Array, typename... Args&gt;
+                template&lt;typename Array, typename Array2, typename... Args&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a54cff9b21c1dc99cfa0a27d03a361e6a" class="m-doc-self">array_dot</a>(</span><span class="m-doc-wrap">Array const&amp; a,
-              Array const&amp; b,
+              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a399a4f5547907c972a129f03e39b6e75" class="m-doc-self">array_dot</a>(</span><span class="m-doc-wrap">Array const&amp; a,
+              Array2 const&amp; b,
               Args const&amp;... args)</span></span>
             </h3>
             <p>Calculate the (general)dot product of arrays.</p>
@@ -361,6 +361,10 @@
                 <tr>
                   <td style="width: 1%">Array</td>
                   <td>The type of the first two arrays.</td>
+                </tr>
+                <tr>
+                  <td>Array2</td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>Args</td>
@@ -424,13 +428,13 @@ $ \Sigma_{i=0}^n a_ib_ic_i...$
 </g>
 </svg></p><aside class="m-note m-info"><h4>Note</h4><p>One should ensure the input arrays have method <code>size()</code> and they have the same length.</p></aside>
           </div></section>
-          <section class="m-doc-details" id="a2e39ed28a0614fe6f921b682d2e1ed31"><div>
+          <section class="m-doc-details" id="ad905a886acc0065f54895d5c76d20be3"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Array, typename... Args&gt;
               </div>
-              <span class="m-doc-wrap-bumper">void space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2e39ed28a0614fe6f921b682d2e1ed31" class="m-doc-self">array_add</a>(</span><span class="m-doc-wrap">Array&amp; dst,
+              <span class="m-doc-wrap-bumper">void space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad905a886acc0065f54895d5c76d20be3" class="m-doc-self">array_add</a>(</span><span class="m-doc-wrap">Array&amp; dst,
               Array const&amp; a,
               Args const&amp;... args)</span></span>
             </h3>
@@ -596,13 +600,13 @@ $ dst[i] = scale * a[i]$
 </g>
 </svg></p>
           </div></section>
-          <section class="m-doc-details" id="aeb8318a2bff3ae82781e3a8d0611a92c"><div>
+          <section class="m-doc-details" id="a3be25a563d535f7eeb32dfb1d223e3da"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
                 template&lt;typename Array, typename... Args&gt;
               </div>
-              <span class="m-doc-wrap-bumper">void space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aeb8318a2bff3ae82781e3a8d0611a92c" class="m-doc-self">array_mul</a>(</span><span class="m-doc-wrap">Array&amp; dst,
+              <span class="m-doc-wrap-bumper">void space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a3be25a563d535f7eeb32dfb1d223e3da" class="m-doc-self">array_mul</a>(</span><span class="m-doc-wrap">Array&amp; dst,
               Array const&amp; a,
               Array const&amp; b,
               Args const&amp;... args)</span></span>
@@ -691,14 +695,14 @@ $ dst[i] = a[i] * b[i] * c[i] * ...$
 </g>
 </svg></p>
           </div></section>
-          <section class="m-doc-details" id="a803024b9c9a7c28844d9932f4ebecf92"><div>
+          <section class="m-doc-details" id="a5635c0910aaf51dea7833e1f0479c55b"><div>
             <h3>
               <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="core-computation_8hpp.html">&lt;src/core-computation.hpp&gt;</a></div>
               <div class="m-doc-template">
-                template&lt;typename ScalarArray, typename Coord&gt;
+                template&lt;typename ScalarArray, typename VectorArray&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a803024b9c9a7c28844d9932f4ebecf92" class="m-doc-self">calc_fall_free_time</a>(</span><span class="m-doc-wrap">ScalarArray const&amp; mass,
-              Coord const&amp; position)</span></span>
+              <span class="m-doc-wrap-bumper">auto space::<wbr />calc::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5635c0910aaf51dea7833e1f0479c55b" class="m-doc-self">calc_fall_free_time</a>(</span><span class="m-doc-wrap">ScalarArray const&amp; mass,
+              VectorArray const&amp; position)</span></span>
             </h3>
             <p>Calculate the minimal fall free time of two particles.</p>
             <table class="m-table m-fullwidth m-flat">
@@ -797,7 +801,7 @@ $ dst[i] = a[i] * b[i] * c[i] * ...$
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.17 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.20 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>
