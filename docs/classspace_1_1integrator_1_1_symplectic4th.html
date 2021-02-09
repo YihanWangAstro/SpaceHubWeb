@@ -47,8 +47,9 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="symplectic-integrator_8hpp.html">&lt;src/integrator/symplectic/symplectic-integrator.hpp&gt;</a></div>
+          <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1integrator.html">integrator</a>::<wbr/></span>Symplectic4th <span class="m-thin">class</span>
-          <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="symplectic-integrator_8hpp.html">&lt;src/integrator/symplectic/symplectic-integrator.hpp&gt;</a></div>
         </h1>
         <div class="m-block m-default">
           <h3>Contents</h3>
@@ -57,6 +58,7 @@
               Reference
               <ul>
                 <li><a href="#pub-static-attribs">Public static variables</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
               </ul>
             </li>
           </ul>
@@ -66,16 +68,67 @@
           <h2><a href="#pub-static-attribs">Public static variables</a></h2>
           <dl class="m-doc">
             <dt>
-              static size_t <a href="#a97a8e2337dea29492408264b9599f903" class="m-doc">order</a> <span class="m-label m-flat m-primary">constexpr</span>
+              static size_t <a href="#aa3af383a9e218de9d0ef45fcb08d0d45" class="m-doc">order</a> <span class="m-label m-flat m-primary">constexpr</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <div class="m-doc-template">template&lt;typename ParticleSys&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#ada06defb05f5acff9477ddfec2e42acf" class="m-doc">integrate</a>(</span><span class="m-doc-wrap">ParticleSys&amp; system,
+              typename ParticleSys::Scalar step_size)</span>
             </dt>
             <dd></dd>
           </dl>
         </section>
         <section>
-          <h2>Variable documentation</h2>
-          <section class="m-doc-details" id="a97a8e2337dea29492408264b9599f903"><div>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="ada06defb05f5acff9477ddfec2e42acf"><div>
             <h3>
-              static size_t space::<wbr />integrator::<wbr />Symplectic4th::<wbr /><a href="#a97a8e2337dea29492408264b9599f903" class="m-doc-self">order</a> <span class="m-label m-primary">constexpr</span>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+                template&lt;typename ParticleSys&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void space::<wbr />integrator::<wbr />Symplectic4th&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ada06defb05f5acff9477ddfec2e42acf" class="m-doc-self">integrate</a>(</span><span class="m-doc-wrap">ParticleSys&amp; system,
+              typename ParticleSys::Scalar step_size)</span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">ParticleSys</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>system</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>step_size</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+        </section>
+        <section>
+          <h2>Variable documentation</h2>
+          <section class="m-doc-details" id="aa3af383a9e218de9d0ef45fcb08d0d45"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              static size_t space::<wbr />integrator::<wbr />Symplectic4th&lt;TypeSystem&gt;::<wbr /><a href="#aa3af383a9e218de9d0ef45fcb08d0d45" class="m-doc-self">order</a> <span class="m-label m-primary">constexpr</span>
             </h3>
 <p>Order of the integrator.</p>
           </div></section>
@@ -124,7 +177,7 @@
   <div class="m-container">
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
-        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.20 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.14 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
       </div>
     </div>
   </div>
