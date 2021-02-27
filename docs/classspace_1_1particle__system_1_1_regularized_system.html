@@ -48,7 +48,7 @@
       <div class="m-col-l-10 m-push-l-1">
         <h1>
           <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="regu-system_8hpp.html">&lt;src/particle-system/regu-system.hpp&gt;</a></div>
-          <div class="m-doc-template">template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;</div>
+          <div class="m-doc-template">template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType = <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740a360c009cc18cabba43fcbfe53c5f61ef" class="m-doc">ReguType::<wbr />LogH</a>&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1particle__system.html">particle_system</a>::<wbr/></span>RegularizedSystem <span class="m-thin">class</span>
         </h1>
         <p>Regularized particle System.</p>
@@ -113,24 +113,27 @@
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a16fb30dcd5c05b1dd8488fd04b90b61e" class="m-doc">omega</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a934c0aa06b3cde9161a93a5073cba8a1" class="m-doc">omega</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ae9f38b679cfb930796d559f63c507f50" class="m-doc">omega</a>(</span><span class="m-doc-wrap">) const -&gt; auto const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a80ad6f0c475821d941062b4853f3dfda" class="m-doc">omega</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a29e81188be22450812a4b84c41e907ec" class="m-doc">bindE</a>(</span><span class="m-doc-wrap">) -&gt; auto&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4922e2e2d4f0ef3b711216072c3bf2bd" class="m-doc">bindE</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a62bc80367394ee64858bd8a23e92561b" class="m-doc">bindE</a>(</span><span class="m-doc-wrap">) const -&gt; auto const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a96c4c04569071a7d9d03e28ce197b896" class="m-doc">bindE</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <div class="m-doc-template">template&lt;typename ScalarIterable&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#a375409b993c400e99362514017726759" class="m-doc">evaluate_general_derivative</a>(</span><span class="m-doc-wrap">ScalarIterable&amp; stl_ranges)</span>
+              <span class="m-doc-wrap-bumper">auto <a href="#acf5d939fc1840f0a6fc659e27d2fc39b" class="m-doc">increment</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classspace_1_1particle__system_1_1_regularized_system.html#ab54309615c1a0af3c26cfae59674d18c" class="m-doc">StateScalarArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#abee28831fd514b69a15e73a9f742f586" class="m-doc">increment</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1particle__system_1_1_regularized_system.html#ab54309615c1a0af3c26cfae59674d18c" class="m-doc">StateScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
           </dl>
@@ -182,70 +185,59 @@
             </h3>
 <p>Default move assignment operator</p>
           </div></section>
-          <section class="m-doc-details" id="a16fb30dcd5c05b1dd8488fd04b90b61e"><div>
+          <section class="m-doc-details" id="a934c0aa06b3cde9161a93a5073cba8a1"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a16fb30dcd5c05b1dd8488fd04b90b61e" class="m-doc-self">omega</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a>&amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a934c0aa06b3cde9161a93a5073cba8a1" class="m-doc-self">omega</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The setter interface of member <code>regu_.omega()</code> in name of <code>omega</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="ae9f38b679cfb930796d559f63c507f50"><div>
+          <section class="m-doc-details" id="a80ad6f0c475821d941062b4853f3dfda"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto const &amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae9f38b679cfb930796d559f63c507f50" class="m-doc-self">omega</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a> const &amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a80ad6f0c475821d941062b4853f3dfda" class="m-doc-self">omega</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The getter interface of member <code>regu_.omega()</code> in name of <code>omega</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a29e81188be22450812a4b84c41e907ec"><div>
+          <section class="m-doc-details" id="a4922e2e2d4f0ef3b711216072c3bf2bd"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto&amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a29e81188be22450812a4b84c41e907ec" class="m-doc-self">bindE</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a>&amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4922e2e2d4f0ef3b711216072c3bf2bd" class="m-doc-self">bindE</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The setter interface of member <code>regu_.bindE()</code> in name of <code>bindE</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a62bc80367394ee64858bd8a23e92561b"><div>
+          <section class="m-doc-details" id="a96c4c04569071a7d9d03e28ce197b896"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto const &amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a62bc80367394ee64858bd8a23e92561b" class="m-doc-self">bindE</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__system_1_1_regularized_system.html#a0a24099dee41661265871f6696dd1d09" class="m-doc">StateScalar</a> const &amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a96c4c04569071a7d9d03e28ce197b896" class="m-doc-self">bindE</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The getter interface of member <code>regu_.bindE()</code> in name of <code>bindE</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a375409b993c400e99362514017726759"><div>
+          <section class="m-doc-details" id="acf5d939fc1840f0a6fc659e27d2fc39b"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;
-                template&lt;typename ScalarIterable&gt;
               </div>
-              <span class="m-doc-wrap-bumper">void space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a375409b993c400e99362514017726759" class="m-doc-self">evaluate_general_derivative</a>(</span><span class="m-doc-wrap">ScalarIterable&amp; stl_ranges)</span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__system_1_1_regularized_system.html#ab54309615c1a0af3c26cfae59674d18c" class="m-doc">StateScalarArray</a>&amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#acf5d939fc1840f0a6fc659e27d2fc39b" class="m-doc-self">increment</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Template parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">ScalarIterable</td>
-                  <td></td>
-                </tr>
-              </tbody>
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>stl_ranges</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+<p>The setter interface of member <code>increment_</code> in name of <code>increment</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="abee28831fd514b69a15e73a9f742f586"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions, <a href="namespacespace_1_1particle__system.html#ad1d6bb96466a13872b2362628224c740" class="m-doc">ReguType</a> RegType&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1particle__system_1_1_regularized_system.html#ab54309615c1a0af3c26cfae59674d18c" class="m-doc">StateScalarArray</a> const &amp; space::<wbr />particle_system::<wbr />RegularizedSystem&lt;Particles, Interactions, RegType&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abee28831fd514b69a15e73a9f742f586" class="m-doc-self">increment</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>increment_</code> in name of <code>increment</code>.</p>
           </div></section>
         </section>
       </div>

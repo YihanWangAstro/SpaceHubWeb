@@ -48,8 +48,343 @@
       <div class="m-col-l-10 m-push-l-1">
         <h1>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1integrator.html">integrator</a>::<wbr/></span>Radau <span class="m-thin">class</span>
+          <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="_gauss-_radau_8hpp.html">&lt;src/integrator/Gauss-Radau.hpp&gt;</a></div>
         </h1>
-<p>Constant parameters used in Gauss <a href="classspace_1_1integrator_1_1_radau.html" class="m-doc">Radau</a> integration</p>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#pub-static-methods">Public static functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+<p>Constant parameters used in Gauss <a href="classspace_1_1integrator_1_1_radau.html" class="m-doc">Radau</a> integration</p><p><a href="https://www.cambridge.org/core/journals/international-astronomical-union-colloquium/article/an-efficient-integrator-that-uses-gauss-radau-spacings/F942BC9121C74CC2FA296050FC18D824">https:/<wbr />/<wbr />www.cambridge.org/<wbr />core/<wbr />journals/<wbr />international-astronomical-union-colloquium/<wbr />article/<wbr />an-efficient-integrator-that-uses-gauss-radau-spacings/<wbr />F942BC9121C74CC2FA296050FC18D824</a></p>
+        <section id="pub-static-methods">
+          <h2><a href="#pub-static-methods">Public static functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a713f6c0433ba732af0f8979ce3930bbe" class="m-doc">h</a>(</span><span class="m-doc-wrap">size_t i) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Substeps of Gauss-Radau stepping.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#aa3c424abec815cd9790aedf58b00ad51" class="m-doc">rs</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Coefficients used in &#x27;g&#x27; update.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#ae167caf6c063fb1b188f98a2d28bbdb0" class="m-doc">rr</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Coefficients used in &#x27;g&#x27; update.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#a01e689328db459f762b57a2d5d80daaf" class="m-doc">est_b</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Coefficient for B prediction update in equation 13.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#acaacb01e7a499f192ec9250a5fd28762" class="m-doc">g2b</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Transformation coefficients from G to B in equation 5.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#abd83104eb56bbd56ca2bfca6b526cc6e" class="m-doc">b2g</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Transformation coefficients from B to G in equation 7.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">static auto <a href="#aafd77ef20525673b4514fa85341d8665" class="m-doc">dy_tab</a>(</span><span class="m-doc-wrap">size_t stage,
+              size_t i) -&gt; double <span class="m-label m-flat m-primary">constexpr</span></span>
+            </dt>
+            <dd>Coefficients for y^ estimation in equation 10 after open the brackets.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Tab1, typename Tab2&gt;</div>
+              <span class="m-doc-wrap-bumper">static void <a href="#abbd65c4d7638451b0b4e71ac9ce0e3a3" class="m-doc">transform_g2b</a>(</span><span class="m-doc-wrap">Tab1 const&amp; G,
+              Tab2&amp; B)</span>
+            </dt>
+            <dd>Calculate the corresponding B table from G table.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Tab1, typename Tab2&gt;</div>
+              <span class="m-doc-wrap-bumper">static void <a href="#a9f6fe574344dcca384a3d8e5eca167e1" class="m-doc">transform_b2g</a>(</span><span class="m-doc-wrap">Tab1 const&amp; B,
+              Tab2&amp; G)</span>
+            </dt>
+            <dd>Calculate the corresponding G table from B table.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a713f6c0433ba732af0f8979ce3930bbe"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a713f6c0433ba732af0f8979ce3930bbe" class="m-doc-self">h</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Substeps of Gauss-Radau stepping.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">i&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Index of steps</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aa3c424abec815cd9790aedf58b00ad51"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa3c424abec815cd9790aedf58b00ad51" class="m-doc-self">rs</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Coefficients used in &#x27;g&#x27; update.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">n&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Raw index.</td>
+                </tr>
+                <tr>
+                  <td>j&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Column index</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>Coefficients before G_i in equation 4 after open the brackets.</p>
+          </div></section>
+          <section class="m-doc-details" id="ae167caf6c063fb1b188f98a2d28bbdb0"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae167caf6c063fb1b188f98a2d28bbdb0" class="m-doc-self">rr</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Coefficients used in &#x27;g&#x27; update.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">n&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Raw index.</td>
+                </tr>
+                <tr>
+                  <td>j&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Column index</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>Reciprocal of coefficient r_{ij} in equation 4.</p>
+          </div></section>
+          <section class="m-doc-details" id="a01e689328db459f762b57a2d5d80daaf"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a01e689328db459f762b57a2d5d80daaf" class="m-doc-self">est_b</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Coefficient for B prediction update in equation 13.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">n&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Raw index.</td>
+                </tr>
+                <tr>
+                  <td>j&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Column index.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="acaacb01e7a499f192ec9250a5fd28762"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#acaacb01e7a499f192ec9250a5fd28762" class="m-doc-self">g2b</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Transformation coefficients from G to B in equation 5.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">n&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Raw index</td>
+                </tr>
+                <tr>
+                  <td>j&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Column index</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="abd83104eb56bbd56ca2bfca6b526cc6e"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abd83104eb56bbd56ca2bfca6b526cc6e" class="m-doc-self">b2g</a>(</span><span class="m-doc-wrap">size_t n,
+              size_t j) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Transformation coefficients from B to G in equation 7.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">n&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Raw index</td>
+                </tr>
+                <tr>
+                  <td>j&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Column index</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aafd77ef20525673b4514fa85341d8665"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">static double space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aafd77ef20525673b4514fa85341d8665" class="m-doc-self">dy_tab</a>(</span><span class="m-doc-wrap">size_t stage,
+              size_t i) <span class="m-label m-primary">constexpr</span></span></span>
+            </h3>
+            <p>Coefficients for y^ estimation in equation 10 after open the brackets.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">stage&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Raw index(for x-th step)</td>
+                </tr>
+                <tr>
+                  <td>i&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Column index</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>constexpr double</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="abbd65c4d7638451b0b4e71ac9ce0e3a3"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Tab1, typename Tab2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">static void space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abbd65c4d7638451b0b4e71ac9ce0e3a3" class="m-doc-self">transform_g2b</a>(</span><span class="m-doc-wrap">Tab1 const&amp; G,
+              Tab2&amp; B)</span></span>
+            </h3>
+            <p>Calculate the corresponding B table from G table.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Tab1</td>
+                  <td>Type of G table.</td>
+                </tr>
+                <tr>
+                  <td>Tab2</td>
+                  <td>Type of B table.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>G&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>G table.</td>
+                </tr>
+                <tr>
+                  <td>B&nbsp;<span class="m-label m-flat m-warning">out</span></td>
+                  <td>B table.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a9f6fe574344dcca384a3d8e5eca167e1"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Tab1, typename Tab2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">static void space::<wbr />integrator::<wbr />Radau::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9f6fe574344dcca384a3d8e5eca167e1" class="m-doc-self">transform_b2g</a>(</span><span class="m-doc-wrap">Tab1 const&amp; B,
+              Tab2&amp; G)</span></span>
+            </h3>
+            <p>Calculate the corresponding G table from B table.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Tab1</td>
+                  <td>Type of B table.</td>
+                </tr>
+                <tr>
+                  <td>Tab2</td>
+                  <td>Type of G table.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>B&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>B table.</td>
+                </tr>
+                <tr>
+                  <td>G&nbsp;<span class="m-label m-flat m-warning">out</span></td>
+                  <td>G table.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+        </section>
       </div>
     </div>
   </div>

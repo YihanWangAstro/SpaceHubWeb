@@ -106,7 +106,7 @@ to load the GCC-9.2.0. Otherwise, you need to install the GCC under your own dir
 </ul>
 
 @section install Install 
-SpaceHub is a header only code(In @blabel{c++20}, we will make into [Modules](https://en.cppreference.com/w/cpp/language/modules)). @m_span{m-text m-danger} No installation @m_endspan is required, you only need
+SpaceHub is a header only code(In @blabel{c++20}, we will make it into [Modules](https://en.cppreference.com/w/cpp/language/modules)). @m_span{m-text m-danger} No installation @m_endspan is required, you only need
 @code{.cpp}#include"path_to_spacehub/src/spaceHub.hpp" 
 @endcode in your application code to use the SpaceHub.
 <ul>
@@ -162,7 +162,7 @@ int main(){
   DefaultSolver::RunArgs args;
 
   // add a default output printer
-  args.add_pre_step_operation(run_operations::DefaultWriter("solar.dat"));
+  args.add_pre_step_operation(callback::DefaultWriter("solar.dat"));
 
   args.add_stop_condition(100 * unit::year);
 

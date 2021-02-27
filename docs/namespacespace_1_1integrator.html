@@ -56,6 +56,7 @@
               Reference
               <ul>
                 <li><a href="#nested-classes">Classes</a></li>
+                <li><a href="#typedef-members">Typedefs</a></li>
               </ul>
             </li>
           </ul>
@@ -66,20 +67,11 @@
           <dl class="m-doc">
             <dt>
               <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
-              class <a href="classspace_1_1integrator_1_1_gauss_dadau.html" class="m-doc">GaussDadau</a>
-            </dt>
-            <dd></dd>
-            <dt>
-              <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
               class <a href="classspace_1_1integrator_1_1_gauss_radau.html" class="m-doc">GaussRadau</a>
             </dt>
             <dd></dd>
             <dt>
               class <a href="classspace_1_1integrator_1_1_radau.html" class="m-doc">Radau</a>
-            </dt>
-            <dd></dd>
-            <dt>
-              class <a href="classspace_1_1integrator_1_1_radau_consts.html" class="m-doc">RadauConsts</a>
             </dt>
             <dd></dd>
             <dt>
@@ -91,7 +83,7 @@
               <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
               class <a href="classspace_1_1integrator_1_1_symplectic2nd.html" class="m-doc">Symplectic2nd</a>
             </dt>
-            <dd></dd>
+            <dd>Second symplectic method.</dd>
             <dt>
               <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
               class <a href="classspace_1_1integrator_1_1_symplectic4th.html" class="m-doc">Symplectic4th</a>
@@ -108,6 +100,40 @@
             </dt>
             <dd></dd>
           </dl>
+        </section>
+        <section id="typedef-members">
+          <h2><a href="#typedef-members">Typedefs</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
+              using <a href="#ad03aba8d5731ef0652edd11f1dd31f4d" class="m-doc">LeapFrogDKD</a> = <a href="classspace_1_1integrator_1_1_symplectic2nd.html" class="m-doc">Symplectic2nd</a>&lt;TypeSystem&gt;
+            </dt>
+            <dd>Drift-Kick-Drift Leapfrog method.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Typedef documentation</h2>
+          <section class="m-doc-details" id="ad03aba8d5731ef0652edd11f1dd31f4d"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="symplectic-integrator_8hpp.html">&lt;src/integrator/symplectic/symplectic-integrator.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              using space::<wbr />integrator::<wbr /><a href="#ad03aba8d5731ef0652edd11f1dd31f4d" class="m-doc-self">LeapFrogDKD</a> = <a href="classspace_1_1integrator_1_1_symplectic2nd.html" class="m-doc">Symplectic2nd</a>&lt;TypeSystem&gt;
+            </h3>
+            <p>Drift-Kick-Drift Leapfrog method.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">TypeSystem</td>
+                  <td>Type class of SpaceHub.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
         </section>
       </div>
     </div>

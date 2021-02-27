@@ -48,7 +48,7 @@
       <div class="m-col-l-10 m-push-l-1">
         <h1>
           <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="type-class_8hpp.html">&lt;src/type-class.hpp&gt;</a></div>
-          <div class="m-doc-template">template&lt;typename Real&gt;</div>
+          <div class="m-doc-template">template&lt;typename Real, template&lt;typename&gt; typename V = <a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a>&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span>Types <span class="m-thin">struct</span>
         </h1>
         <table class="m-table m-fullwidth m-flat">
@@ -59,6 +59,10 @@
             <tr>
               <td style="width: 1%">Real</td>
               <td>The basic scalar type, i.e <code>float</code>, <code>double</code>, etc.</td>
+            </tr>
+            <tr>
+              <td>V</td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -78,84 +82,84 @@
           <h2><a href="#pub-types">Public types</a></h2>
           <dl class="m-doc">
             <dt>
-              using <a href="#a1979c529d7665d63b4be8cb48cf84969" class="m-doc">Scalar</a> = typename <a href="structspace_1_1raw__type.html" class="m-doc">raw_<wbr />type</a>&lt;Real&gt;::type
+              using <a href="#a534d5b62cd496af5d830c94ec1c68146" class="m-doc">Scalar</a> = typename <a href="structspace_1_1raw__type.html" class="m-doc">raw_<wbr />type</a>&lt;Real&gt;::type
             </dt>
             <dd></dd>
             <dt>
-              using <a href="#a61975889d3ead2de24a7e9675fb790f4" class="m-doc">ScalarArray</a> = <a href="structspace_1_1_types.html#a96999be4327803995852325343fbe68a" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#a1979c529d7665d63b4be8cb48cf84969" class="m-doc">Scalar</a>&gt;
+              using <a href="#a6c0773177a6228a287be8e9cadf4925d" class="m-doc">ScalarArray</a> = <a href="structspace_1_1_types.html#ac312edf47d6a3178fcec223bfe6a4d2f" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#a534d5b62cd496af5d830c94ec1c68146" class="m-doc">Scalar</a>&gt;
             </dt>
             <dd></dd>
             <dt>
-              using <a href="#aa00fc5264865f4600ca0ca52c5c9107e" class="m-doc">IntArray</a> = <a href="structspace_1_1_types.html#a96999be4327803995852325343fbe68a" class="m-doc">Container</a>&lt;int&gt;
+              using <a href="#ad87bbab5a0f05108d264d8bb34c47c21" class="m-doc">IntArray</a> = <a href="structspace_1_1_types.html#ac312edf47d6a3178fcec223bfe6a4d2f" class="m-doc">Container</a>&lt;int&gt;
             </dt>
             <dd></dd>
             <dt>
-              using <a href="#a44a5286a62f3b867341a22728e8fa234" class="m-doc">IdxArray</a> = <a href="structspace_1_1_types.html#a96999be4327803995852325343fbe68a" class="m-doc">Container</a>&lt;size_t&gt;
+              using <a href="#a4886314c9cb6883d2921874b0ec66a55" class="m-doc">IdxArray</a> = <a href="structspace_1_1_types.html#ac312edf47d6a3178fcec223bfe6a4d2f" class="m-doc">Container</a>&lt;size_t&gt;
             </dt>
             <dd></dd>
             <dt>
-              using <a href="#a2efac86d627bae95310f9af1f92ba1fb" class="m-doc">Vector</a> = <a href="structspace_1_1lazy_1_1_lazy_vec3.html" class="m-doc">lazy::<wbr />LazyVec3</a>&lt;<a href="structspace_1_1_types.html#a1979c529d7665d63b4be8cb48cf84969" class="m-doc">Scalar</a>&gt;
+              using <a href="#a4483e70b7bb495140ac4f08dbd63db5f" class="m-doc">Vector</a> = V&lt;<a href="structspace_1_1_types.html#a534d5b62cd496af5d830c94ec1c68146" class="m-doc">Scalar</a>&gt;
             </dt>
             <dd></dd>
             <dt>
-              using <a href="#a8d71fd9633d68a72c48515ec41cca8fb" class="m-doc">VectorArray</a> = <a href="namespacespace.html#a8657845c7eca3d1c300e3d8e6e7a3f3a" class="m-doc">SSO_<wbr />vec_<wbr />vector</a>&lt;<a href="structspace_1_1_types.html#a2efac86d627bae95310f9af1f92ba1fb" class="m-doc">Vector</a>&gt;
+              using <a href="#a961749c0294e4b4550e73222ec9c97dd" class="m-doc">VectorArray</a> = <a href="namespacespace.html#a8657845c7eca3d1c300e3d8e6e7a3f3a" class="m-doc">SSO_<wbr />vec_<wbr />vector</a>&lt;<a href="structspace_1_1_types.html#a4483e70b7bb495140ac4f08dbd63db5f" class="m-doc">Vector</a>&gt;
             </dt>
             <dd></dd>
           </dl>
         </section>
         <section>
           <h2>Typedef documentation</h2>
-          <section class="m-doc-details" id="a1979c529d7665d63b4be8cb48cf84969"><div>
+          <section class="m-doc-details" id="a534d5b62cd496af5d830c94ec1c68146"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename Real&gt;
+                template&lt;typename Real, template&lt;typename&gt; typename V&gt;
               </div>
-              using space::<wbr />Types&lt;Real&gt;::<wbr /><a href="#a1979c529d7665d63b4be8cb48cf84969" class="m-doc-self">Scalar</a> = typename <a href="structspace_1_1raw__type.html" class="m-doc">raw_<wbr />type</a>&lt;Real&gt;::type
+              using space::<wbr />Types&lt;Real, V&gt;::<wbr /><a href="#a534d5b62cd496af5d830c94ec1c68146" class="m-doc-self">Scalar</a> = typename <a href="structspace_1_1raw__type.html" class="m-doc">raw_<wbr />type</a>&lt;Real&gt;::type
             </h3>
 <p>Floating point like type cross the system</p>
           </div></section>
-          <section class="m-doc-details" id="a61975889d3ead2de24a7e9675fb790f4"><div>
+          <section class="m-doc-details" id="a6c0773177a6228a287be8e9cadf4925d"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename Real&gt;
+                template&lt;typename Real, template&lt;typename&gt; typename V&gt;
               </div>
-              using space::<wbr />Types&lt;Real&gt;::<wbr /><a href="#a61975889d3ead2de24a7e9675fb790f4" class="m-doc-self">ScalarArray</a> = <a href="structspace_1_1_types.html#a96999be4327803995852325343fbe68a" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#a1979c529d7665d63b4be8cb48cf84969" class="m-doc">Scalar</a>&gt;
+              using space::<wbr />Types&lt;Real, V&gt;::<wbr /><a href="#a6c0773177a6228a287be8e9cadf4925d" class="m-doc-self">ScalarArray</a> = <a href="structspace_1_1_types.html#ac312edf47d6a3178fcec223bfe6a4d2f" class="m-doc">Container</a>&lt;<a href="structspace_1_1_types.html#a534d5b62cd496af5d830c94ec1c68146" class="m-doc">Scalar</a>&gt;
             </h3>
 <p>1-d array with value type <code>Scalar</code>. Alias of <code>Container&lt;Scalar&gt;</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="aa00fc5264865f4600ca0ca52c5c9107e"><div>
+          <section class="m-doc-details" id="ad87bbab5a0f05108d264d8bb34c47c21"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename Real&gt;
+                template&lt;typename Real, template&lt;typename&gt; typename V&gt;
               </div>
-              using space::<wbr />Types&lt;Real&gt;::<wbr /><a href="#aa00fc5264865f4600ca0ca52c5c9107e" class="m-doc-self">IntArray</a> = <a href="structspace_1_1_types.html#a96999be4327803995852325343fbe68a" class="m-doc">Container</a>&lt;int&gt;
+              using space::<wbr />Types&lt;Real, V&gt;::<wbr /><a href="#ad87bbab5a0f05108d264d8bb34c47c21" class="m-doc-self">IntArray</a> = <a href="structspace_1_1_types.html#ac312edf47d6a3178fcec223bfe6a4d2f" class="m-doc">Container</a>&lt;int&gt;
             </h3>
 <p>1-d array with value type <code>int</code>. Alias of <code>Container&lt;int&gt;</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a44a5286a62f3b867341a22728e8fa234"><div>
+          <section class="m-doc-details" id="a4886314c9cb6883d2921874b0ec66a55"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename Real&gt;
+                template&lt;typename Real, template&lt;typename&gt; typename V&gt;
               </div>
-              using space::<wbr />Types&lt;Real&gt;::<wbr /><a href="#a44a5286a62f3b867341a22728e8fa234" class="m-doc-self">IdxArray</a> = <a href="structspace_1_1_types.html#a96999be4327803995852325343fbe68a" class="m-doc">Container</a>&lt;size_t&gt;
+              using space::<wbr />Types&lt;Real, V&gt;::<wbr /><a href="#a4886314c9cb6883d2921874b0ec66a55" class="m-doc-self">IdxArray</a> = <a href="structspace_1_1_types.html#ac312edf47d6a3178fcec223bfe6a4d2f" class="m-doc">Container</a>&lt;size_t&gt;
             </h3>
 <p>1-d array with value type <code>size_t</code>. Alias of <code>Container&lt;size_t&gt;</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a2efac86d627bae95310f9af1f92ba1fb"><div>
+          <section class="m-doc-details" id="a4483e70b7bb495140ac4f08dbd63db5f"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename Real&gt;
+                template&lt;typename Real, template&lt;typename&gt; typename V&gt;
               </div>
-              using space::<wbr />Types&lt;Real&gt;::<wbr /><a href="#a2efac86d627bae95310f9af1f92ba1fb" class="m-doc-self">Vector</a> = <a href="structspace_1_1lazy_1_1_lazy_vec3.html" class="m-doc">lazy::<wbr />LazyVec3</a>&lt;<a href="structspace_1_1_types.html#a1979c529d7665d63b4be8cb48cf84969" class="m-doc">Scalar</a>&gt;
+              using space::<wbr />Types&lt;Real, V&gt;::<wbr /><a href="#a4483e70b7bb495140ac4f08dbd63db5f" class="m-doc-self">Vector</a> = V&lt;<a href="structspace_1_1_types.html#a534d5b62cd496af5d830c94ec1c68146" class="m-doc">Scalar</a>&gt;
             </h3>
 <p>3-d math vector (x, y, z) with <code>Scalar</code> type of x, y, z. Use genetic <code><a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a></code> by default, but can be replaced with any other implementation implements interfaces defined in <code><a href="structspace_1_1_vec3.html" class="m-doc">Vec3</a></code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a8d71fd9633d68a72c48515ec41cca8fb"><div>
+          <section class="m-doc-details" id="a961749c0294e4b4550e73222ec9c97dd"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename Real&gt;
+                template&lt;typename Real, template&lt;typename&gt; typename V&gt;
               </div>
-              using space::<wbr />Types&lt;Real&gt;::<wbr /><a href="#a8d71fd9633d68a72c48515ec41cca8fb" class="m-doc-self">VectorArray</a> = <a href="namespacespace.html#a8657845c7eca3d1c300e3d8e6e7a3f3a" class="m-doc">SSO_<wbr />vec_<wbr />vector</a>&lt;<a href="structspace_1_1_types.html#a2efac86d627bae95310f9af1f92ba1fb" class="m-doc">Vector</a>&gt;
+              using space::<wbr />Types&lt;Real, V&gt;::<wbr /><a href="#a961749c0294e4b4550e73222ec9c97dd" class="m-doc-self">VectorArray</a> = <a href="namespacespace.html#a8657845c7eca3d1c300e3d8e6e7a3f3a" class="m-doc">SSO_<wbr />vec_<wbr />vector</a>&lt;<a href="structspace_1_1_types.html#a4483e70b7bb495140ac4f08dbd63db5f" class="m-doc">Vector</a>&gt;
             </h3>
 <p>1-d array with value type <code>Vector</code>, Alias of <code>Container&lt;Vector&gt;</code>.</p>
           </div></section>

@@ -47,6 +47,7 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="_gauss-_radau_8hpp.html">&lt;src/integrator/Gauss-Radau.hpp&gt;</a></div>
           <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
           <span class="m-breadcrumb"><a href="namespacespace.html">space</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacespace_1_1integrator.html">integrator</a>::<wbr/></span>GaussRadau <span class="m-thin">class</span>
         </h1>
@@ -77,58 +78,71 @@
           <h2><a href="#pub-methods">Public functions</a></h2>
           <dl class="m-doc">
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a7056d11d981d12ede7e18113d9dab306" class="m-doc">b</a>(</span><span class="m-doc-wrap">) const -&gt; auto const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#adeb75774c20e9da2148ea978edfbe181" class="m-doc">b</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1integrator_1_1_gauss_radau.html#aada04445f52b47b37274e5153e031adb" class="m-doc">IterTable</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a259d4cc6a3ca898423955a979f43fce6" class="m-doc">y_0</a>(</span><span class="m-doc-wrap">) const -&gt; auto const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab9f17804d38a14dcc2eb33faa3fe8b08" class="m-doc">dy_0</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1integrator_1_1_gauss_radau.html#a1d9418355ffed8b6cb2f51ac97823fc3" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a67715c028f0a4154101c1f7768288ebd" class="m-doc">y_h</a>(</span><span class="m-doc-wrap">) const -&gt; auto const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4422372e13805f921e01019a45a03c85" class="m-doc">dy_h</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1integrator_1_1_gauss_radau.html#a1d9418355ffed8b6cb2f51ac97823fc3" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#af6d4fd832c02a0db2d809f81d63700e5" class="m-doc">diff_b6</a>(</span><span class="m-doc-wrap">) const -&gt; auto const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#af70f881697cc9d90461a2fc6dc2b335f" class="m-doc">y_h</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1integrator_1_1_gauss_radau.html#ac079aac11c8b4919fbef94214bdfe3e0" class="m-doc">StateScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a011d7cfc3fcffc4c7963969f728cf624" class="m-doc">diff_b6</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classspace_1_1integrator_1_1_gauss_radau.html#a1d9418355ffed8b6cb2f51ac97823fc3" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
             </dt>
             <dd></dd>
           </dl>
         </section>
         <section>
           <h2>Function documentation</h2>
-          <section class="m-doc-details" id="a7056d11d981d12ede7e18113d9dab306"><div>
+          <section class="m-doc-details" id="adeb75774c20e9da2148ea978edfbe181"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7056d11d981d12ede7e18113d9dab306" class="m-doc-self">b</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1integrator_1_1_gauss_radau.html#aada04445f52b47b37274e5153e031adb" class="m-doc">IterTable</a> const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#adeb75774c20e9da2148ea978edfbe181" class="m-doc-self">b</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The getter interface of member <code>b_</code> in name of <code>b</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a259d4cc6a3ca898423955a979f43fce6"><div>
+          <section class="m-doc-details" id="ab9f17804d38a14dcc2eb33faa3fe8b08"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a259d4cc6a3ca898423955a979f43fce6" class="m-doc-self">y_0</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1integrator_1_1_gauss_radau.html#a1d9418355ffed8b6cb2f51ac97823fc3" class="m-doc">ScalarArray</a> const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab9f17804d38a14dcc2eb33faa3fe8b08" class="m-doc-self">dy_0</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>dydh0_</code> in name of <code>y_0</code>.</p>
+<p>The getter interface of member <code>dydh0_</code> in name of <code>dy_0</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="a67715c028f0a4154101c1f7768288ebd"><div>
+          <section class="m-doc-details" id="a4422372e13805f921e01019a45a03c85"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a67715c028f0a4154101c1f7768288ebd" class="m-doc-self">y_h</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1integrator_1_1_gauss_radau.html#a1d9418355ffed8b6cb2f51ac97823fc3" class="m-doc">ScalarArray</a> const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4422372e13805f921e01019a45a03c85" class="m-doc-self">dy_h</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
-<p>The getter interface of member <code>dydh_</code> in name of <code>y_h</code>.</p>
+<p>The getter interface of member <code>dydh_</code> in name of <code>dy_h</code>.</p>
           </div></section>
-          <section class="m-doc-details" id="af6d4fd832c02a0db2d809f81d63700e5"><div>
+          <section class="m-doc-details" id="af70f881697cc9d90461a2fc6dc2b335f"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename TypeSystem&gt;
               </div>
-              <span class="m-doc-wrap-bumper">auto const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af6d4fd832c02a0db2d809f81d63700e5" class="m-doc-self">diff_b6</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1integrator_1_1_gauss_radau.html#ac079aac11c8b4919fbef94214bdfe3e0" class="m-doc">StateScalarArray</a> const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af70f881697cc9d90461a2fc6dc2b335f" class="m-doc-self">y_h</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>input_</code> in name of <code>y_h</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a011d7cfc3fcffc4c7963969f728cf624"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classspace_1_1integrator_1_1_gauss_radau.html#a1d9418355ffed8b6cb2f51ac97823fc3" class="m-doc">ScalarArray</a> const &amp; space::<wbr />integrator::<wbr />GaussRadau&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a011d7cfc3fcffc4c7963969f728cf624" class="m-doc-self">diff_b6</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
             </h3>
 <p>The getter interface of member <code>dg_array_</code> in name of <code>diff_b6</code>.</p>
           </div></section>
