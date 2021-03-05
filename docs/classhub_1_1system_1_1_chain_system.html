@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hub::system::ChainSystem class | SpaceHub</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark.css" />
+  <link rel="stylesheet" href="m-documentation.css" />
+  <link rel="icon" href="favicon-dark.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="logo.png" />SpaceHub</a>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="start.html">Getting started</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="annotated.html">Classes</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="4">
+            <li><a href="files.html">Files</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="versions.html">Versions</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="chain-system_8hpp.html">&lt;src/particle-system/chain-system.hpp&gt;</a></div>
+          <div class="m-doc-template">template&lt;typename Particles, typename Interactions&gt;</div>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacehub_1_1system.html">system</a>::<wbr/></span>ChainSystem <span class="m-thin">class</span>
+        </h1>
+        <table class="m-table m-fullwidth m-flat">
+          <thead>
+            <tr><th colspan="2">Template parameters</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 1%">Particles</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Interactions</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a551872d50fa6b4ddf3312567ca6921af" class="m-doc">ChainSystem</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-danger">deleted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#ae4f8a83e5abc0100e8c302e122c29ec8" class="m-doc">ChainSystem</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#afdd61b67333e04e7c800caeedf2a4e15" class="m-doc">ChainSystem</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a31732df47246c51a445b28a3d9a4a5fe" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a> const&amp;) -&gt; <a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8fbd21b3e126c239118a7d1ead0ae985" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp;&amp;) -&gt; <a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#afa3bb9f06bbac9bb5de0cd357e790760" class="m-doc">chain_pos</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a2340e705337c801a9642174981916679" class="m-doc">chain_pos</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac9959fe98a29336880de219c681e37f2" class="m-doc">chain_pos</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a35d14a682fac8c4dd10f2c207bb4d2ff" class="m-doc">chain_pos</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab30bb8d4984fce09500017b08382c05c" class="m-doc">chain_vel</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#af2ce3c1f66ffd334d565b9524fe121cf" class="m-doc">chain_vel</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a808e3b0b0b485b0d7b7808de1972390f" class="m-doc">chain_vel</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5b2602d16ba18516cb66352ab1b89a87" class="m-doc">chain_vel</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aff4a60b17ecc7c84224793209ea8aacd" class="m-doc">index</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a12c1038bfba529619b7c1781b4f88ce8" class="m-doc">index</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a883c29c862030da1fd0d352f4de54072" class="m-doc">index</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#abcd6c5273578eec8a6423644bccc9fd5" class="m-doc">index</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#accdfe25ccad81454ac334195ef0ff939" class="m-doc">increment</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a706efe644a03ffa641f3b8413145559e" class="m-doc">increment</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ae9b29430b3ef5ccfa9e1d5b5103c0bbc" class="m-doc">increment</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8a7c304e8c5eab7a41691067adc9ab8f" class="m-doc">increment</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a551872d50fa6b4ddf3312567ca6921af"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a551872d50fa6b4ddf3312567ca6921af" class="m-doc-self">ChainSystem</a>(</span><span class="m-doc-wrap">) <span class="m-label m-danger">deleted</span></span></span>
+            </h3>
+<p>Default constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="ae4f8a83e5abc0100e8c302e122c29ec8"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae4f8a83e5abc0100e8c302e122c29ec8" class="m-doc-self">ChainSystem</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="afdd61b67333e04e7c800caeedf2a4e15"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afdd61b67333e04e7c800caeedf2a4e15" class="m-doc-self">ChainSystem</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move constructor</p>
+          </div></section>
+          <section class="m-doc-details" id="a31732df47246c51a445b28a3d9a4a5fe"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a31732df47246c51a445b28a3d9a4a5fe" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="a8fbd21b3e126c239118a7d1ead0ae985"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8fbd21b3e126c239118a7d1ead0ae985" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1system_1_1_chain_system.html" class="m-doc">ChainSystem</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="afa3bb9f06bbac9bb5de0cd357e790760"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a>&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afa3bb9f06bbac9bb5de0cd357e790760" class="m-doc-self">chain_pos</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>chain_pos_</code> in name of <code>chain_pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a2340e705337c801a9642174981916679"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2340e705337c801a9642174981916679" class="m-doc-self">chain_pos</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>chain_pos_</code> in name of <code>chain_pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac9959fe98a29336880de219c681e37f2"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac9959fe98a29336880de219c681e37f2" class="m-doc-self">chain_pos</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>chain_pos_</code> in name of <code>chain_pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a35d14a682fac8c4dd10f2c207bb4d2ff"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a35d14a682fac8c4dd10f2c207bb4d2ff" class="m-doc-self">chain_pos</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>chain_pos_</code> in name of <code>chain_pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ab30bb8d4984fce09500017b08382c05c"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a>&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab30bb8d4984fce09500017b08382c05c" class="m-doc-self">chain_vel</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>chain_vel_</code> in name of <code>chain_vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="af2ce3c1f66ffd334d565b9524fe121cf"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af2ce3c1f66ffd334d565b9524fe121cf" class="m-doc-self">chain_vel</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>chain_vel_</code> in name of <code>chain_vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a808e3b0b0b485b0d7b7808de1972390f"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a808e3b0b0b485b0d7b7808de1972390f" class="m-doc-self">chain_vel</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>chain_vel_</code> in name of <code>chain_vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a5b2602d16ba18516cb66352ab1b89a87"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a664269fb5246e013e4912b91b8f57a17" class="m-doc">StateVectorArray</a> ::value_type const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5b2602d16ba18516cb66352ab1b89a87" class="m-doc-self">chain_vel</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>chain_vel_</code> in name of <code>chain_vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="aff4a60b17ecc7c84224793209ea8aacd"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a>&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aff4a60b17ecc7c84224793209ea8aacd" class="m-doc-self">index</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>index_</code> in name of <code>index</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a12c1038bfba529619b7c1781b4f88ce8"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a> const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a12c1038bfba529619b7c1781b4f88ce8" class="m-doc-self">index</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>index_</code> in name of <code>index</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a883c29c862030da1fd0d352f4de54072"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a> ::value_type&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a883c29c862030da1fd0d352f4de54072" class="m-doc-self">index</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>index_</code> in name of <code>index</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="abcd6c5273578eec8a6423644bccc9fd5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a8b355e54bd7b1d7a1d655424372685d0" class="m-doc">IdxArray</a> ::value_type const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abcd6c5273578eec8a6423644bccc9fd5" class="m-doc-self">index</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>index_</code> in name of <code>index</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="accdfe25ccad81454ac334195ef0ff939"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a>&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#accdfe25ccad81454ac334195ef0ff939" class="m-doc-self">increment</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>increment_</code> in name of <code>increment</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a706efe644a03ffa641f3b8413145559e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a> const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a706efe644a03ffa641f3b8413145559e" class="m-doc-self">increment</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>increment_</code> in name of <code>increment</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ae9b29430b3ef5ccfa9e1d5b5103c0bbc"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a> ::value_type&amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae9b29430b3ef5ccfa9e1d5b5103c0bbc" class="m-doc-self">increment</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>increment_</code> in name of <code>increment</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a8a7c304e8c5eab7a41691067adc9ab8f"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Particles, typename Interactions&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1system_1_1_chain_system.html#a6f8588444b016715c1d9b004a25dc25f" class="m-doc">StateScalarArray</a> ::value_type const &amp; hub::<wbr />system::<wbr />ChainSystem&lt;Particles, Interactions&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8a7c304e8c5eab7a41691067adc9ab8f" class="m-doc-self">increment</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>increment_</code> in name of <code>increment</code>.</p>
+          </div></section>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.14 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>

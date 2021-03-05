@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hub::particles::TideParticles class | SpaceHub</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark.css" />
+  <link rel="stylesheet" href="m-documentation.css" />
+  <link rel="icon" href="favicon-dark.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="logo.png" />SpaceHub</a>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="start.html">Getting started</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="annotated.html">Classes</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="4">
+            <li><a href="files.html">Files</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="versions.html">Versions</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="tide-particles_8hpp.html">&lt;src/particles/tide-particles.hpp&gt;</a></div>
+          <div class="m-doc-template">template&lt;typename TypeSystem&gt;</div>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacehub_1_1particles.html">particles</a>::<wbr/></span>TideParticles <span class="m-thin">class</span>
+        </h1>
+        <p>Structure of Array point particle group.</p>
+        <table class="m-table m-fullwidth m-flat">
+          <thead>
+            <tr><th colspan="2">Template parameters</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 1%">TypeSystem</td>
+              <td>The type system in spaceHub(hub::Types).</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#pub-types">Public types</a></li>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section id="pub-types">
+          <h2><a href="#pub-types">Public types</a></h2>
+          <dl class="m-doc">
+            <dt id="abfd51f583cea3c0e8560686d6c5ec9a4">
+              using <a href="#abfd51f583cea3c0e8560686d6c5ec9a4" class="m-doc-self">Particle</a> = <a href="structhub_1_1particles_1_1_tide_particle.html" class="m-doc">TideParticle</a>&lt;<a href="classhub_1_1particles_1_1_tide_particles.html#acb35577967c1ec11a812a4e2c2df4edf" class="m-doc">Vector</a>&gt;
+            </dt>
+            <dd>Embedded Particle type.</dd>
+          </dl>
+        </section>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a06a4c08b46650d14c6ceda3a8d4f233b" class="m-doc">TideParticles</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#ac212fee1c9ec7af28ab3f5731b3a3ae2" class="m-doc">TideParticles</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a560155fdbefe4261b8e89adc24a2b7f5" class="m-doc">TideParticles</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename STL&gt;</div>
+              <span class="m-doc-wrap-bumper"><a href="#a262d5dd51595edeb67a31b1bb129e7f0" class="m-doc">TideParticles</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html#aab57afe5e92ea928148add1d8e225bc0" class="m-doc">Scalar</a> t,
+              STL const&amp; particle_set)</span>
+            </dt>
+            <dd>Construct a new Point Particles object from std::ranges(Container)</dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a1b1b6829efaf1b1a7cb8a2c710d5db83" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a> const&amp;) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9c7f02293d23ea3dcd81914539194222" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp;&amp;) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aaf0cbd2ab2df2c107b3f203713fd0a94" class="m-doc">time</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0a2967e8f01d90f776619f47efbdee0c" class="m-doc">StateScalar</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a73dbe0a144a13042f23e61b0871fe6ef" class="m-doc">time</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0a2967e8f01d90f776619f47efbdee0c" class="m-doc">StateScalar</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a2ecf4ec067e5b8db840a663aebb45d15" class="m-doc">mass</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a44253c3d07ffd88048edc6f62b777acc" class="m-doc">mass</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ae471ab738eaf7cd1b747b60c07c3ed11" class="m-doc">mass</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8242834e7df3fb3ec5f160d44db47b9f" class="m-doc">mass</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab59b7f4e05c8c49059453dd18fc833e8" class="m-doc">radius</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a7fbcc4fa0b428505868bdcc53e23616e" class="m-doc">radius</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ad548b6923dfcd2cc426896d8ff50335b" class="m-doc">radius</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac3c67ed00ceccd5546653c572f3c52b8" class="m-doc">radius</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a69cdd4a221b56c2e03e36390d8aea5db" class="m-doc">idn</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab15742d0e2b7c9da6bff75f9f569b594" class="m-doc">idn</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8087d6fc1fc62da56287df2e0fa2e97e" class="m-doc">idn</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a996554b55e5b649b790096f3d753a6a4" class="m-doc">idn</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4d722f6c5fc7bdd93d91fdf0b76670c8" class="m-doc">pos</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aba3b23d1ac4e83194e1eb243ead55697" class="m-doc">pos</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a0fdc9d8ca2a298857972251bb45597ab" class="m-doc">pos</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a75a034bf781e221bbbc3c0b4e2f4bc2b" class="m-doc">pos</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a3aa9996e1166a07b3f2f29d073b8fb2e" class="m-doc">vel</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a0e3eac097b3764bebc2b3af2488c0b82" class="m-doc">vel</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab83ea0609fbc1a7d9bc7eac47f426b85" class="m-doc">vel</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#adbe300dd2870bad8d92f10811d96951e" class="m-doc">vel</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a43799f90dc6215fcdd18a64e65ffedea" class="m-doc">tide_apsidal_const</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac587b866f9cb3c0c121fbc10ad3878b4" class="m-doc">tide_apsidal_const</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac44e4b50d81ce13e8501ba0f44a509bf" class="m-doc">tide_apsidal_const</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab660604a7c20d06a280c87b092052d5a" class="m-doc">tide_apsidal_const</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a68e3390c382860886a62b33899f9e8f5" class="m-doc">tide_lag_time</a>(</span><span class="m-doc-wrap">) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a>&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac05aaa4e37b3b58b371770c27bc548e6" class="m-doc">tide_lag_time</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8d49b31bc5d4060f9b8fd8d0bfa132b9" class="m-doc">tide_lag_time</a>(</span><span class="m-doc-wrap">size_t i) -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type&amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a59a29df7967f75f1f3251ae5d7818c6e" class="m-doc">tide_lag_time</a>(</span><span class="m-doc-wrap">size_t i) const -&gt; <a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type const &amp; <span class="m-label m-flat m-success">noexcept</span></span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a06a4c08b46650d14c6ceda3a8d4f233b"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a06a4c08b46650d14c6ceda3a8d4f233b" class="m-doc-self">TideParticles</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac212fee1c9ec7af28ab3f5731b3a3ae2"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac212fee1c9ec7af28ab3f5731b3a3ae2" class="m-doc-self">TideParticles</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="a560155fdbefe4261b8e89adc24a2b7f5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a560155fdbefe4261b8e89adc24a2b7f5" class="m-doc-self">TideParticles</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move constructor</p>
+          </div></section>
+          <section class="m-doc-details" id="a262d5dd51595edeb67a31b1bb129e7f0"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+                template&lt;typename STL&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a262d5dd51595edeb67a31b1bb129e7f0" class="m-doc-self">TideParticles</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html#aab57afe5e92ea928148add1d8e225bc0" class="m-doc">Scalar</a> t,
+              STL const&amp; particle_set)</span></span>
+            </h3>
+            <p>Construct a new Point Particles object from std::ranges(Container)</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">STL</td>
+                  <td>std::ranges(Container)</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>t&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Initial time of the the particle group.</td>
+                </tr>
+                <tr>
+                  <td>particle_set&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Input particle set.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a1b1b6829efaf1b1a7cb8a2c710d5db83"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1b1b6829efaf1b1a7cb8a2c710d5db83" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="a9c7f02293d23ea3dcd81914539194222"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9c7f02293d23ea3dcd81914539194222" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="classhub_1_1particles_1_1_tide_particles.html" class="m-doc">TideParticles</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="aaf0cbd2ab2df2c107b3f203713fd0a94"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0a2967e8f01d90f776619f47efbdee0c" class="m-doc">StateScalar</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aaf0cbd2ab2df2c107b3f203713fd0a94" class="m-doc-self">time</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>time_</code> in name of <code>time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a73dbe0a144a13042f23e61b0871fe6ef"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0a2967e8f01d90f776619f47efbdee0c" class="m-doc">StateScalar</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a73dbe0a144a13042f23e61b0871fe6ef" class="m-doc-self">time</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>time_</code> in name of <code>time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a2ecf4ec067e5b8db840a663aebb45d15"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2ecf4ec067e5b8db840a663aebb45d15" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a44253c3d07ffd88048edc6f62b777acc"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a44253c3d07ffd88048edc6f62b777acc" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ae471ab738eaf7cd1b747b60c07c3ed11"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae471ab738eaf7cd1b747b60c07c3ed11" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a8242834e7df3fb3ec5f160d44db47b9f"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8242834e7df3fb3ec5f160d44db47b9f" class="m-doc-self">mass</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>mass_</code> in name of <code>mass</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ab59b7f4e05c8c49059453dd18fc833e8"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab59b7f4e05c8c49059453dd18fc833e8" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a7fbcc4fa0b428505868bdcc53e23616e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7fbcc4fa0b428505868bdcc53e23616e" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ad548b6923dfcd2cc426896d8ff50335b"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad548b6923dfcd2cc426896d8ff50335b" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac3c67ed00ceccd5546653c572f3c52b8"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a0e21e2bfdcd41308135b8e9a445cb975" class="m-doc">ScalarArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac3c67ed00ceccd5546653c572f3c52b8" class="m-doc-self">radius</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>radius_</code> in name of <code>radius</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a69cdd4a221b56c2e03e36390d8aea5db"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a69cdd4a221b56c2e03e36390d8aea5db" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ab15742d0e2b7c9da6bff75f9f569b594"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab15742d0e2b7c9da6bff75f9f569b594" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a8087d6fc1fc62da56287df2e0fa2e97e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8087d6fc1fc62da56287df2e0fa2e97e" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a996554b55e5b649b790096f3d753a6a4"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a8981cf64ba493a2c98c925aa8a8b254a" class="m-doc">IdxArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a996554b55e5b649b790096f3d753a6a4" class="m-doc-self">idn</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>idn_</code> in name of <code>idn</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a4d722f6c5fc7bdd93d91fdf0b76670c8"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4d722f6c5fc7bdd93d91fdf0b76670c8" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="aba3b23d1ac4e83194e1eb243ead55697"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aba3b23d1ac4e83194e1eb243ead55697" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a0fdc9d8ca2a298857972251bb45597ab"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a0fdc9d8ca2a298857972251bb45597ab" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a75a034bf781e221bbbc3c0b4e2f4bc2b"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a75a034bf781e221bbbc3c0b4e2f4bc2b" class="m-doc-self">pos</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>pos_</code> in name of <code>pos</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a3aa9996e1166a07b3f2f29d073b8fb2e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a3aa9996e1166a07b3f2f29d073b8fb2e" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a0e3eac097b3764bebc2b3af2488c0b82"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a0e3eac097b3764bebc2b3af2488c0b82" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ab83ea0609fbc1a7d9bc7eac47f426b85"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab83ea0609fbc1a7d9bc7eac47f426b85" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="adbe300dd2870bad8d92f10811d96951e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a895eaa2fe0dff041e10fbe47388b2455" class="m-doc">StateVectorArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#adbe300dd2870bad8d92f10811d96951e" class="m-doc-self">vel</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>vel_</code> in name of <code>vel</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a43799f90dc6215fcdd18a64e65ffedea"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a43799f90dc6215fcdd18a64e65ffedea" class="m-doc-self">tide_apsidal_const</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>k_AM_</code> in name of <code>tide_apsidal_const</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac587b866f9cb3c0c121fbc10ad3878b4"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac587b866f9cb3c0c121fbc10ad3878b4" class="m-doc-self">tide_apsidal_const</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>k_AM_</code> in name of <code>tide_apsidal_const</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac44e4b50d81ce13e8501ba0f44a509bf"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac44e4b50d81ce13e8501ba0f44a509bf" class="m-doc-self">tide_apsidal_const</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>k_AM_</code> in name of <code>tide_apsidal_const</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ab660604a7c20d06a280c87b092052d5a"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab660604a7c20d06a280c87b092052d5a" class="m-doc-self">tide_apsidal_const</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>k_AM_</code> in name of <code>tide_apsidal_const</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a68e3390c382860886a62b33899f9e8f5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a>&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a68e3390c382860886a62b33899f9e8f5" class="m-doc-self">tide_lag_time</a>(</span><span class="m-doc-wrap">) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>tau_lag_</code> in name of <code>tide_lag_time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="ac05aaa4e37b3b58b371770c27bc548e6"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac05aaa4e37b3b58b371770c27bc548e6" class="m-doc-self">tide_lag_time</a>(</span><span class="m-doc-wrap">) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>tau_lag_</code> in name of <code>tide_lag_time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a8d49b31bc5d4060f9b8fd8d0bfa132b9"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type&amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8d49b31bc5d4060f9b8fd8d0bfa132b9" class="m-doc-self">tide_lag_time</a>(</span><span class="m-doc-wrap">size_t i) <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The setter interface of member <code>tau_lag_</code> in name of <code>tide_lag_time</code>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a59a29df7967f75f1f3251ae5d7818c6e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename TypeSystem&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="classhub_1_1particles_1_1_tide_particles.html#a198062ca43ee415dc51d332380c465e2" class="m-doc">VectorArray</a> ::value_type const &amp; hub::<wbr />particles::<wbr />TideParticles&lt;TypeSystem&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a59a29df7967f75f1f3251ae5d7818c6e" class="m-doc-self">tide_lag_time</a>(</span><span class="m-doc-wrap">size_t i) const <span class="m-label m-success">noexcept</span></span></span>
+            </h3>
+<p>The getter interface of member <code>tau_lag_</code> in name of <code>tide_lag_time</code>.</p>
+          </div></section>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.14 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>

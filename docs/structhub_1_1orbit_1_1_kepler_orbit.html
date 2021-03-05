@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hub::orbit::KeplerOrbit struct | SpaceHub</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark.css" />
+  <link rel="stylesheet" href="m-documentation.css" />
+  <link rel="icon" href="favicon-dark.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="logo.png" />SpaceHub</a>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="start.html">Getting started</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="annotated.html">Classes</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="4">
+            <li><a href="files.html">Files</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="versions.html">Versions</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+          <div class="m-doc-template">template&lt;typename Real&gt;</div>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacehub_1_1orbit.html">orbit</a>::<wbr/></span>KeplerOrbit <span class="m-thin">struct</span>
+        </h1>
+        <table class="m-table m-fullwidth m-flat">
+          <thead>
+            <tr><th colspan="2">Template parameters</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 1%">Real</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#pub-types">Public types</a></li>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+                <li><a href="#pub-attribs">Public variables</a></li>
+                <li><a href="#friends">Friends</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section id="pub-types">
+          <h2><a href="#pub-types">Public types</a></h2>
+          <dl class="m-doc">
+            <dt id="a40f5aa6f09af78ca62662a8144f54f65">
+              using <a href="#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc-self">Scalar</a> = Real
+            </dt>
+            <dd>Floating point like type.</dd>
+          </dl>
+        </section>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#ae8f5e9bd4549f604546c23ae47de75dd" class="m-doc">KeplerOrbit</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a35fb1cfff5fb479213e6b576c270f795" class="m-doc">KeplerOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a8fc242943ae0bb2077c9f3bb67ad5a96" class="m-doc">KeplerOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename T1, typename T2, typename T3, typename T4&gt;</div>
+              <span class="m-doc-wrap-bumper"><a href="#af9882eed2a158ea4f54857fc4b22737f" class="m-doc">KeplerOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> m_1,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> m_2,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> semi_latus_rectum,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> eccentricity,
+              T1 inclination,
+              T2 longitude_of_ascending_node,
+              T3 argument_of_periapsis,
+              T4 true_anomaly)</span>
+            </dt>
+            <dd>Construct a new Orbit Args object from orbital parameters.</dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a74031360e20595f91164596339695968" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a> const&amp;) -&gt; <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ad6141f691adbf3064559c3b3716bcf40" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp;&amp;) -&gt; <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt id="ae4912da21243fd82f0b1056a1ce8a163">
+              <span class="m-doc-wrap-bumper">void <a href="#ae4912da21243fd82f0b1056a1ce8a163" class="m-doc-self">shuffle_i</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Suffle the inclination.</dd>
+            <dt id="adbc7db9880eb3272256c39e1c7e0c043">
+              <span class="m-doc-wrap-bumper">void <a href="#adbc7db9880eb3272256c39e1c7e0c043" class="m-doc-self">shuffle_Omega</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Suffle the Longitude of the ascending node.</dd>
+            <dt id="aa9e0e15cf748f7c398febc48c912dfd0">
+              <span class="m-doc-wrap-bumper">void <a href="#aa9e0e15cf748f7c398febc48c912dfd0" class="m-doc-self">shuffle_omega</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Suffle the Argument of periapsis.</dd>
+            <dt id="a1246e673f7b9e9cc6557195780c17073">
+              <span class="m-doc-wrap-bumper">void <a href="#a1246e673f7b9e9cc6557195780c17073" class="m-doc-self">shuffle_nu</a>(</span><span class="m-doc-wrap">)</span>
+            </dt>
+            <dd>Suffle the true anomaly.</dd>
+          </dl>
+        </section>
+        <section id="pub-attribs">
+          <h2><a href="#pub-attribs">Public variables</a></h2>
+          <dl class="m-doc">
+            <dt id="ae053a7f5dda6dd172a714a6b5d3ed5f5">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#ae053a7f5dda6dd172a714a6b5d3ed5f5" class="m-doc-self">m1</a>
+            </dt>
+            <dd>Mass of the primary object.</dd>
+            <dt id="a52ac96c7e93e46e0f621ab1357b1b0e6">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#a52ac96c7e93e46e0f621ab1357b1b0e6" class="m-doc-self">m2</a>
+            </dt>
+            <dd>Mass of the secondary object.</dd>
+            <dt>
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#acf23442b5b4d28544935357ca48bed8c" class="m-doc">p</a>
+            </dt>
+            <dd>Semi-latus rectum of the orbit a(1-e^2) .</dd>
+            <dt id="a0f2748034580d5f5cb59aed4dccd9e92">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#a0f2748034580d5f5cb59aed4dccd9e92" class="m-doc-self">e</a>
+            </dt>
+            <dd>Eccentricity of the orbit.</dd>
+            <dt id="acfc24731f3f064f6ae7f23d69c97dc91">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#acfc24731f3f064f6ae7f23d69c97dc91" class="m-doc-self">i</a>
+            </dt>
+            <dd>Orbit inclination.</dd>
+            <dt id="a40ec330e1df22fa3db7cff02aa753f0c">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#a40ec330e1df22fa3db7cff02aa753f0c" class="m-doc-self">Omega</a>
+            </dt>
+            <dd>Longitude of the ascending node.</dd>
+            <dt id="a186c213297262077447a15f44604e724">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#a186c213297262077447a15f44604e724" class="m-doc-self">omega</a>
+            </dt>
+            <dd>Argument of periapsis.</dd>
+            <dt id="a20a8e7a61bd121a8da1609dd93d8d4c7">
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> <a href="#a20a8e7a61bd121a8da1609dd93d8d4c7" class="m-doc-self">nu</a>
+            </dt>
+            <dd>True anomaly.</dd>
+            <dt id="a6c20b60e84222e436e03a2ea77294dbe">
+              <a href="namespacehub_1_1orbit.html#a500b19f86c78f7719b93d754a0e07b3d" class="m-doc">OrbitType</a> <a href="#a6c20b60e84222e436e03a2ea77294dbe" class="m-doc-self">orbit_type</a>
+            </dt>
+            <dd>Orbit type.</dd>
+          </dl>
+        </section>
+        <section id="friends">
+          <h2><a href="#friends">Friends</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9dd92969076b230d05dc32d893e0ebcf" class="m-doc">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; os,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a> const&amp; obt) -&gt; std::ostream&amp;</span>
+            </dt>
+            <dd>Write the orbit to an output stream.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="ae8f5e9bd4549f604546c23ae47de75dd"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae8f5e9bd4549f604546c23ae47de75dd" class="m-doc-self">KeplerOrbit</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="a35fb1cfff5fb479213e6b576c270f795"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a35fb1cfff5fb479213e6b576c270f795" class="m-doc-self">KeplerOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="a8fc242943ae0bb2077c9f3bb67ad5a96"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8fc242943ae0bb2077c9f3bb67ad5a96" class="m-doc-self">KeplerOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move constructor</p>
+          </div></section>
+          <section class="m-doc-details" id="af9882eed2a158ea4f54857fc4b22737f"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+                template&lt;typename T1, typename T2, typename T3, typename T4&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af9882eed2a158ea4f54857fc4b22737f" class="m-doc-self">KeplerOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> m_1,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> m_2,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> semi_latus_rectum,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> eccentricity,
+              T1 inclination,
+              T2 longitude_of_ascending_node,
+              T3 argument_of_periapsis,
+              T4 true_anomaly)</span></span>
+            </h3>
+            <p>Construct a new Orbit Args object from orbital parameters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">m_1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Mass of the primary object.</td>
+                </tr>
+                <tr>
+                  <td>m_2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Mass of the secondary object.</td>
+                </tr>
+                <tr>
+                  <td>semi_latus_rectum&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Semi-latus rectum.</td>
+                </tr>
+                <tr>
+                  <td>eccentricity&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Eccentricity.</td>
+                </tr>
+                <tr>
+                  <td>inclination&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Inclination.</td>
+                </tr>
+                <tr>
+                  <td>longitude_of_ascending_node&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Longitude of the ascending node.</td>
+                </tr>
+                <tr>
+                  <td>argument_of_periapsis&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Argument of the periapsis.</td>
+                </tr>
+                <tr>
+                  <td>true_anomaly&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>True anomaly.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a74031360e20595f91164596339695968"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp; hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a74031360e20595f91164596339695968" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="ad6141f691adbf3064559c3b3716bcf40"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp; hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad6141f691adbf3064559c3b3716bcf40" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="a9dd92969076b230d05dc32d893e0ebcf"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">std::ostream&amp; </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9dd92969076b230d05dc32d893e0ebcf" class="m-doc-self">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; os,
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a> const&amp; obt)</span></span>
+            </h3>
+            <p>Write the orbit to an output stream.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">os&nbsp;<span class="m-label m-flat m-warning">out</span></td>
+                  <td>Output stream</td>
+                </tr>
+                <tr>
+                  <td>obt&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Orbit parameters.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>std::ostream&amp; Output stream.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+        </section>
+        <section>
+          <h2>Variable documentation</h2>
+          <section class="m-doc-details" id="acf23442b5b4d28544935357ca48bed8c"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename Real&gt;
+              </div>
+              <a href="structhub_1_1orbit_1_1_kepler_orbit.html#a40f5aa6f09af78ca62662a8144f54f65" class="m-doc">Scalar</a> hub::<wbr />orbit::<wbr />KeplerOrbit&lt;Real&gt;::<wbr /><a href="#acf23442b5b4d28544935357ca48bed8c" class="m-doc-self">p</a>
+            </h3>
+            <p>Semi-latus rectum of the orbit a(1-e^2) .</p>
+<p>We don&#x27;t use semi-major axis for this general orbital type because the semi-major axis for parabolic orbit is undefined.</p>
+          </div></section>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.14 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>

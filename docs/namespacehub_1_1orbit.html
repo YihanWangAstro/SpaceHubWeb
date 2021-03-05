@@ -1,0 +1,2501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hub::orbit namespace | SpaceHub</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark.css" />
+  <link rel="stylesheet" href="m-documentation.css" />
+  <link rel="icon" href="favicon-dark.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="logo.png" />SpaceHub</a>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="start.html">Getting started</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="annotated.html">Classes</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="4">
+            <li><a href="files.html">Files</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="versions.html">Versions</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span>orbit <span class="m-thin">namespace</span>
+        </h1>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#nested-classes">Classes</a></li>
+                <li><a href="#enum-members">Enums</a></li>
+                <li><a href="#typedef-members">Typedefs</a></li>
+                <li><a href="#func-members">Functions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+<p>Documentation</p>
+        <section id="nested-classes">
+          <h2><a href="#nested-classes">Classes</a></h2>
+          <dl class="m-doc">
+            <dt>
+              struct <a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>
+            </dt>
+            <dd>Derived class of Kepler orbit. Elliptical orbit.</dd>
+            <dt>
+              struct <a href="structhub_1_1orbit_1_1_hyper_orbit.html" class="m-doc">HyperOrbit</a>
+            </dt>
+            <dd>Derived class of Kepler orbit. Hyperbolic orbit.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Real&gt;</div>
+              struct <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>
+            </dt>
+            <dd></dd>
+            <dt>
+              struct <a href="structhub_1_1orbit_1_1_random_indicator.html" class="m-doc">RandomIndicator</a>
+            </dt>
+            <dd>A place holder that indicates one of the three angles in orbital parameters will be randomly generated.</dd>
+          </dl>
+        </section>
+        <section id="enum-members">
+          <h2><a href="#enum-members">Enums</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">enum class <a href="#a500b19f86c78f7719b93d754a0e07b3d" class="m-doc">OrbitType</a> { </span><span class="m-doc-wrap"><a href="#a500b19f86c78f7719b93d754a0e07b3da119518c2134c46108179369f0ce81fa2" class="m-doc">Ellipse</a>,
+              <a href="#a500b19f86c78f7719b93d754a0e07b3dadf5a05bb403aa376bd71f1341f8acfa6" class="m-doc">Parabola</a>,
+              <a href="#a500b19f86c78f7719b93d754a0e07b3da2af03ca39974cae19a90cdad5a5f3230" class="m-doc">Hyperbola</a>,
+              <a href="#a500b19f86c78f7719b93d754a0e07b3da6adf97f83acf6453d4a6a4b1070f3754" class="m-doc">None</a> }</span>
+            </dt>
+            <dd>Enum of kepler orbit type. Possible value: Ellipse, Parabola, Hyperbola, None.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">enum class <a href="#ace31ebdc6227437f5f67682ae77799fa" class="m-doc">Hyper</a> { </span><span class="m-doc-wrap"><a href="#ace31ebdc6227437f5f67682ae77799faa13b5bfe96f3e2fe411c9f66f4a582adf" class="m-doc">in</a>,
+              <a href="#ace31ebdc6227437f5f67682ae77799faac68271a63ddbc431c307beb7d2918275" class="m-doc">out</a> }</span>
+            </dt>
+            <dd>Enum type that indicates the trajectory is hyperbolically incident in or hyperbolically eject out.</dd>
+          </dl>
+        </section>
+        <section id="typedef-members">
+          <h2><a href="#typedef-members">Typedefs</a></h2>
+          <dl class="m-doc">
+            <dt>
+              using <a href="#a75d761f96f115c5dcdb1c5bc756f9bf2" class="m-doc">Kepler</a> = <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;
+            </dt>
+            <dd>Alias of OrbitArgs&lt;double&gt;.</dd>
+          </dl>
+        </section>
+        <section id="func-members">
+          <h2><a href="#func-members">Functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#abcd75998a08e76eb5a82f4a2777ceee6" class="m-doc">E_anomaly_to_T_anomaly</a>(</span><span class="m-doc-wrap">Scalar E_anomaly,
+              Scalar e) -&gt; Scalar</span>
+            </dt>
+            <dd>Calculate the corresponding true anomaly of the eccentric anomaly.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a63b50f52f1f7df1c22c2eb9ee05bfec2" class="m-doc">M_anomaly_to_E_anomaly</a>(</span><span class="m-doc-wrap">Scalar M_anomaly,
+              Scalar e) -&gt; Scalar</span>
+            </dt>
+            <dd>Calculate the corresponding eccentric anomaly of the mean anomaly.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#add498591e277e6ada2619d645c39283d" class="m-doc">M_anomaly_to_T_anomaly</a>(</span><span class="m-doc-wrap">Scalar M_anomaly,
+              Scalar e) -&gt; Scalar</span>
+            </dt>
+            <dd>Calculate the corresponding true anomaly of the mean anomaly.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a708271d389c994e81d276a7540a1be24" class="m-doc">T_anomaly_to_E_anomaly</a>(</span><span class="m-doc-wrap">Scalar T_anomaly,
+              Scalar e) -&gt; Scalar</span>
+            </dt>
+            <dd>Calculate the corresponding eccentric anomaly of the true anomaly.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a656507b0bfd6c0ae2a8b7b4c5b6732b4" class="m-doc">E_anomaly_to_M_anomaly</a>(</span><span class="m-doc-wrap">Scalar E_anomaly,
+              Scalar e) -&gt; Scalar</span>
+            </dt>
+            <dd>Calculate the corresponding mean anomaly of the eccentric anomaly.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#aee071ffacda6abd7c9c1ff6e097c157f" class="m-doc">T_anomaly_to_M_anomaly</a>(</span><span class="m-doc-wrap">Scalar T_anomaly,
+              Scalar e) -&gt; Scalar</span>
+            </dt>
+            <dd>Calculate the corresponding mean anomaly of the true anomaly.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a6d46979cb5f7e4e397472741b2547445" class="m-doc">coord_to_orbit</a>(</span><span class="m-doc-wrap">Scalar m1,
+              Scalar m2,
+              const Vector&amp; dr,
+              const Vector&amp; dv) -&gt; auto</span>
+            </dt>
+            <dd>Tranfer relative position and velocity between two particles to Kepler orbit parameters.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a6479064101a178da2659fbc31fc0d2a5" class="m-doc">orbit_to_coord</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;typename Vector::value_type&gt; const&amp; args) -&gt; auto</span>
+            </dt>
+            <dd>Transfer Kepler orbit parameters to relative position and velocity between two component in orbit.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5c508f17d5fb844ef78c4286609d817b" class="m-doc">group</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... ptcs) -&gt; auto</span>
+            </dt>
+            <dd>Create a std::ranges like(Container) from individual particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9d1a269cfa707b504f26338491b30e87" class="m-doc">M_tot</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the total mass of a cluster of particles/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#afb154855be51c5d3c480ccebb2d374cb" class="m-doc">M_tot</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the total mass of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a440b9219915617f3c5a6e843020ce6f5" class="m-doc">COM_p</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the centre of mass position of a particle cluster/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a1291fd440b66073c50fb000f65a10501" class="m-doc">COM_p</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... ptcs) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the centre of mass position of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a71db1cbdf5595cf4c4c7798bc53b4408" class="m-doc">COM_v</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the centre of mass velocity of a particle cluster/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a93b46fd31af8aafd826351300bb44c37" class="m-doc">COM_v</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... ptcs) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the centre of mass velocity of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a92fa255d0193d2f315f5e45e111f60cc" class="m-doc">M_rdc</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; m1,
+              Cluster2 const&amp; m2) -&gt; auto</span>
+            </dt>
+            <dd>The reduced mass of two clusters(cluster can also be a single particle).</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#acd102bef7fc66122765962fed9ff1d22" class="m-doc">move_particles_pos</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Cluster&amp; ptc)</span>
+            </dt>
+            <dd>Move the centre of mass position of a cluster(can be a single particle) to a specific position.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a00f57c7a9e515656714a9145da33dbc0" class="m-doc">move_particles_pos</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Particle&amp; ptc1,
+              Particle&amp; ptc2,
+              Args&amp;... ptcs)</span>
+            </dt>
+            <dd>Move the centre of mass position of particles to a specific position.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a21b2613d65337ef0060fab1cca271408" class="m-doc">move_particles_vel</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_vel,
+              Cluster&amp; ptc)</span>
+            </dt>
+            <dd>Move the centre of mass velocity of a cluster(can be a single particle) to a specific velocity.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a8f3a310b03f8ee5e0a2156b0825c20e2" class="m-doc">move_particles_vel</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_vel,
+              Particle&amp; ptc1,
+              Particle&amp; ptc2,
+              Args&amp;... ptcs)</span>
+            </dt>
+            <dd>Move the centre of mass velocity of particles to a specific velocity.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a7bb2b8d39af8c6641ad06f47a3b19303" class="m-doc">move_particles</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Vector const&amp; centre_mass_vel,
+              Cluster&amp; ptc)</span>
+            </dt>
+            <dd>Move the centre of mass position and velocity of a cluster(can be a single particle) to a specific position and velocity.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Vector, typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a488bf9da9820a2df9958b98ad2f3f8bb" class="m-doc">move_particles</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Vector const&amp; centre_mass_vel,
+              Particle&amp; ptc1,
+              Particle&amp; ptc2,
+              Args&amp;... ptcs)</span>
+            </dt>
+            <dd>Move the centre of mass position and velocity of particles to a specific position and velocity.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#aa563df68d1020a3a48b42e19d268c195" class="m-doc">move_particles</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;typename Particle::Scalar&gt; const&amp; orbit,
+              Particle&amp; ptc1,
+              Args&amp;... ptcs)</span>
+            </dt>
+            <dd>Move the centre of mass position and velocity of particles/a cluster of particles/single particle to the corresponding position and velocity of a Kepler orbit.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename... Particle&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a366e2aaeeedf96737a62a29b921b1345" class="m-doc">move_to_COM_frame</a>(</span><span class="m-doc-wrap">Particle&amp;... ptc)</span>
+            </dt>
+            <dd>Move the particles/a cluster of particles/single particle to the centre of mass frame and set the centre of mass to original point.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8f698f9e0be35195a1bbb1d25287b396" class="m-doc">calc_eccentricity</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the eccentricity of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a008cff5f01d4a8440943f99b3c72f389" class="m-doc">calc_semi_major_axis</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the semi-major axis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a52192ab9d405e5b6c4b7e6cacfb37ccd" class="m-doc">calc_a_e</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the semi-major axis and eccentricity of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#ae1310c62ba9f711f316218b430b78671" class="m-doc">period</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the semi-major axis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a2fdfe73daf9165a52c484e365c93032e" class="m-doc">time_to_periapsis</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the time to the periapsis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a81423cf65b1909e7fc0d0727a9b0af8f" class="m-doc">E_k</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the kinetic energy of a cluster/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#afd4b28b549ec44386fa81e42a96b7d27" class="m-doc">E_k</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the kinetic energy of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a604701681c1696e2233d70b53f60395f" class="m-doc">E_p</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the potential energy of a cluster/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac27ee4d822e70c13a9c3bc2b1f6f2967" class="m-doc">E_p</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the kinetic energy of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a18a7f4db796ad1eade62e9f5be776db2" class="m-doc">E_k_COM</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the kinetic energy of the centre of mass of a cluster/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a76d03b583ed2272d99899873f9873acf" class="m-doc">E_k_COM</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the kinetic energy of the centre of mass of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename... Particle&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a2b991458d4163dedd75f7d6c33d99880" class="m-doc">E_tot</a>(</span><span class="m-doc-wrap">Particle const&amp;... ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the total energy of particles/a cluster of particles/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename... Particle&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5b300aebfd4763047474ea2c83df0381" class="m-doc">E_inner</a>(</span><span class="m-doc-wrap">Particle const&amp;... ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the inner energy of particles/a cluster of particles/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a55278fb76dd64bfba37191fec57054bf" class="m-doc">cluster_size</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the size of a cluster/single particle.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Particle, typename... Args&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#abe02e34a42d13404abf9525894e4d0f6" class="m-doc">cluster_size</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the size of a set of particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a725179c625bb40157f66675c12e60f45" class="m-doc">E_tid</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2,
+              Scalar R1,
+              Scalar R2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the tidal potential between two clusters/single particles by providing the size of clusters.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a90c8b225981f21bb83f195305f4db88f" class="m-doc">E_tid</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the tidal potential between two clusters/single particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5d3483dd209f84915361cd1e3664105c" class="m-doc">tidal_factor</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2,
+              Scalar R1,
+              Scalar R2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the tidal factors between two clusters/single particles by providing the size of clusters.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a3cb54e0c2d3f2a3ff2688588440b3ae4" class="m-doc">tidal_factor</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the tidal factors between two clusters/single particles.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a2f492796c54f1621b156629b3cfa0bcb" class="m-doc">tidal_radius</a>(</span><span class="m-doc-wrap">Scalar tidal_factor,
+              Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2,
+              Scalar R2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the tidal radius between two clusters.</dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9b99756482b218c49c222e607d7b611c" class="m-doc">tidal_radius</a>(</span><span class="m-doc-wrap">Scalar tidal_factor,
+              Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2) -&gt; auto</span>
+            </dt>
+            <dd>Calculate the tidal radius between two clusters.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Enum documentation</h2>
+          <section class="m-doc-details" id="a500b19f86c78f7719b93d754a0e07b3d"><div>
+            <h3>
+              enum class hub::<wbr />orbit::<wbr /><a href="#a500b19f86c78f7719b93d754a0e07b3d" class="m-doc-self">OrbitType</a>
+              <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+            </h3>
+            <p>Enum of kepler orbit type. Possible value: Ellipse, Parabola, Hyperbola, None.</p>
+          </div></section>
+          <section class="m-doc-details" id="ace31ebdc6227437f5f67682ae77799fa"><div>
+            <h3>
+              enum class hub::<wbr />orbit::<wbr /><a href="#ace31ebdc6227437f5f67682ae77799fa" class="m-doc-self">Hyper</a>
+              <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+            </h3>
+            <p>Enum type that indicates the trajectory is hyperbolically incident in or hyperbolically eject out.</p>
+          </div></section>
+        </section>
+        <section>
+          <h2>Typedef documentation</h2>
+          <section class="m-doc-details" id="a75d761f96f115c5dcdb1c5bc756f9bf2"><div>
+            <h3>
+              using hub::<wbr />orbit::<wbr /><a href="#a75d761f96f115c5dcdb1c5bc756f9bf2" class="m-doc-self">Kepler</a> = <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;
+              <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+            </h3>
+            <p>Alias of OrbitArgs&lt;double&gt;.</p>
+          </div></section>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="abcd75998a08e76eb5a82f4a2777ceee6"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">Scalar hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abcd75998a08e76eb5a82f4a2777ceee6" class="m-doc-self">E_anomaly_to_T_anomaly</a>(</span><span class="m-doc-wrap">Scalar E_anomaly,
+              Scalar e)</span></span>
+            </h3>
+            <p>Calculate the corresponding true anomaly of the eccentric anomaly.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>E_anomaly</td>
+                  <td>Eccentric anomaly.</td>
+                </tr>
+                <tr>
+                  <td>e</td>
+                  <td>Eccentricity.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Scalar True anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a63b50f52f1f7df1c22c2eb9ee05bfec2"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">Scalar hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a63b50f52f1f7df1c22c2eb9ee05bfec2" class="m-doc-self">M_anomaly_to_E_anomaly</a>(</span><span class="m-doc-wrap">Scalar M_anomaly,
+              Scalar e)</span></span>
+            </h3>
+            <p>Calculate the corresponding eccentric anomaly of the mean anomaly.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>M_anomaly</td>
+                  <td>Mean anomaly.</td>
+                </tr>
+                <tr>
+                  <td>e</td>
+                  <td>Eccentricity.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Scalar Eccentric anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="add498591e277e6ada2619d645c39283d"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">Scalar hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#add498591e277e6ada2619d645c39283d" class="m-doc-self">M_anomaly_to_T_anomaly</a>(</span><span class="m-doc-wrap">Scalar M_anomaly,
+              Scalar e)</span></span>
+            </h3>
+            <p>Calculate the corresponding true anomaly of the mean anomaly.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>M_anomaly</td>
+                  <td>Mean anomaly.</td>
+                </tr>
+                <tr>
+                  <td>e</td>
+                  <td>Eccentricity.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Scalar True anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a708271d389c994e81d276a7540a1be24"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">Scalar hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a708271d389c994e81d276a7540a1be24" class="m-doc-self">T_anomaly_to_E_anomaly</a>(</span><span class="m-doc-wrap">Scalar T_anomaly,
+              Scalar e)</span></span>
+            </h3>
+            <p>Calculate the corresponding eccentric anomaly of the true anomaly.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>T_anomaly</td>
+                  <td>True anomaly.</td>
+                </tr>
+                <tr>
+                  <td>e</td>
+                  <td>Eccentricity.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Scalar Eccentric anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a656507b0bfd6c0ae2a8b7b4c5b6732b4"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">Scalar hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a656507b0bfd6c0ae2a8b7b4c5b6732b4" class="m-doc-self">E_anomaly_to_M_anomaly</a>(</span><span class="m-doc-wrap">Scalar E_anomaly,
+              Scalar e)</span></span>
+            </h3>
+            <p>Calculate the corresponding mean anomaly of the eccentric anomaly.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>E_anomaly</td>
+                  <td>Eccentric anomaly.</td>
+                </tr>
+                <tr>
+                  <td>e</td>
+                  <td>Eccentricity.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Scalar Mean anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aee071ffacda6abd7c9c1ff6e097c157f"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">Scalar hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aee071ffacda6abd7c9c1ff6e097c157f" class="m-doc-self">T_anomaly_to_M_anomaly</a>(</span><span class="m-doc-wrap">Scalar T_anomaly,
+              Scalar e)</span></span>
+            </h3>
+            <p>Calculate the corresponding mean anomaly of the true anomaly.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>T_anomaly</td>
+                  <td>True anomaly.</td>
+                </tr>
+                <tr>
+                  <td>e</td>
+                  <td>Eccentricity.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>Scalar Mean anomaly.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a6d46979cb5f7e4e397472741b2547445"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a6d46979cb5f7e4e397472741b2547445" class="m-doc-self">coord_to_orbit</a>(</span><span class="m-doc-wrap">Scalar m1,
+              Scalar m2,
+              const Vector&amp; dr,
+              const Vector&amp; dv)</span></span>
+            </h3>
+            <p>Tranfer relative position and velocity between two particles to Kepler orbit parameters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Scalar</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>m1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>m2</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>dr</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>dv</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a6479064101a178da2659fbc31fc0d2a5"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a6479064101a178da2659fbc31fc0d2a5" class="m-doc-self">orbit_to_coord</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;typename Vector::value_type&gt; const&amp; args)</span></span>
+            </h3>
+            <p>Transfer Kepler orbit parameters to relative position and velocity between two component in orbit.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>args</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a5c508f17d5fb844ef78c4286609d817b"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5c508f17d5fb844ef78c4286609d817b" class="m-doc-self">group</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... ptcs)</span></span>
+            </h3>
+            <p>Create a std::ranges like(Container) from individual particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of particle.</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td><a href="structhub_1_1_types.html" class="m-doc">Types</a> of particle, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest if exits.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The containers contains input particles.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a9d1a269cfa707b504f26338491b30e87"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9d1a269cfa707b504f26338491b30e87" class="m-doc-self">M_tot</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the total mass of a cluster of particles/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The total mass of the particle cluster/single particle.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="afb154855be51c5d3c480ccebb2d374cb"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afb154855be51c5d3c480ccebb2d374cb" class="m-doc-self">M_tot</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args)</span></span>
+            </h3>
+            <p>Calculate the total mass of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exits.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The total mass of particles</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a440b9219915617f3c5a6e843020ce6f5"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a440b9219915617f3c5a6e843020ce6f5" class="m-doc-self">COM_p</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the centre of mass position of a particle cluster/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The centre of mass position of the particle cluster/single particle.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a1291fd440b66073c50fb000f65a10501"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a1291fd440b66073c50fb000f65a10501" class="m-doc-self">COM_p</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... ptcs)</span></span>
+            </h3>
+            <p>Calculate the centre of mass position of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exist.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The centre of mass position of particles.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a71db1cbdf5595cf4c4c7798bc53b4408"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a71db1cbdf5595cf4c4c7798bc53b4408" class="m-doc-self">COM_v</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the centre of mass velocity of a particle cluster/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The centre of mass velocity of the particle cluster/single particle.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a93b46fd31af8aafd826351300bb44c37"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a93b46fd31af8aafd826351300bb44c37" class="m-doc-self">COM_v</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... ptcs)</span></span>
+            </h3>
+            <p>Calculate the centre of mass velocity of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exist.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The centre of mass velocity of particles.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a92fa255d0193d2f315f5e45e111f60cc"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a92fa255d0193d2f315f5e45e111f60cc" class="m-doc-self">M_rdc</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; m1,
+              Cluster2 const&amp; m2)</span></span>
+            </h3>
+            <p>The reduced mass of two clusters(cluster can also be a single particle).</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>m1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>m2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/second single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The reduced mass of the two clusters(cluster can also be a single particle).</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="acd102bef7fc66122765962fed9ff1d22"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#acd102bef7fc66122765962fed9ff1d22" class="m-doc-self">move_particles_pos</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Cluster&amp; ptc)</span></span>
+            </h3>
+            <p>Move the centre of mass position of a cluster(can be a single particle) to a specific position.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td>3-D Vector type.</td>
+                </tr>
+                <tr>
+                  <td>Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_pos&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The cluster(can be a single particle) needs to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a00f57c7a9e515656714a9145da33dbc0"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a00f57c7a9e515656714a9145da33dbc0" class="m-doc-self">move_particles_pos</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Particle&amp; ptc1,
+              Particle&amp; ptc2,
+              Args&amp;... ptcs)</span></span>
+            </h3>
+            <p>Move the centre of mass position of particles to a specific position.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td>3-D Vector type.</td>
+                </tr>
+                <tr>
+                  <td>Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_pos&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The first particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The second particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The rest particles need to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a21b2613d65337ef0060fab1cca271408"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a21b2613d65337ef0060fab1cca271408" class="m-doc-self">move_particles_vel</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_vel,
+              Cluster&amp; ptc)</span></span>
+            </h3>
+            <p>Move the centre of mass velocity of a cluster(can be a single particle) to a specific velocity.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td>3-D Vector type.</td>
+                </tr>
+                <tr>
+                  <td>Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_vel&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The cluster(can be a single particle) needs to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a8f3a310b03f8ee5e0a2156b0825c20e2"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8f3a310b03f8ee5e0a2156b0825c20e2" class="m-doc-self">move_particles_vel</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_vel,
+              Particle&amp; ptc1,
+              Particle&amp; ptc2,
+              Args&amp;... ptcs)</span></span>
+            </h3>
+            <p>Move the centre of mass velocity of particles to a specific velocity.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td>3-D Vector type.</td>
+                </tr>
+                <tr>
+                  <td>Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_vel&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The first particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The first particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The rest particles need to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a7bb2b8d39af8c6641ad06f47a3b19303"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7bb2b8d39af8c6641ad06f47a3b19303" class="m-doc-self">move_particles</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Vector const&amp; centre_mass_vel,
+              Cluster&amp; ptc)</span></span>
+            </h3>
+            <p>Move the centre of mass position and velocity of a cluster(can be a single particle) to a specific position and velocity.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td>3-D Vector type.</td>
+                </tr>
+                <tr>
+                  <td>Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_pos&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>centre_mass_vel&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass velocity.</td>
+                </tr>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The cluster(can be a single particle) needs to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a488bf9da9820a2df9958b98ad2f3f8bb"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Vector, typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a488bf9da9820a2df9958b98ad2f3f8bb" class="m-doc-self">move_particles</a>(</span><span class="m-doc-wrap">Vector const&amp; centre_mass_pos,
+              Vector const&amp; centre_mass_vel,
+              Particle&amp; ptc1,
+              Particle&amp; ptc2,
+              Args&amp;... ptcs)</span></span>
+            </h3>
+            <p>Move the centre of mass position and velocity of particles to a specific position and velocity.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Vector</td>
+                  <td>Vector 3-D Vector type.</td>
+                </tr>
+                <tr>
+                  <td>Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>centre_mass_pos&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass position.</td>
+                </tr>
+                <tr>
+                  <td>centre_mass_vel&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The target centre of mass velocity.</td>
+                </tr>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The first particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The second particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The rest particles need to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="aa563df68d1020a3a48b42e19d268c195"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa563df68d1020a3a48b42e19d268c195" class="m-doc-self">move_particles</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;typename Particle::Scalar&gt; const&amp; orbit,
+              Particle&amp; ptc1,
+              Args&amp;... ptcs)</span></span>
+            </h3>
+            <p>Move the centre of mass position and velocity of particles/a cluster of particles/single particle to the corresponding position and velocity of a Kepler orbit.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the first particle/std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)..</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles if exits, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>orbit&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The Kepler orbit.</td>
+                </tr>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The first particle/The cluster/single particle needs to be moved.</td>
+                </tr>
+                <tr>
+                  <td>ptcs&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The rest particles need to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a366e2aaeeedf96737a62a29b921b1345"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename... Particle&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a366e2aaeeedf96737a62a29b921b1345" class="m-doc-self">move_to_COM_frame</a>(</span><span class="m-doc-wrap">Particle&amp;... ptc)</span></span>
+            </h3>
+            <p>Move the particles/a cluster of particles/single particle to the centre of mass frame and set the centre of mass to original point.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the first particle/std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>The particles/The cluster/single particle needs to be moved.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a8f698f9e0be35195a1bbb1d25287b396"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8f698f9e0be35195a1bbb1d25287b396" class="m-doc-self">calc_eccentricity</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2)</span></span>
+            </h3>
+            <p>Calculate the eccentricity of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The eccentricity.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a008cff5f01d4a8440943f99b3c72f389"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a008cff5f01d4a8440943f99b3c72f389" class="m-doc-self">calc_semi_major_axis</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2)</span></span>
+            </h3>
+            <p>Calculate the semi-major axis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The semi-major axis.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a52192ab9d405e5b6c4b7e6cacfb37ccd"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a52192ab9d405e5b6c4b7e6cacfb37ccd" class="m-doc-self">calc_a_e</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2)</span></span>
+            </h3>
+            <p>Calculate the semi-major axis and eccentricity of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto A tuple of (sem-major axis, eccentricity).</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="ae1310c62ba9f711f316218b430b78671"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ae1310c62ba9f711f316218b430b78671" class="m-doc-self">period</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; p1,
+              Cluster2 const&amp; p2)</span></span>
+            </h3>
+            <p>Calculate the semi-major axis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>p1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>p2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The period.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a2fdfe73daf9165a52c484e365c93032e"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2fdfe73daf9165a52c484e365c93032e" class="m-doc-self">time_to_periapsis</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2)</span></span>
+            </h3>
+            <p>Calculate the time to the periapsis of two clusters(cluster can also be a single particle) by regarding their centre of mass as point particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The time to the periapsis.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a81423cf65b1909e7fc0d0727a9b0af8f"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a81423cf65b1909e7fc0d0727a9b0af8f" class="m-doc-self">E_k</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the kinetic energy of a cluster/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The kinetic energy.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="afd4b28b549ec44386fa81e42a96b7d27"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#afd4b28b549ec44386fa81e42a96b7d27" class="m-doc-self">E_k</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args)</span></span>
+            </h3>
+            <p>Calculate the kinetic energy of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exits.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The kinetic energy of particles.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a604701681c1696e2233d70b53f60395f"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a604701681c1696e2233d70b53f60395f" class="m-doc-self">E_p</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the potential energy of a cluster/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The potential energy.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="ac27ee4d822e70c13a9c3bc2b1f6f2967"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac27ee4d822e70c13a9c3bc2b1f6f2967" class="m-doc-self">E_p</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args)</span></span>
+            </h3>
+            <p>Calculate the kinetic energy of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exits.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The potential energy of particles.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a18a7f4db796ad1eade62e9f5be776db2"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a18a7f4db796ad1eade62e9f5be776db2" class="m-doc-self">E_k_COM</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the kinetic energy of the centre of mass of a cluster/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The kinetic energy of the centre of mass.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a76d03b583ed2272d99899873f9873acf"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a76d03b583ed2272d99899873f9873acf" class="m-doc-self">E_k_COM</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args)</span></span>
+            </h3>
+            <p>Calculate the kinetic energy of the centre of mass of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exits.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The kinetic energy of the centre of mass of particles.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a2b991458d4163dedd75f7d6c33d99880"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename... Particle&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2b991458d4163dedd75f7d6c33d99880" class="m-doc-self">E_tot</a>(</span><span class="m-doc-wrap">Particle const&amp;... ptc)</span></span>
+            </h3>
+            <p>Calculate the total energy of particles/a cluster of particles/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the first particle/std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The particles/The cluster/single particle needs to be evaluated.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The total energy.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a5b300aebfd4763047474ea2c83df0381"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename... Particle&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5b300aebfd4763047474ea2c83df0381" class="m-doc-self">E_inner</a>(</span><span class="m-doc-wrap">Particle const&amp;... ptc)</span></span>
+            </h3>
+            <p>Calculate the inner energy of particles/a cluster of particles/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the first particle/std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The particles/The cluster/single particle needs to be evaluated.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The inner energy.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a55278fb76dd64bfba37191fec57054bf"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a55278fb76dd64bfba37191fec57054bf" class="m-doc-self">cluster_size</a>(</span><span class="m-doc-wrap">Cluster const&amp; ptc)</span></span>
+            </h3>
+            <p>Calculate the size of a cluster/single particle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>particle container/single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The size of the cluster.</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>The size of the cluster are calculated by detecting the farthest distance between two particles in this cluster.</p>
+          </div></section>
+          <section class="m-doc-details" id="abe02e34a42d13404abf9525894e4d0f6"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Particle, typename... Args&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abe02e34a42d13404abf9525894e4d0f6" class="m-doc-self">cluster_size</a>(</span><span class="m-doc-wrap">Particle const&amp; ptc1,
+              Particle const&amp; ptc2,
+              Args const&amp;... args)</span></span>
+            </h3>
+            <p>Calculate the size of a set of particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Particle</td>
+                  <td>Type of the particle with public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector).</td>
+                </tr>
+                <tr>
+                  <td>Args</td>
+                  <td>Type of the particles, should be same as Particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first particle.</td>
+                </tr>
+                <tr>
+                  <td>ptc2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second particle.</td>
+                </tr>
+                <tr>
+                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The rest particles if exits.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The size of the cluster.</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>The size of the cluster are calculated by detecting the farthest distance between two particles in this cluster.</p>
+          </div></section>
+          <section class="m-doc-details" id="a725179c625bb40157f66675c12e60f45"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a725179c625bb40157f66675c12e60f45" class="m-doc-self">E_tid</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2,
+              Scalar R1,
+              Scalar R2)</span></span>
+            </h3>
+            <p>Calculate the tidal potential between two clusters/single particles by providing the size of clusters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>R1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The size of the first cluster.</td>
+                </tr>
+                <tr>
+                  <td>R2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The size of the second cluster.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The tidal potential energy.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a90c8b225981f21bb83f195305f4db88f"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a90c8b225981f21bb83f195305f4db88f" class="m-doc-self">E_tid</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2)</span></span>
+            </h3>
+            <p>Calculate the tidal potential between two clusters/single particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The tidal potential energy.</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>The size of the clusters will be estimated by <a href="namespacehub_1_1orbit.html#a55278fb76dd64bfba37191fec57054bf" class="m-doc">cluster_<wbr />size()</a>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a5d3483dd209f84915361cd1e3664105c"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5d3483dd209f84915361cd1e3664105c" class="m-doc-self">tidal_factor</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2,
+              Scalar R1,
+              Scalar R2)</span></span>
+            </h3>
+            <p>Calculate the tidal factors between two clusters/single particles by providing the size of clusters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>R1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The size of the first cluster.</td>
+                </tr>
+                <tr>
+                  <td>R2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The size of the second cluster.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto A tuple of (factor1, factor2), where factor1 is the tidal factor of first cluster and factor2 is for the second.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a3cb54e0c2d3f2a3ff2688588440b3ae4"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a3cb54e0c2d3f2a3ff2688588440b3ae4" class="m-doc-self">tidal_factor</a>(</span><span class="m-doc-wrap">Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2)</span></span>
+            </h3>
+            <p>Calculate the tidal factors between two clusters/single particles.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto A tuple of (factor1, factor2), where factor1 is the tidal factor of first cluster and factor2 is for the second.</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>The size of the clusters will be estimated by <a href="namespacehub_1_1orbit.html#a55278fb76dd64bfba37191fec57054bf" class="m-doc">cluster_<wbr />size()</a>.</p>
+          </div></section>
+          <section class="m-doc-details" id="a2f492796c54f1621b156629b3cfa0bcb"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2f492796c54f1621b156629b3cfa0bcb" class="m-doc-self">tidal_radius</a>(</span><span class="m-doc-wrap">Scalar tidal_factor,
+              Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2,
+              Scalar R2)</span></span>
+            </h3>
+            <p>Calculate the tidal radius between two clusters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>tidal_factor&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The tidal factor indicates where the radius is estimated. =1 means tidal disrupted.</td>
+                </tr>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td>The size of the second cluster.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The tidal radius of the second cluster tidaled by the first cluster.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+          <section class="m-doc-details" id="a9b99756482b218c49c222e607d7b611c"><div>
+            <h3>
+              <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="particle-manip_8hpp.html">&lt;src/orbits/particle-manip.hpp&gt;</a></div>
+              <div class="m-doc-template">
+                template&lt;typename Cluster1, typename Cluster2, typename Scalar&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">auto hub::<wbr />orbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9b99756482b218c49c222e607d7b611c" class="m-doc-self">tidal_radius</a>(</span><span class="m-doc-wrap">Scalar tidal_factor,
+              Cluster1 const&amp; cluster1,
+              Cluster2 const&amp; cluster2)</span></span>
+            </h3>
+            <p>Calculate the tidal radius between two clusters.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">Cluster1</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Cluster2</td>
+                  <td>std::ranges(Container) with element type has public member <code>mass</code>(Scalar), <code>pos</code>(Vector) and <code>vel</code>(Vector)./Type of single particle.</td>
+                </tr>
+                <tr>
+                  <td>Scalar</td>
+                  <td>Floating point like type.</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>tidal_factor&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The tidal factor indicates where the radius is estimated. =1 means tidal disrupted.</td>
+                </tr>
+                <tr>
+                  <td>cluster1&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The first cluster/first single particle.</td>
+                </tr>
+                <tr>
+                  <td>cluster2&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The second cluster/first single particle.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>auto The tidal radius of the second cluster tidaled by the first cluster.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div></section>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.14 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>

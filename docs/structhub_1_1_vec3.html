@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hub::Vec3 struct | SpaceHub</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark.css" />
+  <link rel="stylesheet" href="m-documentation.css" />
+  <link rel="icon" href="favicon-dark.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="logo.png" />SpaceHub</a>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="start.html">Getting started</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="annotated.html">Classes</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="4">
+            <li><a href="files.html">Files</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="versions.html">Versions</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <div class="m-doc-include m-code m-inverted m-right-m m-text-right"><span class="cp">#include</span> <a class="cpf" href="vector3_8hpp.html">&lt;src/vector/vector3.hpp&gt;</a></div>
+          <div class="m-doc-template">template&lt;typename T&gt;</div>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span>Vec3 <span class="m-thin">struct</span>
+        </h1>
+        <div class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
+                <li><a href="#pub-attribs">Public variables</a></li>
+                <li><a href="#friends">Friends</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+<p>Generic 3-d vector (x,y,z) with Scalar x, y, z.</p>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#aed9acc62e1da4b8c966623eac225795e" class="m-doc">Vec3</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a496cfc1769fa271b163db50c4aedb7e1" class="m-doc">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a08cb1dd065bee30490f192784c0bb395" class="m-doc">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a315da003dc23c1f686bc0d2df946ea77" class="m-doc">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> s) <span class="m-label m-flat m-info">explicit</span> </span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#ac401acbe76fa35ac05f981103b82daac" class="m-doc">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> vx,
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> vy,
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> vz)</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a02b26fc78c81b84af6ad07b2148de564" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> const&amp;) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a35b4ae458d9d5b1a838451f89c5a26b2" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;&amp;) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#ad2a0b8ffd5e62d0cfd6035031eba4805" class="m-doc">operator+</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a11b9847c84365d179206f13f4341cdd6" class="m-doc">operator-</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a0898b4d0a1bcca643f1a22c283607791" class="m-doc">operator*</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9379c416c32d26cd37593092e8c11d98" class="m-doc">operator/</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4f51f0020bef7c47c8e3b634cc60b526" class="m-doc">operator+</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a35d06baccdda689b54a85b4032bbf859" class="m-doc">operator-</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a4a860ed5fc21190f7e9be27bab88d404" class="m-doc">operator*</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aa56c9172d4ebce1b3c3947dadbb1d953" class="m-doc">operator/</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aaae2c21e453bc9f0eae5cb9d5356e0c5" class="m-doc">operator-</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aab5beb8f12ee9d0c9351fbc513e9eeb5" class="m-doc">abs</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a605912c84834b26eca73ebfcfe69b04d" class="m-doc">operator+=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a06da5863e333eb61736294463c5be3ce" class="m-doc">operator-=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a344e0c441493be3033a2c74d0752a3f5" class="m-doc">operator*=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <div class="m-doc-template">template&lt;typename U&gt;</div>
+              <span class="m-doc-wrap-bumper">auto <a href="#a828016e05db92b751d0b61569cc51f75" class="m-doc">operator/=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ad1993d1ecf62b87b98228af049d128d3" class="m-doc">operator+=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ac4214ddb8547f355c7ca8afa94d6fd49" class="m-doc">operator-=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9926ce2f1abbc2a0b41b21d42ac3f1d5" class="m-doc">operator*=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a7da2e7673479f119b01d107a77793501" class="m-doc">operator/=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) -&gt; const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9fb99ee65e1586f512e5b519ebf8a74c" class="m-doc">operator=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> s) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a88a54af0a7ac0d80803a1a137848e0b9" class="m-doc">norm</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <span class="m-label m-danger">deprecated</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#aef78fba164f7c77921a3101efa040a08" class="m-doc">norm2</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <span class="m-label m-danger">deprecated</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a525c3090b63b0644756cb8d111728a57" class="m-doc">max_component</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <span class="m-label m-danger">deprecated</span></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5b6770282ac63c44cb00b8e4a69370b9" class="m-doc">re_norm</a>(</span><span class="m-doc-wrap">) const -&gt; <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <span class="m-label m-danger">deprecated</span></span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="pub-attribs">
+          <h2><a href="#pub-attribs">Public variables</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <a href="#acbdf685753782e34fc0d94fcecfe0048" class="m-doc">x</a>
+            </dt>
+            <dd></dd>
+            <dt>
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <a href="#a3134a412ff28c7e162b2e2b07a8aae96" class="m-doc">y</a>
+            </dt>
+            <dd></dd>
+            <dt>
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> <a href="#abceb4d53abb91408386a3dde087d130e" class="m-doc">z</a>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section id="friends">
+          <h2><a href="#friends">Friends</a></h2>
+          <dl class="m-doc">
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#ab677ea3e65bcb9739f883f0fcd11f859" class="m-doc">operator+</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9ca5385d84264a3a33798fc2730b229d" class="m-doc">operator-</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a9d80600cbc524ebacf7b91444bc2ab09" class="m-doc">operator*</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a84a76da624a5240998fd8b09290d162d" class="m-doc">operator/</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v) -&gt; <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a></span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a46215beb5e7387eeb465edbbdaf7dccf" class="m-doc">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; output,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v) -&gt; std::ostream&amp;</span>
+            </dt>
+            <dd></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#add63778c3d77375a67809c8265513bea" class="m-doc">operator&gt;&gt;</a>(</span><span class="m-doc-wrap">std::istream&amp; input,
+              <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v) -&gt; std::istream&amp;</span>
+            </dt>
+            <dd></dd>
+          </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="aed9acc62e1da4b8c966623eac225795e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aed9acc62e1da4b8c966623eac225795e" class="m-doc-self">Vec3</a>(</span><span class="m-doc-wrap">) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="a496cfc1769fa271b163db50c4aedb7e1"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a496cfc1769fa271b163db50c4aedb7e1" class="m-doc-self">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy constructor.</p>
+          </div></section>
+          <section class="m-doc-details" id="a08cb1dd065bee30490f192784c0bb395"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a08cb1dd065bee30490f192784c0bb395" class="m-doc-self">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move constructor</p>
+          </div></section>
+          <section class="m-doc-details" id="a315da003dc23c1f686bc0d2df946ea77"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a315da003dc23c1f686bc0d2df946ea77" class="m-doc-self">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> s) <span class="m-label m-info">explicit</span> </span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">s&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>single scalar.</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Create a vector (s,s,s)</p>
+          </div></section>
+          <section class="m-doc-details" id="ac401acbe76fa35ac05f981103b82daac"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac401acbe76fa35ac05f981103b82daac" class="m-doc-self">Vec3</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> vx,
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> vy,
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> vz)</span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">vx&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>x component.</td>
+                </tr>
+                <tr>
+                  <td>vy&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>y component.</td>
+                </tr>
+                <tr>
+                  <td>vz&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>z component.</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Create a vector from 3 scalar.</p>
+          </div></section>
+          <section class="m-doc-details" id="a02b26fc78c81b84af6ad07b2148de564"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a02b26fc78c81b84af6ad07b2148de564" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default copy assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="a35b4ae458d9d5b1a838451f89c5a26b2"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a35b4ae458d9d5b1a838451f89c5a26b2" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+            </h3>
+<p>Default move assignment operator</p>
+          </div></section>
+          <section class="m-doc-details" id="ad2a0b8ffd5e62d0cfd6035031eba4805"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad2a0b8ffd5e62d0cfd6035031eba4805" class="m-doc-self">operator+</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const</span></span>
+            </h3>
+<p>Addition by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a11b9847c84365d179206f13f4341cdd6"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a11b9847c84365d179206f13f4341cdd6" class="m-doc-self">operator-</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const</span></span>
+            </h3>
+<p>Subtraction by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a0898b4d0a1bcca643f1a22c283607791"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a0898b4d0a1bcca643f1a22c283607791" class="m-doc-self">operator*</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const</span></span>
+            </h3>
+<p>Product by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a9379c416c32d26cd37593092e8c11d98"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9379c416c32d26cd37593092e8c11d98" class="m-doc-self">operator/</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v) const</span></span>
+            </h3>
+<p>Division by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a4f51f0020bef7c47c8e3b634cc60b526"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4f51f0020bef7c47c8e3b634cc60b526" class="m-doc-self">operator+</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const</span></span>
+            </h3>
+<p>Add scalar by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a35d06baccdda689b54a85b4032bbf859"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a35d06baccdda689b54a85b4032bbf859" class="m-doc-self">operator-</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const</span></span>
+            </h3>
+<p>Subtract scalar by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a4a860ed5fc21190f7e9be27bab88d404"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4a860ed5fc21190f7e9be27bab88d404" class="m-doc-self">operator*</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const</span></span>
+            </h3>
+<p>Multiply scalar by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="aa56c9172d4ebce1b3c3947dadbb1d953"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa56c9172d4ebce1b3c3947dadbb1d953" class="m-doc-self">operator/</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c) const</span></span>
+            </h3>
+<p>Divide scalar by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="aaae2c21e453bc9f0eae5cb9d5356e0c5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aaae2c21e453bc9f0eae5cb9d5356e0c5" class="m-doc-self">operator-</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+<p>Opposite vector</p>
+          </div></section>
+          <section class="m-doc-details" id="aab5beb8f12ee9d0c9351fbc513e9eeb5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aab5beb8f12ee9d0c9351fbc513e9eeb5" class="m-doc-self">abs</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+<p>Absolute value by wise</p>
+          </div></section>
+          <section class="m-doc-details" id="a605912c84834b26eca73ebfcfe69b04d"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a605912c84834b26eca73ebfcfe69b04d" class="m-doc-self">operator+=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v)</span></span>
+            </h3>
+<p>Addition assignment for vector</p>
+          </div></section>
+          <section class="m-doc-details" id="a06da5863e333eb61736294463c5be3ce"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a06da5863e333eb61736294463c5be3ce" class="m-doc-self">operator-=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v)</span></span>
+            </h3>
+<p>Subtraction assignment for vector</p>
+          </div></section>
+          <section class="m-doc-details" id="a344e0c441493be3033a2c74d0752a3f5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a344e0c441493be3033a2c74d0752a3f5" class="m-doc-self">operator*=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v)</span></span>
+            </h3>
+<p>Multiple assignment for vector</p>
+          </div></section>
+          <section class="m-doc-details" id="a828016e05db92b751d0b61569cc51f75"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+                template&lt;typename U&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a828016e05db92b751d0b61569cc51f75" class="m-doc-self">operator/=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&lt;U&gt;&amp; v)</span></span>
+            </h3>
+<p>Division assignment for vector</p>
+          </div></section>
+          <section class="m-doc-details" id="ad1993d1ecf62b87b98228af049d128d3"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad1993d1ecf62b87b98228af049d128d3" class="m-doc-self">operator+=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c)</span></span>
+            </h3>
+<p>Addition assignment for scalar</p>
+          </div></section>
+          <section class="m-doc-details" id="ac4214ddb8547f355c7ca8afa94d6fd49"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ac4214ddb8547f355c7ca8afa94d6fd49" class="m-doc-self">operator-=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c)</span></span>
+            </h3>
+<p>Subtraction assignment for scalar</p>
+          </div></section>
+          <section class="m-doc-details" id="a9926ce2f1abbc2a0b41b21d42ac3f1d5"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9926ce2f1abbc2a0b41b21d42ac3f1d5" class="m-doc-self">operator*=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c)</span></span>
+            </h3>
+<p>Multiple assignment for scalar</p>
+          </div></section>
+          <section class="m-doc-details" id="a7da2e7673479f119b01d107a77793501"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7da2e7673479f119b01d107a77793501" class="m-doc-self">operator/=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c)</span></span>
+            </h3>
+<p>Division assignment for scalar</p>
+          </div></section>
+          <section class="m-doc-details" id="a9fb99ee65e1586f512e5b519ebf8a74c"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9fb99ee65e1586f512e5b519ebf8a74c" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> s)</span></span>
+            </h3>
+<p>Assignment operator for scalar</p>
+          </div></section>
+          <section class="m-doc-details" id="a88a54af0a7ac0d80803a1a137848e0b9"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a88a54af0a7ac0d80803a1a137848e0b9" class="m-doc-self">norm</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+<aside class="m-note m-danger"><h4><a href="deprecated.html#_deprecated000002" class="m-doc">Deprecated</a></h4><p>Make it non-member function.</p></aside>
+          </div></section>
+          <section class="m-doc-details" id="aef78fba164f7c77921a3101efa040a08"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aef78fba164f7c77921a3101efa040a08" class="m-doc-self">norm2</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+<aside class="m-note m-danger"><h4><a href="deprecated.html#_deprecated000003" class="m-doc">Deprecated</a></h4><p>Make it non-member function.</p></aside>
+          </div></section>
+          <section class="m-doc-details" id="a525c3090b63b0644756cb8d111728a57"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a525c3090b63b0644756cb8d111728a57" class="m-doc-self">max_component</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+<aside class="m-note m-danger"><h4><a href="deprecated.html#_deprecated000004" class="m-doc">Deprecated</a></h4><p>Make it non-member function.</p></aside>
+          </div></section>
+          <section class="m-doc-details" id="a5b6770282ac63c44cb00b8e4a69370b9"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5b6770282ac63c44cb00b8e4a69370b9" class="m-doc-self">re_norm</a>(</span><span class="m-doc-wrap">) const</span></span>
+            </h3>
+<aside class="m-note m-danger"><h4><a href="deprecated.html#_deprecated000005" class="m-doc">Deprecated</a></h4><p>Make it non-member function</p></aside>
+          </div></section>
+          <section class="m-doc-details" id="ab677ea3e65bcb9739f883f0fcd11f859"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab677ea3e65bcb9739f883f0fcd11f859" class="m-doc-self">operator+</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v)</span></span>
+            </h3>
+<p>operator+ for left scalar operation</p>
+          </div></section>
+          <section class="m-doc-details" id="a9ca5385d84264a3a33798fc2730b229d"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9ca5385d84264a3a33798fc2730b229d" class="m-doc-self">operator-</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v)</span></span>
+            </h3>
+<p>operator- for left scalar operation</p>
+          </div></section>
+          <section class="m-doc-details" id="a9d80600cbc524ebacf7b91444bc2ab09"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a9d80600cbc524ebacf7b91444bc2ab09" class="m-doc-self">operator*</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v)</span></span>
+            </h3>
+<p>operator* for left scalar operation</p>
+          </div></section>
+          <section class="m-doc-details" id="a84a76da624a5240998fd8b09290d162d"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a> </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a84a76da624a5240998fd8b09290d162d" class="m-doc-self">operator/</a>(</span><span class="m-doc-wrap">const <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> c,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v)</span></span>
+            </h3>
+<p>operator/ for left scalar operation</p>
+          </div></section>
+          <section class="m-doc-details" id="a46215beb5e7387eeb465edbbdaf7dccf"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">std::ostream&amp; </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a46215beb5e7387eeb465edbbdaf7dccf" class="m-doc-self">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; output,
+              const <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v)</span></span>
+            </h3>
+<p>output stream</p>
+          </div></section>
+          <section class="m-doc-details" id="add63778c3d77375a67809c8265513bea"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">std::istream&amp; </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#add63778c3d77375a67809c8265513bea" class="m-doc-self">operator&gt;&gt;</a>(</span><span class="m-doc-wrap">std::istream&amp; input,
+              <a href="structhub_1_1_vec3.html" class="m-doc">Vec3</a>&amp; v)</span></span>
+            </h3>
+<p>input stream</p>
+          </div></section>
+        </section>
+        <section>
+          <h2>Variable documentation</h2>
+          <section class="m-doc-details" id="acbdf685753782e34fc0d94fcecfe0048"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /><a href="#acbdf685753782e34fc0d94fcecfe0048" class="m-doc-self">x</a>
+            </h3>
+<p>x component.</p>
+          </div></section>
+          <section class="m-doc-details" id="a3134a412ff28c7e162b2e2b07a8aae96"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /><a href="#a3134a412ff28c7e162b2e2b07a8aae96" class="m-doc-self">y</a>
+            </h3>
+<p>y component.</p>
+          </div></section>
+          <section class="m-doc-details" id="abceb4d53abb91408386a3dde087d130e"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename T&gt;
+              </div>
+              <a href="structhub_1_1_vec3.html#aca5a491b8e2b5fd62ed68f3022916491" class="m-doc">value_<wbr />type</a> hub::<wbr />Vec3&lt;T&gt;::<wbr /><a href="#abceb4d53abb91408386a3dde087d130e" class="m-doc-self">z</a>
+            </h3>
+<p>z component.</p>
+          </div></section>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v1.js"></script>
+<script src="searchdata-v1.js" async="async"></script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>SpaceHub. Created with <a href="https://doxygen.org/">Doxygen</a> 1.8.14 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>
