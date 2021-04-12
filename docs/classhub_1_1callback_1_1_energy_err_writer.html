@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>src/orbits/orbits.hpp file | SpaceHub</title>
+  <title>hub::callback::EnergyErrWriter class | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -47,7 +47,8 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
-          <span class="m-breadcrumb"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a>/</span><span class="m-breadcrumb"><a href="dir_97a2c73ef3bed537ffd258c18f0ac631.html">orbits</a>/</span>orbits.hpp <span class="m-thin">file</span>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacehub_1_1callback.html">callback</a>::<wbr/></span>EnergyErrWriter <span class="m-thin">class</span>
+          <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="callbacks_8hpp.html">&lt;src/args-callback/callbacks.hpp&gt;</a></div>
         </h1>
         <div class="m-block m-default">
           <h3>Contents</h3>
@@ -55,41 +56,86 @@
             <li>
               Reference
               <ul>
-                <li><a href="#namespaces">Namespaces</a></li>
-                <li><a href="#nested-classes">Classes</a></li>
+                <li><a href="#typeless-methods">Constructors, destructors, conversion operators</a></li>
+                <li><a href="#pub-methods">Public functions</a></li>
               </ul>
             </li>
           </ul>
         </div>
-<p>Header file.</p>
-        <section id="namespaces">
-          <h2><a href="#namespaces">Namespaces</a></h2>
+<p>Default error writer for <a href="classhub_1_1_run_args.html" class="m-doc">RunArgs</a>. This class serves as a callable callback object to output data to a file stream.</p>
+        <section id="typeless-methods">
+          <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
           <dl class="m-doc">
-            <dt>namespace <a href="namespacehub_1_1orbit.html" class="m-doc">hub::orbit</a></dt>
+            <dt>
+              <span class="m-doc-wrap-bumper"><a href="#a4521df99d3f79034cc5891216c167563" class="m-doc">EnergyErrWriter</a>(</span><span class="m-doc-wrap">std::string const&amp; file_name) <span class="m-label m-flat m-info">explicit</span> </span>
+            </dt>
             <dd></dd>
           </dl>
         </section>
-        <section id="nested-classes">
-          <h2><a href="#nested-classes">Classes</a></h2>
+        <section id="pub-methods">
+          <h2><a href="#pub-methods">Public functions</a></h2>
           <dl class="m-doc">
             <dt>
-              struct <a href="structhub_1_1orbit_1_1_random_indicator.html" class="m-doc">hub::orbit::RandomIndicator</a>
-            </dt>
-            <dd>A place holder that indicates one of the three angles in orbital parameters will be randomly generated.</dd>
-            <dt>
-              <div class="m-doc-template">template&lt;typename Real&gt;</div>
-              struct <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">hub::orbit::KeplerOrbit</a>
+              <div class="m-doc-template">template&lt;typename ParticleSys&gt;</div>
+              <span class="m-doc-wrap-bumper">void <a href="#a734433390abcefbdc58d1983fb9a5b71" class="m-doc">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size)</span>
             </dt>
             <dd></dd>
-            <dt>
-              struct <a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">hub::orbit::Hyperbolic</a>
-            </dt>
-            <dd>Derived class of Kepler orbit. <a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a> orbit.</dd>
-            <dt>
-              struct <a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">hub::orbit::Elliptic</a>
-            </dt>
-            <dd>Derived class of Kepler orbit. Elliptical orbit.</dd>
           </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a4521df99d3f79034cc5891216c167563"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />callback::<wbr />EnergyErrWriter::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4521df99d3f79034cc5891216c167563" class="m-doc-self">EnergyErrWriter</a>(</span><span class="m-doc-wrap">std::string const&amp; file_name) <span class="m-label m-info">explicit</span> </span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">file_name</td>
+                  <td>The file name of the output file stream.</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Constructor of the error writer.</p>
+          </div></section>
+          <section class="m-doc-details" id="a734433390abcefbdc58d1983fb9a5b71"><div>
+            <h3>
+              <div class="m-doc-template">
+                template&lt;typename ParticleSys&gt;
+              </div>
+              <span class="m-doc-wrap-bumper">void hub::<wbr />callback::<wbr />EnergyErrWriter::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a734433390abcefbdc58d1983fb9a5b71" class="m-doc-self">operator()</a>(</span><span class="m-doc-wrap">ParticleSys&amp; ptc,
+              typename ParticleSys::Scalar step_size)</span></span>
+            </h3>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Template parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">ParticleSys</td>
+                  <td>Any type provides method <code>time()</code></td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ptc&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
+                  <td>Input parameter.</td>
+                </tr>
+                <tr>
+                  <td>step_size&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>The step size of the integration.</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Callable interface.</p>
+          </div></section>
         </section>
       </div>
     </div>

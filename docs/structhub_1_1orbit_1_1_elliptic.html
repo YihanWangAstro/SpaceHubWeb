@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>hub::orbit::EllipOrbit struct | SpaceHub</title>
+  <title>hub::orbit::Elliptic struct | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -47,7 +47,7 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
-          hub::orbit::EllipOrbit <span class="m-thin">struct</span>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacehub_1_1orbit.html">orbit</a>::<wbr/></span>Elliptic <span class="m-thin">struct</span>
           <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
         </h1>
         <p>Derived class of Kepler orbit. Elliptical orbit.</p>
@@ -71,7 +71,7 @@
           <dl class="m-doc">
             <dt>
               <div class="m-doc-template">template&lt;typename Real&gt;</div>
-              struct <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">hub::orbit::KeplerOrbit</a>
+              struct <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>
             </dt>
             <dd></dd>
           </dl>
@@ -79,8 +79,8 @@
         <section id="pub-types">
           <h2><a href="#pub-types">Public types</a></h2>
           <dl class="m-doc">
-            <dt id="a0d55488753fca067975440a6efb9e340">
-              using <a href="#a0d55488753fca067975440a6efb9e340" class="m-doc-self">Scalar</a> = typename <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;::<a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a>
+            <dt id="a8ce8cd8660b5570d7d024e6e9fcd436c">
+              using <a href="#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc-self">Scalar</a> = typename <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;::<a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a>
             </dt>
             <dd>Floating point like type.</dd>
           </dl>
@@ -89,23 +89,23 @@
           <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
           <dl class="m-doc">
             <dt>
-              <span class="m-doc-wrap-bumper"><a href="#a00daa8606b96c4f76e98c07f908f2611" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-danger">deleted</span></span>
+              <span class="m-doc-wrap-bumper"><a href="#aae23d894396e9d48bae8be5bef37b797" class="m-doc">Elliptic</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-danger">deleted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper"><a href="#ab08f9d338d8043d66948b65b7e5a2f61" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper"><a href="#a8e2df55deef17ab8ec8cf58ab5a33dbe" class="m-doc">Elliptic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper"><a href="#a38abce6c05a713227f0ed0d390531cfd" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper"><a href="#aeb11ad77c98cde29ef6d1a02eb60bc2a" class="m-doc">Elliptic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
             <dt>
               <div class="m-doc-template">template&lt;typename T1, typename T2, typename T3, typename T4&gt;</div>
-              <span class="m-doc-wrap-bumper"><a href="#a4ea3de639dbb6b4fe7a1c7892e7cd864" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_1,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_2,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> semi_major_axis,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> eccentricity,
+              <span class="m-doc-wrap-bumper"><a href="#aa8897dd940350877163358e66c07f01c" class="m-doc">Elliptic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> m_1,
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> m_2,
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> semi_major_axis,
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> eccentricity,
               T1 inclination,
               T2 longitude_of_ascending_node,
               T3 argument_of_periapsis,
@@ -118,11 +118,11 @@
           <h2><a href="#pub-methods">Public functions</a></h2>
           <dl class="m-doc">
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a071c1018f00fa310dc1ad35d5434c03a" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) -&gt; <a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a5107c07ea0331ac3b7826eb92a1f7ca6" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a> const&amp;) -&gt; <a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ad1f7625ca1bfa96962b76b6d46b195a8" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) -&gt; <a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#acd417b0fc2e86edfb68317c46e573909" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp;&amp;) -&gt; <a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
           </dl>
@@ -130,41 +130,41 @@
         <section id="pub-attribs">
           <h2><a href="#pub-attribs">Public variables</a></h2>
           <dl class="m-doc">
-            <dt id="a55cf85d065d63405367e84f792ebe613">
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> <a href="#a55cf85d065d63405367e84f792ebe613" class="m-doc-self">a</a>
+            <dt id="a9218c8f6699245210528683fab3d7472">
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> <a href="#a9218c8f6699245210528683fab3d7472" class="m-doc-self">a</a>
             </dt>
             <dd>Semi-major axis.</dd>
           </dl>
         </section>
         <section>
           <h2>Function documentation</h2>
-          <section class="m-doc-details" id="a00daa8606b96c4f76e98c07f908f2611"><div>
+          <section class="m-doc-details" id="aae23d894396e9d48bae8be5bef37b797"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a00daa8606b96c4f76e98c07f908f2611" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap">) <span class="m-label m-danger">deleted</span></span></span>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Elliptic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aae23d894396e9d48bae8be5bef37b797" class="m-doc-self">Elliptic</a>(</span><span class="m-doc-wrap">) <span class="m-label m-danger">deleted</span></span></span>
             </h3>
 <p>Default constructor.</p>
           </div></section>
-          <section class="m-doc-details" id="ab08f9d338d8043d66948b65b7e5a2f61"><div>
+          <section class="m-doc-details" id="a8e2df55deef17ab8ec8cf58ab5a33dbe"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab08f9d338d8043d66948b65b7e5a2f61" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Elliptic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8e2df55deef17ab8ec8cf58ab5a33dbe" class="m-doc-self">Elliptic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default copy constructor.</p>
           </div></section>
-          <section class="m-doc-details" id="a38abce6c05a713227f0ed0d390531cfd"><div>
+          <section class="m-doc-details" id="aeb11ad77c98cde29ef6d1a02eb60bc2a"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a38abce6c05a713227f0ed0d390531cfd" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Elliptic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aeb11ad77c98cde29ef6d1a02eb60bc2a" class="m-doc-self">Elliptic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default move constructor</p>
           </div></section>
-          <section class="m-doc-details" id="a4ea3de639dbb6b4fe7a1c7892e7cd864"><div>
+          <section class="m-doc-details" id="aa8897dd940350877163358e66c07f01c"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename T1, typename T2, typename T3, typename T4&gt;
               </div>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4ea3de639dbb6b4fe7a1c7892e7cd864" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_1,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_2,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> semi_major_axis,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> eccentricity,
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Elliptic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa8897dd940350877163358e66c07f01c" class="m-doc-self">Elliptic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> m_1,
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> m_2,
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> semi_major_axis,
+              <a href="structhub_1_1orbit_1_1_elliptic.html#a8ce8cd8660b5570d7d024e6e9fcd436c" class="m-doc">Scalar</a> eccentricity,
               T1 inclination,
               T2 longitude_of_ascending_node,
               T3 argument_of_periapsis,
@@ -211,15 +211,15 @@
               </tbody>
             </table>
           </div></section>
-          <section class="m-doc-details" id="a071c1018f00fa310dc1ad35d5434c03a"><div>
+          <section class="m-doc-details" id="a5107c07ea0331ac3b7826eb92a1f7ca6"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a071c1018f00fa310dc1ad35d5434c03a" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp; hub::<wbr />orbit::<wbr />Elliptic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a5107c07ea0331ac3b7826eb92a1f7ca6" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default copy assignment operator</p>
           </div></section>
-          <section class="m-doc-details" id="ad1f7625ca1bfa96962b76b6d46b195a8"><div>
+          <section class="m-doc-details" id="acd417b0fc2e86edfb68317c46e573909"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad1f7625ca1bfa96962b76b6d46b195a8" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp; hub::<wbr />orbit::<wbr />Elliptic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#acd417b0fc2e86edfb68317c46e573909" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_elliptic.html" class="m-doc">Elliptic</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default move assignment operator</p>
           </div></section>

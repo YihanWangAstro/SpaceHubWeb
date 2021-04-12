@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>hub::orbit::EllipOrbit struct | SpaceHub</title>
+  <title>hub::orbit::Hyperbolic struct | SpaceHub</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark.css" />
   <link rel="stylesheet" href="m-documentation.css" />
@@ -47,10 +47,10 @@
     <div class="m-row">
       <div class="m-col-l-10 m-push-l-1">
         <h1>
-          hub::orbit::EllipOrbit <span class="m-thin">struct</span>
+          <span class="m-breadcrumb"><a href="namespacehub.html">hub</a>::<wbr/></span><span class="m-breadcrumb"><a href="namespacehub_1_1orbit.html">orbit</a>::<wbr/></span>Hyperbolic <span class="m-thin">struct</span>
           <div class="m-doc-include m-code m-inverted m-text-right"><span class="cp">#include</span> <a class="cpf" href="orbits_8hpp.html">&lt;src/orbits/orbits.hpp&gt;</a></div>
         </h1>
-        <p>Derived class of Kepler orbit. Elliptical orbit.</p>
+        <p>Derived class of Kepler orbit. <a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a> orbit.</p>
         <div class="m-block m-default">
           <h3>Contents</h3>
           <ul>
@@ -71,7 +71,7 @@
           <dl class="m-doc">
             <dt>
               <div class="m-doc-template">template&lt;typename Real&gt;</div>
-              struct <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">hub::orbit::KeplerOrbit</a>
+              struct <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>
             </dt>
             <dd></dd>
           </dl>
@@ -79,8 +79,8 @@
         <section id="pub-types">
           <h2><a href="#pub-types">Public types</a></h2>
           <dl class="m-doc">
-            <dt id="a0d55488753fca067975440a6efb9e340">
-              using <a href="#a0d55488753fca067975440a6efb9e340" class="m-doc-self">Scalar</a> = typename <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;::<a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a>
+            <dt id="ab93355ceac7d78b07afa1759c5873bb6">
+              using <a href="#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc-self">Scalar</a> = typename <a href="structhub_1_1orbit_1_1_kepler_orbit.html" class="m-doc">KeplerOrbit</a>&lt;double&gt;::<a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a>
             </dt>
             <dd>Floating point like type.</dd>
           </dl>
@@ -89,40 +89,41 @@
           <h2><a href="#typeless-methods">Constructors, destructors, conversion operators</a></h2>
           <dl class="m-doc">
             <dt>
-              <span class="m-doc-wrap-bumper"><a href="#a00daa8606b96c4f76e98c07f908f2611" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-danger">deleted</span></span>
+              <span class="m-doc-wrap-bumper"><a href="#a94ba6b139e087a8177f688aec6f62d98" class="m-doc">Hyperbolic</a>(</span><span class="m-doc-wrap">) <span class="m-label m-flat m-danger">deleted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper"><a href="#ab08f9d338d8043d66948b65b7e5a2f61" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper"><a href="#a64c0340dc693a5aef651eee62801df2e" class="m-doc">Hyperbolic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a> const&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper"><a href="#a38abce6c05a713227f0ed0d390531cfd" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper"><a href="#a6029c87f2b71c78dd2c41c88c640ac80" class="m-doc">Hyperbolic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp;&amp;) <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <div class="m-doc-template">template&lt;typename T1, typename T2, typename T3, typename T4&gt;</div>
-              <span class="m-doc-wrap-bumper"><a href="#a4ea3de639dbb6b4fe7a1c7892e7cd864" class="m-doc">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_1,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_2,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> semi_major_axis,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> eccentricity,
+              <div class="m-doc-template">template&lt;typename T1, typename T2, typename T3&gt;</div>
+              <span class="m-doc-wrap-bumper"><a href="#aa06122fd2effea19208686d24d60902c" class="m-doc">Hyperbolic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> m_1,
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> m_2,
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> v_inf,
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> b,
               T1 inclination,
               T2 longitude_of_ascending_node,
               T3 argument_of_periapsis,
-              T4 true_anomaly)</span>
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> r,
+              <a href="namespacehub_1_1orbit.html#ace31ebdc6227437f5f67682ae77799fa" class="m-doc">Hyper</a> in_out = <a href="namespacehub_1_1orbit.html#ace31ebdc6227437f5f67682ae77799faa13b5bfe96f3e2fe411c9f66f4a582adf" class="m-doc">Hyper::<wbr />in</a>)</span>
             </dt>
-            <dd>Construct a new Elliptical Orbit object from orbital parameters.</dd>
+            <dd>Construct a new Hyper Orbit object from scattering parameter b:impact parameter, v_inf:velocity at infinity.</dd>
           </dl>
         </section>
         <section id="pub-methods">
           <h2><a href="#pub-methods">Public functions</a></h2>
           <dl class="m-doc">
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#a071c1018f00fa310dc1ad35d5434c03a" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) -&gt; <a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a2b478a6841db734fca3d423e8ac189d3" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a> const&amp;) -&gt; <a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
             <dt>
-              <span class="m-doc-wrap-bumper">auto <a href="#ad1f7625ca1bfa96962b76b6d46b195a8" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) -&gt; <a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
+              <span class="m-doc-wrap-bumper">auto <a href="#a469e2a030b9fe371af3cf07e0ff724c9" class="m-doc">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp;&amp;) -&gt; <a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp; <span class="m-label m-flat m-info">defaulted</span></span>
             </dt>
             <dd></dd>
           </dl>
@@ -130,47 +131,48 @@
         <section id="pub-attribs">
           <h2><a href="#pub-attribs">Public variables</a></h2>
           <dl class="m-doc">
-            <dt id="a55cf85d065d63405367e84f792ebe613">
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> <a href="#a55cf85d065d63405367e84f792ebe613" class="m-doc-self">a</a>
+            <dt id="ae87a0210061bf6b2a6edd7e32a7095af">
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> <a href="#ae87a0210061bf6b2a6edd7e32a7095af" class="m-doc-self">b</a>
             </dt>
-            <dd>Semi-major axis.</dd>
+            <dd>impact parameter.</dd>
           </dl>
         </section>
         <section>
           <h2>Function documentation</h2>
-          <section class="m-doc-details" id="a00daa8606b96c4f76e98c07f908f2611"><div>
+          <section class="m-doc-details" id="a94ba6b139e087a8177f688aec6f62d98"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a00daa8606b96c4f76e98c07f908f2611" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap">) <span class="m-label m-danger">deleted</span></span></span>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Hyperbolic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a94ba6b139e087a8177f688aec6f62d98" class="m-doc-self">Hyperbolic</a>(</span><span class="m-doc-wrap">) <span class="m-label m-danger">deleted</span></span></span>
             </h3>
 <p>Default constructor.</p>
           </div></section>
-          <section class="m-doc-details" id="ab08f9d338d8043d66948b65b7e5a2f61"><div>
+          <section class="m-doc-details" id="a64c0340dc693a5aef651eee62801df2e"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ab08f9d338d8043d66948b65b7e5a2f61" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Hyperbolic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a64c0340dc693a5aef651eee62801df2e" class="m-doc-self">Hyperbolic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default copy constructor.</p>
           </div></section>
-          <section class="m-doc-details" id="a38abce6c05a713227f0ed0d390531cfd"><div>
+          <section class="m-doc-details" id="a6029c87f2b71c78dd2c41c88c640ac80"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a38abce6c05a713227f0ed0d390531cfd" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Hyperbolic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a6029c87f2b71c78dd2c41c88c640ac80" class="m-doc-self">Hyperbolic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default move constructor</p>
           </div></section>
-          <section class="m-doc-details" id="a4ea3de639dbb6b4fe7a1c7892e7cd864"><div>
+          <section class="m-doc-details" id="aa06122fd2effea19208686d24d60902c"><div>
             <h3>
               <div class="m-doc-template">
-                template&lt;typename T1, typename T2, typename T3, typename T4&gt;
+                template&lt;typename T1, typename T2, typename T3&gt;
               </div>
-              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4ea3de639dbb6b4fe7a1c7892e7cd864" class="m-doc-self">EllipOrbit</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_1,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> m_2,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> semi_major_axis,
-              <a href="structhub_1_1orbit_1_1_ellip_orbit.html#a0d55488753fca067975440a6efb9e340" class="m-doc">Scalar</a> eccentricity,
+              <span class="m-doc-wrap-bumper"> hub::<wbr />orbit::<wbr />Hyperbolic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa06122fd2effea19208686d24d60902c" class="m-doc-self">Hyperbolic</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> m_1,
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> m_2,
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> v_inf,
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> b,
               T1 inclination,
               T2 longitude_of_ascending_node,
               T3 argument_of_periapsis,
-              T4 true_anomaly)</span></span>
+              <a href="structhub_1_1orbit_1_1_hyperbolic.html#ab93355ceac7d78b07afa1759c5873bb6" class="m-doc">Scalar</a> r,
+              <a href="namespacehub_1_1orbit.html#ace31ebdc6227437f5f67682ae77799fa" class="m-doc">Hyper</a> in_out = <a href="namespacehub_1_1orbit.html#ace31ebdc6227437f5f67682ae77799faa13b5bfe96f3e2fe411c9f66f4a582adf" class="m-doc">Hyper::<wbr />in</a>)</span></span>
             </h3>
-            <p>Construct a new Elliptical Orbit object from orbital parameters.</p>
+            <p>Construct a new Hyper Orbit object from scattering parameter b:impact parameter, v_inf:velocity at infinity.</p>
             <table class="m-table m-fullwidth m-flat">
               <thead>
                 <tr><th colspan="2">Parameters</th></tr>
@@ -178,23 +180,23 @@
               <tbody>
                 <tr>
                   <td style="width: 1%">m_1&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Mass of the primary object.</td>
+                  <td>Mass of the primary object: Stayed object.</td>
                 </tr>
                 <tr>
                   <td>m_2&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Mass of the secondary object.</td>
+                  <td>Mass of the secondary object: incident object.</td>
                 </tr>
                 <tr>
-                  <td>semi_major_axis&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Semi-major axis.</td>
+                  <td>v_inf&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Velocity at infinity.</td>
                 </tr>
                 <tr>
-                  <td>eccentricity&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Eccentricity.</td>
+                  <td>b&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Impact parameter.</td>
                 </tr>
                 <tr>
                   <td>inclination&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Inclination.</td>
+                  <td>Orbit inclination</td>
                 </tr>
                 <tr>
                   <td>longitude_of_ascending_node&nbsp;<span class="m-label m-flat m-info">in</span></td>
@@ -202,24 +204,28 @@
                 </tr>
                 <tr>
                   <td>argument_of_periapsis&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Argument of periapsis.</td>
+                  <td>Argument of the periapsis.</td>
                 </tr>
                 <tr>
-                  <td>true_anomaly&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>True anomaly.</td>
+                  <td>r&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Distance between the two objects.</td>
+                </tr>
+                <tr>
+                  <td>in_out&nbsp;<span class="m-label m-flat m-info">in</span></td>
+                  <td>Indicator of incident in or ejected out</td>
                 </tr>
               </tbody>
             </table>
           </div></section>
-          <section class="m-doc-details" id="a071c1018f00fa310dc1ad35d5434c03a"><div>
+          <section class="m-doc-details" id="a2b478a6841db734fca3d423e8ac189d3"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a071c1018f00fa310dc1ad35d5434c03a" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp; hub::<wbr />orbit::<wbr />Hyperbolic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2b478a6841db734fca3d423e8ac189d3" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a> const&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default copy assignment operator</p>
           </div></section>
-          <section class="m-doc-details" id="ad1f7625ca1bfa96962b76b6d46b195a8"><div>
+          <section class="m-doc-details" id="a469e2a030b9fe371af3cf07e0ff724c9"><div>
             <h3>
-              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp; hub::<wbr />orbit::<wbr />EllipOrbit::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#ad1f7625ca1bfa96962b76b6d46b195a8" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_ellip_orbit.html" class="m-doc">EllipOrbit</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
+              <span class="m-doc-wrap-bumper"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp; hub::<wbr />orbit::<wbr />Hyperbolic::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a469e2a030b9fe371af3cf07e0ff724c9" class="m-doc-self">operator=</a>(</span><span class="m-doc-wrap"><a href="structhub_1_1orbit_1_1_hyperbolic.html" class="m-doc">Hyperbolic</a>&amp;&amp;) <span class="m-label m-info">defaulted</span></span></span>
             </h3>
 <p>Default move assignment operator</p>
           </div></section>
