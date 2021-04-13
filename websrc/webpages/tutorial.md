@@ -1,7 +1,9 @@
 
 @page tutorial Tutorial
 
-This page is under construction. Please follow the tutorial on GitHub first.[Tutorial](https://github.com/YihanWangAstro/SpaceHub/tree/master/tutorial)
+This page is under construction. Please follow the tutorial on GitHub first [Tutorial](https://github.com/YihanWangAstro/SpaceHub/tree/master/tutorial).
+
+The following tutorial is outdated.
 
 - Initial conditions 
     - <a href="create_kepler.html"> Create Kepler orbit </a>  
