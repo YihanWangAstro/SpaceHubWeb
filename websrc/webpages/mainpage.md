@@ -9,7 +9,7 @@
 [Git repository](https://github.com/YihanWangAstro/SpaceHub)
  Introduction
 
- @section Available integration methods in SpaceHub
+ @section methods Available Integration methods in SpaceHub
 
 | Method name                        | Order    | Stepsize control  | floating point number type | Description                                                |
 | ---------------------------------- | -------- | ----------------- | -------------------------- | ---------------------------------------------------------- |
