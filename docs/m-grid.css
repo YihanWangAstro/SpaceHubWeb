@@ -225,8 +225,8 @@ body { margin: 0; }
 }
 
 /* 12-column layout -- M, 768px and up (tablets, small desktops) */
-@media screen and (min-width: 768px) {
-  .m-container { width: 750px; }
+@media screen and (min-width: 998px) {
+  .m-container { width: 982px; }
 
   .m-container-inflatable .m-col-m-10 .m-container-inflate:not([class*='m-left-']):not([class*='m-right-']) {
     margin-left: -10%;
@@ -306,8 +306,8 @@ body { margin: 0; }
 }
 
 /* 12-column layout -- L, 992px and up (desktops, very large tablets) */
-@media screen and (min-width: 1432px) {
-  .m-container { width: 1400px; }
+@media screen and (min-width: 1289px) {
+  .m-container { width: 1278px; }
 
   .m-container-inflatable .m-col-l-10 .m-container-inflate:not([class*='m-left-']):not([class*='m-right-']) {
     margin-left: -10%;
