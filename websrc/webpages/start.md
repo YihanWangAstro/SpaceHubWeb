@@ -3,7 +3,7 @@
 @tableofcontents
 
 @section prerequisite Prerequisite 
-SpaceHub is written in morden-ish C++ standard @blabel{c++17}. The lowest compiler version for different operating systems is listed below.
+SpaceHub is written in morden-ish C++ standard @blabel{c++17}. The lowest compiler versions for different operating systems are listed below.
 
 | Operating System | Compiler             | Lowest Version required | Version recommended    |
 | ---------------- | -------------------- | ----------------------- | ---------------------- |
@@ -44,7 +44,7 @@ You can install the new GCC from scratch by executing the following commands by 
 > make install
 @endcode
 
-after the installation, add the new g++ executable to your environment variable `PATH` by adding the following lines into your `.bashrc`(Linux)/`.bash_profile`(MacOS) under your directory `~`,
+after the installation, add the new g++ executable to your environment variable `PATH` by adding the following lines into your `.bashrc`(Linux)/`.bash_profile`(MacOS) under your home directory `~`,
 
 @code
 export PATH=$PATH:$HOME/GCC-10.3.0/bin
