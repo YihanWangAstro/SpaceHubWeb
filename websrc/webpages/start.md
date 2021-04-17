@@ -3,11 +3,11 @@
 @tableofcontents
 
 @section prerequisite Prerequisite 
-SpaceHub is written in morden-ish C++ standard @blabel{c++17}. The lowest compiler version for different operation systems are listed below.
+SpaceHub is written in morden-ish C++ standard @blabel{c++17}. The lowest compiler version for different operating systems is listed below.
 
 | Operating System | Compiler             | Lowest Version required | Version recommended    |
 | ---------------- | -------------------- | ----------------------- | ---------------------- |
-| Linux            | GCC                  | @bflabel{7}             | @gflabel{10}            |
+| Linux            | GCC                  | @bflabel{7}             | @gflabel{10}           |
 | Linux/MacOS      | Intel C++            | @bflabel{19.01}         | @gflabel{19.01}        |
 | MacOS            | Clang                | @bflabel{4}             | @gflabel{8}            |
 | MacOS            | Apple Clang          | @bflabel{support}       | @gflabel{support}      |

@@ -75,7 +75,7 @@
             </li>
           </ul>
         </div>
-<p>Run arguments that is used to set all arguments needed by <a href="classhub_1_1_simulator.html" class="m-doc">Simulator</a>.</p><p>The <a href="classhub_1_1_run_args.html#abf06ef543605320135cb99ec52eac8d5" class="m-doc">pre_<wbr />operations()</a>, <a href="classhub_1_1_run_args.html#adfc17b4199648ee74c5626d9fb5705d3" class="m-doc">post_<wbr />operations()</a>, <a href="classhub_1_1_run_args.html#a22017d2bc449c22860574707fd298579" class="m-doc">stop_<wbr />operations()</a> and <a href="classhub_1_1_run_args.html#ac8ce2dc47fb8a70e4783da9b28ccedeb" class="m-doc">check_<wbr />stops()</a> will be called in a simulation in this way.</p><pre class="m-code"><span class="p">...</span>
+<p>Run arguments that is used to set all arguments needed by <a href="classhub_1_1_simulator.html" class="m-doc">Simulator</a>.</p><p>The pre_operations(), post_operations(), <a href="classhub_1_1_run_args.html#a22017d2bc449c22860574707fd298579" class="m-doc">stop_<wbr />operations()</a> and <a href="classhub_1_1_run_args.html#ac8ce2dc47fb8a70e4783da9b28ccedeb" class="m-doc">check_<wbr />stops()</a> will be called in a simulation in this way.</p><pre class="m-code"><span class="p">...</span>
 <span class="k">auto</span> <span class="n">sys</span><span class="p">;</span> <span class="c1">// particle system that is going to be evolved.</span>
 <span class="k">for</span><span class="p">(</span> <span class="p">;</span><span class="n">check_stops</span><span class="p">(</span><span class="n">sys</span><span class="p">);){</span>
     <span class="n">pre_operations</span><span class="p">(</span><span class="n">sys</span><span class="p">);</span>
@@ -101,12 +101,7 @@
           <h2><a href="#pub-methods">Public functions</a></h2>
           <dl class="m-doc">
             <dt>
-              <span class="m-doc-wrap-bumper">void <a href="#abf06ef543605320135cb99ec52eac8d5" class="m-doc">pre_operations</a>(</span><span class="m-doc-wrap">ParticleSys&amp; particle_sys,
-              <a href="classhub_1_1_run_args.html#aafea16c5c6aa1f7cafb358ae3c3245e1" class="m-doc">Scalar</a> step_size) const</span>
-            </dt>
-            <dd></dd>
-            <dt>
-              <span class="m-doc-wrap-bumper">void <a href="#adfc17b4199648ee74c5626d9fb5705d3" class="m-doc">post_operations</a>(</span><span class="m-doc-wrap">ParticleSys&amp; particle_sys,
+              <span class="m-doc-wrap-bumper">void <a href="#a7c1a489be17573461540281e4a2aed73" class="m-doc">operations</a>(</span><span class="m-doc-wrap">ParticleSys&amp; particle_sys,
               <a href="classhub_1_1_run_args.html#aafea16c5c6aa1f7cafb358ae3c3245e1" class="m-doc">Scalar</a> step_size) const</span>
             </dt>
             <dd></dd>
@@ -128,18 +123,6 @@
             <dt>
               <div class="m-doc-template">template&lt;typename Func, typename... Args&gt;</div>
               <span class="m-doc-wrap-bumper">void <a href="#a57bd7566a260e42a2bf6f22573a4cb13" class="m-doc">add_operation</a>(</span><span class="m-doc-wrap">Func func,
-              Args &amp;&amp; ... args)</span>
-            </dt>
-            <dd></dd>
-            <dt>
-              <div class="m-doc-template">template&lt;typename Func, typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#abc6ef4d00f3ad70bb66b15ca992d86ed" class="m-doc">add_pre_step_operation</a>(</span><span class="m-doc-wrap">Func func,
-              Args &amp;&amp; ... args)</span>
-            </dt>
-            <dd></dd>
-            <dt>
-              <div class="m-doc-template">template&lt;typename Func, typename... Args&gt;</div>
-              <span class="m-doc-wrap-bumper">void <a href="#abb0348a628cc9c04a83386423c5e5a52" class="m-doc">add_post_step_operation</a>(</span><span class="m-doc-wrap">Func func,
               Args &amp;&amp; ... args)</span>
             </dt>
             <dd></dd>
@@ -219,12 +202,12 @@
         </section>
         <section>
           <h2>Function documentation</h2>
-          <section class="m-doc-details" id="abf06ef543605320135cb99ec52eac8d5"><div>
+          <section class="m-doc-details" id="a7c1a489be17573461540281e4a2aed73"><div>
             <h3>
               <div class="m-doc-template">
                 template&lt;typename ParticleSys&gt;
               </div>
-              <span class="m-doc-wrap-bumper">void hub::<wbr />RunArgs&lt;ParticleSys&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abf06ef543605320135cb99ec52eac8d5" class="m-doc-self">pre_operations</a>(</span><span class="m-doc-wrap">ParticleSys&amp; particle_sys,
+              <span class="m-doc-wrap-bumper">void hub::<wbr />RunArgs&lt;ParticleSys&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7c1a489be17573461540281e4a2aed73" class="m-doc-self">operations</a>(</span><span class="m-doc-wrap">ParticleSys&amp; particle_sys,
               <a href="classhub_1_1_run_args.html#aafea16c5c6aa1f7cafb358ae3c3245e1" class="m-doc">Scalar</a> step_size) const</span></span>
             </h3>
             <table class="m-table m-fullwidth m-flat">
@@ -242,32 +225,7 @@
                 </tr>
               </tbody>
             </table>
-<p>Call the all registered pre-operation functions by sequence.</p>
-          </div></section>
-          <section class="m-doc-details" id="adfc17b4199648ee74c5626d9fb5705d3"><div>
-            <h3>
-              <div class="m-doc-template">
-                template&lt;typename ParticleSys&gt;
-              </div>
-              <span class="m-doc-wrap-bumper">void hub::<wbr />RunArgs&lt;ParticleSys&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#adfc17b4199648ee74c5626d9fb5705d3" class="m-doc-self">post_operations</a>(</span><span class="m-doc-wrap">ParticleSys&amp; particle_sys,
-              <a href="classhub_1_1_run_args.html#aafea16c5c6aa1f7cafb358ae3c3245e1" class="m-doc">Scalar</a> step_size) const</span></span>
-            </h3>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">particle_sys&nbsp;<span class="m-label m-flat m-danger">in/out</span></td>
-                  <td>The particle system that is going to be operated.</td>
-                </tr>
-                <tr>
-                  <td>step_size&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>The current step size.</td>
-                </tr>
-              </tbody>
-            </table>
-<p>Call the all registered pos-operation functions by sequence.</p>
+<p>Call the all registered operation functions by sequence.</p>
           </div></section>
           <section class="m-doc-details" id="a22017d2bc449c22860574707fd298579"><div>
             <h3>
@@ -382,84 +340,6 @@
               </tbody>
             </table>
 <p>Register a callable object(function pointer, functor, lambda,etc...) to start point and every post-step.</p>
-          </div></section>
-          <section class="m-doc-details" id="abc6ef4d00f3ad70bb66b15ca992d86ed"><div>
-            <h3>
-              <div class="m-doc-template">
-                template&lt;typename ParticleSys&gt;
-                template&lt;typename Func, typename... Args&gt;
-              </div>
-              <span class="m-doc-wrap-bumper">void hub::<wbr />RunArgs&lt;ParticleSys&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abc6ef4d00f3ad70bb66b15ca992d86ed" class="m-doc-self">add_pre_step_operation</a>(</span><span class="m-doc-wrap">Func func,
-              Args &amp;&amp; ... args)</span></span>
-            </h3>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Template parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">Func</td>
-                  <td>Callable type that is convertible to member type Callback.</td>
-                </tr>
-                <tr>
-                  <td>Args</td>
-                  <td>Type of the binding arguments.</td>
-                </tr>
-              </tbody>
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>func&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Callable object.</td>
-                </tr>
-                <tr>
-                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Binding arguments.If func accepts more than one arguments, you can bind the rest arguments here.</td>
-                </tr>
-              </tbody>
-            </table>
-<p>Register a callable object(function pointer, functor, lambda,etc...) to pre-step-operations.</p>
-          </div></section>
-          <section class="m-doc-details" id="abb0348a628cc9c04a83386423c5e5a52"><div>
-            <h3>
-              <div class="m-doc-template">
-                template&lt;typename ParticleSys&gt;
-                template&lt;typename Func, typename... Args&gt;
-              </div>
-              <span class="m-doc-wrap-bumper">void hub::<wbr />RunArgs&lt;ParticleSys&gt;::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#abb0348a628cc9c04a83386423c5e5a52" class="m-doc-self">add_post_step_operation</a>(</span><span class="m-doc-wrap">Func func,
-              Args &amp;&amp; ... args)</span></span>
-            </h3>
-            <table class="m-table m-fullwidth m-flat">
-              <thead>
-                <tr><th colspan="2">Template parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style="width: 1%">Func</td>
-                  <td>Callable type that is convertible to member type Callback.</td>
-                </tr>
-                <tr>
-                  <td>Args</td>
-                  <td>Type of the binding arguments.</td>
-                </tr>
-              </tbody>
-              <thead>
-                <tr><th colspan="2">Parameters</th></tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>func&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Callable object.</td>
-                </tr>
-                <tr>
-                  <td>args&nbsp;<span class="m-label m-flat m-info">in</span></td>
-                  <td>Binding arguments. If func accepts more than one arguments, you can bind the rest arguments here.</td>
-                </tr>
-              </tbody>
-            </table>
-<p>Register a callable object(function pointer, functor, lambda,etc...) to post-step-operations.</p>
           </div></section>
           <section class="m-doc-details" id="a366373f0f60387591f0c3b6ffbe93a37"><div>
             <h3>
